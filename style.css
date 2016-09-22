@@ -4,7 +4,8 @@ input       {outline-width:0;}
 li          {list-style: none;}
 a           {text-decoration: none; color: inherit; display: inline-block;}
 img         {}
-button      {}
+h1, h2, h3, h4, p {margin: 0;}
+button      {padding: 10px; border-radius: 20px; border: 1px solid black; background: transparent;}
 button.blue {}
 button.red  {}
 
@@ -57,14 +58,52 @@ button.red  {}
 .layout_footer .layout_footerBlock_protect span         {vertical-align: sub;}
 .layout_footer .layout_footerBlock_protect img          {float: left; margin-right: 16px;}
 
-.layout_content {padding: 25px 50px;}
-.layout_contentBlock_choice {display: inline-block; margin: 10px 0;}
-.layout_contentBlock_choice .type {display: inline-table; width: 200px; height: 160px; background: #0a79c0;}
-.layout_contentBlock_form {width: 100%; height: 300px; clear: both;}
-.layout_contentBlock_form form {float: left; background: #fff; margin-right: 15px;}
-.layout_contentBlock_form input {display: block;}
-.layout_contentBlock_form label {float: left; width: 30%; min-width: 300px;}
-.layout_contentBlock_docs {float: right; background: #fff;}
+/*Content*
+**********************************************************/
+.layout_content {}
+.layout_content .layout_content_container1 {color: #ffffff; width: 100%; background: url("images/main/Bg_index.png") center center no-repeat; background-size: cover; height: 500px;}
+.layout_content .layout_contentBlock_slide2 .win {background: url("images/main/Windows.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_slide2 .apple {background: url("images/main/Apple.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_slide2 .android {background: url("images/main/Android.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_slide2 .web {background: url("images/main/Web.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+
+.layout_content .layout_content_container2 {}
+.layout_content .layout_contentBlock_block1  {width: 534px; display: inline-block; float: left;}
+.layout_content .layout_contentBlock_block1 .col {float: left; display: inline-block; height: 534px;}
+.layout_content .layout_contentBlock_block1 .col_left {background: #1569ba; width: 40%;}
+.layout_content .layout_contentBlock_block1 .col_right {background: #1a7acc; width: 60%;}
+
+.layout_content .layout_contentBlock_block2  {width: 262px; height: 262px; background: green; float: left; display: inline-block;}
+
+.layout_content .layout_contentBlock_block3  {width: 262px; height: 262px; background: #ffffff; display: inline-block;}
+
+.layout_content .layout_contentBlock_block4  {width: 534px; height: 262px; background: #ffffff; display: inline-block;}
+.layout_content .layout_contentBlock_block4  img {float: left;}
+
+.layout_content .layout_content_container3 {}
+
+
+.layout_content .layout_content_container4 {}
+.layout_content .layout_contentBlock_providers  {text-align: center;}
+.layout_content .layout_contentBlock_providers h3 {margin: 50px auto; color: #000000; font-size: 260%; font-weight: 400; font-family: GothamPro, Arial, serif;}
+.layout_content .layout_contentBlock_providers ul {display: inline-block; margin-bottom: 60px;}
+.layout_content .layout_contentBlock_providers li {display: inline-block; margin-right: 100px;}
+.layout_content .layout_contentBlock_providers li:last-child {margin-right: 0;}
+.layout_content .layout_contentBlock_providers .boa {background: url("images/main/BOA.png") center center no-repeat; width: 123px; height: 88px; background-size: cover;}
+.layout_content .layout_contentBlock_providers .gsachs {background: url("images/main/GSachs.png") center center no-repeat; width: 98px; height: 70px; background-size: cover;}
+.layout_content .layout_contentBlock_providers .dbank {background: url("images/main/DBank.png") center center no-repeat; width: 99px; height: 71px; background-size: cover;}
+.layout_content .layout_contentBlock_providers .jpmorgan {background: url("images/main/JPMorgan.png") center center no-repeat; width: 107px; height: 76px; background-size: cover;}
+.layout_content .layout_contentBlock_providers .citi {background: url("images/main/Citi.png") center center no-repeat; width: 99px; height: 71px; background-size: cover;}
+.layout_content .layout_contentBlock_providers .csuisse {background: url("images/main/CSuisse.png") center center no-repeat; width: 111px; height: 80px; background-size: cover;}
+
+/*.layout_content {padding: 25px 50px;}*/
+/*.layout_contentBlock_choice {display: inline-block; margin: 10px 0;}*/
+/*.layout_contentBlock_choice .type {display: inline-table; width: 200px; height: 160px; background: #0a79c0;}*/
+/*.layout_contentBlock_form {width: 100%; height: 300px; clear: both;}*/
+/*.layout_contentBlock_form form {float: left; background: #fff; margin-right: 15px;}*/
+/*.layout_contentBlock_form input {display: block;}*/
+/*.layout_contentBlock_form label {float: left; width: 30%; min-width: 300px;}*/
+/*.layout_contentBlock_docs {float: right; background: #fff;}*/
 
 
 /*Scrollbar*
