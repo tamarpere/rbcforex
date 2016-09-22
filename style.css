@@ -5,9 +5,10 @@ li          {list-style: none;}
 a           {text-decoration: none; color: inherit; display: inline-block;}
 img         {}
 h1, h2, h3, h4, p {margin: 0;}
-button      {padding: 10px; border-radius: 20px; border: 1px solid black; background: transparent;}
+button      {padding: 15px 30px; border-radius: 30px; border: 1px solid black; background: transparent; font-size: 137%; font-weight: 700;}
 button.blue {}
-button.red  {}
+button.red  {background: #ff4830; border-color: #ff4830; color: #ffffff;}
+button.dashed  {border-color: #ffffff; color: #ffffff; border-style: dashed;}
 
 .layout_header,
 .layout_content,
@@ -62,13 +63,21 @@ button.red  {}
 **********************************************************/
 .layout_content {}
 .layout_content .layout_content_container1 {color: #ffffff; width: 100%; background: url("images/main/Bg_index.png") center center no-repeat; background-size: cover; height: 500px;}
-.layout_content .layout_contentBlock_slide2 .win {background: url("images/main/Windows.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
-.layout_content .layout_contentBlock_slide2 .apple {background: url("images/main/Apple.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
-.layout_content .layout_contentBlock_slide2 .android {background: url("images/main/Android.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
-.layout_content .layout_contentBlock_slide2 .web {background: url("images/main/Web.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_slide1 {width: 60%; margin-left: 4%; float: left;}
+.layout_content .layout_contentBlock_slide1 h2 {font-family: GothamPro, Arial, serif; font-size: 270%; font-weight: 500; max-width: 665px; line-height: 45px; margin: 94px 0 44px 0;}
+.layout_content .layout_contentBlock_slide1 .red {margin-right: 15px;}
+.layout_content .layout_contentBlock_slide2 {float: right; margin-right: 4%; text-align: right;}
+.layout_content .layout_contentBlock_slide2 h2 {font-family: GothamPro, Arial, serif; font-size: 200%; font-weight: 500; margin: 36px 0 0 0;}
+.layout_content .layout_contentBlock_slide2 p {font-family: GothamPro, Arial, serif; font-size: 137%; line-height: 25px; font-weight: 400; max-width: 170px;}
+.layout_content .layout_contentBlock_slide2 .apps {width: 90px; display: inline-block; margin: 20px 0;}
+.layout_content .layout_contentBlock_slide2 .win {margin: 10px; display: inline-block; background: url("images/main/Windows.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_slide2 .apple {margin: 10px; display: inline-block; background: url("images/main/Apple.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
+.layout_content .layout_contentBlock_slide2 .android {margin: 10px; display: inline-block; background: url("images/main/Android.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
+.layout_content .layout_contentBlock_slide2 .web {margin: 10px; display: inline-block; background: url("images/main/Web.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
-.layout_content .layout_content_container2 {}
-.layout_content .layout_contentBlock_block1  {width: 534px; display: inline-block; float: left;}
+.layout_content .layout_content_container2 {margin: -20px auto 20px auto; width: 1180px;}
+.layout_content .layout_contentBlock_block1 {width: 534px; display: inline-block; float: left; color: #ffffff; text-align: center;}
+.layout_content .layout_contentBlock_block1 img {display: block;}
 .layout_content .layout_contentBlock_block1 .col {float: left; display: inline-block; height: 534px;}
 .layout_content .layout_contentBlock_block1 .col_left {background: #1569ba; width: 40%;}
 .layout_content .layout_contentBlock_block1 .col_right {background: #1a7acc; width: 60%;}
