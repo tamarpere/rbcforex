@@ -1,14 +1,16 @@
-html *      {margin: 0; padding: 0; font-family: 'Ubuntu', sans-serif; text-decoration: none; font-weight: 400;}
+html *      {margin: 0; padding: 0; text-decoration: none;}
 body        {width: 100%; height: auto; background: #edf1f2; font-size: 0.8em;}
 input       {outline-width:0;}
 li          {list-style: none;}
 a           {text-decoration: none; color: inherit; display: inline-block;}
 img         {}
 h1, h2, h3, h4, p {margin: 0;}
-button      {padding: 15px 30px; border-radius: 30px; border: 1px solid black; background: transparent; font-size: 137%; font-weight: 700;}
+button      {padding: 13px 25px; border-radius: 30px; border: 2px solid black; background: transparent; font-size: 137%; font-weight: 700;}
 button.blue {}
 button.red  {background: #ff4830; border-color: #ff4830; color: #ffffff;}
 button.dashed  {border-color: #ffffff; color: #ffffff; border-style: dashed;}
+button.white_outline  {border-color: #ffffff; color: #ffffff;}
+button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
 
 .layout_header,
 .layout_content,
@@ -76,17 +78,23 @@ button.dashed  {border-color: #ffffff; color: #ffffff; border-style: dashed;}
 .layout_content .layout_contentBlock_slide2 .web {margin: 10px; display: inline-block; background: url("images/main/Web.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
 .layout_content .layout_content_container2 {margin: -20px auto 20px auto; width: 1180px;}
-.layout_content .layout_contentBlock_block1 {width: 534px; display: inline-block; float: left; color: #ffffff; text-align: center;}
-.layout_content .layout_contentBlock_block1 img {display: block;}
+.layout_content .layout_contentBlock_block1 {width: 534px; display: inline-block; float: left; color: #ffffff; text-align: center; margin-right: 10px;}
+.layout_content .layout_contentBlock_block1 img {display: block; margin: 33px auto 17px auto;}
 .layout_content .layout_contentBlock_block1 .col {float: left; display: inline-block; height: 534px;}
-.layout_content .layout_contentBlock_block1 .col_left {background: #1569ba; width: 40%;}
-.layout_content .layout_contentBlock_block1 .col_right {background: #1a7acc; width: 60%;}
+.layout_content .layout_contentBlock_block1 .col_left {background: #1569ba; width: 140px; padding: 0 40px; font-family: Roboto, Arial, serif; font-weight: 500; line-height: 20px;}
+.layout_content .layout_contentBlock_block1 .col_right {text-align: left; background: #1a7acc; width: 234px; padding: 0 40px; font-family: Roboto, Arial, serif; font-weight: 400; font-size: 115%; line-height: 25px;}
+.layout_content .layout_contentBlock_block1 .col_right h3 {font-family: GothamPro, Arial, serif; font-weight: 400; font-size: 230%; margin: 40px 0;}
+.layout_content .layout_contentBlock_block1 button {font-family: Roboto, Arial, serif; font-weight: 700; font-size: 88%; margin: 30px 0;}
 
-.layout_content .layout_contentBlock_block2  {width: 262px; height: 262px; background: green; float: left; display: inline-block;}
+.layout_content .layout_contentBlock_block2 {width: 202px; height: 202px; padding: 30px; margin: 0 10px 0 0; background: green; float: left; display: inline-block; color: #ffffff;}
+.layout_content .layout_contentBlock_block2 h3 {font-family: GothamPro, Arial, serif; font-weight: 700; font-size: 110%; text-transform: uppercase;}
+.layout_content .layout_contentBlock_block2 h2 {font-family: GothamPro, Arial, serif; font-weight: 400; font-size: 165%; margin: 5px 0 30px 0;}
+.layout_content .layout_contentBlock_block2 p  {font-family: Roboto, Arial, serif; font-weight: 400; font-size: 115%; line-height: 23px;}
+.layout_content .layout_contentBlock_block2 button  {font-family: Roboto, Arial, serif; font-weight: 700; font-size: 100%; margin-top: 26px;}
 
 .layout_content .layout_contentBlock_block3  {width: 262px; height: 262px; background: #ffffff; display: inline-block;}
 
-.layout_content .layout_contentBlock_block4  {width: 534px; height: 262px; background: #ffffff; display: inline-block;}
+.layout_content .layout_contentBlock_block4  {width: 534px; height: 262px; margin-top: 10px; background: #ffffff; display: inline-block;}
 .layout_content .layout_contentBlock_block4  img {float: left;}
 
 .layout_content .layout_content_container3 {}
