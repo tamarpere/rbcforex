@@ -11,6 +11,8 @@ button.red  {background: #ff4830; border-color: #ff4830; color: #ffffff;}
 button.dashed  {border-color: #ffffff; color: #ffffff; border-style: dashed;}
 button.white_outline  {border-color: #ffffff; color: #ffffff;}
 button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
+button.grey_outline  {border-color: #eef1f2; color: #181818;}
+button.grey  {border-color: #eef1f2; color: #181818; background: #eef1f2;}
 
 .layout_header,
 .layout_content,
@@ -46,7 +48,7 @@ button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
 
 /*Footer*
 **********************************************************/
-.layout_footer                                          {height: auto; background: #fff; padding: 25px;}
+.layout_footer                                          {height: auto; background: #fff; padding: 25px; font-family: Roboto, Arial, serif;}
 .layout_footer .layout_footer_container                 {text-align: center;}
 .layout_footer .layout_footerBlock_menu                 {line-height: 35px; margin: 45px auto; display: inline-block;}
 .layout_footer .layout_footerBlock_menu .col            {float: left; text-align: left;}
@@ -77,7 +79,7 @@ button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
 .layout_content .layout_contentBlock_slide2 .android {margin: 10px; display: inline-block; background: url("images/main/Android.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
 .layout_content .layout_contentBlock_slide2 .web {margin: 10px; display: inline-block; background: url("images/main/Web.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
-.layout_content .layout_content_container2 {margin: -20px auto 20px auto; width: 1180px;}
+.layout_content .layout_content_container2 {margin: -20px auto 20px auto; width: 80%;}
 .layout_content .layout_contentBlock_block1 {width: 534px; display: inline-block; float: left; color: #ffffff; text-align: center; margin-right: 10px;}
 .layout_content .layout_contentBlock_block1 img {display: block; margin: 33px auto 17px auto;}
 .layout_content .layout_contentBlock_block1 .col {float: left; display: inline-block; height: 534px;}
@@ -90,18 +92,42 @@ button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
 .layout_content .layout_contentBlock_block2 h3 {font-family: GothamPro, Arial, serif; font-weight: 700; font-size: 110%; text-transform: uppercase;}
 .layout_content .layout_contentBlock_block2 h2 {font-family: GothamPro, Arial, serif; font-weight: 400; font-size: 165%; margin: 5px 0 30px 0;}
 .layout_content .layout_contentBlock_block2 p  {font-family: Roboto, Arial, serif; font-weight: 400; font-size: 115%; line-height: 23px;}
-.layout_content .layout_contentBlock_block2 button  {font-family: Roboto, Arial, serif; font-weight: 700; font-size: 100%; margin-top: 26px;}
+.layout_content .layout_contentBlock_block2 button  {font-family: Roboto, Arial, serif; font-weight: 700; font-size: 100%; margin-top: 26px; color: #181818;}
 
-.layout_content .layout_contentBlock_block3  {width: 262px; height: 262px; background: #ffffff; display: inline-block;}
+.layout_content .layout_contentBlock_block3  {width: 202px; height: 202px; padding: 30px; background: #ffffff; display: inline-block;}
+.layout_content .layout_contentBlock_block3 .date {float: left; color: #181818; width: 50%;}
+.layout_content .layout_contentBlock_block3 .num {float: left; font-weight: 500; font-size: 243%; font-family: GothamPro, Arial, serif; margin-right: 8px;}
+.layout_content .layout_contentBlock_block3 .month {font-weight: 400; font-size: 100%; font-family: GothamPro, Arial, serif;}
+.layout_content .layout_contentBlock_block3 .markers {display: inline-block; width: 50%;}
+.layout_content .layout_contentBlock_block3 .marker {display: inline-block; width: 10px; height: 10px; background: #e9eaea; border-radius: 50%;}
+.layout_content .layout_contentBlock_block3 p {font-weight: 400; font-size: 100%; font-family: Roboto, Arial, serif; color: #181818; margin: 22px 0 28px 0;}
+.layout_content .layout_contentBlock_block3 button {font-weight: 700; font-size: 100%; font-family: Roboto, Arial, serif; color: #181818;}
 
-.layout_content .layout_contentBlock_block4  {width: 534px; height: 262px; margin-top: 10px; background: #ffffff; display: inline-block;}
+.layout_content .layout_contentBlock_block4  {width: 474px; height: 202px; margin-top: 10px; color: #181818; background: #ffffff; display: inline-block; padding: 30px;}
 .layout_content .layout_contentBlock_block4  img {float: left;}
+.layout_content .layout_contentBlock_block4  .text {margin-left: 150px;}
+.layout_content .layout_contentBlock_block4  h3 {font-weight: 400; font-size: 180%; font-family: GothamPro, Arial, serif; margin-bottom: 20px;}
+.layout_content .layout_contentBlock_block4  p {font-weight: 400; font-size: 118%; font-family: Roboto, Arial, serif; line-height: 26px;}
+.layout_content .layout_contentBlock_block4  button {font-weight: 700; font-size: 100%; font-family: Roboto, Arial, serif; margin-top: 10px;}
 
-.layout_content .layout_content_container3 {}
+.layout_content .layout_content_container3 {margin: 20px auto; width: 80%; color: #181818;}
+.layout_content .layout_contentBlock_rating {padding: 30px; width: 746px; height: 570px; margin-right: 10px; background: #ffffff; float: left;}
+.layout_content .layout_contentBlock_rating h3 {font-weight: 400; font-size: 260%; font-family: GothamPro, Arial, serif; margin-bottom: 20px;}
+.layout_content .layout_contentBlock_rating table {width: 100%; height: 450px;}
+.layout_content .layout_contentBlock_rating tr td {border-bottom: 1px solid #f5f7f7; font-size: 140%; font-family: Roboto, Arial, serif;}
+.layout_content .layout_contentBlock_rating tr:last-child td {border-bottom: none;}
+.layout_content .layout_contentBlock_rating tr td:first-child {color: #0a79bf; font-family: Roboto, Arial, serif; font-size: 135%;}
+.layout_content .layout_contentBlock_rating th {border-bottom: 1px solid #f5f7f7; color: #afafaf; text-align: left; font-family: Roboto, Arial, serif; font-weight: 400;}
+.layout_content .layout_contentBlock_rating .addition span {font-family: Roboto, Arial, serif; font-size: 145%; float: left; line-height: 50px;}
+.layout_content .layout_contentBlock_rating .addition span img {margin: 0 27px;}
+.layout_content .layout_contentBlock_rating .addition button {font-weight: 700; font-size: 100%; font-family: Roboto, Arial, serif;}
+.layout_content .layout_contentBlock_invest {padding: 30px; width: 202px; height: 570px; background: url("images/main/Grow.png") center no-repeat; background-size: cover; float: left;}
+.layout_content .layout_contentBlock_invest h3 {color: #0a79bf; font-family: GothamPro, Arial, serif; font-size: 180%; margin-bottom: 27px;}
+.layout_content .layout_contentBlock_invest p {font-family: Roboto, Arial, serif; font-size: 100%; line-height: 24px;}
 
 
-.layout_content .layout_content_container4 {}
-.layout_content .layout_contentBlock_providers  {text-align: center;}
+.layout_content .layout_content_container4 {margin-top: 54px; display: inline-block; text-align: center; width: 100%;}
+.layout_content .layout_contentBlock_providers  {margin: 0 auto;}
 .layout_content .layout_contentBlock_providers h3 {margin: 50px auto; color: #000000; font-size: 260%; font-weight: 400; font-family: GothamPro, Arial, serif;}
 .layout_content .layout_contentBlock_providers ul {display: inline-block; margin-bottom: 60px;}
 .layout_content .layout_contentBlock_providers li {display: inline-block; margin-right: 100px;}
@@ -112,6 +138,17 @@ button.white  {border-color: #ffffff; color: #000000; background: #ffffff;}
 .layout_content .layout_contentBlock_providers .jpmorgan {background: url("images/main/JPMorgan.png") center center no-repeat; width: 107px; height: 76px; background-size: cover;}
 .layout_content .layout_contentBlock_providers .citi {background: url("images/main/Citi.png") center center no-repeat; width: 99px; height: 71px; background-size: cover;}
 .layout_content .layout_contentBlock_providers .csuisse {background: url("images/main/CSuisse.png") center center no-repeat; width: 111px; height: 80px; background-size: cover;}
+
+.layout_content .layout_content_container5 {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+.layout_content .layout_contentBlock_resume {width: 80%; margin: 0 auto;}
+.layout_content .layout_contentBlock_resume table {text-align: left; table-layout: auto; margin-bottom: 50px; vertical-align: initial;}
+.layout_content .layout_contentBlock_resume td {padding: 0 25px; border-right: 1px solid #f5f7f7;}
+.layout_content .layout_contentBlock_resume td:first-child {padding-left: 0;}
+.layout_content .layout_contentBlock_resume td:last-child {border-right: none; padding-right: 0;}
+.layout_content .layout_contentBlock_resume table img {float: left; margin-right: 8px;}
+.layout_content .layout_contentBlock_resume .num {font-family: GothamPro, Arial, serif; font-size: 310%; font-weight: 100;}
+.layout_content .layout_contentBlock_resume .info {font-family: GothamPro, Arial, serif; font-size: 118%; font-weight: 400; margin-top: 20px; display: inline-block;}
+.layout_content .layout_contentBlock_resume p {font-family: Roboto, Arial, serif; font-size: 118%; line-height: 25px; text-align: left; margin: 15px 0;}
 
 /*.layout_content {padding: 25px 50px;}*/
 /*.layout_contentBlock_choice {display: inline-block; margin: 10px 0;}*/
