@@ -7,8 +7,8 @@ li                   {list-style: none;}
 a                    {text-decoration: none; color: inherit; display: inline-block;}
 img                  {}
 h1, h2, h3, h4, p    {margin: 0;}
-button               {padding: 13px 25px; border-radius: 30px; border: 2px solid black; background: transparent; font-size: 137%; font-weight: 700;}
-button.blue          {}
+button               {padding: 10px 20px; border-radius: 30px; border: 2px solid black; background: transparent; font-size: 118%; font-weight: 700;}
+button.blue          {background: #218ed2; border-color: #218ed2; color: #ffffff;}
 button.red           {background: #ff4830; border-color: #ff4830; color: #ffffff;}
 button.dashed        {border-color: #ffffff; color: #ffffff; border-style: dashed;}
 button.white_outline {border-color: #ffffff; color: #ffffff;}
@@ -18,6 +18,7 @@ button.grey          {border-color: #eef1f2; color: #181818; background: #eef1f2
 .layout_header,
 .layout_content,
 .layout_footer       {position: relative;}
+.clear               {clear: both;}
 
 /*Header*
 ***********************************************************/
@@ -42,13 +43,6 @@ button.grey          {border-color: #eef1f2; color: #181818; background: #eef1f2
 .layout_header .layout_headerBlock_account a        {font-family: Roboto, Arial, serif; font-size: 120%; font-weight: 500;}
 .layout_header .layout_headerBlock_account img      {vertical-align: middle;}
 
-.layout_header .layout_header_container1            {width: 100%; min-height: 64px; background: #0a79c0;}
-.layout_header .layout_headerBlock_menu li          {display: inline-block; color: #fff;}
-.layout_header .layout_headerBlock_menu a           {font-family: GothamPro, Arial, serif; font-weight: 500; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
-.layout_header .layout_headerBlock_menu a.active    {font-weight: 700; background: #fff; color: #181818;}
-.layout_header .layout_headerBlock_menu             {max-width: 1080px; margin: 0 auto;}
-.layout_header .layout_headerBlock_menu .menu       {display: inline-block; margin: 13px 0;}
-
 /*Footer*
 **********************************************************/
 .layout_footer                                                 {height: auto; background: #fff; padding: 46px 0; font-family: Roboto, Arial, serif;}
@@ -69,25 +63,6 @@ button.grey          {border-color: #eef1f2; color: #181818; background: #eef1f2
 
 /*Content*
 **********************************************************/
-.layout_content .layout_content_container1 {position: relative; max-width: 1080px; margin: 0 auto; padding: 50px 0; color: #181818;}
-.layout_content .layout_content_container1 h2 {font-family: GothamPro, Arial, serif; font-size: 300%; font-weight: 400; margin-bottom: 59px;}
-.layout_content .layout_contentBlock_choice .item {font-size: 150%; font-family: Roboto, Arial, serif; padding: 25px; width: 208px; height: 116px; float: left; border: 2px solid #ffffff; background: transparent;}
-.layout_content .layout_contentBlock_choice .item .title {color: #218ed2; display: inline-block; margin-bottom: 20px; font-size: 100%; font-family: Roboto, Arial, serif; font-weight: 500;}
-.layout_content .layout_contentBlock_choice .item .text {font-size: 78%; font-family: Roboto, Arial, serif; font-weight: 500;}
-.layout_content .layout_contentBlock_choice .item.active {border-color: #218ed2; background: #218ed2; color: #ffffff; margin-right: 10px;}
-.layout_content .layout_contentBlock_choice .item.active .title   {color: #fff;}
-.layout_content .layout_content_lower {clear: both; display: inline-block; margin: 10px 0;}
-.layout_content .layout_content_lower .layout_contentBlock_left {padding: 30px; width: 747px; height: 475px; background: #ffffff; float: left; margin-right: 10px;}
-.layout_content .layout_content_lower .layout_contentBlock_right {padding: 30px; width: 202px; height: 215px; background: #ffffff; float: left;}
-.layout_content .layout_content_lower label {float: left; width: 240px; font-family: Roboto, Arial, serif; font-weight: 500; font-size: 118%; line-height: 42px;}
-.layout_content .layout_content_lower input {width: 500px; height: 40px; border: 1px solid #e8eaeb; margin-bottom: 20px;}
-.layout_content .layout_content_lower .layout_contentBlock_right {font-family: Roboto, Arial, serif; font-weight: 400; color: #218ed2; font-size: 118%;}
-.layout_content .layout_content_lower .layout_contentBlock_right span {font-weight: 500; color: #181818; font-size: 115%;}
-.layout_content .layout_content_lower .layout_contentBlock_right ul {list-style-image: url("images/open_account/Document.svg");}
-.layout_content .layout_content_lower .layout_contentBlock_right li {line-height: 30px; list-style: inherit;}
-.layout_content .layout_content_lower .layout_contentBlock_right img {float: left; margin-right: 10px; margin-top: 7px;}
-
-
 .layout_content1                                      {text-align: center; background: url("images/main/Bg_index.png") center center no-repeat; background-size: cover;}
 .layout_content1 .layout_content_container1           {position: relative; max-width: 1080px; margin: 0 auto; display: inline-block; color: #ffffff; width: 100%; height: 500px;}
 .layout_content1 .layout_contentBlock_slide1          {width: 60%; float: left; text-align: left;}
@@ -178,19 +153,9 @@ button.grey          {border-color: #eef1f2; color: #181818; background: #eef1f2
 .layout_content3 .layout_contentBlock_resume .info          {font-family: GothamPro, Arial, serif; font-size: 118%; font-weight: 400; margin-top: 20px; display: inline-block;}
 .layout_content3 .layout_contentBlock_resume p              {font-family: Roboto, Arial, serif; font-size: 118%; line-height: 25px; text-align: left; margin: 15px 0;}
 
-/*.layout_content {padding: 25px 50px;}*/
-/*.layout_contentBlock_choice {display: inline-block; margin: 10px 0;}*/
-/*.layout_contentBlock_choice .type {display: inline-table; width: 200px; height: 160px; background: #0a79c0;}*/
-/*.layout_contentBlock_form {width: 100%; height: 300px; clear: both;}*/
-/*.layout_contentBlock_form form {float: left; background: #fff; margin-right: 15px;}*/
-/*.layout_contentBlock_form input {display: block;}*/
-/*.layout_contentBlock_form label {float: left; width: 30%; min-width: 300px;}*/
-/*.layout_contentBlock_docs {float: right; background: #fff;}*/
-
-
 /*Scrollbar*
 **********************************************************/
-.layout_content ::-webkit-scrollbar                       {width: 12px;}
-.layout_content ::-webkit-scrollbar-track                 {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 7px; border-radius: 7px;}
-.layout_content ::-webkit-scrollbar-thumb                 {-webkit-border-radius: 7px; border-radius: 7px; background: #414342; -webkit-box-shadow: inset 0 0 6px rgba(47, 47, 47, 0.5);}
-.layout_content ::-webkit-scrollbar-thumb:window-inactive {background: #414342;}
+/*.layout_content ::-webkit-scrollbar                       {width: 12px;}*/
+/*.layout_content ::-webkit-scrollbar-track                 {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 7px; border-radius: 7px;}*/
+/*.layout_content ::-webkit-scrollbar-thumb                 {-webkit-border-radius: 7px; border-radius: 7px; background: #414342; -webkit-box-shadow: inset 0 0 6px rgba(47, 47, 47, 0.5);}*/
+/*.layout_content ::-webkit-scrollbar-thumb:window-inactive {background: #414342;}*/

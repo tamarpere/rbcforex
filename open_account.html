@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>RBS-Forex</title>
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="base_style.css" rel="stylesheet" type="text/css">
+    <link href="trader_style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="layout_header desktop">
@@ -173,15 +174,24 @@
                     <input name="email">
                     <label about="password">Пароль</label>
                     <input name="password">
-	                <div class="show_pass"></div>
-	                <a class="gen_pass"></a>
+	                <div class="show_pass">
+		                <a href>
+			                <img src="images/open_account/Eye.svg" width="18">
+		                </a>
+	                </div>
+	                <a class="gen_pass" href>Сгенерировать</a>
+	                <div class="clear"></div>
                     <label about="repeat_pass">Повторите пароль</label>
                     <input name="repeat_pass">
-	                <span>Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
-                    <input name="check" type="checkbox">
-	                <label about="check">Swap-Free Account</label>
-	                <span class="addition">Нажимая на кнопку, вы подтверждаете, что ознакомились с клиентским соглашением</span>
-                    <button type="submit">Открыть торговый счет</button>
+	                <span class="note">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
+	                <div class="clear">
+		                <input name="check" type="checkbox">
+		                <label about="check">Swap-Free Account</label>
+	                </div>
+					<span class="addition">
+						<span>Нажимая на кнопку, вы подтверждаете, что ознакомились с клиентским соглашением</span>
+                        <button type="submit" class="blue">Открыть торговый счет</button>
+					</span>
                 </form>
             </div>
                 <div class="layout_contentBlock_right">
