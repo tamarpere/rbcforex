@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>RBS-Forex</title>
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+	<link href="fonts.css" rel="stylesheet" type="text/css">
     <link href="base_style.css" rel="stylesheet" type="text/css">
+	<link href="open_acc_style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="layout_header">
@@ -62,8 +63,76 @@
 	            </div>
 	        </div>
 </header>
+<header class="layout_header tablet">
+    <div class="layout_header_container">
+        <div class="layout_header_content">
+                <div class="layout_headerBlock layout_headerBlock_logo">
+                    <a href="/"></a>
+                </div>
+                <div class="layout_headerBlock layout_headerBlock_menuTablet">
+                    <a href="/open_account.html">
+                        <img src="images/main/Profile.svg" width="17" height="17">
+                        Открыть счет
+                    </a>
+                    <a href="add_fee.html">Пополнить счет</a>
+                    <a href="withdraw.html">Вывести средства</a>
+                    <a href>
+                    <img src="images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
+            </div>
+        </div>
+        <div class="layout_header_content2">
+            <div class="layout_headerBlock layout_headerBlock_nav">
+                <nav class="main_menu">
+                    <ul>
+                        <li><a class="active" href>Трейдерам</a></li>
+                        <li><a href>Инвестиции</a></li>
+                        <li><a href>Компания</a></li>
+                        <li><a href>Обучение</a></li>
+                        <li><a href>Партнерам</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="layout_headerBlock layout_headerBlock_account">
+                <a href>
+                    <img src="images/main/Key.svg" width="35" height="20">
+                    Кабинет
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="layout_header mobile">
+    <div class="layout_header_container">
+        <div class="layout_header_content">
+            <div class="layout_headerBlock layout_headerBlock_logo">
+                <a href="/"></a>
+            </div>
+            <div class="layout_headerBlock layout_headerBlock_icons">
+                <a href>
+                    <img src="images/main/Key.svg">
+                </a>
+                <a href>
+                    <img src="images/main/Key.svg">
+                </a>
+            </div>
+        </div>
+
+        <div class="layout_header_content2">
+            <div class="layout_headerBlock layout_headerBlock_menuTablet">
+                <a href="/open_account.html">
+                    <img src="images/main/Profile.svg" width="17" height="17">
+                    Открыть счет
+                </a>
+                <a href="add_fee.html">Пополнить</a>
+                <a href="withdraw.html">Вывести</a>
+            </div>
+        </div>
+    </div>
+</header>
 <section class="layout_content">
-    <div class="layout_content_container">
+    <div class="layout_content_container1">
         <div class="layout_content_upper">
             <h2>Открытие учебного счета</h2>
         </div>
@@ -77,17 +146,27 @@
                         <input name="email">
                         <label about="password">Пароль</label>
                         <input name="password">
-                        <a href>Сгенерировать</a>
-                        <a href class="show_pass"></a>
-                        <label about="credit"></label>
-                        <select name="credit">
-                            <option>1:1000</option>
-                        </select>
-                        <label about="deposit"></label>
-                        <select name="deposit">
-                            <option>5000</option>
-                        </select>
-                        <button type="submit">Открыть демо-счет</button>
+                        <a href class="gen_pass">Сгенерировать</a>
+                        <a href class="show_pass">
+	                        <img src="images/open_account/Eye.svg" width="20">
+                        </a>
+	                    <div class="selects">
+		                    <div class="item">
+			                    <label about="credit">Кредитное плечо</label>
+			                                            <select name="credit">
+			                                                <option>1:1000</option>
+			                                            </select>
+		                    </div>
+		                    <div class="item">
+			                    <label about="deposit">Депозит</label>
+			                                            <select name="deposit">
+			                                                <option>5000</option>
+			                                            </select>
+		                    </div>
+	                    </div>
+
+
+                        <button class="blue" type="submit">Открыть демо-счет</button>
                     </form>
                 </div>
             </div>
@@ -97,41 +176,48 @@
                     <p>Для открытия учебного счета вам необходимо <a href>скачать торговую программу MetaTraider 4</a>. Установите ее и запустите.</p>
                     <div class="list">
                         <div class="first">
-                            <span>Выберите в главном меню <span>Файл\Открыть счет</span></span>
-                            <img>
+                            <span class="point">Выберите в главном меню <span class="bold">Файл\Открыть счет</span></span><br>
+                            <img src="images/demo_account/Help1.png" width="238">
                         </div>
                         <div class="second">
-                            <span>Заполнить контактную информацию и нажать <span>"Далее"</span></span>
-                            <img>
+                            <span class="point">Заполнить контактную информацию и нажать <span class="bold">"Далее"</span></span><br>
+	                        <img src="images/demo_account/Help2.png" width="552">
                         </div>
                         <div class="third">
-                            <span>Выберите сервер Ficex-demo и нажмите кнопку <span>"Далее"</span></span>
-                            <img>
+                            <span class="point">Выберите сервер Ficex-demo и нажмите кнопку <span class="bold">"Далее"</span></span><br>
+	                        <img src="images/demo_account/Help3.png" width="552">
                         </div>
                         <div class="fourth">
-                            <span><span>Учебный счет открыт.</span> После нажатия кнопки "Готово" вы войдете в учебный счет. Обязательно где-нибудь запишите номер учебного счета и пароль, чтобы не забыть.</span>
+                            <span class="point"><span class="bold">Учебный счет открыт.</span> После нажатия кнопки "Готово" вы войдете в учебный счет. Обязательно где-нибудь запишите номер учебного счета и пароль, чтобы не забыть.</span>
                         </div>
                     </div>
-                    <h3>Все, теперь вы можете начинать торговать!</h3>
-                    <p>Обращаем ваше внимание, что технически торговля на учебном счете абсолютно идентична торговле на реальный счетах. Разница лишь в психологии. Перед торговлей на серьезные средства мы советуем вам начать торговать на учебном (демо) или на центовом счету. Также мы советуем вывести котировки всех валютных пар.</p>
-                    <div class="server">
-                        <span><span>IP сервера:</span> 46.165.231.75</span>,
-                        <span><span>порт:</span> 443</span>
-                    </div>
+	                <div class="done">
+		                <h2>Все, теперь вы можете начинать торговать!</h2>
+		                                    <p>Обращаем ваше внимание, что технически торговля на учебном счете абсолютно идентична торговле на реальный счетах. Разница лишь в психологии. Перед торговлей на серьезные средства мы советуем вам начать торговать на учебном (демо) или на центовом счету. Также мы советуем вывести котировки всех валютных пар.</p>
+		                                    <div class="server">
+		                                        <span>
+		                	                        <span class="bold">IP сервера:</span> 46.165.231.75
+		                                        </span>,
+		                                        <span>
+		                	                        <span class="bold">порт:</span> 443
+		                                        </span>
+		                                    </div>
+	                </div>
+
                 </div>
             </div>
         </div>
         <div class="layout_content_lower">
+	        <img src="images/demo_account/pc_pic.png">
             <div class="layout_contentBlock_reklama">
-                <img>
-                <h3>Терминал Mobius для удобной торговли на Forex</h3>
-                <p></p>
-                <button>Подробней о терминале</button>
+				<h3>Терминал Mobius для удобной торговли на Forex</h3>
+                <p>Сотрудничая с RBC Forex, Вы получите возможность вести торговлю максимально комфортно. Мы гарантируем безупречный уровень обслуживания и квалифицированную круглосуточную техническую поддержку на всех этапах работы. Данный терминал полностью адаптирован под выполнение широкого спектра разнообразных торговых операций и проведение качественного технического анализа.</p>
+                <button class="blue">Подробней о терминале</button>
                 <div class="apps">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <a href class="win"></a>
+                    <a href class="apple"></a>
+                    <a href class="android"></a>
+                    <a href class="web"></a>
                 </div>
             </div>
         </div>

@@ -2,12 +2,13 @@
 ***********************************************************/
 html *               {margin: 0; padding: 0; text-decoration: none;}
 body                 {width: 100%; height: auto; background: #edf1f2; font-size: 0.8em;}
-input                {outline-width:0;}
+input                {outline-width:0; padding: 0 10px;}
+select               {outline-width:0;}
 li                   {list-style: none;}
 a                    {text-decoration: none; color: inherit; display: inline-block;}
 img                  {}
 h1, h2, h3, h4, p    {margin: 0;}
-button               {padding: 10px 20px; border-radius: 30px; border: 2px solid black; background: transparent; font-size: 118%; font-weight: 700;}
+button               {display: block; margin-top: 35px; padding: 10px 20px; border-radius: 30px; border: 2px solid black; background: transparent; font-size: 118%; font-weight: 700;}
 button.blue          {background: #218ed2; border-color: #218ed2; color: #ffffff;}
 button.red           {background: #ff4830; border-color: #ff4830; color: #ffffff;}
 button.dashed        {border-color: #ffffff; color: #ffffff; border-style: dashed;}
