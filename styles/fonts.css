@@ -1,0 +1,196 @@
+/*Roboto*/
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-BlackItalic.ttf);
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-MediumItalic.ttf);
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Italic.ttf);
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-ThinItalic.ttf);
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*Gotham*/
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProBla.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProBlaIta.otf);
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProBol.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProBolIta.otf);
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProMed.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProMedIta.otf);
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProReg.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProIta.otf);
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProNarBol.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProNarMed.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProLig.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/Gotham/GothaProLigIta.otf);
+    font-style: italic;
+    font-weight: 100;
+}
+/*Proxima Nova*/
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-XBold.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-Bold.otf);
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-BoldIt.otf);
+    font-style: italic;
+    font-weight: 800;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-Black.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-Reg.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-RegIt.otf);
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-Light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima_Nova/ProximaNova-LightIt.otf);
+    font-style: italic;
+    font-weight: 200;
+}

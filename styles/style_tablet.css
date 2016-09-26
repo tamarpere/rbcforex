@@ -1,0 +1,100 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 939px) {
+    .layout_header.desktop                                       {display: none;}
+    .layout_header.tablet                                        {text-align: center; display: inline-block;}
+    .layout_header.tablet .layout_header_container               {max-width: 748px; display: inline-block; height: 90px; padding: 26px 0;}
+    .layout_header.tablet .layout_headerBlock_logo               {float: left;}
+    .layout_header.tablet .layout_headerBlock_menuTablet         {text-align: right;}
+    .layout_header.tablet .layout_headerBlock_nav                {width: auto; margin: 0; float: left;}
+    .layout_header.tablet .layout_headerBlock_nav li:first-child {padding-left: 0;}
+
+    .layout_footer                               {height: 77px; padding: 0;}
+    .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
+    .layout_footer .layout_footer_content        {display: none;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45;}
+
+    .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
+    .layout_content1 .layout_contentBlock_slide1          {width: 490px;}
+    .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 235%; margin: 54px 0;}
+    .layout_content1 .layout_contentBlock_slide1 .buttons {display: inline-block; margin-top: 20px;}
+    .layout_content1 .layout_contentBlock_slide2 h2       {font-size: 150%; margin-top: 27px;}
+    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-weight: 100;}
+    .layout_content1 .layout_contentBlock_slide3          {font-size: 117%; text-align: left; bottom: 35px;}
+    .layout_content1 .layout_contentBlock_slide2 .apps    {width: 65px;}
+    .layout_content1 .layout_contentBlock_slide2 .win     {margin: 7px; width: 13px; height: 13px;}
+    .layout_content1 .layout_contentBlock_slide2 .apple   {margin: 7px; width: 14px; height: 16px;}
+    .layout_content1 .layout_contentBlock_slide2 .android {margin: 7px; width: 15px; height: 17px;}
+    .layout_content1 .layout_contentBlock_slide2 .web     {margin: 7px; width: 15px; height: 15px;}
+
+
+    .layout_content2                                                {max-width: 748px; margin-top: 10px;}
+    .layout_content2 .layout_contentBlock_block1 .col_left          {padding: 0 28px; width: 120px;}
+    .layout_content2 .layout_contentBlock_block1 .col_right         {padding: 0 28px;}
+    .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
+    .layout_content2 .layout_contentBlock_block4                    {width: 674px;}
+    .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
+    .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
+    .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro, Arial, serif; font-size: 180%; font-weight: 400; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto, Arial, serif; font-size: 118%; font-weight: 400; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 674px;}
+    .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
+    .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
+    .layout_content2 .layout_contentBlock_rating .addition span     {float: none; margin-bottom: 24px; display: inline-block;}
+    .layout_content2 .layout_contentBlock_rating .addition span img {display: none;}
+    .layout_content3 .layout_contentBlock_resume                    {max-width: 748px;}
+    .layout_content2 .layout_content_container4                     {margin-top: 0; width: 748px;}
+
+    .layout_content3 .layout_content_container5.desktop          {display: none;}
+    .layout_content3 .layout_content_container5.tablet           {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+    .layout_content3 .layout_contentBlock_resume                 {max-width: 748px;}
+    .layout_content3 .layout_contentBlock_resume .left_col       {width: 288px; padding-right: 30px; float: left; text-align: left;}
+    .layout_content3 .layout_contentBlock_resume .left_col div   {margin-bottom: 43px;}
+    .layout_content3 .layout_contentBlock_resume .left_col .info {width: 223px; margin-top: 10px;}
+
+}
+
+@media screen and (min-device-width: 940px) and (max-device-width: 1079px) {
+    .layout_header.desktop                                       {display: none;}
+    .layout_header.tablet                                        {text-align: center; display: inline-block;}
+    .layout_header.tablet .layout_header_container               {max-width: 920px; display: inline-block; height: 90px; padding: 26px 0;}
+    .layout_header.tablet .layout_headerBlock_logo               {float: left;}
+    .layout_header.tablet .layout_headerBlock_menuTablet         {text-align: right;}
+    .layout_header.tablet .layout_headerBlock_nav                {width: auto; margin: 0; float: left;}
+    .layout_header.tablet .layout_headerBlock_nav li:first-child {padding-left: 0;}
+
+    .layout_footer                               {height: 77px; padding: 0;}
+    .layout_footer .layout_footer_container      {width: 100%; max-width: 920px;}
+    .layout_footer .layout_footer_content        {display: none;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45;}
+
+    .layout_content1 .layout_content_container1 {max-width: 920px;}
+
+    .layout_content2                                                {max-width: 806px;}
+    .layout_content2 .layout_contentBlock_block1 .col_left          {padding: 0 28px; width: 180px;}
+    .layout_content2 .layout_contentBlock_block1 .col_right         {padding: 0 28px; width: 234px;}
+    .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
+    .layout_content2 .layout_contentBlock_block4                    {width: 735px;}
+
+    .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
+    .layout_content2 .layout_content_container3                     {margin-top: 0; display: inline-block;}
+    .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
+    .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; max-width: 806px; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
+    .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro, Arial, serif; font-size: 180%; font-weight: 400; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto, Arial, serif; font-size: 118%; font-weight: 400; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 735px;}
+    .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
+    .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
+    .layout_content2 .layout_contentBlock_rating .addition span     {float: none; margin-bottom: 24px; display: inline-block;}
+    .layout_content2 .layout_contentBlock_rating .addition span img {display: none;}
+    .layout_content3 .layout_contentBlock_resume                    {max-width: 920px;}
+    .layout_content3 .layout_contentBlock_resume .left_col          {width: 288px; padding-right: 30px; float: left; text-align: left;}
+    .layout_content3 .layout_contentBlock_resume .left_col div      {margin-bottom: 43px;}
+    .layout_content3 .layout_contentBlock_resume .left_col .info    {width: 223px; margin-top: 10px;}
+
+    .layout_content2 .layout_content_container4 {margin-top: 0; width: 920px;}
+
+    .layout_content3 .layout_content_container5.desktop {display: none;}
+    .layout_content3 .layout_content_container5.tablet  {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+
+}
