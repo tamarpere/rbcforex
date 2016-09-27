@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>RBS-Forex</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link href="../styles/fonts.css" rel="stylesheet" type="text/css">
 	<link href="../styles/base_style.css" rel="stylesheet" type="text/css">
 	<link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
 	<link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-    <link href="../styles/open_acc_style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/traider_style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="layout_header desktop">
@@ -55,17 +56,17 @@
                 </a>
             </div>
         </div>
-
+        <div class="triangle traider"></div>
     </div>
 	<div class="layout_header_container1">
 		            <div class="layout_headerBlock layout_headerBlock_menu">
 		                <nav class="menu trader">
-		                    <ul>
+                            <ul>
 		                        <li><a class="active" href="open_account.html">Открыть счет</a></li>
 		                        <li><a href="demo.html">Демо счет</a></li>
 		                        <li><a href="fillup.html">Пополнение счета</a></li>
 		                        <li><a href="withdraw.html">Вывод средств</a></li>
-		                        <li><a href>Калькулятор</a></li>
+		                        <li><a href="calculator.html">Калькулятор</a></li>
 		                        <li><a href>FAQ</a></li>
 		                        <li><a href>Условия торговли</a></li>
 		                        <li><a href>Обратная связь</a></li>
@@ -152,43 +153,46 @@
         <div class="layout_content_upper">
             <h2>Открытие торгового счета</h2>
             <div class="layout_contentBlock_choice">
-                <div class="item active">
-                    <input type="radio">
-                    <span class="title">Центовый</span><br>
-                    <span class="text">Депозит в центах. Мин депозит - 10 центов, стоимость 1 пипса - 0,1 цента</span>
-                </div>
                 <div class="item">
-                    <input type="radio">
-                    <span class="title">Долларовый</span><br>
-                    <span class="text">Депозит в долларах. Мин депозит - 5 долларов, стоимость 1 пипса - 10 центов</span>
+                    <input id="cent" type="radio" name="money" checked>
+                    <label for="cent">
+                        <span class="title">Центовый</span><br>
+                        <span class="text">Депозит в центах. Мин депозит - 10 центов, стоимость 1 пипса - 0,1 цента</span>
+                    </label>
+                    <input id="dollar" type="radio" name="money">
+                    <label for="dollar">
+                        <span class="title">Долларовый</span><br>
+                        <span class="text">Депозит в долларах. Мин депозит - 5 долларов, стоимость 1 пипса - 10 центов</span>
+                    </label>
                 </div>
             </div>
         </div>
         <div class="layout_content_lower">
             <div class="layout_contentBlock_left">
                 <form>
-                    <label about="name">Имя</label>
-                    <input name="name">
-                    <label about="last_name">Фамилия</label>
-                    <input name="last_name">
-                    <label about="email">Электронная почта</label>
-                    <input name="email">
-                    <label about="password">Пароль</label>
-                    <input name="password">
+                    <label for="name">Имя</label>
+                    <input id="name">
+                    <label for="last_name">Фамилия</label>
+                    <input id="last_name">
+                    <label for="email">Электронная почта</label>
+                    <input id="email">
+                    <label for="password">Пароль</label>
+                    <input id="password">
 	                <div class="show_pass">
 		                <a href>
-			                <img src="../images/open_account/Eye.svg" width="18">
+			                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
+			                <img class="default" src="../images/open_account/Eye.svg" width="18">
 		                </a>
 	                </div>
 	                <a class="gen_pass" href>Сгенерировать</a>
 	                <div class="clear"></div>
-                    <label about="repeat_pass">Повторите пароль</label>
-                    <input name="repeat_pass">
+                    <label for="repeat_pass">Повторите пароль</label>
+                    <input id="repeat_pass">
 	                <span class="note">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
 	                <div class="clear">
-		                <input name="check" type="checkbox">
-		                <label about="check">Swap-Free Account</label>
-	                </div>
+                        <input id="check" type="checkbox">
+                        <label for="check">Swap-Free Account</label>
+                    </div>
 					<span class="addition">
 						<span>Нажимая на кнопку, вы подтверждаете, что ознакомились с клиентским соглашением</span>
                         <button type="submit" class="blue">Открыть торговый счет</button>
@@ -196,7 +200,7 @@
                 </form>
             </div>
                 <div class="layout_contentBlock_right">
-                    <span>Документы PDF</span>
+                    <span class="title">Документы PDF</span>
                     <ul>
                         <li><a href>
                             Клиентское соглашение
@@ -243,7 +247,7 @@
                         <li><a href>Торговый счет</a></li>
                         <li><a href>Ввод средств</a></li>
                         <li><a href>Вывод средств</a></li>
-                        <li><a href>Калькулятор</a></li>
+                        <li><a href="calculator.html">Калькулятор</a></li>
                         <li><a href>FAQ</a></li>
                         <li><a href>Условия торговли</a></li>
                     </ul>

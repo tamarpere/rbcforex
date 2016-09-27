@@ -1,0 +1,151 @@
+.layout_header .layout_header_container1         {width: 100%; min-height: 64px; background: #0a79c0;}
+.layout_header .layout_headerBlock_menu li       {display: inline-block; color: #fff;}
+.layout_header .layout_headerBlock_menu a        {font-family: GothamPro-Med, Arial, serif; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
+.layout_header .layout_headerBlock_menu a:hover  {background: #218ed2;}
+.layout_header .layout_headerBlock_menu a.active {font-weight: 700; background: #fff; color: #181818;}
+.layout_header .layout_headerBlock_menu          {max-width: 1080px; margin: 0 auto; position: relative;}
+.layout_header .layout_headerBlock_menu .menu    {display: inline-block; margin: 13px 0;}
+.layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 110px; left: 380px;}
+
+.layout_content .layout_content_container1                            {position: relative; max-width: 1080px; margin: 0 auto; padding: 50px 0 0 0; color: #181818;}
+.layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, serif; line-height: 30px; font-size: 300%; margin-bottom: 59px;}
+.layout_content .layout_content_upper .ok                             {float: left; margin-right: 15px;}
+.layout_content .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0;}
+.layout_content .layout_content_lower .layout_contentBlock_left       {padding: 30px; width: 747px; height: auto; background: #ffffff; float: left; margin-right: 10px;}
+.layout_content .layout_content_lower .layout_contentBlock_right      {padding: 30px; width: 202px; height: auto; background: #ffffff; float: left;}
+
+.layout_content .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px; font-family: Roboto, Arial, serif; font-weight: 500; font-size: 118%; line-height: 42px;}
+.layout_content .layout_content_lower input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
+.layout_content .layout_contentBlock_choice label                                      {position: relative; margin-right: 10px; font-size: 150%; font-family: Roboto, Arial, serif; padding: 25px; width: 208px; height: 116px; float: left; border: 2px solid #ffffff; background: transparent;}
+.layout_content .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 20px 30px; font-size: 100%; font-family: Roboto, Arial, serif; font-weight: 500;}
+.layout_content .layout_contentBlock_choice label .text                                {font-size: 78%; font-family: Roboto, Arial, serif; font-weight: 500;}
+.layout_content .layout_contentBlock_choice input[type="radio"]                        {display: none;}
+.layout_content .layout_contentBlock_choice input[type="radio"]                        {display: none;}
+.layout_content .layout_contentBlock_choice input[type="radio"]                        {display: none;}
+.layout_content .layout_contentBlock_choice label:before                               {content: ""; display: inline-block; width: 12px; height: 12px; margin-right: 10px; position: absolute; left: 25px; top: 27px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
+.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
+.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label .title {color: #ffffff;}
+.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff;}
+
+.layout_content .layout_content_lower .layout_contentBlock_right                    {font-family: Roboto, Arial, serif; font-weight: 400; color: #218ed2; font-size: 118%;}
+.layout_content .layout_content_lower .layout_contentBlock_right span               {font-weight: 500; color: #181818; font-size: 115%;}
+.layout_content .layout_content_lower .layout_contentBlock_right li                 {margin: 10px 0;}
+.layout_content .layout_content_lower .layout_contentBlock_right .title             {display: block; margin-bottom: 15px;}
+.layout_content .layout_content_lower .layout_contentBlock_right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
+.layout_content .layout_content_lower .layout_contentBlock_right img                {float: left; margin-right: 10px; margin-top: 7px;}
+.layout_content .layout_content_lower input[id="password"]                        {width: 187px; float: left;}
+.layout_content .show_pass                                                          {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 10px 20px 10px 10px;}
+.layout_content .show_pass a                                                        {display: inline-block; width: 100%; height: 100%;}
+.layout_content .show_pass img                                                      {position: absolute; left: 12px; top: 15px;}
+.layout_content .show_pass a .hover                                                 {opacity: 0;}
+.layout_content .show_pass a .default                                               {opacity: 1;}
+.layout_content .show_pass a:hover .hover                                           {opacity: 1;}
+.layout_content .show_pass a:hover .default                                         {opacity: 0;}
+.layout_content .gen_pass                                                           {font-family: Roboto, Arial, serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
+.layout_content .layout_content_lower input[id="repeat_pass"]                     {width: 240px; float: left;}
+.layout_content .layout_content_lower .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content .layout_content_lower input[type="checkbox"]                        {display: none;}
+.layout_content .layout_content_lower label[for="check"]                            {float: none; font-family: Roboto, Arial, serif; font-weight: 700;}
+.layout_content .layout_content_lower input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
+.layout_content .layout_content_lower input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
+.layout_content .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
+.layout_content .layout_content_lower form .addition                                {text-align: center;}
+.layout_content .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
+.layout_content .layout_content_lower form .addition .blue                          {font-size: 118%; width: 257px; height: 41px; line-height: 35px; border-radius: 20px; margin: 0 auto;}
+
+.layout_content .layout_content_lower .layout_contentBlock_left p                    {font-family: Roboto, Arial, serif; font-weight: 400; font-size: 135%; line-height: 27px;}
+.layout_content .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-family: Roboto, Arial, serif; font-weight: 700; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
+.layout_content .layout_content_lower .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
+.layout_content .layout_content_lower .attention .password                           {font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
+.layout_content .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
+.layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-family: Roboto, Arial, serif; font-weight: 400; font-size: 118%;}
+.layout_content .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
+.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-weight: 500;}
+.layout_content .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
+.layout_content .layout_content_lower .more span                                     {font-family: Roboto, Arial, serif; font-weight: 500; font-size: 118%;}
+.layout_content .layout_content_lower .more a                                        {position: absolute; right: 14px;}
+.layout_content .layout_content_lower .extra_info                                    {margin-top: 18px;}
+.layout_content .layout_content_lower .extra_info .form                              {display: none; margin-top: 30px;}
+.layout_content .layout_content_lower .extra_info form                               {width: 470px; position: relative;}
+.layout_content .layout_content_lower .extra_info .form label                        {float: left; line-height: 21px;}
+.layout_content .layout_content_lower .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
+.layout_content .layout_content_lower .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content .layout_content_lower .extra_info .blue                              {float: left; border-radius: 20px; margin-top: 45px; height: 41px; line-height: 35px; font-size: 118%; width: 245px;}
+.layout_content .layout_content_lower .extra_info .blue.save                         {width: 335px;}
+.layout_content .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after               {background: transparent; padding: 0;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after a             {width: 202px; background: #fff; display: block; padding: 30px; font-family: ProximaNova, Helvetica, sans-serif; text-align: center; margin-bottom: 10px;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after img           {display: block; float: none; margin: 0 auto 20px auto;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .link         {font-size: 105%; font-weight: 700; color: #218ed2;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .devices      {font-size: 95%; font-weight: 400; color: #218ed2;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {font-size: 105%; font-weight: 700; color: #218ed2;}
+
+.layout_content .layout_content_middle                                     {font-family: Roboto, Arial, serif; clear: both; display: inline-block;}
+.layout_content .layout_content_middle .layout_contentBlock_left           {position: relative; padding: 35px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
+.layout_content .layout_content_middle .layout_contentBlock_right          {padding: 35px; width: 616px; height: auto; background: #fbfcfc; float: left;}
+.layout_content .layout_content_middle label                               {float: left; width: 240px; font-family: Roboto, Arial, serif; font-weight: 500; font-size: 118%; line-height: 13px; margin: 26px 0 13px 0;}
+.layout_content .layout_content_middle input                               {width: 300px; height: 40px; border: 1px solid #e8eaeb; margin: 0;}
+.layout_content .layout_content_middle input[id="password"]                {width: 245px;}
+.layout_content .layout_content_middle .gen_pass                           {position: absolute; right: 30px; bottom: 232px;}
+.layout_content .layout_content_middle .show_pass                          {vertical-align: top; margin: 0 0 0 10px;}
+.layout_content .layout_content_middle .item                               {float: left; width: 50%;}
+.layout_content .layout_content_middle .selects                            {display: inline-block;}
+.layout_content .layout_content_middle select                              {float: left; width: 150px; height: 41px; background: #f5f6f6; border-color: #e8eaeb;}
+.layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto; width: 206px; height: 41px; line-height: 35px; font-size: 118%;}
+.layout_content .layout_content_middle .layout_contentBlock_right h3       {font-size: 165%; margin-bottom: 32px; font-weight: 400;}
+.layout_content .layout_content_middle .layout_contentBlock_right p        {font-size: 118%; line-height: 23px;}
+.layout_content .layout_content_middle .layout_contentBlock_right p a      {color: #218ed2; text-decoration: underline; display: inline;}
+.layout_content .layout_content_middle .layout_contentBlock_right .list    {text-align: center;}
+.layout_content .layout_content_middle .layout_contentBlock_right .point   {font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
+.layout_content .layout_content_middle .layout_contentBlock_right .marker  {display: inline-block; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
+.layout_content .layout_content_middle .layout_contentBlock_right .bold    {font-weight: 700;}
+.layout_content .layout_content_middle .layout_contentBlock_right .done    {margin-top: 43px;}
+.layout_content .layout_content_middle .layout_contentBlock_right .done h2 {font-size: 218%; color: #388d40; margin-bottom: 0;}
+.layout_content .layout_content_middle .layout_contentBlock_right .done p  {margin: 26px 0;}
+.layout_content .layout_content_middle .layout_contentBlock_right .server  {font-size: 120%;}
+
+.layout_content .layout_content_lower                 {position: relative; width: 100%;}
+.layout_content .layout_contentBlock_reklama          {width: 616px; text-align: left; float: right; padding: 35px 40px;}
+.layout_content .layout_contentBlock_image            {position: absolute; left: -308px;}
+.layout_content .layout_contentBlock_reklama h3       {font-family: GothamPro-Reg, Arial, serif; font-size: 260%; margin-bottom: 35px; line-height: 35px; color: #181818;}
+.layout_content .layout_contentBlock_reklama p        {font-family: Roboto, Arial, serif; font-size: 118%; font-weight: 400; line-height: 23px; color: #181818;}
+.layout_content .layout_contentBlock_reklama .apps    {width: 215px; display: inline-block; margin-top: 50px; float: right;}
+.layout_content .layout_contentBlock_reklama .blue    {float: left; width: 224px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 118%; margin-top: 44px;}
+.layout_content .layout_contentBlock_reklama .win     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content .layout_contentBlock_reklama .apple   {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
+.layout_content .layout_contentBlock_reklama .android {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
+.layout_content .layout_contentBlock_reklama .web     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
+
+.layout_content .layout_content_container1.fillup .comission                 {position: absolute; text-align: right; padding: 20px; top: 28px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-family: GothamPro-Reg, Arial, serif; font-size: 165%;}
+.layout_content .layout_content_container1.fillup .layout_contentBlock_left  {width: 205px; padding: 30px 25px;}
+.layout_content .layout_content_container1.fillup .layout_contentBlock_right {width: 745px; padding: 31px; color: #181818;}
+.layout_content .layout_content_container1.fillup .payment                   {font-family: Roboto, Arial, serif;}
+.layout_content .layout_content_container1.fillup .payment td                {padding: 10px 0;}
+.layout_content .layout_content_container1.fillup .payment td:first-child    {text-align: center;}
+.layout_content .layout_content_container1.fillup .payment td:nth-child(2)   {color: #218ed2;}
+.layout_content .layout_content_container1.fillup .payment .title            {font-size: 135%; font-weight: 500; margin-bottom: 22px; display: block;}
+.layout_content .layout_content_container1.fillup label                      {font-size: 100%; font-weight: 500; line-height: 23px;}
+.layout_content .layout_content_container1.fillup input                      {float: left; margin: 0 0 20px 0; width: 260px;}
+.layout_content .layout_content_container1.fillup input[id="sum"]            {width: 157px;}
+.layout_content .layout_content_container1.fillup input[id="result"]         {width: 157px;}
+.layout_content .layout_content_container1.fillup select                     {float: left; width: 91px; height: 41px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
+.layout_content .layout_content_container1.fillup .note                      {float: left; width: 200px; color: #9b9a9a; font-size: 85%; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content .layout_content_container1.fillup a.note                     {color: #218ed2;}
+.layout_content .layout_content_container1.fillup .note.done                 {width: 504px; float: right;}
+.layout_content .layout_content_container1.fillup .addition                  {float: right; color: #202020; font-size: 100%; width: 80%;}
+.layout_content .layout_content_container1.fillup .blue                      {margin: 30px auto 0 auto; width: 259px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 100%;}
+.layout_content .layout_content_container1.fillup .data_card                 {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
+.layout_content .layout_content_container1.fillup .side                      {width: 428px; height: 261px; border-radius: 10px;}
+.layout_content .layout_content_container1.fillup .side img                  {position: absolute; top: 46px; right: 31px; margin: 0;}
+.layout_content .layout_content_container1.fillup .side input                {width: 267px; margin-bottom: 20px;}
+.layout_content .layout_content_container1.fillup .side.front                {padding: 25px; position: relative; background: #ffffff; box-shadow: 1px 2px 46px 0px rgba(33, 142, 210, 0.15);}
+.layout_content .layout_content_container1.fillup .side.back                 {width: 488px; height: 310px; position: absolute; top: 40px; left: 140px; background: #f7f7f7;}
+.layout_content .layout_content_container1.fillup .side.back .line           {height: 65px; width: 100%; margin: 26px 0 20px 0; background: #c6c6c6;}
+.layout_content .layout_content_container1.fillup .data_card .item           {float: left; width: 50%;}
+.layout_content .layout_content_container1.fillup .data_card .selects        {width: 290px; display: inline-block;}
+.layout_content .layout_content_container1.fillup .data_card select          {width: 111px; margin-left: 0; margin-bottom: 20px;}
+.layout_content .layout_content_container1.fillup .data_card label           {line-height: 15px; margin: 0 0 10px 0;}
+.layout_content .layout_content_container1.fillup .data_card input           {}
+.layout_content .layout_content_container1.fillup .data_card .cvv_number     {width: 90px; float: right; margin-right: 25px;}
+.layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px;}
+.layout_content .layout_content_container1.fillup .data_card .note           {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
