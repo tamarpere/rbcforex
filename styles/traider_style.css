@@ -90,7 +90,7 @@
 .layout_content .layout_content_middle .show_pass                          {vertical-align: top; margin: 0 0 0 10px;}
 .layout_content .layout_content_middle .item                               {float: left; width: 50%;}
 .layout_content .layout_content_middle .selects                            {display: inline-block;}
-.layout_content .layout_content_middle select                              {float: left; width: 150px; height: 41px; background: #f5f6f6; border-color: #e8eaeb;}
+.layout_content .layout_content_middle select                              {float: left; width: 150px;}
 .layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto; width: 206px; height: 41px; line-height: 35px; font-size: 118%;}
 .layout_content .layout_content_middle .layout_contentBlock_right h3       {font-size: 165%; margin-bottom: 32px; font-weight: 400;}
 .layout_content .layout_content_middle .layout_contentBlock_right p        {font-size: 118%; line-height: 23px;}
@@ -149,3 +149,32 @@
 .layout_content .layout_content_container1.fillup .data_card .cvv_number     {width: 90px; float: right; margin-right: 25px;}
 .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px;}
 .layout_content .layout_content_container1.fillup .data_card .note           {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
+
+.layout_content_container1.calc .layout_contentBlock_left     {width: 261px; font-family: Roboto, Arial, serif; padding: 30px 0;}
+.layout_content_container1.calc .payment     {}
+.layout_content_container1.calc .payment ul     {}
+.layout_content_container1.calc .payment ul li a    {font-size: 118%; display: block; padding: 10px 30px; color: #218ed2; font-weight: 400;}
+.layout_content_container1.calc .payment ul li a.active    {border-left: 2px solid #218ed2; background: #f1f8fc;}
+.layout_content_container1.calc .payment .title    {font-size: 135%; font-weight: 500; margin-bottom: 10px; display: block; padding-left: 30px;}
+.layout_content_container1.calc .layout_contentBlock_right     {width: 747px; font-family: Roboto, Arial, serif;}
+.layout_content_container1.calc .layout_contentBlock_right .error    {display: none;}
+.layout_content_container1.calc .layout_contentBlock_right form table    {margin-bottom: 30px;}
+.layout_content_container1.calc .layout_contentBlock_right form #type_fee    {width: 147px; margin-right: 15px;}
+.layout_content_container1.calc .layout_contentBlock_right form #tool    {width: 147px; margin-right: 15px;}
+.layout_content_container1.calc .layout_contentBlock_right form #lot    {width: 77px; margin-right: 15px;}
+.layout_content_container1.calc .layout_contentBlock_right form #count    {width: 77px; margin-right: 15px;}
+.layout_content_container1.calc .layout_contentBlock_right form #pips    {width: 67px; margin-right: 15px;}
+.layout_content_container1.calc .layout_contentBlock_right form tr:first-child td  {color: #181818; font-size: 100%; font-weight: 500;}
+.layout_content_container1.calc .layout_contentBlock_right .result  {color: #388d40; font-size: 112%; text-align: right;}
+.layout_content_container1.calc .layout_contentBlock_right .blue  {width: 167px; height: 39px; line-height: 36px; float: left; font-size: 100%; margin-right: 28px;}
+.layout_content_container1.calc .layout_contentBlock_right .add_row img {margin: 10px;}
+.layout_content_container1.calc .layout_contentBlock_right .add_row span {font-size: 100%; color: #0a79bf; line-height: 36px;}
+.layout_content_container1.calc .layout_contentBlock_right .addition {margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-size: 88%; text-align: center;}
+.layout_content_container1.calc .layout_contentBlock_right .addition .title {font-weight: 700;}
+
+.layout_content_container1.faq .question {width: 1017px; padding: 25px 30px; height: auto; background: #fff; margin: 10px auto; text-align: left;}
+.layout_content_container1.faq .question:last-child {margin-bottom: 68px;}
+.layout_content_container1.faq .title {font-size: 135%; color: #0a79bf;}
+.layout_content_container1.faq .text {display: none; font-size: 118%; color: #181818;}
+
+

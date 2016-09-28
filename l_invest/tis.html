@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>RBS-Forex</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-	<link href="../styles/fonts.css" rel="stylesheet" type="text/css">
-	<link href="../styles/base_style.css" rel="stylesheet" type="text/css">
-	<link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
-	<link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
+    <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <link href="../styles/traider_style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -41,8 +41,8 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a class="active" href="open_account.html">Трейдерам</a></li>
-                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
+                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
+                        <li><a class="active" href="rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
                         <li><a href>Партнерам</a></li>
@@ -56,28 +56,23 @@
                 </a>
             </div>
         </div>
-        <div class="triangle traider"></div>
+        <div class="triangle invest"></div>
     </div>
-	<div class="layout_header_container1">
-		            <div class="layout_headerBlock layout_headerBlock_menu">
-		                <nav class="menu trader">
-                            <ul>
-		                        <li><a class="active" href="open_account.html">Открыть счет</a></li>
-		                        <li><a href="demo.html">Демо счет</a></li>
-		                        <li><a href="fillup.html">Пополнение счета</a></li>
-		                        <li><a href="withdraw.html">Вывод средств</a></li>
-		                        <li><a href="calculator.html">Калькулятор</a></li>
-		                        <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="terms.html">Условия торговли</a></li>
-                                <li><a href="feed.html">Обратная связь</a></li>
-                                <li><a href="konkurs.html">Конкурсы</a></li>
-                                <li><a href="bonus.html">Бонусы</a></li>
-                                <li><a href="novichkam.html">Новичкам</a></li>
-		                    </ul>
-		                </nav>
-
-		            </div>
-		        </div>
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu invest">
+                <ul>
+                    <li><a href="rating.html">Рейтинг управляющих</a></li>
+                    <li><a class="active" href="tis.html">TIS</a></li>
+                    <li><a href="invest.html">Прямые инвестиции</a></li>
+                    <li><a href="copy.html">Копирование сделок</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="be_trader.html">Стать управляющим</a></li>
+                    <li><a href="invest_programm.html">Инвестиционная программа</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 <header class="layout_header tablet">
     <div class="layout_header_container">
@@ -86,11 +81,11 @@
                     <a href="/"></a>
                 </div>
                 <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                    <a href="open_account.html">
+                    <a href="/open_account.html">
                         <img src="../images/main/Profile.svg" width="17" height="17">
                         Открыть счет
                     </a>
-                    <a href="fillup.html">Пополнить счет</a>
+                    <a href="add_fee.html">Пополнить счет</a>
                     <a href="withdraw.html">Вывести средства</a>
                     <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
@@ -102,8 +97,8 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a class="active" href="open_account.html">Трейдерам</a></li>
-                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
+                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
+                        <li><a class="active" href="rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
                         <li><a href>Партнерам</a></li>
@@ -137,92 +132,44 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
+                <a href="/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="fillup.html">Пополнить</a>
+                <a href="add_fee.html">Пополнить</a>
                 <a href="withdraw.html">Вывести</a>
             </div>
         </div>
     </div>
 </header>
-
 <section class="layout_content">
-	<div class="layout_content_container1">
+    <div class="layout_content_container1 invest">
         <div class="layout_content_upper">
-            <h2>Открытие торгового счета</h2>
-            <div class="layout_contentBlock_choice">
-                <div class="item">
-                    <input id="cent" type="radio" name="money" checked>
-                    <label for="cent">
-                        <span class="title">Центовый</span><br>
-                        <span class="text">Депозит в центах. Мин депозит - 10 центов, стоимость 1 пипса - 0,1 цента</span>
-                    </label>
-                    <input id="dollar" type="radio" name="money">
-                    <label for="dollar">
-                        <span class="title">Долларовый</span><br>
-                        <span class="text">Депозит в долларах. Мин депозит - 5 долларов, стоимость 1 пипса - 10 центов</span>
-                    </label>
-                </div>
-            </div>
+            <h2>Trade Investor System</h2>
+            <p>RBC Forex разработал уникальную инновационную систему взаимовыгодного инвестирования. Мы предоставляем каждому опытному и квалифицированному трейдеру возможность стать управляющим и получить доход с помощью капитала инвесторов. Либо же Вы можете стать инвестором, зарабатывая на инвестировании своих денег в счета управляющих. Обращаем внимание, что Вы имеете возможность одновременно быть управляющим трейдером и инвестором. Более того, при желании Вы можете инвестировать даже просто в собственный счет.</p>
+            <button class="white_outline">
+                <img src="../images/main/Rating_traderov_white.svg" width="20">
+                Рейтинг управляющих трейдеров
+            </button>
         </div>
         <div class="layout_content_lower">
             <div class="layout_contentBlock_left">
-                <form>
-                    <label for="name">Имя</label>
-                    <input id="name">
-                    <label for="last_name">Фамилия</label>
-                    <input id="last_name">
-                    <label for="email">Электронная почта</label>
-                    <input id="email">
-                    <label for="password">Пароль</label>
-                    <input id="password">
-	                <div class="show_pass">
-		                <a href>
-			                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-			                <img class="default" src="../images/open_account/Eye.svg" width="18">
-		                </a>
-	                </div>
-	                <a class="gen_pass" href>Сгенерировать</a>
-	                <div class="clear"></div>
-                    <label for="repeat_pass">Повторите пароль</label>
-                    <input id="repeat_pass">
-	                <span class="note">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
-	                <div class="clear">
-                        <input id="check" type="checkbox">
-                        <label for="check">Swap-Free Account</label>
-                    </div>
-					<span class="addition">
-						<span>Нажимая на кнопку, вы подтверждаете, что ознакомились с клиентским соглашением</span>
-                        <button type="submit" class="blue">Открыть торговый счет</button>
-					</span>
-                </form>
+                <img src="../images/tis/Img_tis_1.png">
+                <h3>Как зарабатывает инвестор и как им стать?</h3>
+                <p>Инвестор вкладывает свой капитал в счета управляющих трейдеров. Для инвестирования Вы можете использовать неограниченное количество счетов. Размер дохода прямо пропорционально зависит от суммы инвестиций и от успешности работы управляющего, который торгует на специальном счете, а также получает установленный процент от дохода инвесторов.</p>
+                <p>Если Вы хотите стать инвестором, тогда Вам надо в "Личном кабинете" найти раздел "Инвестиции" и перейти на вкладку "Рейтинг трейдеров". На этой странице Вашему вниманию будет представлена таблица управляющих, в которых указываются показатели их работы. С помощью специальных фильтров вверху таблицы Вы имеете возможность выбрать наиболее подходящего управляющего (по размеру комиссии, успешности и т.д.), после чего просто подключиться к его счету.</p>
+                <button class="red">Выбрать управляющего трейдера</button>
             </div>
-                <div class="layout_contentBlock_right">
-                    <span class="title">Документы PDF</span>
-                    <ul>
-                        <li><a href>
-                            Клиентское соглашение
-                        </a></li>
-                        <li><a href>
-	                        Агентское соглашение
-                        </a></li>
-                        <li><a href>
-	                        Уведомление о рисках
-                        </a></li>
-                        <li><a href>
-	                        План телефонного разговора с дилером
-                        </a></li>
-                        <li><a href>
-	                        Как стать партнером
-                        </a></li>
-                    </ul>
-                </div>
+            <div class="layout_contentBlock_right">
+                <img src="../images/tis/Img_tis_2.png">
+                <h3>Как зарабатывает инвестор и как им стать?</h3>
+                <p>Как уже говорилось выше, управляющий ведет торговлю на рынке форекс и получает установленный процент от дохода инвесторов. Если Вы хотите стать управляющим трейдером, тогда Вам надо в "Личном кабинете" найти раздел “Инвестиции”, после чего выбрать вкладку “Стать трейдером”. Затем Вам надо выбрать реальный или демонстрационный счет, на котором Вы будете работать. Заполните появившуюся форму и укажите в процентах размер комиссии, которую Вы хотите получать от дохода своих инвесторов.</p>
+                <p>Если Вы открываете Реальный счет управляющего, то с Вашего уже существующего счета в автоматическом режиме будет переведено на него $100. Обращаем внимание, что указанная сумма обязательно должна находиться на Вашем счете, если Вы хотите стать управляющим. После этого Вы можете начинать торговать и зарабатывать положительную динамику. Потенциальные инвесторы будут оценивать Вашу работу и в случае успешности начнут подключаться к Вашему счету и инвестировать свои деньги. В результате Вы будете сразу получать и заработанную прибыль с собственных денег, которые были переведены на управляющий счет при регистрации, и комиссию от дохода инвесторов.</p>
+                <p>Если у Вас нет $100, но Вы очень хотите стать управляющим, тогда мы предлагаем Вам открыть Демонстрационный счет управляющего. Однако стоит подчеркнуть, что данная возможность распространяется только на трейдеров, достигших третей стадии в инвестиционной программе RBC Forex. Обращаем внимание, что такой счет в рейтинге отображается как ДЕМО. Безусловно, инвесторы меньше доверяют демонстрационному счету, поэтому мы советуем управляющему сразу открывать Реальный счет и приступать к генерированию действительно хорошей прибыли!</p>
+                <button class="red">Открыть счет управляющего трейдера</button>
             </div>
-
         </div>
-
+    </div>
 </section>
 <footer class="layout_footer">
     <div class="layout_footer_container">

@@ -64,7 +64,7 @@
             <nav class="menu trader">
                 <ul>
                     <li><a href="open_account.html">Открыть счет</a></li>
-                    <li><a class="active" href="demo.html">Демо счет</a></li>
+                    <li><a href="demo.html">Демо счет</a></li>
                     <li><a href="fillup.html">Пополнение счета</a></li>
                     <li><a href="withdraw.html">Вывод средств</a></li>
                     <li><a href="calculator.html">Калькулятор</a></li>
@@ -73,10 +73,9 @@
                     <li><a href="feed.html">Обратная связь</a></li>
                     <li><a href="konkurs.html">Конкурсы</a></li>
                     <li><a href="bonus.html">Бонусы</a></li>
-                    <li><a href="novichkam.html">Новичкам</a></li>
+                    <li><a class="active" href="novichkam.html">Новичкам</a></li>
                 </ul>
             </nav>
-
         </div>
     </div>
 </header>
@@ -87,11 +86,11 @@
                 <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
+                <a href="/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="fillup.html">Пополнить счет</a>
+                <a href="add_fee.html">Пополнить счет</a>
                 <a href="withdraw.html">Вывести средства</a>
                 <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
@@ -138,134 +137,61 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
+                <a href="/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="fillup.html">Пополнить</a>
+                <a href="add_fee.html">Пополнить</a>
                 <a href="withdraw.html">Вывести</a>
             </div>
         </div>
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1">
+    <div class="layout_content_container1 novichkam">
         <div class="layout_content_upper">
-            <h2>Открытие учебного счета</h2>
+            <h2>Новички, пришло Ваше время!</h2>
+            <div class="banner">
+                <img src="../images/bonus/Bg_novichkam.png">
+                <div class="buttons">
+                    <a href="demo.html" class="button">
+                        <img src="../images/bonus/Education.svg">
+                        <span>Открыть демо счет</span>
+                    </a>
+                    <a href class="button">
+                        <img src="../images/bonus/Education.svg">
+                        <span>Обучение торговле на рынке Forex</span>
+                    </a>
+                </div>
+            </div>
+            <p class="article">Если Вы только начали или планируете начать работать на рынке форекс, то сразу хотим Вам сказать, что существует лишь один путь к успеху. Секрет победы при этом предельно прост – Вам необходимо начать с малого, после чего постепенно увеличивать размер сделки и свои инвестиции. Запомните, что сразу зарабатывать ежедневно тысячи долларов не могли даже самые талантливые трейдеры.</p>
         </div>
-        <div class="layout_content_middle">
-            <div class="layout_contentBlock_left">
-                <div class="form">
-                    <form>
-                        <label for="fio">ФИО</label>
-                        <input id="fio">
-                        <label for="email">Электронная почта</label>
-                        <input id="email">
-                        <label for="password">Пароль</label>
-                        <input id="password">
-                        <a href class="gen_pass">Сгенерировать</a>
-
-                        <div class="show_pass">
-                            <a href>
-                                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-                                <img class="default" src="../images/open_account/Eye.svg" width="18">
-                            </a>
-                        </div>
-                        <div class="selects">
-                            <div class="item">
-                                <label for="credit">Кредитное плечо</label>
-                                <select id="credit">
-                                    <option>1:1000</option>
-                                </select>
-                            </div>
-                            <div class="item">
-                                <label for="deposit">Депозит</label>
-                                <select id="deposit">
-                                    <option>5000</option>
-                                </select>
-                            </div>
-                        </div>
-
-
-                        <button class="blue" type="submit">Открыть демо-счет</button>
-                    </form>
-                </div>
-            </div>
-            <div class="layout_contentBlock_right">
-                <div class="learning">
-                    <h3>Вы также можете открыть демо-счет через МТ4</h3>
-
-                    <p>Для открытия учебного счета вам необходимо <a href>скачать торговую программу
-                        MetaTraider&nbsp;4</a>.
-                        Установите ее и запустите.</p>
-
-                    <div class="list">
-                        <div class="first">
-                            <span class="point">
-                                <span class="marker">1</span>
-                                Выберите в главном меню <span class="bold">Файл\Открыть счет</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help1.png" width="238">
-                        </div>
-                        <div class="second">
-                            <span class="point">
-                                <span class="marker">2</span>
-                                Заполнить контактную информацию и нажать <span class="bold">"Далее"</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help2.png" width="552">
-                        </div>
-                        <div class="third">
-                            <span class="point">
-                                <span class="marker">3</span>
-                                Выберите сервер Ficex-demo и нажмите кнопку <span class="bold">"Далее"</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help3.png" width="552">
-                        </div>
-                        <div class="fourth">
-                            <span class="point">
-                                <span class="marker">4</span>
-                                <span class="bold">Учебный счет открыт.</span> После нажатия кнопки "Готово" вы войдете в учебный счет. Обязательно где-нибудь запишите номер учебного счета и пароль, чтобы не забыть.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="done">
-                        <h2>Все, теперь вы можете начинать торговать!</h2>
-                        <p>Обращаем ваше внимание, что технически торговля на учебном счете абсолютно идентична торговле
-                            на реальный счетах. Разница лишь в психологии. Перед торговлей на серьезные средства мы
-                            советуем вам начать торговать на учебном (демо) или на центовом счету. Также мы советуем
-                            вывести котировки всех валютных пар.
-                        </p>
-                        <div class="server">
-                            <span>
-                                <span class="bold">IP сервера:</span> 46.165.231.75
-                            </span>,
-                            <span>
-                                <span class="bold">порт:</span> 443
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="layout_content_lower">
-            <div class="layout_contentBlock_image">
-                <img src="../images/demo_account/pc_pic.png">
-            </div>
-            <div class="layout_contentBlock_reklama">
-                <h3>Терминал Mobius для удобной торговли на Forex</h3>
-                <p>Сотрудничая с RBC Forex, Вы получите возможность вести торговлю максимально комфортно. Мы гарантируем
-                    безупречный уровень обслуживания и квалифицированную круглосуточную техническую поддержку на всех
-                    этапах работы. Данный терминал полностью адаптирован под выполнение широкого спектра разнообразных
-                    торговых операций и проведение качественного технического анализа.</p>
-                <button class="blue">Подробней о терминале</button>
-                <div class="apps">
-                    <a href class="win"></a>
-                    <a href class="apple"></a>
-                    <a href class="android"></a>
-                    <a href class="web"></a>
-                </div>
-            </div>
+        <p class="layout_content_upper">
+        <h4>Психология – вот, что важно!</h4>
+        <p>Проведенные научные исследования показали, что если у Вас есть достаточный уровень самостоятельности (Вы
+            можете отвечать за собственные поступки, не обращая внимания на мнение посторонних), то помехой для Вашего
+            успеха может стать исключительно психология. Именно она может навсегда сделать из Вас неудачника.</p>
+        <p>Те же исследования подтвердили, что лучшим способом победить себя и свою психологию - это начать торговать на
+            небольшие (а иногда даже просто смешные) суммы. Компания RBC Forex даёт Вам такую возможность.</p>
+        <p>Мы разработали инновационную технологию, специально созданную для новичков. Она снимает какие-либо
+            ограничения на минимальный размер заключаемой сделки. Так, например, при открытии на центовом торговом счете
+            позиции на 0.01 лот один пункт будет стоить примерно 0,1 цент.</p>
+        <h4>Для начала работы Вам достаточно меньше доллара!</h4>
+        <p>Открыв центовый счет, Вы получите возможность начать работу на рынке форекс с 10 центов. Самое важное в
+            данном случае полностью расслабиться и быть готовым приумножить данную сумму с небольшими рисками.
+            Постепенно Вы сможете начать торговать уже на сумму от одного доллара и выше. Если Вы ощущаете, что Ваша
+            психология находится под полным контролем, то смело увеличивайте размер сделок. Если Вы запасётесь терпением
+            и сконцентрируетесь на поставленной задаче, то уже совсем скоро Вам будет психологически комфортно
+            оперировать десятками тысяч долларов. После этого Вы уже сможете с гордостью назвать себя истинным
+            трейдером!</p>
+        <h4>Не бойтесь рисковать!</h4>
+        <p>По мере своего профессионального роста Вы будете увеличивать размер инвестиций и в любой момент сможете
+            перейти с центовых на долларовые счета без какой-либо комиссии. Существует множество профессиональных
+            успешных трейдеров, начинавших с микро-сделок, а сейчас работающих с миллионами долларов.</p>
+        <h4>Успех Вам гарантирован!</h4>
+        <p>Если Вы полностью самостоятельны в своих решениях, не нуждаетесь в контроле и помощь начальства, хотите
+            работать на себя и любите общаться с деньгами, то на рынке Forex Вы обязательно сможете сколотить хороший
+            капитал!</p>
         </div>
     </div>
 </section>

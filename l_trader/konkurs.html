@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>RBS-Forex</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
     <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
@@ -64,36 +63,35 @@
             <nav class="menu trader">
                 <ul>
                     <li><a href="open_account.html">Открыть счет</a></li>
-                    <li><a class="active" href="demo.html">Демо счет</a></li>
+                    <li><a href="demo.html">Демо счет</a></li>
                     <li><a href="fillup.html">Пополнение счета</a></li>
                     <li><a href="withdraw.html">Вывод средств</a></li>
                     <li><a href="calculator.html">Калькулятор</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="terms.html">Условия торговли</a></li>
                     <li><a href="feed.html">Обратная связь</a></li>
-                    <li><a href="konkurs.html">Конкурсы</a></li>
+                    <li><a class="active" href="konkurs.html">Конкурсы</a></li>
                     <li><a href="bonus.html">Бонусы</a></li>
                     <li><a href="novichkam.html">Новичкам</a></li>
                 </ul>
             </nav>
-
         </div>
     </div>
 </header>
 <header class="layout_header tablet">
     <div class="layout_header_container">
         <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="fillup.html">Пополнить счет</a>
-                <a href="withdraw.html">Вывести средства</a>
-                <a href>
+                <div class="layout_headerBlock layout_headerBlock_logo">
+                    <a href="/"></a>
+                </div>
+                <div class="layout_headerBlock layout_headerBlock_menuTablet">
+                    <a href="/open_account.html">
+                        <img src="../images/main/Profile.svg" width="17" height="17">
+                        Открыть счет
+                    </a>
+                    <a href="add_fee.html">Пополнить счет</a>
+                    <a href="withdraw.html">Вывести средства</a>
+                    <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
                     Web-терминал
                 </a>
@@ -138,133 +136,64 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
+                <a href="/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="fillup.html">Пополнить</a>
+                <a href="add_fee.html">Пополнить</a>
                 <a href="withdraw.html">Вывести</a>
             </div>
         </div>
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1">
+    <div class="layout_content_container1 konkurs">
         <div class="layout_content_upper">
-            <h2>Открытие учебного счета</h2>
-        </div>
-        <div class="layout_content_middle">
-            <div class="layout_contentBlock_left">
-                <div class="form">
-                    <form>
-                        <label for="fio">ФИО</label>
-                        <input id="fio">
-                        <label for="email">Электронная почта</label>
-                        <input id="email">
-                        <label for="password">Пароль</label>
-                        <input id="password">
-                        <a href class="gen_pass">Сгенерировать</a>
-
-                        <div class="show_pass">
-                            <a href>
-                                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-                                <img class="default" src="../images/open_account/Eye.svg" width="18">
-                            </a>
-                        </div>
-                        <div class="selects">
-                            <div class="item">
-                                <label for="credit">Кредитное плечо</label>
-                                <select id="credit">
-                                    <option>1:1000</option>
-                                </select>
-                            </div>
-                            <div class="item">
-                                <label for="deposit">Депозит</label>
-                                <select id="deposit">
-                                    <option>5000</option>
-                                </select>
-                            </div>
-                        </div>
-
-
-                        <button class="blue" type="submit">Открыть демо-счет</button>
-                    </form>
-                </div>
-            </div>
-            <div class="layout_contentBlock_right">
-                <div class="learning">
-                    <h3>Вы также можете открыть демо-счет через МТ4</h3>
-
-                    <p>Для открытия учебного счета вам необходимо <a href>скачать торговую программу
-                        MetaTraider&nbsp;4</a>.
-                        Установите ее и запустите.</p>
-
-                    <div class="list">
-                        <div class="first">
-                            <span class="point">
-                                <span class="marker">1</span>
-                                Выберите в главном меню <span class="bold">Файл\Открыть счет</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help1.png" width="238">
-                        </div>
-                        <div class="second">
-                            <span class="point">
-                                <span class="marker">2</span>
-                                Заполнить контактную информацию и нажать <span class="bold">"Далее"</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help2.png" width="552">
-                        </div>
-                        <div class="third">
-                            <span class="point">
-                                <span class="marker">3</span>
-                                Выберите сервер Ficex-demo и нажмите кнопку <span class="bold">"Далее"</span>
-                            </span><br>
-                            <img src="../images/demo_account/Help3.png" width="552">
-                        </div>
-                        <div class="fourth">
-                            <span class="point">
-                                <span class="marker">4</span>
-                                <span class="bold">Учебный счет открыт.</span> После нажатия кнопки "Готово" вы войдете в учебный счет. Обязательно где-нибудь запишите номер учебного счета и пароль, чтобы не забыть.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="done">
-                        <h2>Все, теперь вы можете начинать торговать!</h2>
-                        <p>Обращаем ваше внимание, что технически торговля на учебном счете абсолютно идентична торговле
-                            на реальный счетах. Разница лишь в психологии. Перед торговлей на серьезные средства мы
-                            советуем вам начать торговать на учебном (демо) или на центовом счету. Также мы советуем
-                            вывести котировки всех валютных пар.
-                        </p>
-                        <div class="server">
-                            <span>
-                                <span class="bold">IP сервера:</span> 46.165.231.75
-                            </span>,
-                            <span>
-                                <span class="bold">порт:</span> 443
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
+            <h2>Конкурсы</h2>
+            <div class="sections">
+                <a href>
+                    <img src="../images/konkursi/Money_bag.svg" width="25">
+                    Результаты конкурсов
+                </a>
+                <a href>
+                    <img src="../images/konkursi/Winner_cup.svg" width="25">
+                    Получить приз
+                </a>
             </div>
         </div>
-        <div class="layout_content_lower">
-            <div class="layout_contentBlock_image">
-                <img src="../images/demo_account/pc_pic.png">
+        <div class="layout_contentBlock_banners">
+            <div class="banner">
+                <a href="lovi_volnu.html">
+                    <h3>Лови волну</h3>
+                    <p>Начало
+                        25 января 2016, 03:45</p>
+                    <p>Призовой фонд
+                        3000$</p>
+                    <p>Стоимость
+                        2$ или бесплатно</p>
+                </a>
             </div>
-            <div class="layout_contentBlock_reklama">
-                <h3>Терминал Mobius для удобной торговли на Forex</h3>
-                <p>Сотрудничая с RBC Forex, Вы получите возможность вести торговлю максимально комфортно. Мы гарантируем
-                    безупречный уровень обслуживания и квалифицированную круглосуточную техническую поддержку на всех
-                    этапах работы. Данный терминал полностью адаптирован под выполнение широкого спектра разнообразных
-                    торговых операций и проведение качественного технического анализа.</p>
-                <button class="blue">Подробней о терминале</button>
-                <div class="apps">
-                    <a href class="win"></a>
-                    <a href class="apple"></a>
-                    <a href class="android"></a>
-                    <a href class="web"></a>
-                </div>
+            <div class="banner">
+                <a href="popadi.html">
+                    <h3>Попади в десятку</h3>
+                    <p>Начало
+                        25 января 2016, 03:45</p>
+                    <p>Призовой фонд
+                        3000$</p>
+                    <p>Стоимость
+                        2$ или бесплатно</p>
+                </a>
+            </div>
+            <div class="banner">
+                <a href="torgui.html">
+                    <h3>Торгуй и выигрывай</h3>
+                    <p>Начало
+                        25 января 2016, 03:45</p>
+                    <p>Призовой фонд
+                        3000$</p>
+                    <p>Стоимость
+                        2$ или бесплатно</p>
+                </a>
             </div>
         </div>
     </div>
