@@ -47,3 +47,87 @@
     font-family: GothamPro-LightIt;
     src: url(../fonts/Gotham/GothaProLigIta.otf);
 }
+
+/*Roboto*/
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Roboto-BlackIt;
+    src: url(../fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-BoldIt;
+    src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Med;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-MedIt;
+    src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Reg;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-It;
+    src: url(../fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-ThinIt;
+    src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-LightIt;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
+/*Proxima Nova*/
+@font-face {
+    font-family: ProximaNova-Black;
+    src: url(../fonts/Proxima_Nova/ProximaNova-Black.otf);
+}
+@font-face {
+    font-family: ProximaNova-Xbold;
+    src: url(../fonts/Proxima_Nova/ProximaNova-Xbold.otf);
+}
+@font-face {
+    font-family: ProximaNova-Bold;
+    src: url(../fonts/Proxima_Nova/ProximaNova-Bold.otf);
+}
+@font-face {
+    font-family: ProximaNova-BoldIt;
+    src: url(../fonts/Proxima_Nova/ProximaNova-BoldIt.otf);
+}
+@font-face {
+    font-family: ProximaNova-Reg;
+    src: url(../fonts/Proxima_Nova/ProximaNova-Reg.otf);
+}
+@font-face {
+    font-family: ProximaNova-RegIt;
+    src: url(../fonts/Proxima_Nova/ProximaNova-RegIt.otf);
+}
+@font-face {
+    font-family: ProximaNova-Light;
+    src: url(../fonts/Proxima_Nova/ProximaNova-Light.otf);
+}
+@font-face {
+    font-family: ProximaNova-LightIt;
+    src: url(../fonts/Proxima_Nova/ProximaNova-LightIt.otf);
+}

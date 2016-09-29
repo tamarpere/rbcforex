@@ -11,7 +11,7 @@
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
     .layout_footer .layout_footer_content        {display: none;}
     .layout_footer .layout_footer_content2       {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
 
     .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
@@ -19,7 +19,7 @@
     .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 235%; margin: 54px 0;}
     .layout_content1 .layout_contentBlock_slide1 .buttons {display: inline-block; margin-top: 20px;}
     .layout_content1 .layout_contentBlock_slide2 h2       {font-size: 150%; margin-top: 27px;}
-    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-weight: 100;}
+    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-family: Roboto-Thin, Arial, sans-serif;}
     .layout_content1 .layout_contentBlock_slide3          {font-size: 117%; text-align: left; bottom: 35px;}
     .layout_content1 .layout_contentBlock_slide2 .apps    {width: 65px;}
     .layout_content1 .layout_contentBlock_slide2 .win     {margin: 7px; width: 13px; height: 13px;}
@@ -35,8 +35,8 @@
     .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
     .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
     .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, serif; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto, Arial, serif; font-size: 118%; font-weight: 400; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 180%; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
     .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 674px;}
     .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
     .layout_content2 .layout_contentBlock_rating tr th:last-child   {display: none}
@@ -55,6 +55,19 @@
     .layout_content3 .layout_contentBlock_resume .left_col div   {margin-bottom: 43px;}
     .layout_content3 .layout_contentBlock_resume .left_col .info {width: 223px; margin-top: 10px;}
 
+    .layout_content .layout_content_container1 {max-width: 747px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_left {width: 687px !important; margin-right: 0;}
+    .layout_content .layout_content_lower .layout_contentBlock_right {width: 687px !important; margin-top: 10px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right ul {display: inline-block;}
+    .layout_content .layout_content_lower .layout_contentBlock_right ul li {display: inline-block; margin-right: 20px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right li a:before {margin-right: 5px !important;}
+    .layout_content .layout_content_lower input {width: 414px !important;}
+    .layout_content .layout_content_lower input#password {width: 187px !important;}
+    .layout_content .layout_content_lower input#repeat_pass {width: 240px !important;}
+    .layout_content .layout_content_lower .note {width: 150px !important;}
+    .layout_header .layout_headerBlock_menu {max-width: 748px !important; text-align: left;}
+    .layout_header .layout_header_container .triangle.traider {top: 20px !important; left: 15px !important;}
+
 }
 
 @media screen and (min-device-width: 940px) and (max-device-width: 1079px) {
@@ -70,7 +83,7 @@
     .layout_footer .layout_footer_container      {width: 100%; max-width: 920px;}
     .layout_footer .layout_footer_content        {display: none;}
     .layout_footer .layout_footer_content2       {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
 
     .layout_content1 .layout_content_container1 {max-width: 920px;}
@@ -86,8 +99,8 @@
     .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
     .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; max-width: 806px; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
     .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, serif; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto, Arial, serif; font-size: 118%; font-weight: 400; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 180%; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
     .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 735px;}
     .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
     .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
@@ -102,5 +115,13 @@
 
     .layout_content3 .layout_content_container5.desktop {display: none;}
     .layout_content3 .layout_content_container5.tablet  {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+
+    .layout_content .layout_content_container1 {max-width: 920px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right {width: 747px !important; margin-top: 10px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right ul {display: inline-block;}
+    .layout_content .layout_content_lower .layout_contentBlock_right ul li {display: inline-block; margin-right: 20px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right li a:before {margin-right: 5px !important;}
+    .layout_header .layout_headerBlock_menu {max-width: 920px !important; text-align: left;}
+    .layout_header .layout_header_container .triangle.traider {top: 20px !important; left: 15px !important;}
 
 }
