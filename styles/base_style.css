@@ -56,6 +56,7 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 .layout_header .layout_headerBlock_logo a           {display: block; height: 100%;}
 .layout_header .layout_headerBlock_nav              {display: inline-block; line-height: 47px; vertical-align: bottom; margin: 0 7%;}
 .layout_header .layout_headerBlock_nav li           {display: inline-block; padding: 0 15px; color: #218ed2;}
+.layout_header .layout_headerBlock_nav li.active    {position: relative;}
 .layout_header .layout_headerBlock_nav li a         {text-transform: uppercase; font-size: 100%; font-family: GothamPro-Bold, Arial, serif;}
 .layout_header .layout_headerBlock_nav li a.active  {color: #1c252f;}
 .layout_header .layout_headerBlock_account          {float: right; text-align: right; font-size: 100%; line-height: 47px;}

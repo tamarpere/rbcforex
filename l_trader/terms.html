@@ -42,7 +42,8 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a class="active" href="open_account.html">Трейдерам</a></li>
+                        <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
+                            <div class="triangle traider"></div></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
@@ -57,7 +58,7 @@
                 </a>
             </div>
         </div>
-        <div class="triangle traider"></div>
+
     </div>
     <div class="layout_header_container1">
         <div class="layout_headerBlock layout_headerBlock_menu">
@@ -148,7 +149,7 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 bonus">
+    <div class="layout_content_container1 terms">
         <div class="layout_content_upper">
             <h2>Условия</h2>
             <div class="kinds">
@@ -158,17 +159,18 @@
                     <li><a href="terms3.html">Торговые часы</a></li>
                 </ul>
             </div>
+            <div class="clear"></div>
             <h4>Компания ForexStart предоставляет своим клиентам наиболее выгодные условия торговли на мировом финансовом рынке Форекс.</h4>
-            <table>
+            <table cellspacing="0" cellpadding="0" class="summary">
                 <tr>
-                    <td>0,01 лот<br>
+                    <td><span>0,01&nbsp;лот</span><br>
                         Размер минимального контракта
                     </td>
-                    <td>0,3 пипса<br>
+                    <td><span>0,3&nbsp;пипса</span><br>
                         Комиссия над парами с v, металлами и индексами</td>
-                    <td>01:00 Пн - 01:00 Сб<br>
+                    <td><span>01:00&nbsp;Пн&nbsp;-&nbsp;01:00&nbsp;Сб</span><br>
                         Время торговли по инструментам</td>
-                    <td>Среда<br>
+                    <td><span>Среда</span><br>
                         День начисления тройного свопа. Своп начисляется в 00:00 по времени торгового сервера (МСК-1).</td>
                 </tr>
             </table>
@@ -179,9 +181,10 @@
                 <img src="../images/uslovia/Excel.svg" width="20">
                 Скачать условия одним файлом
             </a>
+            <div class="clear"></div>
             <p>Пожалуйста, обратите внимание: Спреды являются минимальными, когда рынок наиболее активен. Комиссия составляет 0,3 пункта. У нас нет никаких скрытых платежей: вы платите нам ровно 0,3 пипса комисси за сделку.</p>
             <div class="list">
-                <a href>ALL</a>
+                <a class="active" href>ALL</a>
                 <a href>AUD</a>
                 <a href>CAD</a>
                 <a href>CHF</a>
@@ -200,36 +203,46 @@
                 <a href>MXN</a>
             </div>
             <div class="table_terms">
-                <table>
+                <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <th>Инструмент</th>
-                        <th>Title</th>
-                        <th>Trading Hours</th>
-                        <th>Break Time</th>
+                        <th>Название</th>
+                        <th>Spread (min)</th>
+                        <th>Spread (avg)</th>
+                        <th>Swap long</th>
+                        <th>Swap short</th>
                     </tr>
                     <tr>
-                        <td>Forex</td>
-                        <td>All currency pairs</td>
-                        <td>Sun 21:00 - Fri 21:00 <span>*</span></td>
-                        <td>Daily 20:57 up to 21:15 <span>**</span></td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Canadian Dollar</td>
+                        <td>0.1</td>
+                        <td>0.9</td>
+                        <td>0.415</td>
+                        <td>-0.415</td>
                     </tr>
                     <tr>
-                        <td>Metals</td>
-                        <td>XAUUSD, XAUEUR, XAGUSD, XAGEUR</td>
-                        <td>Sun 22:00 - Fri 21:00</td>
-                        <td>Daily 21:00 - 22:00</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Japanese Yen</td>
+                        <td>0.5</td>
+                        <td>1.6</td>
+                        <td>0.571</td>
+                        <td>-0.577</td>
                     </tr>
                     <tr>
-                        <td>AUS200v</td>
-                        <td>The Australian Stock Exchange Index</td>
-                        <td>Daily 23:50-20:00</td>
-                        <td>Daily 06:30-07:10</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Canadian Dollar</td>
+                        <td>0.1</td>
+                        <td>0.9</td>
+                        <td>0.415</td>
+                        <td>-0.415</td>
                     </tr>
                     <tr>
-                        <td>CAC40v</td>
-                        <td>French Stock Exchange Index</td>
-                        <td>Daily 06:00-20:00</td>
-                        <td>None</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Japanese Yen</td>
+                        <td>0.5</td>
+                        <td>1.6</td>
+                        <td>0.571</td>
+                        <td>-0.577</td>
                     </tr>
                 </table>
             </div>
@@ -238,7 +251,7 @@
             <h3>Forex. Fixed Spreads</h3>
             <p>Спреды фиксированы. Комиссия отсутствует.</p>
             <div class="list">
-                <a href>ALL</a>
+                <a class="active" href>ALL</a>
                 <a href>AUD</a>
                 <a href>CAD</a>
                 <a href>CHF</a>
@@ -249,36 +262,46 @@
                 <a href>EUR</a>
             </div>
             <div class="table_terms">
-                <table>
+                <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <th>Инструмент</th>
-                        <th>Title</th>
-                        <th>Trading Hours</th>
-                        <th>Break Time</th>
+                        <th>Название</th>
+                        <th>Spread (min)</th>
+                        <th>Spread (avg)</th>
+                        <th>Swap long</th>
+                        <th>Swap short</th>
                     </tr>
                     <tr>
-                        <td>Forex</td>
-                        <td>All currency pairs</td>
-                        <td>Sun 21:00 - Fri 21:00 <span>*</span></td>
-                        <td>Daily 20:57 up to 21:15 <span>**</span></td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Canadian Dollar</td>
+                        <td>0.1</td>
+                        <td>0.9</td>
+                        <td>0.415</td>
+                        <td>-0.415</td>
                     </tr>
                     <tr>
-                        <td>Metals</td>
-                        <td>XAUUSD, XAUEUR, XAGUSD, XAGEUR</td>
-                        <td>Sun 22:00 - Fri 21:00</td>
-                        <td>Daily 21:00 - 22:00</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Japanese Yen</td>
+                        <td>0.5</td>
+                        <td>1.6</td>
+                        <td>0.571</td>
+                        <td>-0.577</td>
                     </tr>
                     <tr>
-                        <td>AUS200v</td>
-                        <td>The Australian Stock Exchange Index</td>
-                        <td>Daily 23:50-20:00</td>
-                        <td>Daily 06:30-07:10</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Canadian Dollar</td>
+                        <td>0.1</td>
+                        <td>0.9</td>
+                        <td>0.415</td>
+                        <td>-0.415</td>
                     </tr>
                     <tr>
-                        <td>CAC40v</td>
-                        <td>French Stock Exchange Index</td>
-                        <td>Daily 06:00-20:00</td>
-                        <td>None</td>
+                        <td>AUDCADv</td>
+                        <td>Australian Dollar/Japanese Yen</td>
+                        <td>0.5</td>
+                        <td>1.6</td>
+                        <td>0.571</td>
+                        <td>-0.577</td>
                     </tr>
                 </table>
             </div>

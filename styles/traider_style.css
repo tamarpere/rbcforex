@@ -5,7 +5,7 @@
 .layout_header .layout_headerBlock_menu a.active {font-weight: 700; background: #fff; color: #181818;}
 .layout_header .layout_headerBlock_menu          {max-width: 1080px; margin: 0 auto; position: relative;}
 .layout_header .layout_headerBlock_menu .menu    {display: inline-block; margin: 13px 0;}
-.layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 110px; left: 380px;}
+.layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 30px;}
 
 .layout_content .layout_content_container1                            {position: relative; max-width: 1080px; margin: 0 auto; padding: 50px 0 0 0; color: #181818;}
 .layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, serif; line-height: 30px; font-size: 300%; margin-bottom: 59px;}
@@ -177,4 +177,86 @@
 .layout_content_container1.faq .title {font-size: 135%; color: #0a79bf;}
 .layout_content_container1.faq .text {display: none; font-size: 118%; color: #181818;}
 
+.layout_content_container1.terms {color: #181818; font-family: Roboto, Arial, serif; padding-bottom: 50px;}
+.layout_content_container1 h2 {display: inline-block;}
+.layout_content_container1 .kinds {float: right; width: 50%; text-align: right;}
+.layout_content_container1 .kinds ul {display: inline-block;}
+.layout_content_container1 .kinds ul li {display: inline-block; font-family: Roboto, Arial, serif; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
+.layout_content_container1 .kinds ul li a {padding: 0 25px; border-radius: 23px;}
+.layout_content_container1 .kinds ul li a.active {background: #0a79bf; color: #ffffff;}
+.layout_content_container1 h4 {font-size: 133%; font-weight: 400;}
+.layout_content_container1 .summary {width: 100%;}
+.layout_content_container1 .summary td {font-size: 118%; vertical-align: top; padding-right: 57px; padding-bottom: 40px; border-bottom: 1px solid #dee2e4;}
+.layout_content_container1 .summary td span {font-size: 140%; margin-bottom: 20px; display: inline-block;}
+.layout_content_container1 h3 {font-family: GothamPro-Reg, Arial, serif; font-size: 235%; font-weight: 400; color: #2a333c; margin: 36px 0 27px 0; display: inline-block;}
+.layout_content_container1.terms p {font-size: 118%; margin-bottom: 35px; font-family: Roboto, Arial, serif; line-height: 27px;}
+.layout_content_container1 .download_terms {float: right; text-align: right; color: #08743b; font-weight: 700; margin-top: 43px;}
+.layout_content_container1 .list a {font-family: GothamPro-Med, Arial, serif; font-size: 133%; color: #0a79bf; margin-right: 20px; padding-bottom: 17px;}
+.layout_content_container1 .list a:last-child {margin-right: 0;}
+.layout_content_container1 .list a.active {color: #2a333c; border-bottom: 5px solid #2a333c; }
+.layout_content_container1 .table_terms {margin-top: 20px; width: 1080px;}
+.layout_content_container1 .table_terms table {width: 100%;}
+.layout_content_container1 .table_terms th {color: #fff; background: #2a333c; padding: 17px 25px; text-align: left;}
+.layout_content_container1 .table_terms td {color: #2a333c; padding: 30px 25px; text-align: left; font-size: 140%; background: #ffffff; border-bottom: 1px solid #f5f6f7;}
+.layout_content_container1 .table_terms td:first-child {font-size: 150%;}
+.layout_content_container1 .layout_contentBlock_type .types  {display: inline-block;}
+.layout_content_container1 .layout_contentBlock_type .type {float: left; width: 474px; margin-right: 10px; background: #ffffff; padding: 30px;}
+.layout_content_container1 .layout_contentBlock_type .type:last-child {margin-right: 0;}
+.layout_content_container1 .layout_contentBlock_type .type h3 {margin-top: 0; margin-bottom: 30px; font-size: 250%;}
+.layout_content_container1 .layout_contentBlock_type p {margin-bottom: 30px; line-height: 15px;}
+.layout_content_container1 .layout_contentBlock_type .blue {width: 249px; height: 39px; line-height: 36px; font-size: 118%;}
+.layout_content_container1.terms .comment {line-height: 21px; margin-bottom: 20px; font-size: 88%;}
+.layout_content_container1.terms .comment:last-child {margin-bottom: 0;}
+.layout_content_container1.terms .star {color: #ff0000;}
+
+.layout_content_container1.feed .wrapper {font-family: Roboto, Arial, serif; width: 100%; height: 639px; background: url("../images/feedback/Bg_letter.png") center top no-repeat; background-size: cover;}
+.layout_content_container1.feed {text-align: center;}
+.layout_content_container1.feed .form {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
+.layout_content_container1.feed .form label {float: left; width: 150px; font-size: 118%; font-weight: 500; margin-right: 76px; line-height: 43px;}
+.layout_content_container1.feed .form input {float: left; width: 500px; height: 39px; border: 2px solid #e8eaeb; margin-bottom: 20px;}
+.layout_content_container1.feed .form input[name="city"] {width: 205px; margin-right: 100px;}
+.layout_content_container1.feed .form input[name="number"] {width: 205px; margin-right: 22px;}
+.layout_content_container1.feed .form img {float: left; margin-top: -3px;}
+.layout_content_container1.feed .form input[name="message"] {height: 214px;}
+.layout_content_container1.feed .form label[for="capcha"] {line-height: 21px;}
+.layout_content_container1.feed .form .blue {width: 205px; height: 39px; line-height: 36px; font-size: 118%; margin: 15px auto 0 auto;}
+
+.layout_content_container1.konkurs {padding-bottom: 20px;}
+.layout_content_container1.konkurs h2 {display: inline-block;}
+.layout_content_container1.konkurs .sections {text-align: right; float: right; font-size: 118%; font-family: Roboto, Arial, serif; font-weight: 500; color: #0a79bf;}
+.layout_content_container1.konkurs .sections a {margin-left: 43px; display: inline-block;}
+.layout_content_container1.konkurs .banner {font-family: Roboto, Arial, serif; width: 1078px; height: 250px; background-size: cover; margin-bottom: 30px;}
+.layout_content_container1.konkurs .banner a {width: 1048px; height: 100%; display: inline-block; padding-left: 30px;}
+.layout_content_container1.konkurs .banner.first {background: url("../images/konkursi/Banner1.png") center no-repeat; color: #ffffff;}
+.layout_content_container1.konkurs .banner.first h3 {margin-bottom: 26px; font-family: "Proxima nova", Helvetica, sans-serif; color: #ffffff; font-weight: 700; font-size: 240%;}
+.layout_content_container1.konkurs .banner.second h3 {margin-bottom: 26px; font-family: "Proxima nova", Helvetica, sans-serif; color: #ff515b; font-weight: 700; font-size: 240%;}
+.layout_content_container1.konkurs .banner.third h3 {margin-bottom: 26px; font-family: "Proxima nova", Helvetica, sans-serif; color: #ffffff; font-weight: 700; font-size: 240%;}
+.layout_content_container1.konkurs .banner.second {background: url("../images/konkursi/Banner2.png") center no-repeat; color: #353535;}
+.layout_content_container1.konkurs .banner.third {background: url("../images/konkursi/Banner3.png") center no-repeat; color: #ffffff;}
+.layout_content_container1.konkurs p {font-size: 135%; font-weight: 400; line-height: 27px;}
+.layout_content_container1.konkurs .bold {font-size: 88%; font-weight: 700;}
+.layout_content_container1.konkurs .floats p {float: left; margin-top: 20px; margin-right: 40px;}
+.layout_content_container1.konkurs .layout_contentBlock_banner {display: inline-block;}
+.layout_content_container1.konkurs .layout_contentBlock_banner img {float: left; margin-right: 10px;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info {color: #2c2d2d; font-family: Roboto, Arial, serif; float: left; height: 340px; padding: 36px 29px; width: 340px; background: #ffffff;}
+.layout_content_container1.konkurs .layout_contentBlock_banner h4 {color: #ff321d; font-size: 150%; margin-bottom: 18px;}
+.layout_content_container1.konkurs .layout_contentBlock_banner ul {margin-bottom: 30px;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info li:before {display: inline-block; margin-right: 10px; content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info li {font-size: 118%; line-height: 23px; margin-bottom: 10px; display: block;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .float {float: left; width: 50%; font-size: 118%; line-height: 25px;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .float span {}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .float .bold {font-weight: 700; font-size: 100%;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .note {margin-top: 30px; display: inline-block; line-height: 20px; font-size: 108%;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .note a {color: #218ed2; font-weight: 700;}
+.layout_content_container1.konkurs .layout_contentBlock_prises {clear: both; margin-top: 50px; display: block; font-family: Roboto, Arial, serif;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .article {color: #222a3a; line-height: 30px; margin-bottom: 45px;}
+.layout_content_container1.konkurs .layout_contentBlock_prises h4 {font-size: 170%; margin-bottom: 20px;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris {float: left; margin-right: 40px;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris table {width: 260px; background: #218ed2; color: #ffffff;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris th {border-bottom: 1px solid #419ed8; padding: 19px 39px; font-size: 110%; text-transform: uppercase;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris th:first-child {border-right: 1px solid #419ed8;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td {padding: 18px; font-size: 135%;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td:first-child {border-right: 1px solid #419ed8; text-align: right;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .how_get {float: left; width: 757px;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .how_get .answer {margin-bottom: 30px; line-height: 20px; font-size: 118%;}
 

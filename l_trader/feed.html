@@ -41,7 +41,8 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a class="active" href="open_account.html">Трейдерам</a></li>
+                        <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
+                            <div class="triangle traider"></div></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
@@ -56,7 +57,7 @@
                 </a>
             </div>
         </div>
-        <div class="triangle traider"></div>
+
     </div>
     <div class="layout_header_container1">
         <div class="layout_headerBlock layout_headerBlock_menu">
@@ -147,25 +148,27 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 faq">
+    <div class="layout_content_container1 feed">
         <div class="layout_content_upper">
             <h2>Вопросы или замечания по работе компании, сайта</h2>
-            <div class="form">
-                <form>
-                    <label>Имя</label>
-                    <input>
-                    <label>Электронная почта</label>
-                    <input>
-                    <label>Город</label>
-                    <input>
-                    <label>Ваше сообщение</label>
-                    <input type="text">
-                    <label>Введите символы
-                        с изображения</label>
-                    <input>
-                    <img src="../images/feedback/Capcha.png">
-                    <button class="blue">Отправить</button>
-                </form>
+            <div class="wrapper">
+                <div class="form">
+                    <form>
+                        <label>Имя</label>
+                        <input name="name">
+                        <label>Электронная почта</label>
+                        <input name="email">
+                        <label>Город</label>
+                        <input name="city">
+                        <label>Ваше сообщение</label>
+                        <input type="text" name="message">
+                        <label for="capcha">Введите символы с изображения</label>
+                        <input id="capcha" name="number">
+                        <img src="../images/feedback/Capcha.png">
+                        <div class="clear"></div>
+                        <button class="blue">Отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
