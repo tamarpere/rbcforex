@@ -55,7 +55,7 @@
     .layout_content3 .layout_contentBlock_resume .left_col div   {margin-bottom: 43px;}
     .layout_content3 .layout_contentBlock_resume .left_col .info {width: 223px; margin-top: 10px;}
 
-    .layout_content .layout_content_container1 {max-width: 747px !important;}
+    .layout_content .layout_content_container1 {max-width: 747px !important; padding: 36px 0 0 0 !important;}
     .layout_content .layout_content_lower .layout_contentBlock_left {width: 687px !important; margin-right: 0;}
     .layout_content .layout_content_lower .layout_contentBlock_right {width: 687px !important; margin-top: 10px;}
     .layout_content .layout_content_lower .layout_contentBlock_right ul {display: inline-block;}
@@ -67,6 +67,70 @@
     .layout_content .layout_content_lower .note {width: 150px !important;}
     .layout_header .layout_headerBlock_menu {max-width: 748px !important; text-align: left;}
     .layout_header .layout_header_container .triangle.traider {top: 20px !important; left: 15px !important;}
+
+    .layout_content .layout_content_container1.fillup .comission {padding: 14px 19px 26px 19px !important; height: 34px !important; top: 16px !important;}
+    .layout_content .layout_content_container1.fillup .layout_contentBlock_left   {padding: 20px !important; width: 697px !important; height: 17px; margin-right: 0 !important;}
+    .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 677px !important;}
+    .layout_content .layout_content_container1.fillup .payment table               {display: none;}
+    .layout_content .layout_content_container1.fillup .payment .title              {line-height: 17px;}
+    .layout_content .layout_content_container1.fillup label                        {width: 200px !important; margin-right: 35px;}
+    .layout_content .layout_content_container1.fillup input                        {width: 240px !important;}
+    .layout_content .layout_content_container1.fillup input#sum                    {width: 137px !important;}
+    .layout_content .layout_content_container1.fillup input#result                 {width: 137px !important;}
+    .layout_content .layout_content_container1.fillup select                       {width: 93px !important;}
+    .layout_content .layout_content_container1.fillup .note.long                   {margin-top: -20px;}
+    .layout_content .layout_content_container1.fillup .note.done                   {width: 440px !important; clear: both;}
+    .layout_content .layout_content_container1.fillup .blue                        {margin-left: 240px !important;}
+    .layout_content .layout_content_container1.fillup .payment .more_payment       {display: inline-block;}
+    .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px !important;}
+    .layout_content .layout_content_container1.fillup .data_card .note             {width: 70px !important;}
+
+    .layout_content_container1.calc .layout_contentBlock_left   {padding: 20px !important; width: 707px !important; height: 17px; margin-right: 0 !important;}
+    .layout_content_container1.calc .payment ul               {display: none;}
+    .layout_content_container1.calc .payment .title              {line-height: 17px;}
+    .layout_content .layout_content_container1.calc .payment .more_payment       {display: inline-block;}
+    .layout_content_container1.calc .layout_contentBlock_right .addition {width: 630px !important;}
+    .layout_content_container1.calc .layout_contentBlock_right form #type_fee         {width: 147px !important;}
+    .layout_content_container1.calc .layout_contentBlock_right form #tool             {width: 125px !important;}
+    .layout_content_container1.calc .layout_contentBlock_right form #lot              {width: 77px !important;}
+    .layout_content_container1.calc .layout_contentBlock_right form #count            {width: 77px !important;}
+    .layout_content_container1.calc .layout_contentBlock_right form #pips             {width: 67px !important;}
+
+    .layout_content .layout_content_lower .attention {width: 638px !important;}
+    .layout_content .layout_content_lower .more {width: 638px !important;}
+    .layout_content .layout_content_lower .extra_info .form input {width: 205px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after a {float: left; text-align: left !important; height: 73px; width: 303px !important; margin-bottom: 0 !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after {width: 748px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after .download a {margin-right: 20px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after img {float: left !important; margin: 0 20px 0 0 !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after .link {margin-top: 20px; display: inline-block;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {display: block; margin-top: 20px;}
+
+    .layout_content_container1.faq .question {width: 748px !important;}
+
+    .layout_content_container1 .kinds {width: 70% !important;}
+    .layout_content_container1 .table_terms {width: 748px !important;}
+    .layout_content_container1 .list a {font-size: 100% !important; margin-right: 13px !important; padding-bottom: 6px !important;}
+
+    .layout_content_container1 .layout_contentBlock_type .type {width: 305px !important;}
+
+    .layout_content_container1.feed .wrapper {background: #ffffff !important;}
+    .layout_content_container1.feed .form input {width: 420px !important;}
+    .layout_content_container1.feed .form input[name="city"]    {width: 205px !important;}
+    .layout_content_container1.feed .form input[name="number"]  {width: 205px !important;}
+
+
+
+    .layout_content_container1.konkurs .banner {width: 748px !important;}
+    .layout_content_container1.konkurs .banner a {width: 748px !important;}
+    .layout_content_container1.konkurs .layout_contentBlock_prises .table_pris table {float: left;}
+    .layout_content_container1.konkurs .layout_contentBlock_prises .how_get {width: 440px !important;}
+    .layout_content_container2.konkurs .wrapper {width: 748px !important;}
+
+    .layout_content_container1.bonus .text {width: 363px !important;}
+
+    .layout_content_container1.bonus .item {width: 102px !important; margin-right: 5px !important;}
+    .layout_content_container1.novichkam .image_banner {width: 470px;}
 
 }
 

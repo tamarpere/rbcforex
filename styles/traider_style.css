@@ -117,19 +117,20 @@
 .layout_content .layout_contentBlock_reklama .web     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
 .layout_content .layout_content_container1.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: 28px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
+.layout_content .layout_content_container1.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_left    {width: 205px; padding: 30px 25px;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818;}
-.layout_content .layout_content_container1.fillup .payment                     {}
 .layout_content .layout_content_container1.fillup .payment td                  {padding: 10px 0;}
 .layout_content .layout_content_container1.fillup .payment td:first-child      {text-align: center;}
 .layout_content .layout_content_container1.fillup .payment td:nth-child(2)     {color: #218ed2;}
 .layout_content .layout_content_container1.fillup .payment .title              {font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
+.layout_content .layout_content_container1.fillup .payment .more_payment       {display: none;}
 .layout_content .layout_content_container1.fillup label                        {font-size: 100%; font-family: Roboto-Med, Arial, sans-serif; line-height: 23px;}
 .layout_content .layout_content_container1.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
-.layout_content .layout_content_container1.fillup input[id="sum"]              {width: 157px;}
-.layout_content .layout_content_container1.fillup input[id="result"]           {width: 157px;}
+.layout_content .layout_content_container1.fillup input#sum                    {width: 157px;}
+.layout_content .layout_content_container1.fillup input#result                 {width: 157px;}
 .layout_content .layout_content_container1.fillup select                       {float: left; width: 91px; height: 41px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
-.layout_content .layout_content_container1.fillup .note                        {float: left; width: 200px; color: #9b9a9a; font-size: 85%; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content .layout_content_container1.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; float: left; width: 200px; color: #9b9a9a; font-size: 85%; display: inline-block; margin-left: 20px; line-height: 19px;}
 .layout_content .layout_content_container1.fillup a.note                       {color: #218ed2;}
 .layout_content .layout_content_container1.fillup .note.done                   {width: 504px; float: right;}
 .layout_content .layout_content_container1.fillup .addition                    {float: right; color: #202020; font-size: 100%; width: 80%;}
@@ -200,6 +201,7 @@
 .layout_content_container1 .layout_contentBlock_type .type            {float: left; width: 474px; margin-right: 10px; background: #ffffff; padding: 30px;}
 .layout_content_container1 .layout_contentBlock_type .type:last-child {margin-right: 0;}
 .layout_content_container1 .layout_contentBlock_type .type h3         {margin-top: 0; margin-bottom: 30px; font-size: 250%;}
+.layout_content_container1 .layout_contentBlock_type .type .bold      {font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content_container1 .layout_contentBlock_type p                {margin-bottom: 30px; line-height: 15px;}
 .layout_content_container1 .layout_contentBlock_type .blue            {width: 249px; height: 39px; line-height: 36px; font-size: 118%;}
 .layout_content_container1.terms .comment                             {line-height: 21px; margin-bottom: 20px; font-size: 88%;}
@@ -285,8 +287,8 @@
 .layout_content_container1.bonus .text            {float: left; width: 497px; margin-right: 47px;}
 .layout_content_container1.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
 .layout_content_container1.bonus img              {float: left;}
-.layout_content_container1.bonus .item            {float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
-.layout_content_container1.bonus .item:last-child {margin-right: 0;}
+.layout_content_container1.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
+.layout_content_container1.bonus .item:last-child {margin-right: 0 !important;}
 .layout_content_container1.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-size: 315%;}
 
 .layout_content_container1.novichkam                       {padding-bottom: 36px;}
