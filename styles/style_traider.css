@@ -61,6 +61,8 @@
 .layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
 .layout_content .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
 .layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: block;}
+.layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile {display: none;}
 .layout_content .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
 .layout_content .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-size: 118%;}
 .layout_content .layout_content_lower .more a                                        {position: absolute; right: 14px;}
@@ -73,6 +75,8 @@
 .layout_content .layout_content_lower .extra_info .blue                              {float: left; border-radius: 20px; margin-top: 45px; height: 41px; line-height: 35px; font-size: 118%; width: 245px;}
 .layout_content .layout_content_lower .extra_info .blue.save                         {width: 335px;}
 .layout_content .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
+.layout_content .layout_content_lower .extra_info .form .blue.mobile                 {display: none;}
+.layout_content .layout_content_lower .extra_info .form .blue.desktop                {display: block;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after               {background: transparent; padding: 0;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after a             {width: 202px; background: #fff; display: block; padding: 30px; text-align: center; margin-bottom: 10px;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after img           {display: block; float: none; margin: 0 auto 20px auto;}
@@ -278,7 +282,7 @@
 .layout_content_container2.konkurs .show_pass a:hover .hover                              {opacity: 1;}
 .layout_content_container2.konkurs .show_pass a:hover .default                            {opacity: 0;}
 .layout_content_container2.konkurs .gen_pass                                              {font-family: Roboto-Reg, Arial, sans-serif; color: #218ed2; vertical-align: top; line-height: 40px;}
-.layout_content_container2.konkurs input[id="repeat_pass"]                                {width: 240px; float: left;}
+.layout_content_container2.konkurs input#repeat_pass                                      {width: 240px; float: left;}
 .layout_content_container2.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
 .layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
 .layout_content_container2.konkurs .form .blue                                            {margin-top: 15px; width: 257px; height: 39px; line-height: 35px; font-size: 118%; border-radius: 20px;}

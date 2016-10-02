@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>RBS-Forex</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<link href="../styles/fonts.css" rel="stylesheet" type="text/css">
-	<link href="../styles/base_style.css" rel="stylesheet" type="text/css">
-	<link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
-	<link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-	<link href="../styles/traider_style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
 <header class="layout_header desktop">
@@ -169,22 +170,21 @@
         </div>
     </div>
 </header>
-
 <section class="layout_content">
-    <div class="layout_content_container1">
+    <div class="layout_content_container1 opened">
         <div class="layout_content_upper">
             <img class="ok" src="../images/open_account/Ok.svg" width="32">
             <h2>Ваш счет в компании открыт</h2>
         </div>
         <div class="layout_content_lower">
             <div class="layout_contentBlock_left">
-                <p>На ваш адрес электронной почты выслано уведомление об открытии счета.<br>Пароли по почте не высылаются.</p>
+                <p>На ваш адрес электронной почты выслано уведомление об открытии счета. Пароли по почте не высылаются.</p>
                 <div class="attention">
                     <span>Внимание: запомните или запишите пароль для снятия средств.</span>
                     <span class="password">UmUckpGo</span>
                 </div>
                 <div class="profile_info">
-                    <table cellspadding="0" cellspacing="0">
+                    <table class="desktop" cellspadding="0" cellspacing="0">
                         <tr>
                             <td>Номер счета</td>
                             <td>175432</td>
@@ -210,6 +210,26 @@
                             <td>UmUckpGo</td>
                         </tr>
                     </table>
+                    <table class="mobile" cellspadding="0" cellspacing="0">
+                        <tr>
+                            <td><span class="bold">Номер счета</span><br>175432</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">ФИО</span><br>Андрей Анатольевич Степанов</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">E-mail</span><br>captainanch@yandex.ru</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Кредитное плечо</span><br>1:100</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Пароль трейдера</span><br>ivanov455</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Пароль для вывода</span><br>UmUckpGo</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="extra_info">
 	                <div class="more">
@@ -225,7 +245,8 @@
                             <input id="country">
                             <label for="city">Город</label>
                             <input id="city">
-                            <button class="blue save" type="submit">Сохранить и перейти в личный кабинет</button>
+                            <button class="blue save desktop" type="submit">Сохранить и перейти в личный кабинет</button>
+                            <button class="blue save mobile" type="submit">Перейти в личный кабинет</button>
                         </form>
                     </div>
 	                <button class="blue simple_go" type="submit">Перейти в личный кабинет</button>
@@ -271,12 +292,12 @@
                     <span class="title">Трейдерам</span>
                     <ul>
                         <li><a href>Для начинающих</a></li>
-                        <li><a href>Учебный счет</a></li>
-                        <li><a href>Торговый счет</a></li>
-                        <li><a href>Ввод средств</a></li>
-                        <li><a href>Вывод средств</a></li>
-                        <li><a href="calculator.html">Калькулятор</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="l-traider/demo.html">Учебный счет</a></li>
+                        <li><a href="l-traider/open_account.html">Торговый счет</a></li>
+                        <li><a href="l-traider/fillup.html">Ввод средств</a></li>
+                        <li><a href="l-traider/withdraw.html">Вывод средств</a></li>
+                        <li><a href="l-traider/calculator.html">Калькулятор</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                         <li><a href>Условия торговли</a></li>
                     </ul>
                 </div>
@@ -290,7 +311,7 @@
                         <li><a href>Реферальная система</a></li>
                         <li><a href>Баннеры</a></li>
                         <li><a href>Промо код</a></li>
-                        <li><a href>FAQ</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col col_4">
@@ -319,7 +340,8 @@
             </div>
             <div class="layout_footerBlock layout_footerBlock_protect">
                 <img src="../images/main/Gurs_footer.png">
-                <span>Защищено GURS<br>Global Unite Responsibility System</span>
+                <span class="desktop">Защищено GURS<br>Global Unite Responsibility System</span>
+                <span class="mobile">Защищено<br>GURS</span>
             </div>
         </div>
     </div>
