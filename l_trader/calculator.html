@@ -178,10 +178,10 @@
                     <span class="title">Платежная система</span>
                     <ul>
                         <li><a href>Стоимость одного пипса</a></li>
-                        <li><a class="active" href>Стоимость нескольких пипсов</a></li>
+                        <li><a class="active" href="calculator.html">Стоимость нескольких пипсов</a></li>
                         <li><a href>Начальное количество средств</a></li>
-                        <li><a href>Калькулятор свопов</a></li>
-                        <li><a href>Ваша прибыль</a></li>
+                        <li><a href="calculator_svop.html">Калькулятор свопов</a></li>
+                        <li><a href="calculator_prib.html">Ваша прибыль</a></li>
                     </ul>
                 </div>
             </div>
@@ -203,24 +203,24 @@
                             <td>Необходимо</td>
                         </tr>
                         <tr>
-                            <td><select id="type_fee">
+                            <td><select class="type_fee">
                                 <option>Долларовый</option>
                             </select></td>
-                            <td><select id="tool">
+                            <td><select class="tool">
                                 <option>EURUSD</option>
                             </select></td>
-                            <td><input id="lot"></td>
-                            <td><input id="count"></td>
+                            <td><input class="lot"></td>
+                            <td><input class="count"></td>
                             <td><input id="pips"></td>
                             <td class="result">11.04$</td>
                         </tr>
                     </table>
 
                     <button class="blue">Рассчитать</button>
-                    <div class="add_row">
+                    <a href class="add_row">
                         <img src="../images/calc/Add.svg" width="16">
                         <span>Добавить ряд</span>
-                    </div>
+                    </a>
                 </form>
                 <div class="clear"></div>
                 <div class="addition">

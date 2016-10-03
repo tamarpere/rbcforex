@@ -8,6 +8,7 @@
     <link href="styles/base_style.css" rel="stylesheet" type="text/css">
     <link href="styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="styles/style_mobile.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 <header class="layout_header desktop">
@@ -21,11 +22,11 @@
                 <a href="l_trader/fillup.html">Пополнить счет</a>
                 <a href="l_trader/withdraw.html">Вывести средства</a>
             </div>
+            <a href class="terminal">
+                <img src="images/main/Terminal.svg" width="14" height="13">
+                Web-терминал
+            </a>
             <div class="layout_headerBlock layout_headerBlock_right">
-                <a href>
-                    <img src="images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
                 <a href>
                     <img src="images/main/Comment.svg" width="15" height="15">
                     Live chat
@@ -55,7 +56,6 @@
                 </a>
             </div>
         </div>
-
     </div>
 </header>
 <header class="layout_header tablet">
@@ -65,23 +65,25 @@
                     <a href="/"></a>
                 </div>
                 <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                    <a href="l_trader/open_account.html">
-                        <img src="images/main/Profile.svg" width="17" height="17">
-                        Открыть счет
-                    </a>
-                    <a href="l_trader/fillup.html">Пополнить счет</a>
-                    <a href="l_trader/withdraw.html">Вывести средства</a>
+                    <div class="left">
+                        <a href="l_trader/open_account.html">
+                            <img src="images/main/Profile.svg" width="17" height="17">
+                            Открыть счет
+                        </a>
+                        <a href="l_trader/fillup.html">Пополнить счет</a>
+                        <a href="l_trader/withdraw.html">Вывести средства</a>
+                    </div>
                     <a href>
-                    <img src="images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
+                        <img src="images/main/Terminal.svg" width="14" height="13">
+                        Web-терминал
+                    </a>
+                </div>
             </div>
-        </div>
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a class="active" href="l_trader/open_account.html">Трейдерам</a></li>
+                        <li><a href="l_trader/open_account.html">Трейдерам</a></li>
                         <li><a href="l_invest/rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
@@ -189,20 +191,45 @@
                 <button class="white">Условия и регистрация</button>
             </div>
         <div class="layout_contentBlock layout_contentBlock_block3">
+            <div class="slide first">
                 <div class="date">
                     <span class="num">23</span>
                     <span class="month">сент<br>2016</span>
-                </div>
-                <div class="markers">
-                    <a href class="active marker"></a>
-                    <a href class="marker"></a>
-                    <a href class="marker"></a>
                 </div>
                 <p>В связи с празднованием Дня Поминовения в США в понедельник, 25 мая 2015 года, ожидается низкая ликвидность по металлам и индексам...</p>
                 <div class="buttons">
                     <button class="grey">Подробнее</button>
                     <button class="grey_outline">Все</button>
                 </div>
+            </div>
+            <div class="slide second">
+                <div class="date">
+                    <span class="num">13</span>
+                    <span class="month">сент<br>2015</span>
+                </div>
+                <p>Является самостоятельным юридическим лицом, зарегистрированным в соответствии с действующим законодательством....</p>
+                <div class="buttons">
+                    <button class="grey">Подробнее</button>
+                    <button class="grey_outline">Все</button>
+                </div>
+            </div>
+            <div class="slide third">
+                <div class="date">
+                    <span class="num">07</span>
+                    <span class="month">сент<br>2010</span>
+                </div>
+                <p>Еженедельный призовой фонд составляет 500$. Участвуй и выигрывай!...</p>
+                <div class="buttons">
+                    <button class="grey">Подробнее</button>
+                    <button class="grey_outline">Все</button>
+                </div>
+            </div>
+                <div class="markers">
+                    <span class="active marker" id="first"></span>
+                    <span class="marker" id="second"></span>
+                    <span class="marker" id="third"></span>
+                </div>
+
             </div>
         <div class="layout_contentBlock layout_contentBlock_block4">
                 <img src="images/main/Partners.png">
@@ -507,5 +534,19 @@
         </div>
     </div>
 </footer>
+
+<script>
+    $(function() {
+        $('.marker').click(function () {
+            var id = $(this).attr('id');
+            $(this).siblings('.slide').hide('slide', {direction:'left'},1000);
+            $('.slide').hide();
+            $('.slide.' + id).show();
+            $('.marker').removeClass('active');
+            $(this).addClass('active')
+        })
+    })
+</script>
+
 </body>
 </html>

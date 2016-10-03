@@ -3,7 +3,7 @@
 html *                      {margin: 0; padding: 0; text-decoration: none;}
 body                        {width: 100%; height: auto; background: #edf1f2; font-size: 0.8em;}
 input                       {padding: 0 10px;}
-select                      {outline-width: 0; height: 41px; background: #f5f6f6; border-color: #e8eaeb;}
+select                      {outline-width: 0; height: 41px; background: #f5f6f6; border-color: #e8eaeb; padding-left: 12px; color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
 select:hover                {box-shadow: 1px 1px 1px #edf1f2;}
 li                          {list-style: none;}
 a                           {text-decoration: none; color: inherit; display: inline-block;}
@@ -36,6 +36,8 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 .layout_content,
 .layout_footer              {position: relative;}
 .clear                      {clear: both;}
+.mobile {display: none;}
+.desktop {display: block;}
 
 /*Header*
 ***********************************************************/
@@ -49,7 +51,8 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 .layout_header .layout_header_content a:hover       {color: #ff4830;}
 .layout_header .layout_header_content img           {margin: 0 7px 0 0; vertical-align: middle;}
 .layout_header .layout_headerBlock_left             {float: left; width: 60%;}
-.layout_header .layout_headerBlock_right            {float: right; width: 40%; text-align: right;}
+.layout_header .layout_header_content a.terminal    {margin-right: 0; width: 12.5%; text-align: right;}
+.layout_header .layout_headerBlock_right            {float: right; text-align: right;}
 .layout_header .layout_header_content2              {width: 100%;}
 .layout_header .layout_headerBlock_logo             {background: url("../images/main/logo.png") center no-repeat; display: inline-block; width: 139px; height: 43px; background-size: cover;}
 .layout_header .layout_headerBlock_logo a           {display: block; height: 100%;}
@@ -82,6 +85,8 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 
 /*Content*
 **********************************************************/
+.slide.second, .slide.third {display: none;}
+
 .layout_content1                                      {text-align: center; background: url("../images/main/Bg_index.png") center center no-repeat; background-size: cover;}
 .layout_content1 .layout_content_container1           {position: relative; max-width: 1080px; margin: 0 auto; display: inline-block; color: #ffffff; width: 100%; height: 500px;}
 .layout_content1 .layout_contentBlock_slide1          {width: 60%; float: left; text-align: left;}
@@ -119,14 +124,14 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 .layout_content2 .layout_contentBlock_block2 p      {font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; line-height: 23px;}
 .layout_content2 .layout_contentBlock_block2 .white {width: 198px; margin-top: 26px;}
 
-.layout_content2 .layout_contentBlock_block3                {width: 202px; height: 202px; background: #ffffff;}
+.layout_content2 .layout_contentBlock_block3                {position: relative; width: 202px; height: 202px; background: #ffffff;}
 .layout_content2 .layout_contentBlock_block3 .date          {float: left; color: #181818; width: 50%;}
 .layout_content2 .layout_contentBlock_block3 .num           {float: left; font-size: 243%; font-family: GothamPro-Med, Arial, sans-serif; margin-right: 8px;}
 .layout_content2 .layout_contentBlock_block3 .month         {font-size: 100%; font-family: GothamPro-Reg, Arial, sans-serif;}
-.layout_content2 .layout_contentBlock_block3 .markers       {line-height: 33px; display: inline-block; width: 50%;}
-.layout_content2 .layout_contentBlock_block3 .marker        {margin-left: 10px; display: inline-block; width: 10px; height: 10px; background: #e9eaea; border-radius: 50%;}
+.layout_content2 .layout_contentBlock_block3 .markers       {position: absolute; top: 30px; right: 0; line-height: 33px; display: inline-block; width: 50%;}
+.layout_content2 .layout_contentBlock_block3 .marker        {cursor: pointer; margin-left: 10px; display: inline-block; width: 10px; height: 10px; background: #e9eaea; border-radius: 50%;}
 .layout_content2 .layout_contentBlock_block3 .marker.active {background: #ff4830;}
-.layout_content2 .layout_contentBlock_block3 p              {font-size: 100%; line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; color: #181818; margin: 9px 0 28px 0;}
+.layout_content2 .layout_contentBlock_block3 p              {display: inline-block; font-size: 100%; line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; color: #181818; margin: 9px 0 28px 0;}
 .layout_content2 .layout_contentBlock_block3 .grey          {width: 118px; float: left; margin-right: 8px;}
 .layout_content2 .layout_contentBlock_block3 .grey_outline  {width: 71px; float: left;}
 
@@ -144,11 +149,11 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 .layout_content2 .layout_contentBlock_rating tr td              {border-bottom: 1px solid #f5f7f7; font-size: 140%; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content2 .layout_contentBlock_rating tr:last-child td   {border-bottom: none;}
 .layout_content2 .layout_contentBlock_rating tr td:first-child  {color: #0a79bf; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-.layout_content2 .layout_contentBlock_rating th                 {border-bottom: 1px solid #f5f7f7; color: #afafaf; text-align: left; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content2 .layout_contentBlock_rating th                 {border-bottom: 1px solid #f5f7f7; color: #afafaf; font-weight: 400; text-align: left; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content2 .layout_contentBlock_rating .addition          {margin: 40px 0 10px 0;}
 .layout_content2 .layout_contentBlock_rating .addition span     {font-family: Roboto-Reg, Arial, sans-serif; font-size: 145%; float: left; line-height: 36px;}
 .layout_content2 .layout_contentBlock_rating .addition span img {margin: 0 27px;}
-.layout_content2 .layout_contentBlock_rating .addition .red     {width: 183px;}
+.layout_content2 .layout_contentBlock_rating .addition .red     {width: 183px; margin: 0 auto;}
 .layout_content2 .layout_contentBlock_rating .addition .red img {vertical-align: text-bottom;}
 .layout_content2 .layout_contentBlock_invest.tablet             {display: none;}
 .layout_content2 .layout_contentBlock_invest.desktop            {text-align: left; width: 202px; height: 594px; background: url("../images/main/Plant.png") center no-repeat; background-size: cover;}

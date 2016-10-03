@@ -1,5 +1,10 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
-    .layout_header.desktop                                            {display: none;}
+
+    /*Index*
+   **************************************************************/
+    .desktop {display: none;}
+    .mobile {display: block;}
+
     .layout_header.mobile                                             {text-align: center; display: inline-block;}
     .layout_header.mobile *                                           {display: inline-block;}
     .layout_header.mobile .layout_header_container                    {height: 84px; padding: 25px 0;}
@@ -21,7 +26,6 @@
     .layout_footer .layout_footerBlock_copyright        {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45;}
     .layout_footer .layout_footerBlock_protect          {width: 140px; bottom: 17px;}
     .layout_footer .layout_footerBlock_protect .mobile  {display: block; line-height: 20px;}
-    .layout_footer .layout_footerBlock_protect .desktop {display: none;}
 
     .layout_content1                                      {background: url("../images/main/Bg_index_mob.png") center center no-repeat; background-size: cover;}
 
@@ -34,7 +38,6 @@
     .layout_content1 .layout_contentBlock_slide3          {display: none;}
 
     .layout_content2.mobile                                            {display: block; margin-top: 0;}
-    .layout_content2.desktop                                           {display: none;}
     .layout_content2.mobile .layout_contentBlock                       {padding: 0; width: 100%}
     .layout_content2.mobile .layout_contentBlock_block1 .col_right     {float: none; width: 100%; padding: 30px 0; height: auto; max-width: none; text-align: center;}
     .layout_content2.mobile .layout_contentBlock_block1                {float: none; width: 100%; margin-right: 0;}
@@ -68,6 +71,10 @@
     .layout_content3 .layout_content_container5.tablet .left_col div            {margin-bottom: 42px;}
     .layout_content3 .layout_content_container5.tablet .left_col div:last-child {margin-bottom: 0;}
 
+    /*Trader menu*
+    **************************************************************/
+
+    /*Open account*/
     .layout_content .layout_content_container1                             {max-width: none !important; padding: 0;}
     .layout_content .layout_content_upper h2                               {font-size: 190%; margin: 30px 25px;}
     .layout_content .layout_content_container1 .layout_contentBlock_choice {width: 100%; display: block; margin: 0 auto;}
@@ -84,34 +91,57 @@
     .layout_content .layout_content_lower form .addition span              {width: 210px !important;}
     .layout_content .layout_content_lower .layout_contentBlock_right       {float: none !important; margin: 0 auto !important; width: 240px;}
 
-    .layout_content .layout_content_lower .attention {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
-    .layout_content .layout_content_lower .attention span {margin: 22px auto 10px auto;}
-    .layout_content .layout_content_lower .attention .password {margin: 0 0 22px 0; width: 100%; text-align: center;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left        {padding: 0 0 15px 0 !important;}
+    .layout_content .layout_content_lower .attention                                  {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
+    .layout_content .layout_content_lower .attention span                             {margin: 22px auto 10px auto;}
+    .layout_content .layout_content_lower .attention .password                        {margin: 0 0 22px 0; width: 100%; text-align: center;}
 
-    .layout_content_container1.opened .layout_content_upper {position: relative;}
-    .layout_content_container1.opened .layout_content_upper h2 {margin: 30px 25px 15px 77px;}
-    .layout_content_container1.opened .layout_content_upper img {position: absolute; top: 40px; left: 25px;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left p       {background: #edf1f2; padding: 0 25px 32px 25px;}
-    .layout_content_container1.opened .layout_content_lower .more {width: 100%; height: 70px; padding: 0; text-align: left;}
-    .layout_content_container1.opened .layout_content_lower .more span {margin: 17px 60px 17px 25px; float: left;}
-    .layout_content_container1.opened .layout_content_lower .more a {line-height: 80px;}
-    .layout_content .layout_content_lower .layout_contentBlock_left .profile_info {width: 100%; min-width: inherit;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: none;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile {display: block; margin: 0 25px; width: auto;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile tr:last-child td {border-bottom: 0;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left     {padding: 0 0 15px 0 !important;}
+    .layout_content_container1.opened .layout_content_upper                               {position: relative;}
+    .layout_content_container1.opened .layout_content_upper h2                            {margin: 30px 25px 15px 77px;}
+    .layout_content_container1.opened .layout_content_upper img                           {position: absolute; top: 40px; left: 25px;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left p   {background: #edf1f2; padding: 0 25px 32px 25px;}
+    .layout_content_container1.opened .layout_content_lower .more                         {width: 100%; height: 70px; padding: 0; text-align: left;}
+    .layout_content_container1.opened .layout_content_lower .more span                    {margin: 17px 60px 17px 25px; float: left;}
+    .layout_content_container1.opened .layout_content_lower .more a                       {line-height: 80px;}
+    .layout_content_container1.opened .layout_content_lower .profile_info                 {width: 100%; min-width: inherit;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile    {display: block; margin: 0 25px; width: auto;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile tr:last-child td {border-bottom: 0;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif;}
     .layout_content_container1.opened .layout_content_lower .extra_info .blue {width: 263px; float: none; display: block; margin: 27px auto 15px auto;}
     .layout_content_container1.opened .layout_content_lower .extra_info .edit {float: none; display: block; margin: 0 auto; text-align: center;}
-    .layout_content .layout_content_lower .extra_info {margin-top: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after {width: 100%;}
+    .layout_content .layout_content_lower .extra_info                        {margin-top: 0;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after   {width: 100%;}
     .layout_content .layout_content_lower .layout_contentBlock_right.after a {margin: 10px auto;}
-    .layout_content .layout_content_lower .extra_info form {width: 100%;}
-    .layout_content .layout_content_lower .extra_info .form span {display: none;}
-    .layout_content .layout_content_lower .extra_info .form input {width: 280px; float: none;}
-    .layout_content .layout_content_lower .extra_info .form .blue.mobile {display: block;}
-    .layout_content .layout_content_lower .extra_info .form .blue.desktop {display: none;}
+    .layout_content .layout_content_lower .extra_info form                   {width: 100%;}
+    .layout_content .layout_content_lower .extra_info .form span             {display: none;}
+    .layout_content .layout_content_lower .extra_info .form input            {width: 280px; float: none;}
+    .layout_content .layout_content_lower .extra_info .form .blue.mobile     {display: block;}
+    .layout_content .layout_content_lower .extra_info .form .blue.desktop    {display: none;}
 
+    .layout_content_container1.demo .layout_content_middle .layout_contentBlock_left {width: 100%; padding: 0;}
+    .layout_content_container1.demo .layout_content_middle form {position: relative;}
+    .layout_content_container1.demo .layout_content_middle label {float: none; margin: 30px auto 0 25px; display: inline-block; width: auto;}
+    .layout_content_container1.demo .layout_content_middle input {width: 260px; margin: 10px auto 0 auto; display: block;}
+    .layout_content_container1.demo .layout_content_middle .gen_pass {bottom: 295px; right: 20px;}
+    .layout_content_container1.demo .layout_content_middle .show_pass {position: absolute; bottom: 268px; right: 15px; background: transparent;}
+    .layout_content_container1.demo .layout_content_middle .item {float: none;}
+    .layout_content_container1.demo .layout_content_middle select {float: none; width: 276px; display: inline-block; margin: 10px auto 0 25px;}
+    .layout_content_container1.demo .layout_content_middle .blue {width: 260px; margin: 25px auto;}
+    .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right {width: 100%; padding: 0; background: transparent;}
+    .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right .learning {margin: 0 45px 0 25px;}
+    .layout_content_container1.demo .layout_content_middle .list img {margin: 0 auto;}
+    .layout_content_container1.demo .layout_content_middle .learning h2 {font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right .server {font-size: 140%;}
+    .layout_content_container1.demo .layout_contentBlock_image {position: relative; left: auto; margin: 45px auto 0 auto;}
+    .layout_content_container1.demo .layout_contentBlock_image img {width: 320px; margin: 0 auto; display: block;}
+    .layout_content_container1.demo .layout_contentBlock_reklama {position: relative; width: 100%; padding: 0; float: right;}
+    .layout_content_container1.demo .layout_contentBlock_reklama h3 {font-size: 190%; margin-left: 25px; margin-right: 25px;}
+    .layout_content_container1.demo .layout_contentBlock_reklama p {margin-left: 25px; margin-right: 25px;}
+    .layout_content_container1.demo .layout_contentBlock_reklama .blue {float: none; display: block; margin: 90px auto 25px auto;}
+    .layout_content_container1.demo .layout_contentBlock_reklama .apps {position: absolute; bottom: 100px; text-align: center; width: 100%;}
 
+    /*Fillup*/
+    .layout_content .layout_content_container1.fillup .layout_contentBlock_right {padding: 0; width: 100%;}
+    .layout_content .layout_content_container1.fillup input {float: none;}
 }
