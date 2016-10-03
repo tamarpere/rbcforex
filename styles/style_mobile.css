@@ -92,16 +92,17 @@
     /*Open account*/
     .layout_content .layout_content_container1                             {max-width: none !important; padding: 0;}
     .layout_content .layout_content_upper h2                               {font-size: 190%; margin: 30px 25px;}
-    .layout_content .layout_content_container1 .layout_contentBlock_choice {width: 100%; display: block; margin: 0 auto;}
+    .layout_content .layout_content_container1 .layout_contentBlock_choice {width: 262px; display: block; margin: 0 auto;}
     .layout_content .layout_content_container1 .layout_contentBlock_choice .item {display: inline-block; margin: 0 auto;}
     .layout_content .layout_contentBlock_choice label                      {margin-right: 0; margin-bottom: 10px;}
+    .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {padding-left: 0;}
     .layout_content .layout_content_lower .layout_contentBlock_left        {float: none !important; width: 100% !important; padding: 0 0 30px 0 !important; margin: 0 auto 10px auto !important;}
     .layout_content .layout_content_lower .layout_contentBlock_left form   {position: relative !important;}
     .layout_content .layout_content_lower label                            {float: none !important; width: auto !important; margin-left: 25px !important;}
     .layout_content .layout_content_lower input                            {width: 248px !important; margin: 10px 25px !important;}
     .layout_content .layout_content_lower .gen_pass                        {display: none;}
     .layout_content .layout_content_lower .note.pass                       {display: none;}
-    .layout_content .layout_content_lower .show_pass                       {background: transparent !important; position: absolute !important; bottom: 282px; right: 0;}
+    .layout_content .layout_content_lower .show_pass                       {background: transparent !important; position: absolute !important; bottom: 282px; left: 240px;}
     .layout_content .layout_content_lower label[for="check"]               {margin-left: 0 !important;}
     .layout_content .layout_content_lower form .addition span              {width: 210px !important;}
     .layout_content .layout_content_lower .layout_contentBlock_right       {float: none !important; margin: 0 auto !important; width: 240px;}
