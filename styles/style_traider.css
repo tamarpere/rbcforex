@@ -62,7 +62,7 @@
 .layout_content .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
 .layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
 .layout_content .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
-.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; padding-right: 40px;}
 .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: block;}
 .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile {display: none;}
 .layout_content .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
@@ -86,9 +86,10 @@
 .layout_content .layout_content_lower .layout_contentBlock_right.after .devices      {font-size: 95%; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {font-size: 105%; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
 
-.layout_content .layout_content_middle                                     {clear: both; display: inline-block;}
-.layout_content .layout_content_middle .layout_contentBlock_left           {position: relative; padding: 15px 35px 35px 35px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
-.layout_content .layout_content_middle .layout_contentBlock_right          {padding: 35px; width: 616px; height: auto; background: #fbfcfc; float: left;}
+.layout_content .layout_content_middle.tablet {display: none;}
+.layout_content .layout_content_middle.desktop                                     {clear: both; display: inline-block;}
+.layout_content .layout_content_middle.desktop .layout_contentBlock_left           {position: relative; padding: 15px 35px 35px 35px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
+.layout_content .layout_content_middle.desktop .layout_contentBlock_right          {padding: 35px; width: 616px; height: auto; background: #fbfcfc; float: left;}
 .layout_content .layout_content_middle label                               {float: left; width: 240px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 13px; margin: 26px 0 13px 0;}
 .layout_content .layout_content_middle input                               {width: 300px; height: 40px; border: 1px solid #e8eaeb; margin: 0;}
 .layout_content .layout_content_middle input[id="password"]                {width: 245px;}
@@ -98,17 +99,17 @@
 .layout_content .layout_content_middle .selects                            {display: inline-block;}
 .layout_content .layout_content_middle select                              {float: left; width: 150px;}
 .layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto; width: 206px; height: 41px; line-height: 35px; font-size: 118%;}
-.layout_content .layout_content_middle .layout_contentBlock_right h3       {font-size: 165%; margin-bottom: 32px; margin-top: 0; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content .layout_content_middle .layout_contentBlock_right p        {font-size: 118%; line-height: 23px; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content .layout_content_middle .layout_contentBlock_right p a      {color: #218ed2; text-decoration: underline; display: inline;}
-.layout_content .layout_content_middle .layout_contentBlock_right .list    {text-align: center;}
-.layout_content .layout_content_middle .layout_contentBlock_right .point   {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
-.layout_content .layout_content_middle .layout_contentBlock_right .marker  {font-family: Roboto-Reg, Arial, sans-serif; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
-.layout_content .layout_content_middle .layout_contentBlock_right .bold    {font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content .layout_content_middle .layout_contentBlock_right .done    {margin-top: 43px;}
-.layout_content .layout_content_middle .layout_contentBlock_right .done h2 {font-size: 218%; color: #388d40; margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content .layout_content_middle .layout_contentBlock_right .done p  {margin: 26px 0;}
-.layout_content .layout_content_middle .layout_contentBlock_right .server  {font-size: 120%;}
+.layout_content .layout_content_middle .learning h3       {font-size: 165%; margin-bottom: 32px; margin-top: 0; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning p        {font-size: 118%; line-height: 23px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning p a      {color: #218ed2; text-decoration: underline; display: inline;}
+.layout_content .layout_content_middle .learning .list    {text-align: center;}
+.layout_content .layout_content_middle .learning .point   {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
+.layout_content .layout_content_middle .learning .marker  {font-family: Roboto-Reg, Arial, sans-serif; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
+.layout_content .layout_content_middle .learning .bold    {font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning .done    {margin-top: 43px;}
+.layout_content .layout_content_middle .learning .done h2 {font-size: 218%; color: #388d40; margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning .done p  {margin: 26px 0;}
+.layout_content .layout_content_middle .learning .server  {font-size: 120%;}
 
 .layout_content .layout_content_lower                 {position: relative; width: 100%;}
 .layout_content_container1.demo .layout_content_lower {margin-bottom: 0;}
@@ -127,15 +128,16 @@
 .layout_content .layout_content_container1.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_left    {width: 260px; padding: 30px 0;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818;}
-.layout_content .layout_content_container1.fillup .payment table               {width: 260px; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content .layout_content_container1.fillup .payment tr.active           {background: #f1f8fc;}
-.layout_content .layout_content_container1.fillup .payment tr.active td:first-child {border-left: 3px solid #218ed2;}
-.layout_content .layout_content_container1.fillup .payment td                  {padding: 14px 0;}
-.layout_content .layout_content_container1.fillup .payment td:first-child      {text-align: center; padding-left: 25px;}
-.layout_content .layout_content_container1.fillup .payment td:last-child       {padding-right: 25px;}
-.layout_content .layout_content_container1.fillup .payment td:nth-child(2)     {color: #218ed2;}
-.layout_content .layout_content_container1.fillup .payment .title              {font-size: 135%; margin-left: 25px; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
-.layout_content .layout_content_container1.fillup .payment .more_payment       {display: none;}
+.layout_content .layout_content_container1.fillup .payment.tablet              {display: none;}
+.layout_content .layout_content_container1.fillup .payment.desktop             {display: block;}
+.layout_content .layout_content_container1.fillup .payment.desktop table               {width: 260px; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content .layout_content_container1.fillup .payment.desktop tr.active           {background: #f1f8fc;}
+.layout_content .layout_content_container1.fillup .payment.desktop tr.active td:first-child {border-left: 3px solid #218ed2;}
+.layout_content .layout_content_container1.fillup .payment.desktop td                  {padding: 14px 0;}
+.layout_content .layout_content_container1.fillup .payment.desktop td:first-child      {text-align: center; padding-left: 25px;}
+.layout_content .layout_content_container1.fillup .payment.desktop td:last-child       {padding-right: 25px;}
+.layout_content .layout_content_container1.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
+.layout_content .layout_content_container1.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
 .layout_content .layout_content_container1.fillup label                        {font-size: 100%; font-family: Roboto-Med, Arial, sans-serif; line-height: 23px;}
 .layout_content .layout_content_container1.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
 .layout_content .layout_content_container1.fillup input#sum                    {width: 157px;}
@@ -161,6 +163,8 @@
 .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px;}
 .layout_content .layout_content_container1.fillup .data_card .note             {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
 
+.layout_content_container1.calc .payment.desktop                         {display: block;}
+.layout_content_container1.calc .payment.tablet                         {display: none;}
 .layout_content_container1.calc .layout_contentBlock_left                         {width: 261px; padding: 30px 0;}
 .layout_content_container1.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
@@ -225,6 +229,7 @@
 
 .layout_content_container1.feed .wrapper                    {width: 100%; height: 639px; background: url("../images/feedback/Bg_letter.png") center top no-repeat; background-size: cover;}
 .layout_content_container1.feed                             {text-align: center;}
+.layout_content_container1.feed h2                          {text-align: left; line-height: 40px;}
 .layout_content_container1.feed .form                       {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
 .layout_content_container1.feed .form label                 {float: left; width: 150px; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; margin-right: 76px; line-height: 43px;}
 .layout_content_container1.feed .form input                 {float: left; width: 500px; height: 39px; border: 2px solid #e8eaeb; margin-bottom: 20px;}
@@ -298,11 +303,15 @@
 .layout_content_container2.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
 .layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
 .layout_content_container2.konkurs .form .blue                                            {margin-top: 15px; width: 257px; height: 39px; line-height: 35px; font-size: 118%; border-radius: 20px;}
+.layout_content_container1.konkurs img.desktop      {display: block; float: left;}
+.layout_content_container1.konkurs img.tablet       {display: none;}
+
 
 .layout_content_container1.bonus                  {padding-bottom: 40px; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.bonus .text            {float: left; width: 497px; margin-right: 47px;}
 .layout_content_container1.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
-.layout_content_container1.bonus img              {float: left;}
+.layout_content_container1.bonus img.desktop      {display: block; float: left;}
+.layout_content_container1.bonus img.tablet       {display: none;}
 .layout_content_container1.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
 .layout_content_container1.bonus .item:last-child {margin-right: 0 !important;}
 .layout_content_container1.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-size: 315%;}
@@ -310,7 +319,8 @@
 .layout_content_container1.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.novichkam .layout_content_upper {border-bottom: 1px solid #ccd7db;}
 .layout_content_container1.novichkam .banner               {display: inline-block;}
-.layout_content_container1.novichkam .image_banner         {float: left; margin-right: 10px;}
+.layout_content_container1.novichkam .image_banner.desktop         {float: left; margin-right: 10px;}
+.layout_content_container1.novichkam .image_banner.tablet         {display: none;}
 .layout_content_container1.novichkam .buttons              {float: left; width: 262px;}
 .layout_content_container1.novichkam .button               {width: 182px; height: 136px; padding: 29px 40px; text-align: center; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
 .layout_content_container1.novichkam .button img           {margin: 0 auto; margin-bottom: 25px; display: block;}

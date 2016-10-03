@@ -87,12 +87,14 @@
                 <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="fillup.html">Пополнить счет</a>
-                <a href="withdraw.html">Вывести средства</a>
+                <div class="left">
+                    <a href="open_account.html">
+                        <img src="../images/main/Profile.svg" width="17" height="17">
+                        Открыть счет
+                    </a>
+                    <a href="fillup.html">Пополнить счет</a>
+                    <a href="withdraw.html">Вывести средства</a>
+                </div>
                 <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
                     Web-терминал
@@ -179,7 +181,7 @@
         </div>
         <div class="layout_content_lower">
             <div class="layout_contentBlock_left">
-                <div class="payment">
+                <div class="payment desktop">
                     <span class="title">Платежная система</span>
                     <table cellpadding="0" cellspacing="0">
                         <tr class="active">
@@ -261,9 +263,16 @@
                         </tr>
                     </table>
                 </div>
-                <a class="more_payment mobile" href>
-                    <img src="">
-                </a>
+                <div class="payment tablet">
+                    <span class="title">Платежная система</span>
+                    <span class="triangle"></span>
+
+                    <span class="select">
+                        <img src="../images/popolnenie/Webmoney.png" width="22">
+                        Webmoney <span>+3%</span>
+                    </span>
+                    <img class="dropdown" src="../images/popolnenie/Icon_dropdown.png">
+                </div>
             </div>
             <div class="layout_contentBlock_right">
                 <form>
