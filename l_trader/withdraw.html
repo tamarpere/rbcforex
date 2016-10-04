@@ -160,18 +160,18 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="add_fee.html">Пополнить</a>
+                <a href="fillup.html">Пополнить</a>
                 <a href="withdraw.html">Вывести</a>
             </div>
         </div>
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 fillup">
+    <div class="layout_content_container1 fillup withdraw">
         <div class="layout_content_upper">
             <h2>Вывод средств</h2>
             <span class="comission">
@@ -278,7 +278,7 @@
                 </div>
             </div>
             <div class="layout_contentBlock_right">
-                <form>
+                <form class="desktop">
                     <label for="number_fee">Номер торгового счета</label>
                     <input id="number_fee">
                     <label for="trader_pass">Пароль от счета</label>
@@ -328,6 +328,52 @@
                     <span class="note done">После нажатия на кнопку "Продолжить вывод средств" вам будет необходимо подтвердить номер счета и параметры платежа</span>
                     <div class="clear"></div>
                     <button class="blue">Продолжить вывод средств</button>
+                </form>
+                <form class="mobile">
+                    <label>Номер торгового счета</label>
+                    <input class="number">
+                    <div class="clear"></div>
+                    <label>Пароль от счета</label>
+                    <input class="trader_pass">
+                    <div class="clear"></div>
+                    <label>Сумма в долларах</label>
+                    <input class="sum">
+                    <select>
+                        <option>WMZ</option>
+                    </select>
+                    <div class="clear"></div>
+                    <label>С вычетом комиссии 2.9%</label>
+                    <input class="result">
+                    <span class="addition">Сумма вывода от $100 до $250.<br>Комиссия не менее $6</span>
+                    <div class="data_card">
+                        <div class="side front">
+                            <img class="logos" src="../images/snyat/Logos_mobile.png">
+                            <label for="number">Номер карты</label>
+                            <input id="number">
+                            <div class="selects">
+                                <div class="item">
+                                    <label for="month">Месяц</label>
+                                    <select id="month">
+                                        <option>01</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="year">Год</label>
+                                    <select id="year">
+                                        <option>2016</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label for="country">Страна выпуска карты*</label>
+                            <input id="country">
+                            <div class="cvv_number">
+                                <label for="cvv">CVC/CVV</label>
+                                <input id="cvv">
+                                <span class="note">The last 3&nbsp;or&nbsp;4 digits on back of&nbsp;the card</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="blue">Вывести средства</button>
                 </form>
             </div>
         </div>

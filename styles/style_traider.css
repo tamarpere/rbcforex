@@ -138,6 +138,7 @@
 .layout_content .layout_content_container1.fillup .payment.desktop td:last-child       {padding-right: 25px;}
 .layout_content .layout_content_container1.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
 .layout_content .layout_content_container1.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
+.layout_content .layout_content_container1.fillup form.mobile                          {display: none;}
 .layout_content .layout_content_container1.fillup label                        {font-size: 100%; font-family: Roboto-Med, Arial, sans-serif; line-height: 23px;}
 .layout_content .layout_content_container1.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
 .layout_content .layout_content_container1.fillup input#sum                    {width: 157px;}
