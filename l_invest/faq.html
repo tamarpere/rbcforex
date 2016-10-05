@@ -2,12 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>RBS-Forex</title>
     <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
     <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 <header class="layout_header desktop">
@@ -40,7 +42,8 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
+                        <li><a href="../l_trader/open_account.html">Трейдерам</a>
+</li>
                         <li class="active"><a class="active" href="rating.html">Инвестиции</a>
 
                             <div class="triangle traider"></div>
@@ -58,17 +61,17 @@
                 </a>
             </div>
         </div>
-        <div class="triangle invest"></div>
+
     </div>
     <div class="layout_header_container1">
         <div class="layout_headerBlock layout_headerBlock_menu">
             <nav class="menu invest">
                 <ul>
                     <li><a href="rating.html">Рейтинг управляющих</a></li>
-                    <li><a class="active" href="tis.html">TIS</a></li>
+                    <li><a href="tis.html">TIS</a></li>
                     <li><a href="dir_invest.html">Прямые инвестиции</a></li>
                     <li><a href="copy_deal.html">Копирование сделок</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a class="active" href="faq.html">FAQ</a></li>
                     <li><a href="be_trader.html">Стать управляющим</a></li>
                     <li><a href="invest_programm.html">Инвестиционная программа</a></li>
                 </ul>
@@ -79,17 +82,19 @@
 <header class="layout_header tablet">
     <div class="layout_header_container">
         <div class="layout_header_content">
-                <div class="layout_headerBlock layout_headerBlock_logo">
-                    <a href="/"></a>
-                </div>
-                <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                    <a href="/open_account.html">
+            <div class="layout_headerBlock layout_headerBlock_logo">
+                <a href="/"></a>
+            </div>
+            <div class="layout_headerBlock layout_headerBlock_menuTablet">
+                <div class="left">
+                    <a href="open_account.html">
                         <img src="../images/main/Profile.svg" width="17" height="17">
                         Открыть счет
                     </a>
-                    <a href="add_fee.html">Пополнить счет</a>
+                    <a href="fillup.html">Пополнить счет</a>
                     <a href="withdraw.html">Вывести средства</a>
-                    <a href>
+                </div>
+                <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
                     Web-терминал
                 </a>
@@ -99,8 +104,11 @@
             <div class="layout_headerBlock layout_headerBlock_nav">
                 <nav class="main_menu">
                     <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li><a class="active" href="rating.html">Инвестиции</a></li>
+                        <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
+
+                            <div class="triangle traider"></div>
+                        </li>
+                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
                         <li><a href>Партнерам</a></li>
@@ -113,6 +121,26 @@
                     Кабинет
                 </a>
             </div>
+        </div>
+    </div>
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu trader">
+                <ul>
+                    <li><a href="open_account.html">Открыть счет</a></li>
+                    <li><a href="demo.html">Демо счет</a></li>
+                    <li><a href="fillup.html">Пополнение счета</a></li>
+                    <li><a href="withdraw.html">Вывод средств</a></li>
+                    <li><a href="calculator.html">Калькулятор</a></li>
+                    <li><a class="active" href="faq.html">FAQ</a></li>
+                    <li><a href="terms.html">Условия торговли</a></li>
+                    <li><a href="feed.html">Обратная связь</a></li>
+                    <li><a href="konkurs.html">Конкурсы</a></li>
+                    <li><a href="bonus.html">Бонусы</a></li>
+                    <li><a href="novichkam.html">Новичкам</a></li>
+                </ul>
+            </nav>
+
         </div>
     </div>
 </header>
@@ -145,31 +173,48 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 tis">
+    <div class="layout_content_container1 faq">
         <div class="layout_content_upper">
-            <h2>Trade Investor System</h2>
-            <p>RBC Forex разработал уникальную инновационную систему взаимовыгодного инвестирования. Мы предоставляем каждому опытному и квалифицированному трейдеру возможность стать управляющим и получить доход с помощью капитала инвесторов. Либо же Вы можете стать инвестором, зарабатывая на инвестировании своих денег в счета управляющих. Обращаем внимание, что Вы имеете возможность одновременно быть управляющим трейдером и инвестором. Более того, при желании Вы можете инвестировать даже просто в собственный счет.</p>
-            <button class="white_outline">
-                <img src="../images/main/Rating_traderov_white.svg" width="20">
-                Рейтинг управляющих трейдеров
-            </button>
-        </div>
-        <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
-                <img src="../images/tis/Img_tis_1.png">
-                <h3>Как зарабатывает инвестор и как им стать?</h3>
-                <p>Инвестор вкладывает свой капитал в счета управляющих трейдеров. Для инвестирования Вы можете использовать неограниченное количество счетов. Размер дохода прямо пропорционально зависит от суммы инвестиций и от успешности работы управляющего, который торгует на специальном счете, а также получает установленный процент от дохода инвесторов.</p>
-                <p>Если Вы хотите стать инвестором, тогда Вам надо в "Личном кабинете" найти раздел "Инвестиции" и перейти на вкладку "Рейтинг трейдеров". На этой странице Вашему вниманию будет представлена таблица управляющих, в которых указываются показатели их работы. С помощью специальных фильтров вверху таблицы Вы имеете возможность выбрать наиболее подходящего управляющего (по размеру комиссии, успешности и т.д.), после чего просто подключиться к его счету.</p>
-                <button class="red">Выбрать управляющего трейдера</button>
+            <h2>FAQ по инвестициям</h2>
+            <div class="questions">
+                <div class="question">
+                    <span class="title">Сколько стоит 0.01 лот евро?</span>
+
+                    <div class="text">Нет, в отличие от наших конкурентов мы зарегистрированы в России и несем полную
+                        ответственность перед клиентами. Вы можете быть уверены в том, что ваши деньги останутся в
+                        целости и сохранности. Примечание: для работы с зарубежными контрагентами нами используется
+                        дочерняя иностранная компания.
+                    </div>
+                </div>
+                <div class="question">
+                    <span class="title">Сколько стоит 1 пипс евро-доллара?</span>
+
+                    <div class="text">Нет, в отличие от наших конкурентов мы зарегистрированы в России и несем полную
+                        ответственность перед клиентами. Вы можете быть уверены в том, что ваши деньги останутся в
+                        целости и сохранности. Примечание: для работы с зарубежными контрагентами нами используется
+                        дочерняя иностранная компания.
+                    </div>
+                </div>
+                <div class="question">
+                    <span class="title">Вы являетесь оффшорной компанией и зарегистрированы на Карибах(Сейшелах, Белизе, Виргинских островах и т.д.)?</span>
+
+                    <div class="text">Нет, в отличие от наших конкурентов мы зарегистрированы в России и несем полную
+                        ответственность перед клиентами. Вы можете быть уверены в том, что ваши деньги останутся в
+                        целости и сохранности. Примечание: для работы с зарубежными контрагентами нами используется
+                        дочерняя иностранная компания.
+                    </div>
+                </div>
+                <div class="question">
+                    <span class="title">Сколько Интернет трафика потребляет МТ4?</span>
+
+                    <div class="text">Нет, в отличие от наших конкурентов мы зарегистрированы в России и несем полную
+                        ответственность перед клиентами. Вы можете быть уверены в том, что ваши деньги останутся в
+                        целости и сохранности. Примечание: для работы с зарубежными контрагентами нами используется
+                        дочерняя иностранная компания.
+                    </div>
+                </div>
             </div>
-            <div class="layout_contentBlock_right">
-                <img src="../images/tis/Img_tis_2.png">
-                <h3>Как зарабатывает инвестор и как им стать?</h3>
-                <p>Как уже говорилось выше, управляющий ведет торговлю на рынке форекс и получает установленный процент от дохода инвесторов. Если Вы хотите стать управляющим трейдером, тогда Вам надо в "Личном кабинете" найти раздел “Инвестиции”, после чего выбрать вкладку “Стать трейдером”. Затем Вам надо выбрать реальный или демонстрационный счет, на котором Вы будете работать. Заполните появившуюся форму и укажите в процентах размер комиссии, которую Вы хотите получать от дохода своих инвесторов.</p>
-                <p>Если Вы открываете Реальный счет управляющего, то с Вашего уже существующего счета в автоматическом режиме будет переведено на него $100. Обращаем внимание, что указанная сумма обязательно должна находиться на Вашем счете, если Вы хотите стать управляющим. После этого Вы можете начинать торговать и зарабатывать положительную динамику. Потенциальные инвесторы будут оценивать Вашу работу и в случае успешности начнут подключаться к Вашему счету и инвестировать свои деньги. В результате Вы будете сразу получать и заработанную прибыль с собственных денег, которые были переведены на управляющий счет при регистрации, и комиссию от дохода инвесторов.</p>
-                <p>Если у Вас нет $100, но Вы очень хотите стать управляющим, тогда мы предлагаем Вам открыть Демонстрационный счет управляющего. Однако стоит подчеркнуть, что данная возможность распространяется только на трейдеров, достигших третей стадии в инвестиционной программе RBC Forex. Обращаем внимание, что такой счет в рейтинге отображается как ДЕМО. Безусловно, инвесторы меньше доверяют демонстрационному счету, поэтому мы советуем управляющему сразу открывать Реальный счет и приступать к генерированию действительно хорошей прибыли!</p>
-                <button class="red">Открыть счет управляющего трейдера</button>
-            </div>
+
         </div>
     </div>
 </section>
@@ -192,12 +237,12 @@
                     <span class="title">Трейдерам</span>
                     <ul>
                         <li><a href>Для начинающих</a></li>
-                        <li><a href>Учебный счет</a></li>
-                        <li><a href>Торговый счет</a></li>
-                        <li><a href>Ввод средств</a></li>
-                        <li><a href>Вывод средств</a></li>
-                        <li><a href="calculator.html">Калькулятор</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="l-traider/demo.html">Учебный счет</a></li>
+                        <li><a href="l-traider/open_account.html">Торговый счет</a></li>
+                        <li><a href="l-traider/fillup.html">Ввод средств</a></li>
+                        <li><a href="l-traider/withdraw.html">Вывод средств</a></li>
+                        <li><a href="l-traider/calculator.html">Калькулятор</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                         <li><a href>Условия торговли</a></li>
                     </ul>
                 </div>
@@ -211,7 +256,7 @@
                         <li><a href>Реферальная система</a></li>
                         <li><a href>Баннеры</a></li>
                         <li><a href>Промо код</a></li>
-                        <li><a href>FAQ</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col col_4">
@@ -239,11 +284,26 @@
                 <span>&copy;&nbsp;RBC&nbsp;Forex</span>
             </div>
             <div class="layout_footerBlock layout_footerBlock_protect">
-                <img src="../../images/main/Gurs_footer.png">
-                <span>Защищено GURS<br>Global Unite Responsibility System</span>
+                <img src="../images/main/Gurs_footer.png">
+                <span class="desktop">Защищено GURS<br>Global Unite Responsibility System</span>
+                <span class="mobile">Защищено<br>GURS</span>
             </div>
         </div>
     </div>
 </footer>
+
+<script>
+    $(function () {
+        $('.question .title').click(function () {
+            $(this).siblings('.text').slideToggle(300);
+            if ($(this).hasClass('bold')) {
+                $(this).removeClass('bold');
+            } else {
+                $(this).addClass('bold');
+            }
+        })
+    });
+</script>
+
 </body>
 </html>
