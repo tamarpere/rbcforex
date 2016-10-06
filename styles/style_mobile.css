@@ -125,7 +125,7 @@
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile tr:last-child td {border-bottom: 0;}
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif; font-weight: 700;}
-    .layout_content_container1.opened .layout_content_lower .extra_info .blue {width: 263px; float: none; display: block; margin: 27px auto 15px auto;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .blue {float: none; display: block; margin: 27px auto 15px auto;}
     .layout_content_container1.opened .layout_content_lower .extra_info .edit {float: none; display: block; margin: 0 auto; text-align: center;}
     .layout_content .layout_content_lower .extra_info                        {margin-top: 0;}
     .layout_content .layout_content_lower .layout_contentBlock_right.after   {width: 100%;}
@@ -147,7 +147,7 @@
     .layout_content_container1.demo .layout_content_middle .selects                             {width: 100%;}
     .layout_content_container1.demo .layout_content_middle .item label                          {float: none; width: 260px; display: block; margin: 10px auto 0 auto;}
     .layout_content_container1.demo .layout_content_middle select                               {float: none; width: 276px; display: block; margin: 10px auto 0 auto;}
-    .layout_content_container1.demo .layout_content_middle .blue                                {width: 260px; margin: 25px auto;}
+    .layout_content_container1.demo .layout_content_middle .blue                                {margin: 25px auto;}
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right           {width: 100%; padding: 0; background: transparent;}
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right .learning {margin: 0 45px 0 25px;}
     .layout_content_container1.demo .layout_content_middle .list img                            {margin: 0 auto;}
@@ -187,7 +187,7 @@
     .layout_content .layout_content_container1.fillup form.mobile .note              {width: 260px; margin-left: 25px; margin-bottom: 10px; display: inline-block;}
     .layout_content .layout_content_container1.fillup form.mobile .note.done         {width: 260px; margin-left: 25px; margin-bottom: 0; display: inline-block; float: none;}
     .layout_content .layout_content_container1.fillup form.mobile a.note             {width: 115px !important; float: left; margin-left: 0; line-height: 60px; margin-bottom: 0;}
-    .layout_content .layout_content_container1.fillup form.mobile .blue              {margin: 30px auto 0 auto; width: 259px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 100%;}
+    .layout_content .layout_content_container1.fillup form.mobile .blue              {margin: 30px auto 0 auto;}
     .layout_content .layout_content_container1.withdraw form.mobile                  {height: 500px; display: inline-block;}
     .layout_content .layout_content_container1.withdraw form.mobile img              {top: 25px; left: 50%; margin-left: -118px;}
     .layout_content .layout_content_container1.withdraw form.mobile input.number     {width: 248px !important;}

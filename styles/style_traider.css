@@ -51,7 +51,7 @@
 .layout_content .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
 .layout_content .layout_content_lower form .addition                                {text-align: center;}
 .layout_content .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
-.layout_content .layout_content_lower form .addition .blue                          {font-size: 118%; width: 257px; height: 41px; line-height: 35px; border-radius: 20px; margin: 0 auto;}
+.layout_content .layout_content_lower form .addition .blue                          {margin: 0 auto;}
 
 .layout_content .layout_content_lower .layout_contentBlock_left p                    {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 27px;}
 .layout_content .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
@@ -72,8 +72,8 @@
 .layout_content .layout_content_lower .extra_info .form label                        {float: left; line-height: 21px;}
 .layout_content .layout_content_lower .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
 .layout_content .layout_content_lower .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content .layout_content_lower .extra_info .blue                              {float: left; border-radius: 20px; margin-top: 45px; height: 41px; line-height: 35px; font-size: 118%; width: 245px;}
-.layout_content .layout_content_lower .extra_info .blue.save                         {width: 335px;}
+.layout_content .layout_content_lower .extra_info .blue                              {float: left; margin-top: 45px;}
+.layout_content .layout_content_lower .extra_info .blue.save                         {}
 .layout_content .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
 .layout_content .layout_content_lower .extra_info .form .blue.mobile                 {display: none;}
 .layout_content .layout_content_lower .extra_info .form .blue.desktop                {display: block;}
@@ -96,7 +96,7 @@
 .layout_content .layout_content_middle .item                               {float: left; width: 50%;}
 .layout_content .layout_content_middle .selects                            {display: inline-block;}
 .layout_content .layout_content_middle select                              {float: left; width: 150px;}
-.layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto; width: 206px; height: 41px; line-height: 35px; font-size: 118%;}
+.layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto;}
 .layout_content .layout_content_middle .learning h3       {font-size: 165%; margin-bottom: 32px; margin-top: 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content .layout_content_middle .learning p        {font-size: 118%; line-height: 23px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content .layout_content_middle .learning p a      {color: #218ed2; text-decoration: underline; display: inline;}
@@ -116,7 +116,7 @@
 .layout_content .layout_contentBlock_reklama h3       {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-bottom: 35px; line-height: 33px; color: #181818;}
 .layout_content .layout_contentBlock_reklama p        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 23px; color: #181818;}
 .layout_content .layout_contentBlock_reklama .apps    {width: 215px; display: inline-block; margin-top: 50px; margin-right: 40px; float: right;}
-.layout_content .layout_contentBlock_reklama .blue    {float: left; width: 224px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 118%; margin-top: 40px;}
+.layout_content .layout_contentBlock_reklama .blue    {float: left; margin-top: 40px;}
 .layout_content .layout_contentBlock_reklama .win     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
 .layout_content .layout_contentBlock_reklama .apple   {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
 .layout_content .layout_contentBlock_reklama .android {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
@@ -146,7 +146,7 @@
 .layout_content .layout_content_container1.fillup a.note                       {color: #218ed2;}
 .layout_content .layout_content_container1.fillup .note.done                   {width: 504px; float: right;}
 .layout_content .layout_content_container1.fillup .addition                    {float: right; color: #202020; font-size: 100%; width: 80%;}
-.layout_content .layout_content_container1.fillup .blue                        {margin: 30px auto 0 auto; width: 259px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 100%;}
+.layout_content .layout_content_container1.fillup .blue                        {margin: 30px auto 0 auto;}
 .layout_content .layout_content_container1.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
 .layout_content .layout_content_container1.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
 .layout_content .layout_content_container1.fillup .side img                    {position: absolute; top: 46px; right: 31px; margin: 0;}
@@ -179,7 +179,7 @@
 .layout_content_container1.calc .layout_contentBlock_right form td.last           {padding-left: 30px;}
 .layout_content_container1.calc .layout_contentBlock_right form tr:first-child td {color: #181818; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
 .layout_content_container1.calc .layout_contentBlock_right .result                {color: #388d40; font-size: 112%; text-align: right;}
-.layout_content_container1.calc .layout_contentBlock_right .blue                  {width: 167px; height: 39px; line-height: 36px; float: left; font-size: 100%; margin-right: 28px;}
+.layout_content_container1.calc .layout_contentBlock_right .blue                  {float: left; margin-right: 28px;}
 .layout_content_container1.calc .layout_contentBlock_right .add_row img           {margin: 10px;}
 .layout_content_container1.calc .layout_contentBlock_right .add_row span          {font-size: 100%; color: #0a79bf; line-height: 36px;}
 .layout_content_container1.calc .layout_contentBlock_right .addition              {margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-size: 88%; text-align: center;}
@@ -221,7 +221,7 @@
 .layout_content_container1 .layout_contentBlock_type .type h3         {margin-top: 0; margin-bottom: 30px; font-size: 250%;}
 .layout_content_container1 .layout_contentBlock_type .type .bold      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
 .layout_content_container1 .layout_contentBlock_type p                {margin-bottom: 30px; line-height: 15px;}
-.layout_content_container1 .layout_contentBlock_type .blue            {width: 249px; height: 39px; line-height: 36px; font-size: 118%;}
+.layout_content_container1 .layout_contentBlock_type .blue            {}
 .layout_content_container1.terms .comment                             {line-height: 21px; margin-bottom: 15px; font-size: 88%;}
 .layout_content_container1.terms .comment:last-child                  {margin-bottom: 0;}
 .layout_content_container1.terms .star                                {color: #ff0000;}
@@ -237,7 +237,7 @@
 .layout_content_container1.feed .form img                   {float: left; margin-top: -3px;}
 .layout_content_container1.feed .form textarea[name="message"] {width: 480px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
 .layout_content_container1.feed .form label[for="capcha"]   {line-height: 21px;}
-.layout_content_container1.feed .form .blue                 {width: 205px; height: 39px; line-height: 36px; font-size: 118%; margin: 15px auto 0 auto;}
+.layout_content_container1.feed .form .blue                 {margin: 15px auto 0 auto;}
 
 .layout_content_container1.konkurs                                                        {padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.konkurs .layout_content_upper                                  {}
@@ -301,7 +301,7 @@
 .layout_content_container2.konkurs input#repeat_pass                                      {width: 240px; float: left;}
 .layout_content_container2.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
 .layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
-.layout_content_container2.konkurs .form .blue                                            {margin-top: 15px; width: 257px; height: 39px; line-height: 35px; font-size: 118%; border-radius: 20px;}
+.layout_content_container2.konkurs .form .blue                                            {margin-top: 15px;}
 .layout_content_container1.konkurs img.desktop      {display: block; float: left;}
 .layout_content_container1.konkurs img.tablet       {display: none;}
 
@@ -318,8 +318,8 @@
 .layout_content_container1.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
 .layout_content_container1.novichkam .layout_content_upper {border-bottom: 1px solid #ccd7db;}
 .layout_content_container1.novichkam .banner               {display: inline-block;}
-.layout_content_container1.novichkam .image_banner.desktop         {float: left; margin-right: 10px;}
-.layout_content_container1.novichkam .image_banner.tablet         {display: none;}
+.layout_content_container1.novichkam .image_banner.desktop {float: left; margin-right: 10px;}
+.layout_content_container1.novichkam .image_banner.tablet  {display: none;}
 .layout_content_container1.novichkam .buttons              {float: left; width: 262px;}
 .layout_content_container1.novichkam .button               {width: 182px; height: 136px; padding: 29px 40px; text-align: center; font-weight: 700; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
 .layout_content_container1.novichkam .button img           {margin: 0 auto; margin-bottom: 25px; display: block;}

@@ -4,7 +4,7 @@
 .layout_content1.rating {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
 .layout_content1.rating .layout_content_container1 {margin: 45px auto; width: 1080px;}
 .layout_content1.rating .layout_content_container1 h2 {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
-.layout_content1.rating .layout_content_container1 .blue {float: right; width: 175px; height: 44px; line-height: 40px;}
+.layout_content1.rating .layout_content_container1 .blue {float: right;}
 .layout_content1.rating .layout_content_container1 .blue img {vertical-align: middle; margin-right: 5px;}
 .layout_content1.rating .layout_content_container1 .items {display: inline-block; width: 1080px;}
 .layout_content1.rating .layout_content_container1 .items .item {float: left; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
@@ -40,7 +40,7 @@
 .layout_content2.rating .layout_contentBlock_left table .col.left .ways {display: inline-block; margin-bottom: 20px;}
 .layout_content2.rating .layout_contentBlock_left table .col.left .ways li {color: #0a79bf; font-size: 80%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; margin-bottom: 10px;}
 .layout_content2.rating .layout_contentBlock_left table .col.left .ways li:before {content: ""; background: url("../images/rating/Check_bullit.svg") center no-repeat; width: 15px; height: 15px; display: inline-block; margin-right: 10px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .blue {width: 330px; font-size: 70%; margin: 0 auto 30px auto; display: block;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .blue {font-size: 70%; margin: 0 auto 30px auto; display: block;}
 .layout_content2.rating .layout_contentBlock_left table .col.left .blue img {display: inline-block; vertical-align: middle;}
 .layout_content2.rating .layout_contentBlock_left table .col.right h4 {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; margin: 26px 0 26px 30px;}
 .layout_content2.rating .layout_contentBlock_left table .col.right .note {width: 308px; line-height: 21px; font-size: 68%; padding: 17px 0 17px 24px; border-left: 3px solid #0a79bf; margin: 0 auto; display: block; background: #ffffff;}
@@ -57,7 +57,7 @@
 .layout_content2.rating .layout_contentBlock_right {width: 262px; height: auto; background: transparent; padding: 0; float: right;}
 .layout_content2.rating .layout_contentBlock_right label {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
 .layout_content2.rating .layout_contentBlock_right input {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .blue {width: 195px; display: block; margin: 0 auto; height: 39px;}
+.layout_content2.rating .layout_contentBlock_right .blue {display: block; margin: 0 auto;}
 .layout_content2.rating .layout_contentBlock_right .note {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
 .layout_content2.rating .layout_contentBlock_right .search {position: relative; display: inline-block;}
 .layout_content2.rating .layout_contentBlock_right .search img {position: absolute; top: 48px; left: 170px;}
@@ -111,8 +111,17 @@
 
 .layout_content_container1.invest .layout_contentBlock .example {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
 
-
-
+/*Be trader*/
+.layout_content_container1.invest .layout_content_upper {display: inline-block; margin-bottom: 56px;}
+.layout_content_container1.invest .layout_contentBlock {float: left; padding: 30px; height: 191px; display: inline-block;}
+.layout_content_container1.invest .layout_contentBlock_left {width: 416px; background: #ffffff; margin-right: 10px;}
+.layout_content_container1.invest .layout_contentBlock_left label {line-height: 42px; float: left; width: 100px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.layout_content_container1.invest .layout_contentBlock_left input {float: left; margin-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 277px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.layout_content_container1.invest .layout_contentBlock_right {width: 206px; background: #218ed2; text-align: center;}
+.layout_content_container1.invest .layout_contentBlock_right p {color: #ffffff; margin: 0 20px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; font-size: 140%;}
+.layout_content_container1.invest .layout_contentBlock_right img.person {margin-top: 35px; margin-bottom: 10px;}
+.layout_content_container1.invest .layout_contentBlock_left .forget {float: left; margin-right: 40px; line-height: 40px; color: #218ed2; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+.layout_content_container1.invest .layout_contentBlock_left .blue {}
 
 
 

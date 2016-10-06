@@ -11,9 +11,9 @@ h1, h2, h3, h4, p           {margin: 0;}
 h1                          {font-weight: 700; font-family: GothamPro-Bold, Arial, sans-serif; margin-bottom: 55px;}
 h2                          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; margin-bottom: 40px;}
 h3, h4, h5, h6              {margin-bottom: 32px;}
-button                      {cursor: pointer; height: 36px; line-height: 30px; border-radius: 20px; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; outline-width: 0; font-size: 100%; cursor: pointer; display: block; text-align: center; border: 2px solid black; background: transparent;}
+button                      {cursor: pointer; height: 36px; line-height: 30px; border-radius: 20px; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; outline-width: 0; font-size: 100%; display: block; text-align: center; border: 2px solid black; background: transparent;}
 button.large                {height: 51px; line-height: 45px; font-size: 135%; border-radius: 25px;}
-button.blue                 {background: #218ed2; border-color: #218ed2; color: #ffffff;}
+button.blue                 {background: #218ed2; border-color: #218ed2; color: #ffffff; line-height: 35px; border-radius: 22px; height: 39px; font-size: 118%; padding: 0 35px;}
 button.blue:hover           {background: transparent; color: #218ed2;}
 button.blue:active          {background: #181818; color: #ffffff; border-color: #181818;}
 button.red                  {background: #ff4830; border-color: #ff4830; color: #ffffff;}
