@@ -8,6 +8,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_invest.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="layout_header desktop">
@@ -21,11 +22,11 @@
                 <a href="fillup.html">Пополнить счет</a>
                 <a href="withdraw.html">Вывести средства</a>
             </div>
+            <a href class="terminal">
+                <img src="../images/main/Terminal.svg" width="14" height="13">
+                Web-терминал
+            </a>
             <div class="layout_headerBlock layout_headerBlock_right">
-                <a href>
-                    <img src="../images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
                 <a href>
                     <img src="../images/main/Comment.svg" width="15" height="15">
                     Live chat
@@ -43,7 +44,7 @@
                         <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
                         <li class="active"><a class="active" href="rating.html">Инвестиции</a>
 
-                            <div class="triangle traider"></div>
+                            <div class="triangle invest"></div>
                         </li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
@@ -58,7 +59,6 @@
                 </a>
             </div>
         </div>
-        <div class="triangle invest"></div>
     </div>
     <div class="layout_header_container1">
         <div class="layout_headerBlock layout_headerBlock_menu">
@@ -79,17 +79,17 @@
 <header class="layout_header tablet">
     <div class="layout_header_container">
         <div class="layout_header_content">
-                <div class="layout_headerBlock layout_headerBlock_logo">
-                    <a href="/"></a>
-                </div>
-                <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                    <a href="/open_account.html">
-                        <img src="../images/main/Profile.svg" width="17" height="17">
-                        Открыть счет
-                    </a>
-                    <a href="add_fee.html">Пополнить счет</a>
-                    <a href="withdraw.html">Вывести средства</a>
-                    <a href>
+            <div class="layout_headerBlock layout_headerBlock_logo">
+                <a href="/"></a>
+            </div>
+            <div class="layout_headerBlock layout_headerBlock_menuTablet">
+                <a href="/open_account.html">
+                    <img src="../images/main/Profile.svg" width="17" height="17">
+                    Открыть счет
+                </a>
+                <a href="add_fee.html">Пополнить счет</a>
+                <a href="withdraw.html">Вывести средства</a>
+                <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
                     Web-терминал
                 </a>
@@ -144,173 +144,190 @@
         </div>
     </div>
 </header>
-<section class="layout_content">
-    <div class="layout_content_container1 rating">
-        <div class="layout_content_upper">
-            <h2>Рейтинг управляющих трейдеров</h2>
-            <button>
-                <img src="../images/rating/Question_grey.svg" width="20">
-                Как инвестировать
-            </button>
-            <div class="items">
-                <div class="item">
-                    <img src="../images/rating/Shturval_white.svg" width="50">
-                    <span>TIS — новейшая система инвестирования , позволяющая одновременно быть и управляющим трейдером, и инвестором</span>
+<section class="layout_content1 rating">
+    <div class="layout_content_container1">
+        <h2>Рейтинг управляющих трейдеров</h2>
+        <button class="blue">
+            <img src="../images/rating/Question_white.svg" width="20">
+            Как инвестировать
+        </button>
+        <div class="clear"></div>
+        <div class="items">
+            <div class="item">
+                <div class="image_wrap">
+                    <img src="../images/rating/Shturval_white.svg" width="64">
                 </div>
-                <div class="item">
-                    <img src="../images/rating/Money_white.svg" width="50">
-                    <span>TIS — новейшая система инвестирования , позволяющая одновременно быть и управляющим трейдером, и инвестором</span>
+                <span>TIS — новейшая система инвестирования , позволяющая одновременно быть и управляющим трейдером, и инвестором</span>
+            </div>
+            <div class="item">
+                <div class="image_wrap">
+                    <img src="../images/rating/Money_white.svg" width="58">
                 </div>
-                <div class="item">
-                    <img src="../images/rating/Handshake.svg" width="50">
-                    <span>TIS — новейшая система инвестирования , позволяющая одновременно быть и управляющим трейдером, и инвестором</span>
+                <span>Возможность дополнительного заработка профессионального трейдера, в управлении которого находится счет инвестора</span>
+            </div>
+            <div class="item">
+                <div class="image_wrap">
+                    <img src="../images/rating/Icon_handshakes.png">
                 </div>
-                <div class="item">
-                    <img src="../images/rating/Pie.svg" width="50">
-                    <span>TIS — новейшая система инвестирования , позволяющая одновременно быть и управляющим трейдером, и инвестором</span>
+                <span>Вам не нужны навык и опыт торговли на рынке Forex, поскольку Вы можете выбрать Управляющего</span>
+            </div>
+            <div class="item">
+                <div class="image_wrap">
+                    <img src="../images/rating/Pie.svg" width="67">
                 </div>
+                <span>Размер вознаграждения управляющего определен заранее и выплачивается при получении прибыли</span>
             </div>
         </div>
-        <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
-                <div class="table_rating">
-                    <table>
-                        <tr>
-                            <th>Трейдер</th>
-                            <th>Доходность
-                                <select>
-                                    <option>за неделю</option>
-                                </select>
-                            </th>
-                            <th>Максимальная
-                                просадка</th>
-                            <th>Средства</th>
-                            <th>Возраст
-                                (дней)</th>
-                            <th>Комиссия
-                                трейдера</th>
-                        </tr>
-                        <tr>
-                            <td>FutureForex</td>
-                            <td>382,04%</td>
-                            <td>-50.89%</td>
-                            <td>255 850$</td>
-                            <td>350</td>
-                            <td>45%
-                                <img src="">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="about_trader">
-                                    <div class="left">
-                                        <h4></h4>
-                                        <p></p>
-                                        <div class="info">
-                                            <div class="block">
-                                                69 лет Возраст
-                                            </div>
-                                            <div class="block">
-                                                15 лет Опыт торговли
-                                            </div>
-                                            <div class="block">
-                                                60% Комиссия
-                                            </div>
+    </div>
+</section>
+<section class="layout_content2 rating">
+    <div class="layout_content_container2">
+        <div class="layout_contentBlock_left">
+            <div class="table_rating">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <th>Трейдер</th>
+                        <th>Доходность за
+                            <select>
+                                <option>неделю</option>
+                            </select>
+                        </th>
+                        <th>Максимальная
+                            просадка
+                        </th>
+                        <th>Средства</th>
+                        <th>Возраст
+                            (дней)
+                        </th>
+                        <th>Комиссия
+                            трейдера
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>FutureForex</td>
+                        <td>382,04%</td>
+                        <td>-50.89%</td>
+                        <td>255&nbsp;850$</td>
+                        <td>350</td>
+                        <td>45%
+                            <img class="dropdown" src="../images/rating/Icon_dropdown_blue.png">
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td colspan="6" class="about_trader">
+                            <div>
+                                <div class="col left">
+                                    <h4>Кратко о трейдере</h4>
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+                                    <div class="info">
+                                        <div class="block">
+                                            69 лет<br><span>Возраст</span>
                                         </div>
-                                        <div class="ways">
-                                            <span>Способы инвестирования</span>
-                                            <ul>
-                                                <li>Инвестирование по лотам</li>
-                                                <li>Инвестирование по средствам</li>
-                                                <li>Прямое инвестирование</li>
-                                            </ul>
+                                        <div class="block">
+                                            15 лет<br><span>Опыт торговли</span>
                                         </div>
-                                        <button class="blue">
-                                            <img src="../images/rating/Trade_profile_white.svg" width="20">
-                                            Профиль трейдера, график успешности
-                                        </button>
+                                        <div class="block">
+                                            60%<br><span>Комиссия</span>
+                                        </div>
                                     </div>
-                                    <div class="right">
-                                        <span>Инвестиции в этого трейдера</span>
-                                        <div class="note">Деньги спишутся с
-                                            <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
-                                            <a href>личном кабинете</a>.
-                                        </div>
-                                        <form>
-                                            <label>Сумма</label>
-                                            <input>$
-                                            <a href></a>
-                                            <label>Соответствие</label>
-                                            <select>
-                                                <option>1</option>
-                                            </select>
-                                            <select>
-                                                <option>6</option>
-                                            </select>
-                                            <a href></a>
-                                            <label>Торговля</label>
-                                            <input>$
-                                            <a href></a>
-                                            <button class="red">Инвестировать</button>
-                                        </form>
+                                    <div class="ways">
+                                        <h4>Способы инвестирования</h4>
+                                        <ul>
+                                            <li>Инвестирование по лотам</li>
+                                            <li>Инвестирование по средствам</li>
+                                            <li>Прямое инвестирование</li>
+                                        </ul>
                                     </div>
+                                    <button class="blue">
+                                        <img src="../images/rating/Trade_profile_white.svg" width="14">
+                                        Профиль трейдера, график успешности
+                                    </button>
                                 </div>
-                            </td>
-                        </tr>
-                    </table>
+                                <div class="col right">
+                                    <h4>Инвестиции в этого трейдера</h4>
+
+                                    <div class="note">Деньги спишутся с
+                                        <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
+                                        <a href>личном кабинете</a>.
+                                    </div>
+                                    <form>
+                                        <label>Сумма</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Соответствие</label>
+                                        <select>
+                                            <option>1</option>
+                                        </select>
+                                        <select>
+                                            <option>6</option>
+                                        </select>
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Торговля</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <button class="red">Инвестировать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="layout_contentBlock_right">
+            <div class="filter">
+                <div class="search">
+                    <label>Найти трейдера</label>
+                    <input type="search" placeholder="Ник или счет">
+                    <img src="../images/education/Icon_search.png">
+                </div>
+                <div class="filters">
+                    <label>Доходность</label>
+                    <input type="range" min="-100%" max="2450%">
+                    <label>Максимальная просадка</label>
+                    <input type="range">
+                    <label>Средства</label>
+                    <input type="range">
+                    <label>Возраст счета</label>
+                    <input type="range">
+                    <label>Комиссия трейдера</label>
+                    <input type="range">
                 </div>
             </div>
-            <div class="layout_contentBlock_right">
-                <div class="filter">
-                    <div class="search">
-                        <label>Найти трейдера</label>
-                        <input>
-                        <img src="">
-                    </div>
-                    <div class="filters">
-                        <label>Доходность</label>
-                        <input type="range">
-                        <label>Максимальная просадка</label>
-                        <input type="range">
-                        <label>Средства</label>
-                        <input type="range">
-                        <label>Возраст счета</label>
-                        <input type="range">
-                        <label>Комиссия трейдера</label>
-                        <input type="range">
-                    </div>
-                </div>
-                <div class="calc">
-                    <img src="../images/rating/Calculator.svg" width="40">
-                    <h4>Инвестиционный калькулятор</h4>
-                    <form>
-                        <label>Сумма инвестиций</label>
-                        <input>
-                        <label>Трейдер</label>
-                        <input>
-                        <label>Период</label>
-                        <select>
-                            <option>Неделя</option>
-                        </select>
-                        <button class="blue">Рассчитать</button>
-                        <span class="note">Помогает рассчитать прибыль от сотрудничества с указанным управляющим трейдером</span>
-                    </form>
-                </div>
-                <div class="spred">
-                    <h4>Инвестировать в нескольких трейдеров</h4>
+            <div class="calc">
+                <img src="../images/rating/Calculator.svg" width="28">
+                <h4>Инвестиционный калькулятор</h4>
+                <div class="clear"></div>
+                <form>
                     <label>Сумма инвестиций</label>
-                    <input>
-                    <div class="radio">
-                        <input type="radio">
-                        <label>Вручную</label>
-                        <input type="radio">
-                        <label>Мне повезет</label>
-                        <input type="radio">
-                        <label>Лучших по доходу</label>
-                    </div>
-                    <button class="blue">Добавить трейдеров</button>
-                    <span class="note">Экономит время когда нужно распределить инвестиции между несколькими трейдерами</span>
+                    <input type="text">
+                    <label>Трейдер</label>
+                    <input type="text">
+                    <label>Период</label>
+                    <select>
+                        <option>Неделя</option>
+                    </select>
+                    <button class="blue">Рассчитать</button>
+                    <span class="note">Помогает рассчитать прибыль от сотрудничества с указанным управляющим трейдером</span>
+                </form>
+            </div>
+            <div class="spred">
+                <h4>Инвестировать в нескольких трейдеров</h4>
+                <label>Сумма инвестиций</label>
+                <input type="text">
+
+                <div class="radio">
+                    <input type="radio" name="way" id="hand" checked>
+                    <label class="hand" for="hand">Вручную</label>
+                    <input type="radio" name="way" id="luck">
+                    <label class="luck" for="luck">Мне повезет</label>
+                    <input type="radio" name="way" id="best">
+                    <label class="best" for="best">Лучших по доходу</label>
                 </div>
+                <button class="blue">Добавить трейдеров</button>
+                <span class="note">Экономит время когда нужно распределить инвестиции между несколькими трейдерами</span>
             </div>
         </div>
     </div>
