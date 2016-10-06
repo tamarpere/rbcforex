@@ -2,33 +2,33 @@
 .desktop {display: block;}
 .layout_header .layout_header_container1                  {width: 100%; min-height: 64px; background: #0a79c0;}
 .layout_header .layout_headerBlock_menu li                {display: inline-block; color: #fff;}
-.layout_header .layout_headerBlock_menu a                 {font-family: GothamPro-Med, Arial, sans-serif; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
+.layout_header .layout_headerBlock_menu a                 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
 .layout_header .layout_headerBlock_menu a:hover           {background: #218ed2;}
-.layout_header .layout_headerBlock_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; background: #fff; color: #181818;}
+.layout_header .layout_headerBlock_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; background: #fff; color: #181818;}
 .layout_header .layout_headerBlock_menu                   {max-width: 1080px; margin: 0 auto; position: relative;}
 .layout_header .layout_headerBlock_menu .menu             {display: inline-block; margin: 13px 0;}
 .layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 30px;}
 
 .layout_content .layout_content_container1                            {position: relative; max-width: 1080px; margin: 0 auto; padding: 50px 0 0 0; color: #181818;}
-.layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, sans-serif; line-height: 30px; font-size: 300%; margin-bottom: 59px;}
+.layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; line-height: 30px; font-size: 300%; margin-bottom: 59px;}
 .layout_content .layout_content_upper .ok                             {float: left; margin-right: 15px;}
 .layout_content .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0;}
 .layout_content .layout_content_lower .layout_contentBlock_left       {padding: 30px; width: 747px; height: auto; background: #ffffff; float: left; margin-right: 10px;}
 .layout_content .layout_content_lower .layout_contentBlock_right      {padding: 30px; width: 202px; height: auto; background: #ffffff; float: right;}
 
-.layout_content .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
+.layout_content .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
 .layout_content .layout_content_lower input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
-.layout_content .layout_contentBlock_choice label                                      {position: relative; margin-right: 10px; font-size: 150%; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
-.layout_content .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content .layout_contentBlock_choice label .text                                {font-size: 78%; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_contentBlock_choice label                                      {position: relative; margin-right: 10px; font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
+.layout_content .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content .layout_contentBlock_choice label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content .layout_contentBlock_choice input[type="radio"]                        {display: none;}
 .layout_content .layout_contentBlock_choice label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 30px; top: 24px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
 .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
 .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label .title {color: #ffffff;}
 .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff; padding-left: 1px;}
 
-.layout_content .layout_content_lower .layout_contentBlock_right                    {font-family: Roboto-Reg, Arial, sans-serif; color: #218ed2; font-size: 118%;}
-.layout_content .layout_content_lower .layout_contentBlock_right span               {font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 115%;}
+.layout_content .layout_content_lower .layout_contentBlock_right                    {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
+.layout_content .layout_content_lower .layout_contentBlock_right span               {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #181818; font-size: 115%;}
 .layout_content .layout_content_lower .layout_contentBlock_right li                 {margin: 10px 0;}
 .layout_content .layout_content_lower .layout_contentBlock_right .title             {display: block; margin-bottom: 15px;}
 .layout_content .layout_content_lower .layout_contentBlock_right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
@@ -41,11 +41,11 @@
 .layout_content .show_pass a .default                                               {opacity: 1;}
 .layout_content .show_pass a:hover .hover                                           {opacity: 1;}
 .layout_content .show_pass a:hover .default                                         {opacity: 0;}
-.layout_content .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; color: #218ed2; vertical-align: top; line-height: 60px;}
+.layout_content .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
 .layout_content .layout_content_lower input#repeat_pass                             {width: 240px; float: left;}
 .layout_content .layout_content_lower .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
 .layout_content .layout_content_lower input[type="checkbox"]                        {display: none;}
-.layout_content .layout_content_lower label[for="check"]                            {float: none; font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content .layout_content_lower label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content .layout_content_lower input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
 .layout_content .layout_content_lower input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
 .layout_content .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
@@ -53,18 +53,18 @@
 .layout_content .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
 .layout_content .layout_content_lower form .addition .blue                          {font-size: 118%; width: 257px; height: 41px; line-height: 35px; border-radius: 20px; margin: 0 auto;}
 
-.layout_content .layout_content_lower .layout_contentBlock_left p                    {font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%; line-height: 27px;}
-.layout_content .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
+.layout_content .layout_content_lower .layout_contentBlock_left p                    {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 27px;}
+.layout_content .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
 .layout_content .layout_content_lower .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
-.layout_content .layout_content_lower .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-size: 300%; float: right; text-align: right; line-height: 36px;}
+.layout_content .layout_content_lower .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
 .layout_content .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
-.layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
+.layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
 .layout_content .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
-.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; padding-right: 40px;}
+.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; padding-right: 40px;}
 .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: block;}
 .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile {display: none;}
 .layout_content .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
-.layout_content .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-size: 118%;}
+.layout_content .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
 .layout_content .layout_content_lower .more a                                        {position: absolute; right: 14px;}
 .layout_content .layout_content_lower .extra_info                                    {margin-top: 18px;}
 .layout_content .layout_content_lower .extra_info .form                              {display: none; margin-top: 30px;}
@@ -80,15 +80,15 @@
 .layout_content .layout_content_lower .layout_contentBlock_right.after               {background: transparent; padding: 0;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after a             {width: 202px; background: #fff; display: block; padding: 30px; text-align: center; margin-bottom: 10px;}
 .layout_content .layout_content_lower .layout_contentBlock_right.after img           {display: block; float: none; margin: 0 auto 20px auto;}
-.layout_content .layout_content_lower .layout_contentBlock_right.after .link         {font-size: 105%; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
-.layout_content .layout_content_lower .layout_contentBlock_right.after .devices      {font-size: 95%; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
-.layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {font-size: 105%; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .link         {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .devices      {font-size: 95%; font-weight: 400; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
+.layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
 
 .layout_content .layout_content_middle.tablet {display: none;}
 .layout_content .layout_content_middle.desktop                                     {clear: both; display: inline-block;}
 .layout_content .layout_content_middle.desktop .layout_contentBlock_left           {position: relative; padding: 15px 35px 35px 35px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
 .layout_content .layout_content_middle.desktop .layout_contentBlock_right          {padding: 35px; width: 616px; height: auto; background: #fbfcfc; float: left;}
-.layout_content .layout_content_middle label                               {float: left; width: 240px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 13px; margin: 26px 0 13px 0;}
+.layout_content .layout_content_middle label                               {float: left; width: 240px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 13px; margin: 26px 0 13px 0;}
 .layout_content .layout_content_middle input                               {width: 300px; height: 40px; border: 1px solid #e8eaeb; margin: 0;}
 .layout_content .layout_content_middle input[id="password"]                {width: 245px;}
 .layout_content .layout_content_middle .gen_pass                           {position: absolute; right: 30px; bottom: 232px;}
@@ -97,15 +97,15 @@
 .layout_content .layout_content_middle .selects                            {display: inline-block;}
 .layout_content .layout_content_middle select                              {float: left; width: 150px;}
 .layout_content .layout_content_middle .blue                               {margin: 29px auto 0 auto; width: 206px; height: 41px; line-height: 35px; font-size: 118%;}
-.layout_content .layout_content_middle .learning h3       {font-size: 165%; margin-bottom: 32px; margin-top: 0; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content .layout_content_middle .learning p        {font-size: 118%; line-height: 23px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning h3       {font-size: 165%; margin-bottom: 32px; margin-top: 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning p        {font-size: 118%; line-height: 23px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content .layout_content_middle .learning p a      {color: #218ed2; text-decoration: underline; display: inline;}
 .layout_content .layout_content_middle .learning .list    {text-align: center;}
-.layout_content .layout_content_middle .learning .point   {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
-.layout_content .layout_content_middle .learning .marker  {font-family: Roboto-Reg, Arial, sans-serif; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
-.layout_content .layout_content_middle .learning .bold    {font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning .point   {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
+.layout_content .layout_content_middle .learning .marker  {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
+.layout_content .layout_content_middle .learning .bold    {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
 .layout_content .layout_content_middle .learning .done    {margin-top: 43px;}
-.layout_content .layout_content_middle .learning .done h2 {font-size: 218%; color: #388d40; margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content .layout_content_middle .learning .done h2 {font-size: 218%; color: #388d40; margin-bottom: 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content .layout_content_middle .learning .done p  {margin: 26px 0;}
 .layout_content .layout_content_middle .learning .server  {font-size: 120%;}
 
@@ -113,8 +113,8 @@
 .layout_content_container1.demo .layout_content_lower {margin-bottom: 0;}
 .layout_content .layout_contentBlock_reklama          {width: 590px; text-align: left; float: right; padding: 15px 40px 35px 60px;}
 .layout_content .layout_contentBlock_image            {position: absolute; left: -308px;}
-.layout_content .layout_contentBlock_reklama h3       {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 260%; margin-bottom: 35px; line-height: 33px; color: #181818;}
-.layout_content .layout_contentBlock_reklama p        {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 23px; color: #181818;}
+.layout_content .layout_contentBlock_reklama h3       {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-bottom: 35px; line-height: 33px; color: #181818;}
+.layout_content .layout_contentBlock_reklama p        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 23px; color: #181818;}
 .layout_content .layout_contentBlock_reklama .apps    {width: 215px; display: inline-block; margin-top: 50px; margin-right: 40px; float: right;}
 .layout_content .layout_contentBlock_reklama .blue    {float: left; width: 224px; height: 41px; line-height: 35px; border-radius: 20px; font-size: 118%; margin-top: 40px;}
 .layout_content .layout_contentBlock_reklama .win     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
@@ -122,27 +122,27 @@
 .layout_content .layout_contentBlock_reklama .android {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
 .layout_content .layout_contentBlock_reklama .web     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
-.layout_content .layout_content_container1.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: 28px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
-.layout_content .layout_content_container1.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif;}
+.layout_content .layout_content_container1.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: 28px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
+.layout_content .layout_content_container1.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_left    {width: 260px; padding: 30px 0;}
 .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818;}
 .layout_content .layout_content_container1.fillup .payment.tablet              {display: none;}
 .layout_content .layout_content_container1.fillup .payment.desktop             {display: block;}
-.layout_content .layout_content_container1.fillup .payment.desktop table               {width: 260px; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content .layout_content_container1.fillup .payment.desktop table               {width: 260px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
 .layout_content .layout_content_container1.fillup .payment.desktop tr.active           {background: #f1f8fc;}
 .layout_content .layout_content_container1.fillup .payment.desktop tr.active td:first-child {border-left: 3px solid #218ed2;}
 .layout_content .layout_content_container1.fillup .payment.desktop td                  {padding: 14px 0;}
 .layout_content .layout_content_container1.fillup .payment.desktop td:first-child      {text-align: center; padding-left: 25px;}
 .layout_content .layout_content_container1.fillup .payment.desktop td:last-child       {padding-right: 25px;}
 .layout_content .layout_content_container1.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
-.layout_content .layout_content_container1.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
+.layout_content .layout_content_container1.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
 .layout_content .layout_content_container1.fillup form.mobile                          {display: none;}
-.layout_content .layout_content_container1.fillup label                        {font-size: 100%; font-family: Roboto-Med, Arial, sans-serif; line-height: 23px;}
+.layout_content .layout_content_container1.fillup label                        {font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; line-height: 23px;}
 .layout_content .layout_content_container1.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
 .layout_content .layout_content_container1.fillup input#sum                    {width: 157px;}
 .layout_content .layout_content_container1.fillup input#result                 {width: 157px;}
 .layout_content .layout_content_container1.fillup select                       {float: left; width: 91px; height: 41px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
-.layout_content .layout_content_container1.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; float: left; width: 200px; color: #9b9a9a; font-size: 85%; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content .layout_content_container1.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 85%; display: inline-block; margin-left: 20px; line-height: 19px;}
 .layout_content .layout_content_container1.fillup a.note                       {color: #218ed2;}
 .layout_content .layout_content_container1.fillup .note.done                   {width: 504px; float: right;}
 .layout_content .layout_content_container1.fillup .addition                    {float: right; color: #202020; font-size: 100%; width: 80%;}
@@ -165,9 +165,9 @@
 .layout_content_container1.calc .payment.desktop                         {display: block;}
 .layout_content_container1.calc .payment.tablet                         {display: none;}
 .layout_content_container1.calc .layout_contentBlock_left                         {width: 261px; padding: 30px 0;}
-.layout_content_container1.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
-.layout_content_container1.calc .payment .title                                   {font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
+.layout_content_container1.calc .payment .title                                   {font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
 .layout_content_container1.calc .layout_contentBlock_right                        {width: 747px; padding: 27px 30px;}
 .layout_content_container1.calc .layout_contentBlock_right .error                 {display: none;}
 .layout_content_container1.calc .layout_contentBlock_right form table             {margin-bottom: 20px;}
@@ -177,49 +177,49 @@
 .layout_content_container1.calc .layout_contentBlock_right form .count            {width: 77px; margin-right: 15px;}
 .layout_content_container1.calc .layout_contentBlock_right form #pips             {width: 67px; margin-right: 15px;}
 .layout_content_container1.calc .layout_contentBlock_right form td.last           {padding-left: 30px;}
-.layout_content_container1.calc .layout_contentBlock_right form tr:first-child td {color: #181818; font-size: 100%; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content_container1.calc .layout_contentBlock_right form tr:first-child td {color: #181818; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
 .layout_content_container1.calc .layout_contentBlock_right .result                {color: #388d40; font-size: 112%; text-align: right;}
 .layout_content_container1.calc .layout_contentBlock_right .blue                  {width: 167px; height: 39px; line-height: 36px; float: left; font-size: 100%; margin-right: 28px;}
 .layout_content_container1.calc .layout_contentBlock_right .add_row img           {margin: 10px;}
 .layout_content_container1.calc .layout_contentBlock_right .add_row span          {font-size: 100%; color: #0a79bf; line-height: 36px;}
 .layout_content_container1.calc .layout_contentBlock_right .addition              {margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-size: 88%; text-align: center;}
-.layout_content_container1.calc .layout_contentBlock_right .addition .title       {font-family: Roboto-Bold, Arial, sans-serif; margin-bottom: 10px;}
+.layout_content_container1.calc .layout_contentBlock_right .addition .title       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-bottom: 10px;}
 
 .layout_content_container1.faq .question            {width: 1017px; padding: 25px 30px; height: auto; background: #fff; margin: 10px auto; text-align: left;}
 .layout_content_container1.faq .question:last-child {margin-bottom: 68px;}
-.layout_content_container1.faq .title               {font-size: 135%; color: #0a79bf; font-family: Roboto-Reg, Arial, sans-serif; display: block; cursor: pointer;}
-.layout_content_container1.faq .text                {display: none; font-size: 118%; color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container1.faq .title.bold          {font-family: Roboto-Bold, Arial, sans-serif; color: #181818; margin-bottom: 10px;}
+.layout_content_container1.faq .title               {font-size: 135%; color: #0a79bf; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; display: block; cursor: pointer;}
+.layout_content_container1.faq .text                {display: none; font-size: 118%; color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.faq .title.bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; color: #181818; margin-bottom: 10px;}
 
-.layout_content_container1.terms                                      {color: #181818; padding-bottom: 50px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.terms                                      {color: #181818; padding-bottom: 50px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1 h2                                         {display: inline-block;}
 .layout_content_container1 .kinds                                     {float: right; width: 50%; text-align: right;}
 .layout_content_container1 .kinds ul                                  {display: inline-block;}
 .layout_content_container1 .kinds ul li                               {display: inline-block; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
 .layout_content_container1 .kinds ul li a                             {padding: 0 25px; border-radius: 23px;}
 .layout_content_container1 .kinds ul li a.active                      {background: #0a79bf; color: #ffffff;}
-.layout_content_container1 h4                                         {font-size: 133%; font-family: Roboto-Light, Arial, sans-serif;}
+.layout_content_container1 h4                                         {font-size: 133%; font-weight: 300; font-family: Roboto-Light, Arial, sans-serif;}
 .layout_content_container1 .summary                                   {width: 100%;}
 .layout_content_container1 .summary td                                {min-width: 170px; font-size: 118%; vertical-align: top; padding-right: 57px; padding-bottom: 40px; border-bottom: 1px solid #dee2e4;}
 .layout_content_container1 .summary td:last-child                     {padding-right: 0;}
 .layout_content_container1 .summary td span                           {font-size: 140%; margin-bottom: 20px; display: inline-block;}
-.layout_content_container1 h3                                         {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 235%; color: #2a333c; margin: 36px 0 27px 0; display: inline-block;}
+.layout_content_container1 h3                                         {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 235%; color: #2a333c; margin: 36px 0 27px 0; display: inline-block;}
 .layout_content_container1.terms p                                    {font-size: 118%; margin-bottom: 35px; line-height: 27px;}
-.layout_content_container1 .download_terms                            {float: right; text-align: right; color: #08743b; font-family: Roboto-Bold, Arial, sans-serif; margin-top: 43px;}
+.layout_content_container1 .download_terms                            {float: right; text-align: right; color: #08743b; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; margin-top: 43px;}
 .layout_content_container1 .download_terms img                        {vertical-align: middle; margin-right: 7px;}
-.layout_content_container1 .list a                                    {font-family: GothamPro-Med, Arial, sans-serif; font-size: 133%; color: #0a79bf; margin-right: 23px; padding-bottom: 17px;}
+.layout_content_container1 .list a                                    {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 133%; color: #0a79bf; margin-right: 23px; padding-bottom: 17px;}
 .layout_content_container1 .list a:last-child                         {margin-right: 0;}
 .layout_content_container1 .list a.active                             {color: #2a333c; border-bottom: 5px solid #2a333c; }
 .layout_content_container1 .table_terms                               {margin-top: 20px; width: 1080px;}
 .layout_content_container1 .table_terms table                         {width: 100%;}
-.layout_content_container1 .table_terms th                            {color: #fff; background: #2a333c; padding: 17px 25px; text-align: left; font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container1 .table_terms th                            {color: #fff; background: #2a333c; padding: 17px 25px; text-align: left; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content_container1 .table_terms td                            {color: #2a333c; padding: 30px 25px; text-align: left; font-size: 140%; background: #ffffff; border-bottom: 1px solid #f5f6f7;}
 .layout_content_container1 .table_terms td:first-child                {font-size: 150%;}
 .layout_content_container1 .layout_contentBlock_type .types           {display: inline-block;}
 .layout_content_container1 .layout_contentBlock_type .type            {float: left; width: 474px; margin-right: 10px; background: #ffffff; padding: 30px;}
 .layout_content_container1 .layout_contentBlock_type .type:last-child {margin-right: 0;}
 .layout_content_container1 .layout_contentBlock_type .type h3         {margin-top: 0; margin-bottom: 30px; font-size: 250%;}
-.layout_content_container1 .layout_contentBlock_type .type .bold      {font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container1 .layout_contentBlock_type .type .bold      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
 .layout_content_container1 .layout_contentBlock_type p                {margin-bottom: 30px; line-height: 15px;}
 .layout_content_container1 .layout_contentBlock_type .blue            {width: 249px; height: 39px; line-height: 36px; font-size: 118%;}
 .layout_content_container1.terms .comment                             {line-height: 21px; margin-bottom: 15px; font-size: 88%;}
@@ -230,7 +230,7 @@
 .layout_content_container1.feed                             {text-align: center;}
 .layout_content_container1.feed h2                          {text-align: left; line-height: 40px;}
 .layout_content_container1.feed .form                       {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
-.layout_content_container1.feed .form label                 {float: left; width: 150px; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; margin-right: 76px; line-height: 43px;}
+.layout_content_container1.feed .form label                 {float: left; width: 150px; font-size: 118%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-right: 76px; line-height: 43px;}
 .layout_content_container1.feed .form input                 {float: left; width: 500px; height: 39px; border: 2px solid #e8eaeb; margin-bottom: 20px;}
 .layout_content_container1.feed .form input[name="city"]    {width: 205px; margin-right: 100px;}
 .layout_content_container1.feed .form input[name="number"]  {width: 205px; margin-right: 22px;}
@@ -239,22 +239,22 @@
 .layout_content_container1.feed .form label[for="capcha"]   {line-height: 21px;}
 .layout_content_container1.feed .form .blue                 {width: 205px; height: 39px; line-height: 36px; font-size: 118%; margin: 15px auto 0 auto;}
 
-.layout_content_container1.konkurs                                                        {padding-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.konkurs                                                        {padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.konkurs .layout_content_upper                                  {}
 .layout_content_container1.konkurs h2                                                     {display: inline-block;}
-.layout_content_container1.konkurs .sections                                              {width: 50%; text-align: right; float: right; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; color: #0a79bf;}
+.layout_content_container1.konkurs .sections                                              {width: 50%; text-align: right; float: right; font-size: 118%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #0a79bf;}
 .layout_content_container1.konkurs .sections a                                            {margin-left: 43px; display: inline-block;}
 .layout_content_container1.konkurs .sections a img                                        {vertical-align: sub; margin-right: 10px;}
 .layout_content_container1.konkurs .banner                                                {width: 1078px; height: 250px; background-size: cover; margin-bottom: 30px;}
 .layout_content_container1.konkurs .banner a                                              {width: 1048px; height: 100%; display: inline-block; padding-left: 30px;}
 .layout_content_container1.konkurs .banner.first                                          {background: url("../images/konkursi/Banner1.png") center no-repeat; color: #ffffff;}
-.layout_content_container1.konkurs .banner.first h3                                       {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; color: #ffffff; font-size: 240%;}
-.layout_content_container1.konkurs .banner.second h3                                      {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; color: #ff515b; font-size: 240%;}
-.layout_content_container1.konkurs .banner.third h3                                       {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; color: #ffffff; font-size: 240%;}
+.layout_content_container1.konkurs .banner.first h3                                       {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
+.layout_content_container1.konkurs .banner.second h3                                      {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ff515b; font-size: 240%;}
+.layout_content_container1.konkurs .banner.third h3                                       {margin-bottom: 26px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
 .layout_content_container1.konkurs .banner.second                                         {background: url("../images/konkursi/Banner2.png") center no-repeat; color: #353535;}
 .layout_content_container1.konkurs .banner.third                                          {background: url("../images/konkursi/Banner3.png") center no-repeat; color: #ffffff;}
-.layout_content_container1.konkurs p                                                      {font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px;}
-.layout_content_container1.konkurs .bold                                                  {font-size: 88%; font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container1.konkurs p                                                      {font-size: 135%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px;}
+.layout_content_container1.konkurs .bold                                                  {font-size: 88%; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content_container1.konkurs .floats p                                              {float: left; margin-top: 20px; margin-right: 40px;}
 .layout_content_container1.konkurs .layout_contentBlock_banner                            {display: inline-block;}
 .layout_content_container1.konkurs .layout_contentBlock_banner img                        {float: left; margin-right: 10px;}
@@ -264,9 +264,9 @@
 .layout_content_container1.konkurs .layout_contentBlock_banner .info li:before            {display: inline-block; margin-right: 10px; content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2;}
 .layout_content_container1.konkurs .layout_contentBlock_banner .info li                   {font-size: 118%; line-height: 23px; margin-bottom: 10px; display: block;}
 .layout_content_container1.konkurs .layout_contentBlock_banner .info .float               {float: left; width: 50%; font-size: 118%; line-height: 25px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .float .bold         {font-family: Roboto-Bold, Arial, sans-serif; font-size: 100%;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .float .bold         {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
 .layout_content_container1.konkurs .layout_contentBlock_banner .info .note                {margin-top: 30px; display: inline-block; line-height: 20px; font-size: 108%;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .note a              {color: #218ed2; font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info .note a              {color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content_container1.konkurs .layout_contentBlock_prises                            {clear: both; margin-top: 50px; display: inline-block;}
 .layout_content_container1.konkurs .layout_contentBlock_prises .article                   {color: #222a3a; line-height: 30px; margin-bottom: 45px;}
 .layout_content_container1.konkurs .layout_contentBlock_prises h4                         {font-size: 170%; margin-bottom: 20px;}
@@ -280,9 +280,9 @@
 .layout_content_container1.konkurs .layout_contentBlock_prises .how_get .answer           {margin-bottom: 30px; line-height: 20px; font-size: 118%;}
 .layout_content_container2.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
 .layout_content_container2.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 44px;}
-.layout_content_container2.konkurs .wrapper h3                                            {font-size: 200%; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
+.layout_content_container2.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
 .layout_content_container2.konkurs .form                                                  {width: 800px; display: inline-block;}
-.layout_content_container2.konkurs label                                                  {float: left; margin-right: 105px; width: 140px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
+.layout_content_container2.konkurs label                                                  {float: left; margin-right: 105px; width: 140px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
 .layout_content_container2.konkurs input                                                  {width: 500px; height: 40px; border: 1px solid #e8eaeb; margin: 0 0 20px 0;}
 .layout_content_container2.konkurs input#city                                             {width: 257px; margin-right: 250px;}
 .layout_content_container2.konkurs input#email                                            {width: 257px; margin-right: 250px;}
@@ -297,34 +297,34 @@
 .layout_content_container2.konkurs .show_pass a .default                                  {opacity: 1;}
 .layout_content_container2.konkurs .show_pass a:hover .hover                              {opacity: 1;}
 .layout_content_container2.konkurs .show_pass a:hover .default                            {opacity: 0;}
-.layout_content_container2.konkurs .gen_pass                                              {font-family: Roboto-Reg, Arial, sans-serif; color: #218ed2; vertical-align: top; line-height: 40px;}
+.layout_content_container2.konkurs .gen_pass                                              {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 40px;}
 .layout_content_container2.konkurs input#repeat_pass                                      {width: 240px; float: left;}
 .layout_content_container2.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
-.layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
+.layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
 .layout_content_container2.konkurs .form .blue                                            {margin-top: 15px; width: 257px; height: 39px; line-height: 35px; font-size: 118%; border-radius: 20px;}
 .layout_content_container1.konkurs img.desktop      {display: block; float: left;}
 .layout_content_container1.konkurs img.tablet       {display: none;}
 
 
-.layout_content_container1.bonus                  {padding-bottom: 40px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.bonus                  {padding-bottom: 40px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container1.bonus .text            {float: left; width: 497px; margin-right: 47px;}
 .layout_content_container1.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
 .layout_content_container1.bonus img.desktop      {display: block; float: left;}
 .layout_content_container1.bonus img.tablet       {display: none;}
-.layout_content_container1.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
+.layout_content_container1.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
 .layout_content_container1.bonus .item:last-child {margin-right: 0 !important;}
-.layout_content_container1.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-size: 315%;}
+.layout_content_container1.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-weight: 400; font-size: 315%;}
 
-.layout_content_container1.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container1.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
 .layout_content_container1.novichkam .layout_content_upper {border-bottom: 1px solid #ccd7db;}
 .layout_content_container1.novichkam .banner               {display: inline-block;}
 .layout_content_container1.novichkam .image_banner.desktop         {float: left; margin-right: 10px;}
 .layout_content_container1.novichkam .image_banner.tablet         {display: none;}
 .layout_content_container1.novichkam .buttons              {float: left; width: 262px;}
-.layout_content_container1.novichkam .button               {width: 182px; height: 136px; padding: 29px 40px; text-align: center; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
+.layout_content_container1.novichkam .button               {width: 182px; height: 136px; padding: 29px 40px; text-align: center; font-weight: 700; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
 .layout_content_container1.novichkam .button img           {margin: 0 auto; margin-bottom: 25px; display: block;}
 .layout_content_container1.novichkam .button.demo          {background: #218ed2; margin-bottom: 10px; color: #ffffff;}
 .layout_content_container1.novichkam .button.edu           {background: #ffffff; color: #218ed2;}
-.layout_content_container1.novichkam .paragraph            {margin: 40px 0; font-family: Roboto-Reg, Arial, sans-serif; font-size: 133%; line-height: 29px; color: #222a3a;}
-.layout_content_container1.novichkam h4                    {margin: 30px 0 20px 0; font-family: Roboto-Reg, Arial, sans-serif; font-size: 150%; line-height: 20px; color: #222a3a;}
-.layout_content_container1.novichkam .article              {width: 70%; margin: 10px 0; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 20px; color: #222a3a;}
+.layout_content_container1.novichkam .paragraph            {margin: 40px 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 133%; line-height: 29px; color: #222a3a;}
+.layout_content_container1.novichkam h4                    {margin: 30px 0 20px 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 150%; line-height: 20px; color: #222a3a;}
+.layout_content_container1.novichkam .article              {width: 70%; margin: 10px 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 20px; color: #222a3a;}

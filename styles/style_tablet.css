@@ -19,7 +19,7 @@
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
     .layout_footer .layout_footer_content        {display: none;}
     .layout_footer .layout_footer_content2       {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
 
     .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
@@ -27,7 +27,7 @@
     .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 235%; margin: 54px 0;}
     .layout_content1 .layout_contentBlock_slide1 .buttons {display: inline-block; margin-top: 20px;}
     .layout_content1 .layout_contentBlock_slide2 h2       {font-size: 150%; margin-top: 27px;}
-    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-family: Roboto-Thin, Arial, sans-serif;}
+    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-weight: 100; font-family: Roboto-Thin, Arial, sans-serif;}
     .layout_content1 .layout_contentBlock_slide3          {font-size: 117%; text-align: left; bottom: 35px;}
     .layout_content1 .layout_contentBlock_slide2 .apps    {width: 65px;}
     .layout_content1 .layout_contentBlock_slide2 .win     {margin: 7px; width: 13px; height: 13px;}
@@ -43,8 +43,8 @@
     .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
     .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
     .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
     .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 674px;}
     .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
     .layout_content2 .layout_contentBlock_rating tr th:last-child   {display: none}
@@ -129,24 +129,24 @@
     .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px !important;}
     .layout_content .layout_content_container1.fillup .data_card .note             {width: 70px !important;}
     .layout_content .layout_content_container1.fillup .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .layout_content .layout_content_container1.fillup .payment.desktop             {display: none;}
     .layout_content .layout_content_container1.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
     .layout_content .layout_content_container1.fillup .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
 
     /*Calculator*/
     .layout_content .layout_content_container1.calc h2 {margin-left: 0 !important;}
     .layout_content .layout_content_container1.calc .layout_contentBlock_left    {padding: 0 !important; width: 734px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
     .layout_content .layout_content_container1.calc .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .layout_content .layout_content_container1.calc .payment.desktop             {display: none;}
     .layout_content .layout_content_container1.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
     .layout_content .layout_content_container1.calc .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
     .layout_content .layout_content_container1.calc .payment.tablet .submenu     {display: none;}
 
@@ -231,7 +231,7 @@
     .layout_footer .layout_footer_container            {width: 100%; max-width: 920px;}
     .layout_footer .layout_footer_content              {display: none;}
     .layout_footer .layout_footer_content2             {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
+    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect         {line-height: 16px; bottom: 15px;}
     .layout_footer .layout_footerBlock_protect .mobile {display: none;}
 
@@ -248,8 +248,8 @@
     .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
     .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; max-width: 806px; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
     .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
+    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 23px;}
+    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
     .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 735px;}
     .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
     .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
@@ -330,24 +330,24 @@
     .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px !important;}
     .layout_content .layout_content_container1.fillup .data_card .note             {width: 70px !important;}
     .layout_content .layout_content_container1.fillup .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .layout_content .layout_content_container1.fillup .payment.desktop             {display: none;}
     .layout_content .layout_content_container1.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
     .layout_content .layout_content_container1.fillup .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
 
     /*Calculator*/
     .layout_content .layout_content_container1.calc h2 {margin-left: 0 !important;}
     .layout_content .layout_content_container1.calc .layout_contentBlock_left    {padding: 0 !important; width: 900px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
     .layout_content .layout_content_container1.calc .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .layout_content .layout_content_container1.calc .payment.desktop             {display: none;}
     .layout_content .layout_content_container1.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
     .layout_content .layout_content_container1.calc .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
     .layout_content .layout_content_container1.calc .payment.tablet .submenu     {display: none;}
 

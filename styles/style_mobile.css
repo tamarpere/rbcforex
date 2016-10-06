@@ -24,7 +24,7 @@
     .layout_footer .layout_footer_container             {width: 100% !important;}
     .layout_footer .layout_footer_content               {display: none;}
     .layout_footer .layout_footer_content2              {text-align: left; margin-left: 25px; line-height: 87px;}
-    .layout_footer .layout_footerBlock_copyright        {display: inline-block; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45;}
+    .layout_footer .layout_footerBlock_copyright        {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, serif; font-size: 115%; color: #353d45;}
     .layout_footer .layout_footerBlock_protect          {width: 140px; bottom: 17px;}
     .layout_footer .layout_footerBlock_protect .mobile  {display: block; line-height: 20px;}
 
@@ -32,7 +32,7 @@
 
     .layout_content1 .layout_content_container1           {height: 330px;}
     .layout_content1 .layout_contentBlock_slide1          {text-align: center; padding: 30px 0 0 0; width: 100%;}
-    .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 148%; line-height: 25px; margin: 0 30px; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 148%; line-height: 25px; margin: 0 30px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
     .layout_content1 .layout_contentBlock_slide1 .buttons {width: 260px; display: inline-block; margin-top: 25px;}
     .layout_content1 .layout_contentBlock_slide1 .buttons button {width: 260px; margin-bottom: 25px;}
     .layout_content1 .layout_contentBlock_slide2          {display: none;}
@@ -63,13 +63,13 @@
     .layout_content2.mobile .layout_content_container3                 {margin: 0;}
 
     .layout_content2.mobile .layout_contentBlock_invest.tablet                  {display: inline-block; width: 100%; position: relative; text-align: left; background: url("../images/main/Plant_mob.png") top center no-repeat; background-size: cover;}
-    .layout_content2.mobile .layout_contentBlock_invest.tablet h3               {font-family: GothamPro-Reg, Arial, sans-serif; color: #0a79bf; line-height: 27px; font-size: 180%; margin: 36px 0 23px 25px;}
-    .layout_content2.mobile .layout_contentBlock_invest.tablet p                {font-family: Roboto-Reg, Arial, sans-serif; font-size: 100%; margin-left: 25px; width: 181px; line-height: 25px;}
-    .layout_content2.mobile .layout_contentBlock_invest.tablet .addition span   {margin: 30px 30px 0 30px; text-align: center; display: block; font-family: Roboto-Reg, Arial, sans-serif; color: #181818; font-size: 150%;}
+    .layout_content2.mobile .layout_contentBlock_invest.tablet h3               {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #0a79bf; line-height: 27px; font-size: 180%; margin: 36px 0 23px 25px;}
+    .layout_content2.mobile .layout_contentBlock_invest.tablet p                {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin-left: 25px; width: 181px; line-height: 25px;}
+    .layout_content2.mobile .layout_contentBlock_invest.tablet .addition span   {margin: 30px 30px 0 30px; text-align: center; display: block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; color: #181818; font-size: 150%;}
     .layout_content2.mobile .layout_contentBlock_invest.tablet .addition .arrow {margin: 15px auto 0 auto; display: block;}
     .layout_content2.mobile .layout_contentBlock_invest.tablet .addition .red   {margin: 25px auto; width: 266px; height: 36px;}
     .layout_content2.mobile .layout_content_container4                          {position: relative; width: 100%; margin-top: 30px; height: 294px;}
-    .layout_content2.mobile .layout_contentBlock_providers h3                   {margin-bottom: 10px; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 200%;}
+    .layout_content2.mobile .layout_contentBlock_providers h3                   {margin-bottom: 10px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 200%;}
     .layout_content2.mobile .layout_contentBlock_providers ul                   {width: 150px; height: 100px; margin: 35px auto;}
     .layout_content2.mobile .layout_contentBlock_providers li                   {margin-right: 0; display: block;}
     .layout_content2.mobile .layout_contentBlock_providers li a                 {display: none; width: 100%;}
@@ -122,9 +122,9 @@
     .layout_content_container1.opened .layout_content_lower .more a                       {line-height: 80px;}
     .layout_content_container1.opened .layout_content_lower .profile_info                 {width: 100%; min-width: inherit;}
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile    {display: block; margin: 0 25px; width: auto;}
-    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile tr:last-child td {border-bottom: 0;}
-    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif; font-weight: 700;}
     .layout_content_container1.opened .layout_content_lower .extra_info .blue {width: 263px; float: none; display: block; margin: 27px auto 15px auto;}
     .layout_content_container1.opened .layout_content_lower .extra_info .edit {float: none; display: block; margin: 0 auto; text-align: center;}
     .layout_content .layout_content_lower .extra_info                        {margin-top: 0;}
@@ -151,7 +151,7 @@
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right           {width: 100%; padding: 0; background: transparent;}
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right .learning {margin: 0 45px 0 25px;}
     .layout_content_container1.demo .layout_content_middle .list img                            {margin: 0 auto;}
-    .layout_content_container1.demo .layout_content_middle .learning h2                         {font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container1.demo .layout_content_middle .learning h2                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_right .server   {font-size: 140%;}
     .layout_content_container1.demo .layout_contentBlock_image                                  {position: relative; left: auto; margin: 45px auto 0 auto;}
     .layout_content_container1.demo .layout_contentBlock_image img                              {width: 320px; margin: 0 auto; display: block;}
@@ -172,9 +172,9 @@
     .layout_content .layout_content_container1.fillup .payment.tablet .title                          {display: none;}
     .layout_content .layout_content_container1.fillup .payment.tablet .triangle                       {display: none;}
     .layout_content .layout_content_container1.fillup .payment.tablet .triangle                       {display: none;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select                         {margin-left: 0; color: #218ed2; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select                         {margin-left: 0; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
     .layout_content .layout_content_container1.fillup .payment.tablet .select img                     {vertical-align: middle;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select span                    {color: #181818; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content .layout_content_container1.fillup .payment.tablet .select span                    {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.fillup .payment.tablet .dropdown                       {float: right; margin: 25px;}
 
     .layout_content .layout_content_container1.fillup form.mobile                    {display: inline-block; height: 740px; padding-top: 10px;}
@@ -236,7 +236,7 @@
     .layout_content_container1.konkurs .layout_contentBlock_prises .how_get    {width: 90%;  padding: 0 5%;}
     .layout_content_container2.konkurs .wrapper                                {padding: 30px 0; width: 100%;}
     .layout_content_container2.konkurs .form                                   {width: 100%;}
-    .layout_content_container2.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+    .layout_content_container2.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
     .layout_content_container2.konkurs label                                   {width: 260px; float: none; margin-left: 25px; display: block;}
     .layout_content_container2.konkurs input                                   {width: 246px !important; margin-left: 25px; display: block;}
     .layout_content_container2.konkurs input#password                          {width: 180px !important;}
