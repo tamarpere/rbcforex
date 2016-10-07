@@ -18,6 +18,7 @@
 .layout_content2.rating .layout_contentBlock_left tr                                       {cursor: pointer;}
 .layout_content2.rating .layout_contentBlock_left tr td                                    {position: relative;}
 .layout_content2.rating .layout_contentBlock_left tr img.dropdown                          {display: none; position: absolute; top: 40px; right: 30px;}
+.layout_content2.rating .layout_contentBlock_left tr.dropdown {display: none;}
 .layout_content2.rating .layout_contentBlock_left tr:hover                                 {background: #f5f7f7;}
 .layout_content2.rating .layout_contentBlock_left tr:hover img                             {display: block;}
 .layout_content2.rating .layout_contentBlock_left tr.dropdown:hover                        {background: #ffffff;}
@@ -163,7 +164,18 @@
 .layout_content1.steps.step6    {background: url("../images/open_invest/Bg_invest4.png") center no-repeat;}
 .layout_content1.steps.step6 h2 {font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
 
-
+/*Open invest*/
+.layout_content_container1.open_invest .layout_content_lower form                        {position: relative;}
+.layout_content_container1.open_invest .layout_content_lower form .calendar              {position: absolute; top: 80px; right: 20px;}
+.layout_content_container1.open_invest .layout_content_lower .checkbox                   {text-align: right; margin-right: 100px;}
+.layout_content_container1.open_invest .layout_content_lower label[for="promo_cod"] span {color: #9b9a9a;}
+.layout_content_container1.open_invest .layout_contentBlock_right                        {display: inline-block; width: 262px; }
+.layout_content_container1.open_invest .layout_contentBlock_right .download              {margin-bottom: 10px; text-align: center; display: inline-block; background: #ffffff; padding: 30px; width: 202px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c;}
+.layout_content_container1.open_invest .layout_contentBlock_right .download span         {color: #ff4830; font-size: 260%;}
+.layout_content_container1.open_invest .layout_contentBlock_right .docs                  {background: #ffffff; padding: 30px; width: 202px;}
+.layout_content_container1.open_invest .layout_contentBlock_right.after a                {text-align: left; padding: 0;}
+.layout_content_container1.open_invest .layout_content_lower .notice                     {border-bottom: 1px solid #eef1f2; line-height: 27px; padding-bottom: 30px; width: 100%; font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818;}
+.layout_content_container1.open_invest .layout_content_lower .notice img                 {height: 50px; margin-right: 20px; float: left;}
 
 
 

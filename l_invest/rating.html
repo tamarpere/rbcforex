@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>RBS-Forex</title>
     <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
     <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_invest.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
 <header class="layout_header desktop">
@@ -100,7 +102,9 @@
                 <nav class="main_menu">
                     <ul>
                         <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li><a class="active" href="rating.html">Инвестиции</a></li>
+                        <li class="active"><a class="active" href="rating.html">Инвестиции</a>
+                            <div class="triangle invest"></div>
+                        </li>
                         <li><a href>Компания</a></li>
                         <li><a href>Обучение</a></li>
                         <li><a href>Партнерам</a></li>
@@ -113,6 +117,21 @@
                     Кабинет
                 </a>
             </div>
+        </div>
+    </div>
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu invest">
+                <ul>
+                    <li><a class="active" href="rating.html">Рейтинг управляющих</a></li>
+                    <li><a href="tis.html">TIS</a></li>
+                    <li><a href="dir_invest.html">Прямые инвестиции</a></li>
+                    <li><a href="copy_deal.html">Копирование сделок</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="be_trader.html">Стать управляющим</a></li>
+                    <li><a href="invest_programm.html">Инвестиционная программа</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
@@ -203,7 +222,7 @@
                             трейдера
                         </th>
                     </tr>
-                    <tr>
+                    <tr class="deploy">
                         <td>FutureForex</td>
                         <td>382,04%</td>
                         <td>-50.89%</td>
@@ -245,7 +264,282 @@
                                 </div>
                                 <div class="col right">
                                     <h4>Инвестиции в этого трейдера</h4>
-
+                                    <div class="note">Деньги спишутся с
+                                        <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
+                                        <a href>личном кабинете</a>.
+                                    </div>
+                                    <form>
+                                        <label>Сумма</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Соответствие</label>
+                                        <select>
+                                            <option>1</option>
+                                        </select>
+                                        <select>
+                                            <option>6</option>
+                                        </select>
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Торговля</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <button class="red">Инвестировать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="deploy">
+                        <td>FutureForex</td>
+                        <td>382,04%</td>
+                        <td>-50.89%</td>
+                        <td>255&nbsp;850$</td>
+                        <td>350</td>
+                        <td>45%
+                            <img class="dropdown" src="../images/rating/Icon_dropdown_blue.png">
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td colspan="6" class="about_trader">
+                            <div>
+                                <div class="col left">
+                                    <h4>Кратко о трейдере</h4>
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+                                    <div class="info">
+                                        <div class="block">
+                                            69 лет<br><span>Возраст</span>
+                                        </div>
+                                        <div class="block">
+                                            15 лет<br><span>Опыт торговли</span>
+                                        </div>
+                                        <div class="block">
+                                            60%<br><span>Комиссия</span>
+                                        </div>
+                                    </div>
+                                    <div class="ways">
+                                        <h4>Способы инвестирования</h4>
+                                        <ul>
+                                            <li>Инвестирование по лотам</li>
+                                            <li>Инвестирование по средствам</li>
+                                            <li>Прямое инвестирование</li>
+                                        </ul>
+                                    </div>
+                                    <button class="blue">
+                                        <img src="../images/rating/Trade_profile_white.svg" width="14">
+                                        Профиль трейдера, график успешности
+                                    </button>
+                                </div>
+                                <div class="col right">
+                                    <h4>Инвестиции в этого трейдера</h4>
+                                    <div class="note">Деньги спишутся с
+                                        <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
+                                        <a href>личном кабинете</a>.
+                                    </div>
+                                    <form>
+                                        <label>Сумма</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Соответствие</label>
+                                        <select>
+                                            <option>1</option>
+                                        </select>
+                                        <select>
+                                            <option>6</option>
+                                        </select>
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Торговля</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <button class="red">Инвестировать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="deploy">
+                        <td>FutureForex</td>
+                        <td>382,04%</td>
+                        <td>-50.89%</td>
+                        <td>255&nbsp;850$</td>
+                        <td>350</td>
+                        <td>45%
+                            <img class="dropdown" src="../images/rating/Icon_dropdown_blue.png">
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td colspan="6" class="about_trader">
+                            <div>
+                                <div class="col left">
+                                    <h4>Кратко о трейдере</h4>
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+                                    <div class="info">
+                                        <div class="block">
+                                            69 лет<br><span>Возраст</span>
+                                        </div>
+                                        <div class="block">
+                                            15 лет<br><span>Опыт торговли</span>
+                                        </div>
+                                        <div class="block">
+                                            60%<br><span>Комиссия</span>
+                                        </div>
+                                    </div>
+                                    <div class="ways">
+                                        <h4>Способы инвестирования</h4>
+                                        <ul>
+                                            <li>Инвестирование по лотам</li>
+                                            <li>Инвестирование по средствам</li>
+                                            <li>Прямое инвестирование</li>
+                                        </ul>
+                                    </div>
+                                    <button class="blue">
+                                        <img src="../images/rating/Trade_profile_white.svg" width="14">
+                                        Профиль трейдера, график успешности
+                                    </button>
+                                </div>
+                                <div class="col right">
+                                    <h4>Инвестиции в этого трейдера</h4>
+                                    <div class="note">Деньги спишутся с
+                                        <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
+                                        <a href>личном кабинете</a>.
+                                    </div>
+                                    <form>
+                                        <label>Сумма</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Соответствие</label>
+                                        <select>
+                                            <option>1</option>
+                                        </select>
+                                        <select>
+                                            <option>6</option>
+                                        </select>
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Торговля</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <button class="red">Инвестировать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="deploy">
+                        <td>FutureForex</td>
+                        <td>382,04%</td>
+                        <td>-50.89%</td>
+                        <td>255&nbsp;850$</td>
+                        <td>350</td>
+                        <td>45%
+                            <img class="dropdown" src="../images/rating/Icon_dropdown_blue.png">
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td colspan="6" class="about_trader">
+                            <div>
+                                <div class="col left">
+                                    <h4>Кратко о трейдере</h4>
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+                                    <div class="info">
+                                        <div class="block">
+                                            69 лет<br><span>Возраст</span>
+                                        </div>
+                                        <div class="block">
+                                            15 лет<br><span>Опыт торговли</span>
+                                        </div>
+                                        <div class="block">
+                                            60%<br><span>Комиссия</span>
+                                        </div>
+                                    </div>
+                                    <div class="ways">
+                                        <h4>Способы инвестирования</h4>
+                                        <ul>
+                                            <li>Инвестирование по лотам</li>
+                                            <li>Инвестирование по средствам</li>
+                                            <li>Прямое инвестирование</li>
+                                        </ul>
+                                    </div>
+                                    <button class="blue">
+                                        <img src="../images/rating/Trade_profile_white.svg" width="14">
+                                        Профиль трейдера, график успешности
+                                    </button>
+                                </div>
+                                <div class="col right">
+                                    <h4>Инвестиции в этого трейдера</h4>
+                                    <div class="note">Деньги спишутся с
+                                        <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
+                                        <a href>личном кабинете</a>.
+                                    </div>
+                                    <form>
+                                        <label>Сумма</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Соответствие</label>
+                                        <select>
+                                            <option>1</option>
+                                        </select>
+                                        <select>
+                                            <option>6</option>
+                                        </select>
+                                        <a class="tooltip" href></a>
+                                        <div class="clear"></div>
+                                        <label>Торговля</label>
+                                        <input value="$">
+                                        <a class="tooltip" href></a>
+                                        <button class="red">Инвестировать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="deploy">
+                        <td>FutureForex</td>
+                        <td>382,04%</td>
+                        <td>-50.89%</td>
+                        <td>255&nbsp;850$</td>
+                        <td>350</td>
+                        <td>45%
+                            <img class="dropdown" src="../images/rating/Icon_dropdown_blue.png">
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td colspan="6" class="about_trader">
+                            <div>
+                                <div class="col left">
+                                    <h4>Кратко о трейдере</h4>
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+                                    <div class="info">
+                                        <div class="block">
+                                            69 лет<br><span>Возраст</span>
+                                        </div>
+                                        <div class="block">
+                                            15 лет<br><span>Опыт торговли</span>
+                                        </div>
+                                        <div class="block">
+                                            60%<br><span>Комиссия</span>
+                                        </div>
+                                    </div>
+                                    <div class="ways">
+                                        <h4>Способы инвестирования</h4>
+                                        <ul>
+                                            <li>Инвестирование по лотам</li>
+                                            <li>Инвестирование по средствам</li>
+                                            <li>Прямое инвестирование</li>
+                                        </ul>
+                                    </div>
+                                    <button class="blue">
+                                        <img src="../images/rating/Trade_profile_white.svg" width="14">
+                                        Профиль трейдера, график успешности
+                                    </button>
+                                </div>
+                                <div class="col right">
+                                    <h4>Инвестиции в этого трейдера</h4>
                                     <div class="note">Деньги спишутся с
                                         <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
                                         <a href>личном кабинете</a>.
@@ -404,5 +698,14 @@
         </div>
     </div>
 </footer>
+
+<script>
+    $(function (){
+        $('tr.deploy').click(function (){
+            $(this).next('tr.dropdown').toggle('slow');
+        })
+    })
+</script>
+
 </body>
 </html>
