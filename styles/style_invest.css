@@ -1,136 +1,167 @@
 .layout_header .layout_header_container .triangle.invest {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 38px;}
 
 /*Rating*/
-.layout_content1.rating {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
-.layout_content1.rating .layout_content_container1 {margin: 45px auto; width: 1080px;}
-.layout_content1.rating .layout_content_container1 h2 {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
-.layout_content1.rating .layout_content_container1 .blue {float: right;}
-.layout_content1.rating .layout_content_container1 .blue img {vertical-align: middle; margin-right: 5px;}
-.layout_content1.rating .layout_content_container1 .items {display: inline-block; width: 1080px;}
-.layout_content1.rating .layout_content_container1 .items .item {float: left; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
+.layout_content1.rating                                                    {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
+.layout_content1.rating .layout_content_container1                         {margin: 45px auto; width: 1080px;}
+.layout_content1.rating .layout_content_container1 h2                      {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
+.layout_content1.rating .layout_content_container1 .blue                   {float: right;}
+.layout_content1.rating .layout_content_container1 .blue img               {vertical-align: middle; margin-right: 5px;}
+.layout_content1.rating .layout_content_container1 .items                  {display: inline-block; width: 1080px;}
+.layout_content1.rating .layout_content_container1 .items .item            {float: left; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
 .layout_content1.rating .layout_content_container1 .items .item:last-child {margin-right: 0;}
-.layout_content1.rating .layout_content_container1 .items .image_wrap {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
-.layout_content1.rating .layout_content_container1 .items .image_wrap img {vertical-align: middle;}
+.layout_content1.rating .layout_content_container1 .items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
+.layout_content1.rating .layout_content_container1 .items .image_wrap img  {vertical-align: middle;}
 
-.layout_content2.rating {margin-top: -70px; position: relative; width: 100%; text-align: center;}
-.layout_content2.rating .layout_content_container2 {margin: 0 auto 50px auto; position: relative; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_left {width: 807px; height: auto; background: #ffffff; padding: 0; float: left; margin-right: 10px;}
-.layout_content2.rating .layout_contentBlock_left tr {cursor: pointer;}
-.layout_content2.rating .layout_contentBlock_left tr td {position: relative;}
-.layout_content2.rating .layout_contentBlock_left tr img.dropdown {display: none; position: absolute; top: 40px; right: 30px;}
-.layout_content2.rating .layout_contentBlock_left tr:hover {background: #f5f7f7;}
-.layout_content2.rating .layout_contentBlock_left tr:hover img {display: block;}
-.layout_content2.rating .layout_contentBlock_left tr.dropdown:hover {background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left tr.dropdown td {padding: 0;}
-.layout_content2.rating .layout_contentBlock_left tr:first-child:hover {background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left td.about_trader {}
-.layout_content2.rating .layout_contentBlock_left th {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #9b9a9a; border-bottom: 1px solid #f5f7f7; padding: 15px 20px; vertical-align: bottom; text-align: left;}
-.layout_content2.rating .layout_contentBlock_left th select {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #0a79bf; border: none; padding: 0; height: 22px; background: transparent;}
-.layout_content2.rating .layout_contentBlock_left th select:hover {box-shadow: none;}
-.layout_content2.rating .layout_contentBlock_left td {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 140%; border-bottom: 1px solid #f5f7f7; padding: 30px 20px; vertical-align: middle; text-align: left;}
-.layout_content2.rating .layout_contentBlock_left td:first-child {color: #0a79bf; font-size: 150%;}
-.layout_content2.rating .layout_contentBlock_left table .col.left {float: left; width: 350px; color: #181818; display: inline-block; margin-left: 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.right {margin: 10px; width: 396px; color: #181818; display: inline-block; background: #f5f7f7; float: right;}
-.layout_content2.rating .layout_contentBlock_left table .col.left h4 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin: 30px 0;}
-.layout_content2.rating .layout_contentBlock_left table .col.left p {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; margin-bottom: 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info {line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 125%; width: 100%; height: 85px; background: #f5f7f7;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info .block {float: left; width: 30%; margin: 20px 0;}
+.layout_content2.rating                                                                    {margin-top: -70px; position: relative; width: 100%; text-align: center;}
+.layout_content2.rating .layout_content_container2                                         {margin: 0 auto 50px auto; position: relative; display: inline-block;}
+.layout_content2.rating .layout_contentBlock_left                                          {width: 807px; height: auto; background: #ffffff; padding: 0; float: left; margin-right: 10px;}
+.layout_content2.rating .layout_contentBlock_left tr                                       {cursor: pointer;}
+.layout_content2.rating .layout_contentBlock_left tr td                                    {position: relative;}
+.layout_content2.rating .layout_contentBlock_left tr img.dropdown                          {display: none; position: absolute; top: 40px; right: 30px;}
+.layout_content2.rating .layout_contentBlock_left tr:hover                                 {background: #f5f7f7;}
+.layout_content2.rating .layout_contentBlock_left tr:hover img                             {display: block;}
+.layout_content2.rating .layout_contentBlock_left tr.dropdown:hover                        {background: #ffffff;}
+.layout_content2.rating .layout_contentBlock_left tr.dropdown td                           {padding: 0;}
+.layout_content2.rating .layout_contentBlock_left tr:first-child:hover                     {background: #ffffff;}
+.layout_content2.rating .layout_contentBlock_left th                                       {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #9b9a9a; border-bottom: 1px solid #f5f7f7; padding: 15px 20px; vertical-align: bottom; text-align: left;}
+.layout_content2.rating .layout_contentBlock_left th select                                {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #0a79bf; border: none; padding: 0; height: 22px; background: transparent;}
+.layout_content2.rating .layout_contentBlock_left th select:hover                          {box-shadow: none;}
+.layout_content2.rating .layout_contentBlock_left td                                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 140%; border-bottom: 1px solid #f5f7f7; padding: 30px 20px; vertical-align: middle; text-align: left;}
+.layout_content2.rating .layout_contentBlock_left td:first-child                           {color: #0a79bf; font-size: 150%;}
+.layout_content2.rating .layout_contentBlock_left table .col.left                          {float: left; width: 350px; color: #181818; display: inline-block; margin-left: 30px;}
+.layout_content2.rating .layout_contentBlock_left table .col.right                         {margin: 10px; width: 396px; color: #181818; display: inline-block; background: #f5f7f7; float: right;}
+.layout_content2.rating .layout_contentBlock_left table .col.left h4                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin: 30px 0;}
+.layout_content2.rating .layout_contentBlock_left table .col.left p                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; margin-bottom: 30px;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .info                    {line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 125%; width: 100%; height: 85px; background: #f5f7f7;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .info .block             {float: left; width: 30%; margin: 20px 0;}
 .layout_content2.rating .layout_contentBlock_left table .col.left .info .block:first-child {margin-left: 20px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info span {font-size: 55%;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways {display: inline-block; margin-bottom: 20px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways li {color: #0a79bf; font-size: 80%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; margin-bottom: 10px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways li:before {content: ""; background: url("../images/rating/Check_bullit.svg") center no-repeat; width: 15px; height: 15px; display: inline-block; margin-right: 10px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .blue {font-size: 70%; margin: 0 auto 30px auto; display: block;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .blue img {display: inline-block; vertical-align: middle;}
-.layout_content2.rating .layout_contentBlock_left table .col.right h4 {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; margin: 26px 0 26px 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .note {width: 308px; line-height: 21px; font-size: 68%; padding: 17px 0 17px 24px; border-left: 3px solid #0a79bf; margin: 0 auto; display: block; background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .note a {text-decoration: underline; color: #0a79bf;}
-.layout_content2.rating .layout_contentBlock_left table .col.right form {margin-top: 25px; margin-left: 30px; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_left table .col.right label {line-height: 40px; float: left; width: 100px; margin-right: 35px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 80%;}
-.layout_content2.rating .layout_contentBlock_left table .col.right input {float: left; margin-bottom: 20px; width: 127px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; border: 2px solid #e8eaeb; background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left table .col.right select {margin-right: 10px; float: left; margin-bottom: 20px; width: 70px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%;}
-.layout_content2.rating .layout_contentBlock_left table .col.right select:first-child {}
-.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip {margin-right: 10px; float: left; width: 20px; height: 20px; position: relative; display: block; background: url("../images/rating/Question_grey.svg;") center no-repeat; background-size: cover;}
-.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip:hover {background: url("../images/rating/Question_active.svg;") center no-repeat;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .red {width: 329px; height: 51px; line-height: 50px; border-radius: 28px; margin: 10px auto 30px auto;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .info span               {font-size: 55%;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .ways                    {display: inline-block; margin-bottom: 20px;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .ways li                 {color: #0a79bf; font-size: 80%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; margin-bottom: 10px;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .ways li:before          {content: ""; background: url("../images/rating/Check_bullit.svg") center no-repeat; width: 15px; height: 15px; display: inline-block; margin-right: 10px;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .blue                    {font-size: 70%; margin: 0 auto 30px auto; display: block;}
+.layout_content2.rating .layout_contentBlock_left table .col.left .blue img                {display: inline-block; vertical-align: middle;}
+.layout_content2.rating .layout_contentBlock_left table .col.right h4                      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; margin: 26px 0 26px 30px;}
+.layout_content2.rating .layout_contentBlock_left table .col.right .note                   {width: 308px; line-height: 21px; font-size: 68%; padding: 17px 0 17px 24px; border-left: 3px solid #0a79bf; margin: 0 auto; display: block; background: #ffffff;}
+.layout_content2.rating .layout_contentBlock_left table .col.right .note a                 {text-decoration: underline; color: #0a79bf;}
+.layout_content2.rating .layout_contentBlock_left table .col.right form                    {margin-top: 25px; margin-left: 30px; display: inline-block;}
+.layout_content2.rating .layout_contentBlock_left table .col.right label                   {line-height: 40px; float: left; width: 100px; margin-right: 35px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 80%;}
+.layout_content2.rating .layout_contentBlock_left table .col.right input                   {float: left; margin-bottom: 20px; width: 127px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; border: 2px solid #e8eaeb; background: #ffffff;}
+.layout_content2.rating .layout_contentBlock_left table .col.right select                  {margin-right: 10px; float: left; margin-bottom: 20px; width: 70px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%;}
+.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip               {margin-right: 10px; float: left; width: 20px; height: 20px; position: relative; display: block; background: url("../images/rating/Question_grey.svg;") center no-repeat; background-size: cover;}
+.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip:hover         {background: url("../images/rating/Question_active.svg;") center no-repeat;}
+.layout_content2.rating .layout_contentBlock_left table .col.right .red                    {width: 329px; height: 51px; line-height: 50px; border-radius: 28px; margin: 10px auto 30px auto;}
 
-.layout_content2.rating .layout_contentBlock_right {width: 262px; height: auto; background: transparent; padding: 0; float: right;}
-.layout_content2.rating .layout_contentBlock_right label {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
-.layout_content2.rating .layout_contentBlock_right input {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .blue {display: block; margin: 0 auto;}
-.layout_content2.rating .layout_contentBlock_right .note {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_right .search {position: relative; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_right .search img {position: absolute; top: 48px; left: 170px;}
-.layout_content2.rating .layout_contentBlock_right .filter {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px 33px;}
-.layout_content2.rating .layout_contentBlock_right .filter input[type="search"] {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .calc {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
-.layout_content2.rating .layout_contentBlock_right .calc img {float: left; margin-right: 10px; margin-top: 6px;}
-.layout_content2.rating .layout_contentBlock_right .calc h4 {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
-.layout_content2.rating .layout_contentBlock_right .calc select {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 39px;}
-.layout_content2.rating .layout_contentBlock_right .spred {display: inline-block; background: #ffffff; padding: 30px;}
-.layout_content2.rating .layout_contentBlock_right .spred h4 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
-.layout_content2.rating .layout_contentBlock_right .radio {position: relative; display: inline-block; margin-bottom: 15px;}
-.layout_content2.rating .layout_contentBlock_right .radio label {padding-left: 25px;}
+.layout_content2.rating .layout_contentBlock_right                                                   {width: 262px; height: auto; background: transparent; padding: 0; float: right;}
+.layout_content2.rating .layout_contentBlock_right label                                             {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
+.layout_content2.rating .layout_contentBlock_right input                                             {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.layout_content2.rating .layout_contentBlock_right .blue                                             {display: block; margin: 0 auto;}
+.layout_content2.rating .layout_contentBlock_right .note                                             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
+.layout_content2.rating .layout_contentBlock_right .search                                           {position: relative; display: inline-block;}
+.layout_content2.rating .layout_contentBlock_right .search img                                       {position: absolute; top: 48px; left: 170px;}
+.layout_content2.rating .layout_contentBlock_right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px 33px;}
+.layout_content2.rating .layout_contentBlock_right .filter input[type="search"]                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.layout_content2.rating .layout_contentBlock_right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
+.layout_content2.rating .layout_contentBlock_right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
+.layout_content2.rating .layout_contentBlock_right .calc h4                                          {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
+.layout_content2.rating .layout_contentBlock_right .calc select                                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 39px;}
+.layout_content2.rating .layout_contentBlock_right .spred                                            {display: inline-block; background: #ffffff; padding: 30px;}
+.layout_content2.rating .layout_contentBlock_right .spred h4                                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
+.layout_content2.rating .layout_contentBlock_right .radio                                            {position: relative; display: inline-block; margin-bottom: 15px;}
+.layout_content2.rating .layout_contentBlock_right .radio label                                      {padding-left: 25px;}
 .layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]                        {display: none;}
 .layout_content2.rating .layout_contentBlock_right .radio label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 0; background: transparent; border: 2px solid #e8eaeb; border-radius: 50%;}
-.layout_content2.rating .layout_contentBlock_right .radio label.hand:before {top: 2px;}
-.layout_content2.rating .layout_contentBlock_right .radio label.luck:before {top: 36px;}
-.layout_content2.rating .layout_contentBlock_right .radio label.best:before {top: 72px;}
+.layout_content2.rating .layout_contentBlock_right .radio label.hand:before                          {top: 2px;}
+.layout_content2.rating .layout_contentBlock_right .radio label.luck:before                          {top: 36px;}
+.layout_content2.rating .layout_contentBlock_right .radio label.best:before                          {top: 72px;}
 .layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]:checked + label:before {content: "\2022"; color: #218ed2; font-size: 26px; text-align: center; line-height: 12px; border-color: #218ed2;}
 
 /*TIS*/
-.layout_content1.tis {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/tis/Bg_tis.png") center no-repeat; background-size: cover; height: 507px;}
-.layout_content1.tis .layout_content_container1 {margin: 45px auto; width: 1080px;}
-.layout_content1.tis .layout_content_container1 h2 {width: 100%; text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
-.layout_content1.tis .layout_content_container1 p {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
+.layout_content1.tis                                           {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/tis/Bg_tis.png") center no-repeat; background-size: cover; height: 507px;}
+.layout_content1.tis .layout_content_container1                {margin: 45px auto; width: 1080px;}
+.layout_content1.tis .layout_content_container1 h2             {width: 100%; text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
+.layout_content1.tis .layout_content_container1 p              {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
 .layout_content1.tis .layout_content_container1 .white_outline {width: 393px; height: 51px; line-height: 50px; border-radius: 28px; font-size: 135%; margin: 42px auto 90px auto; display: block;}
-
-.layout_content2.tis {margin-top: -70px; position: relative; width: 100%; text-align: center;}
-.layout_content2.tis .layout_content_container2 {margin: 0 auto 50px auto; position: relative; display: inline-block;}
-.layout_content2.tis .layout_contentBlock {width: 530px; height: auto; background: #ffffff; padding: 0;}
-.layout_content2.tis .layout_contentBlock h3 {margin: 30px auto 30px 30px; width: 350px; color: #303841; font-family: Roboto-Reg, Arial, sans-serif; font-size: 173%; font-weight: 400; line-height: 28px;}
-.layout_content2.tis .layout_contentBlock p {margin: 0 30px 30px 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; font-weight: 400; line-height: 27px;}
-.layout_content2.tis .layout_contentBlock_left {float: left; margin-right: 10px;}
-.layout_content2.tis .layout_contentBlock_left .red {width: 383px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
-.layout_content2.tis .layout_contentBlock_right {float: right;}
-.layout_content2.tis .layout_contentBlock_right .red {width: 429px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
+.layout_content2.tis                                           {margin-top: -70px; position: relative; width: 100%; text-align: center;}
+.layout_content2.tis .layout_content_container2                {margin: 0 auto 50px auto; position: relative; display: inline-block;}
+.layout_content2.tis .layout_contentBlock                      {width: 530px; height: auto; background: #ffffff; padding: 0;}
+.layout_content2.tis .layout_contentBlock h3                   {margin: 30px auto 30px 30px; width: 350px; color: #303841; font-family: Roboto-Reg, Arial, sans-serif; font-size: 173%; font-weight: 400; line-height: 28px;}
+.layout_content2.tis .layout_contentBlock p                    {margin: 0 30px 30px 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; font-weight: 400; line-height: 27px;}
+.layout_content2.tis .layout_contentBlock_left                 {float: left; margin-right: 10px;}
+.layout_content2.tis .layout_contentBlock_left .red            {width: 383px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
+.layout_content2.tis .layout_contentBlock_right                {float: right;}
+.layout_content2.tis .layout_contentBlock_right .red           {width: 429px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
 
 /*Direct invest*/
-.layout_content_container1.invest h2 {margin-bottom: 50px;}
-.layout_content_container1.invest p {margin-bottom: 50px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 30px;}
-.layout_content_container1.invest .banner {width: 100%; height: 398px; background: url("../images/pryam_invest/Banner1.png") center no-repeat; background-size: cover;}
-.layout_content_container1.invest .banner h3 {margin: 48px 0 0 50px; color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 243%; line-height: 35px; width: 350px;}
-.layout_content_container1.invest .layout_contentBlock {background: transparent; padding: 30px 0;}
-.layout_content_container1.invest .layout_contentBlock h3 {color: #303841; margin: 20px 0 30px 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 172%; line-height: 37px;}
-.layout_content_container1.invest .layout_contentBlock p {color: #303841; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
-.layout_content_container1.invest .layout_contentBlock img {margin-bottom: 20px;}
-.layout_content_container1.invest .layout_contentBlock .bold {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
-.layout_content_container1.invest .layout_contentBlock a {text-decoration: underline; color: #0a79bf;}
-.layout_content_container1.invest .layout_contentBlock_right {background: transparent; font-size: 100%; width: 262px;}
-.layout_content_container1.invest .red {width: 383px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
-
+.layout_content_container1.invest h2                            {margin-bottom: 50px;}
+.layout_content_container1.invest p                             {margin-bottom: 50px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 30px;}
+.layout_content_container1.invest .banner                       {width: 100%; height: 398px; background: url("../images/pryam_invest/Banner1.png") center no-repeat; background-size: cover;}
+.layout_content_container1.invest .banner h3                    {margin: 48px 0 0 50px; color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 243%; line-height: 35px; width: 350px;}
+.layout_content_container1.invest .layout_contentBlock          {background: transparent; padding: 30px 0;}
+.layout_content_container1.invest .layout_contentBlock h3       {color: #303841; margin: 20px 0 30px 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 172%; line-height: 37px;}
+.layout_content_container1.invest .layout_contentBlock p        {color: #303841; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
+.layout_content_container1.invest .layout_contentBlock img      {margin-bottom: 20px;}
+.layout_content_container1.invest .layout_contentBlock .bold    {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
+.layout_content_container1.invest .layout_contentBlock a        {text-decoration: underline; color: #0a79bf;}
+.layout_content_container1.invest .layout_contentBlock_right    {background: transparent; font-size: 100%; width: 262px;}
+.layout_content_container1.invest .red                          {width: 383px; height: 51px; line-height: 50px; border-radius: 28px; margin: 0 auto 30px auto; display: block;}
 .layout_content_container1.invest .layout_contentBlock .example {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
 
 /*Be trader*/
-.layout_content_container1.invest .layout_content_upper {display: inline-block; margin-bottom: 56px;}
-.layout_content_container1.invest .layout_contentBlock {float: left; padding: 30px; height: 191px; display: inline-block;}
-.layout_content_container1.invest .layout_contentBlock_left {width: 416px; background: #ffffff; margin-right: 10px;}
-.layout_content_container1.invest .layout_contentBlock_left label {line-height: 42px; float: left; width: 100px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
-.layout_content_container1.invest .layout_contentBlock_left input {float: left; margin-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 277px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content_container1.invest .layout_contentBlock_right {width: 206px; background: #218ed2; text-align: center;}
-.layout_content_container1.invest .layout_contentBlock_right p {color: #ffffff; margin: 0 20px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; font-size: 140%;}
+.layout_content_container1.invest .layout_content_upper                 {display: inline-block; margin-bottom: 56px;}
+.layout_content_container1.invest .layout_contentBlock                  {float: left; padding: 30px; height: 191px; display: inline-block;}
+.layout_content_container1.invest .layout_contentBlock_left             {width: 416px; background: #ffffff; margin-right: 10px;}
+.layout_content_container1.invest .layout_contentBlock_left label       {line-height: 42px; float: left; width: 100px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.layout_content_container1.invest .layout_contentBlock_left input       {float: left; margin-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 277px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.layout_content_container1.invest .layout_contentBlock_right            {width: 206px; background: #218ed2; text-align: center;}
+.layout_content_container1.invest .layout_contentBlock_right p          {color: #ffffff; margin: 0 20px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; font-size: 140%;}
 .layout_content_container1.invest .layout_contentBlock_right img.person {margin-top: 35px; margin-bottom: 10px;}
-.layout_content_container1.invest .layout_contentBlock_left .forget {float: left; margin-right: 40px; line-height: 40px; color: #218ed2; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
-.layout_content_container1.invest .layout_contentBlock_left .blue {}
+.layout_content_container1.invest .layout_contentBlock_left .forget     {float: left; margin-right: 40px; line-height: 40px; color: #218ed2; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
 
+/*Invest programm*/
+.layout_content_container1.programm h2                                                        {margin-bottom: 50px;}
+.layout_content_container1.programm p                                                         {margin-bottom: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 30px;}
+.layout_content_container1.programm .red                                                      {padding: 0 42px; line-height: 50px; font-size: 135%; border-radius: 28px; height: 51px; margin: 0 auto 44px auto;}
+.layout_content_container1.programm .layout_content_lower.rules table                         {margin: 15px 0;}
+.layout_content_container1.programm .layout_content_lower.rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
+.layout_content_container1.programm .layout_content_lower.rules tr:first-child td:first-child {font-size: 175%;}
+.layout_content_container1.programm .layout_content_lower.rules td:first-child                {color: #218ed2; width: 60px;}
+.layout_content_container1.programm .layout_content_lower.rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
 
+/*Steps*/
+.layout_content1.steps                                                           {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/open_invest/Bg_invest1.png") center no-repeat; background-size: cover; height: 854px;}
+.layout_content1.steps .layout_content_container1                                {margin: 45px auto; width: 1080px;}
+.layout_content1.steps h1                                                        {font-size: 300%; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; margin-bottom: 0;}
+.layout_content1.steps .layout_contentBlock_steps ul                             {display: inline-block; margin: 55px auto;}
+.layout_content1.steps .layout_contentBlock_steps ul li                          {display: inline-block;}
+.layout_content1.steps .layout_contentBlock_steps ul li a                        {display: inline-block; width: 90px; height: 39px; border-radius: 22px; border: 2px dotted #2a333c; line-height: 36px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 130%; color: #2a333c; margin: 0 15px;}
+.layout_content1.steps .layout_contentBlock_steps ul li a.active                 {border: 2px solid #2a333c; color: #ffffff; background: #2a333c;}
+.layout_content1.steps .table_steps table                                        {width: 100%;}
+.layout_content1.steps .table_steps td                                           {vertical-align: top; width: 320px; padding: 30px 30px 20px 0; text-align: left; color: #2a333c; font-size: 130%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px;}
+.layout_content1.steps .table_steps td:before                                    {margin: 0 5px 0 0; content: ""; width: 12px; height: 12px; border-radius: 50%; background: #218ed2; display: inline-block;}
+.layout_content1.steps .table_steps .blue                                        {font-size: 90%;}
+.layout_content1.steps .table_steps .td_button                                   {vertical-align: middle;}
+.layout_content1.steps .table_steps .td_button:before                            {display: none;}
+.layout_content2.steps                                                           {margin-top: -160px; position: relative; width: 100%; text-align: center;}
+.layout_content2.steps .layout_content_container2                                {background: #ffffff; padding: 30px;}
+.layout_content2.steps .layout_content_container2 h2                             {font-size: 300%; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; margin-bottom: 42px;}
+.layout_content2.steps .layout_content_container2 p                              {font-size: 130%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c;}
+.layout_content2.steps .layout_content_lower.rules table                         {margin: 15px 0;}
+.layout_content2.steps .layout_content_lower.rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
+.layout_content2.steps .layout_content_lower.rules tr:first-child td:first-child {font-size: 175%;}
+.layout_content2.steps .layout_content_lower.rules td:first-child                {color: #218ed2; width: 60px;}
+.layout_content2.steps .layout_content_lower.rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
+.layout_content2.steps .layout_content_lower.rules td a                          {color: #218ed2; text-decoration: underline;}
 
+.layout_content1.steps.step3                                           {background: url("../images/open_invest/Bg_invest2.png") center no-repeat;}
+.layout_content1.steps.step3 h1                                        {color: #ffffff;}
+.layout_content1.steps.step3 .layout_contentBlock_steps ul li a        {color: #ffffff; border-color: #ffffff;}
+.layout_content1.steps.step3 .layout_contentBlock_steps ul li a.active {color: #ffffff; border-color: #218ed2; background: #218ed2;}
+.layout_content1.steps.step3 .table_steps td                           {color: #ffffff;}
 
-
-
-
-
-
+.layout_content1.steps.step4    {background: url("../images/open_invest/Bg_invest3.png") center no-repeat;}
+.layout_content1.steps.step6    {background: url("../images/open_invest/Bg_invest4.png") center no-repeat;}
+.layout_content1.steps.step6 h2 {font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
 
 
 
