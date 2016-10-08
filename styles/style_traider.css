@@ -10,7 +10,7 @@
 .layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 30px;}
 
 .layout_content .layout_content_container1                            {position: relative; max-width: 1080px; margin: 0 auto; padding: 50px 0 0 0; color: #181818;}
-.layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; line-height: 30px; font-size: 300%; margin-bottom: 59px;}
+.layout_content .layout_content_upper h2                              {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; line-height: 40px; font-size: 300%; margin-bottom: 59px;}
 .layout_content .layout_content_upper .ok                             {float: left; margin-right: 15px;}
 .layout_content .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0;}
 .layout_content .layout_content_lower .layout_contentBlock_left       {padding: 30px; width: 747px; height: auto; background: #ffffff; float: left; margin-right: 10px;}
