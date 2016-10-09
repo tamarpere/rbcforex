@@ -212,6 +212,8 @@
     .layout_header .layout_header_container .triangle.invest {top: 20px; left: 40px;}
 
     /*Rating*/
+    .layout_content1.rating .layout_content_container1.mobile                              {display: none;}
+    .layout_content1.rating .layout_content_container1.desktop                             {display: block; margin: 45px auto; width: 1080px;}
     .layout_content1.rating .layout_content_container1                                     {width: 748px;}
     .layout_content1.rating .layout_content_container1 h2.desktop                          {display: none;}
     .layout_content1.rating .layout_content_container1 h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
@@ -221,6 +223,7 @@
     .layout_content2.rating                                                                {margin-top: 20px;}
     .layout_content2.rating .layout_content_container2.tablet                              {display: inline-block;}
     .layout_content2.rating .layout_content_container2.desktop                             {display: none;}
+    .layout_content2.rating .layout_content_container2.mobile                              {display: none;}
     .layout_content2.rating .layout_content_container2.tablet .filter                      {width: 100%; background: #ffffff; margin-bottom: 20px; position: relative;}
     .layout_content2.rating .layout_content_container2.tablet .filter table                {width: 100%;}
     .layout_content2.rating .layout_content_container2.tablet .filter label                {float: none; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 13px; width: 100%; display: block;}
@@ -274,6 +277,8 @@
     .layout_content_container1.programm .layout_content_lower.rules img {width: 100%;}
 
     /*Steps*/
+    .layout_content1.steps .layout_content_container1.desktop                        {display: inline-block;}
+    .layout_content1.steps .layout_content_container1.mobile                         {display: none;}
     .layout_contentBlock_steps.desktop                        {display: none;}
     .layout_contentBlock_steps.tablet                         {display: inline-block;}
     .layout_content2.steps                                    {margin-top: -80px;}
@@ -502,6 +507,8 @@
     .layout_header .layout_header_container .triangle.invest {top: 20px; left: 40px;}
 
     /*Rating*/
+    .layout_content1.rating .layout_content_container1.mobile                              {display: none;}
+    .layout_content1.rating .layout_content_container1.desktop                             {display: block; margin: 45px auto; width: 1080px;}
     .layout_content1.rating .layout_content_container1                                     {width: 748px;}
     .layout_content1.rating .layout_content_container1 h2.desktop                          {display: none;}
     .layout_content1.rating .layout_content_container1 h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
@@ -511,6 +518,7 @@
     .layout_content2.rating                                                                {margin-top: 20px;}
     .layout_content2.rating .layout_content_container2.tablet                              {display: inline-block;}
     .layout_content2.rating .layout_content_container2.desktop                             {display: none;}
+    .layout_content2.rating .layout_content_container2.mobile                              {display: none;}
     .layout_content2.rating .layout_content_container2.tablet .filter                      {width: 100%; background: #ffffff; margin-bottom: 20px; position: relative;}
     .layout_content2.rating .layout_content_container2.tablet .filter table                {width: 100%;}
     .layout_content2.rating .layout_content_container2.tablet .filter label                {float: none; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 13px; width: 100%; display: block;}
@@ -550,6 +558,8 @@
     .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
     .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block; margin-left: 0;}
     .layout_content_container1.dir_invest .banner                          {background: url("../images/pryam_invest/Banner1_tabl.png") center;}
+    .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
+    .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block;}
 
     /*Copy deal*/
     .layout_content_container1.copy_deal .banner {background: url("../images/copi_sdel/Banner1_tabl.png") center;}
@@ -564,6 +574,8 @@
     .layout_content_container1.programm .layout_content_lower.rules img {width: 100%;}
 
     /*Steps*/
+    .layout_content1.steps .layout_content_container1.desktop                        {display: inline-block;}
+    .layout_content1.steps .layout_content_container1.mobile                         {display: none;}
     .layout_contentBlock_steps.desktop                        {display: none;}
     .layout_contentBlock_steps.tablet                         {display: inline-block;}
     .layout_content2.steps                                    {margin-top: -80px;}

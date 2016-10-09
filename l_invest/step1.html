@@ -10,18 +10,19 @@
     <link href="../styles/style_invest.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
 <header class="layout_header desktop">
     <div class="layout_header_container">
         <div class="layout_header_content">
             <div class="layout_headerBlock layout_headerBlock_left">
-                <a href="open_account.html">
+                <a href="../l_trader/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="fillup.html">Пополнить счет</a>
-                <a href="withdraw.html">Вывести средства</a>
+                <a href="../l_trader/fillup.html">Пополнить счет</a>
+                <a href="../l_trader/withdraw.html">Вывести средства</a>
             </div>
             <a href class="terminal">
                 <img src="../images/main/Terminal.svg" width="14" height="13">
@@ -85,12 +86,12 @@
                 <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="/open_account.html">
+                <a href="../l_trader/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="add_fee.html">Пополнить счет</a>
-                <a href="withdraw.html">Вывести средства</a>
+                <a href="../l_trader/fillup.html">Пополнить счет</a>
+                <a href="../l_trader/withdraw.html">Вывести средства</a>
                 <a href>
                     <img src="../images/main/Terminal.svg" width="14" height="13">
                     Web-терминал
@@ -153,18 +154,18 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="/open_account.html">
+                <a href="../l_trader/open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="add_fee.html">Пополнить</a>
-                <a href="withdraw.html">Вывести</a>
+                <a href="../l_trader/fillup.html">Пополнить</a>
+                <a href="../l_trader/withdraw.html">Вывести</a>
             </div>
         </div>
     </div>
 </header>
 <section class="layout_content1 steps">
-    <div class="layout_content_container1">
+    <div class="layout_content_container1 desktop">
         <h1>Инвестиционная программа</h1>
         <div class="layout_contentBlock_steps">
             <ul>
@@ -198,6 +199,96 @@
                         <td>Вы имеете возможность пополнять реальный счет и работать на нем. Перейти на новый этап Вы
                             можете в любое время
                         </td>
+                        <td>До перехода на третий этап, Вы ограничены в выводе денег с реального счета и открытии сделок
+                            общим размером 1 стандартный лот
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="layout_contentBlock_steps tablet">
+            <div class="table_steps">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>Вы получаете 150$ на данный счет (при использовании реферального тега — 200$)</td>
+                        <td>Максимальное кредитное плечо составляет 1:100 (максимально возможный заработок при этом —
+                            1,5$)
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Максимальная просадка составляет 20%</td>
+                        <td>При переходе на новый этап Вы можете получить свой доход</td>
+                    </tr>
+                    <tr>
+
+                        <td>Вы имеете возможность пополнять реальный счет и работать на нем. Перейти на новый этап Вы
+                            можете в любое время
+                        </td>
+                        <td>До перехода на третий этап, Вы ограничены в выводе денег с реального счета и открытии сделок
+                            общим размером 1 стандартный лот
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Чтобы перейти на второй этап, надо заработать 1,5$</td>
+                        <td>Пополнять инвестиционный счет своими деньгами ЗАПРЕЩЕНО</td>
+                    </tr>
+                </table>
+                <button class="blue">Откройте инвестиционный счет</button>
+            </div>
+        </div>
+    </div>
+    <div class="layout_content_container1 mobile">
+        <h1>Инвестиционная программа</h1>
+        <div class="carousel">
+            <div class="carousel-button-left"><a href="#"></a></div>
+            <div class="carousel-button-right"><a href="#"></a></div>
+            <div class="carousel_wrapper">
+                <ul class="items">
+                    <li class="item">1 этап</li>
+                    <li class="item">2 этап</li>
+                    <li class="item">3 этап</li>
+                    <li class="item">4 этап</li>
+                    <li class="item">5 этап</li>
+                    <li class="item">6 этап</li>
+                </ul>
+            </div>
+        </div>
+        <div class="layout_contentBlock_steps">
+            <div class="table_steps">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="td_button">
+                            <button class="blue">Откройте инвестиционный счет</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Вы получаете 150$ на данный счет (при использовании реферального тега — 200$)</td>
+                    </tr>
+                    <tr>
+                        <td>Максимальное кредитное плечо составляет 1:100 (максимально возможный заработок при этом —
+                            1,5$)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Чтобы перейти на второй этап, надо заработать 1,5$</td>
+                    </tr>
+                    <tr>
+                        <td>Максимальная просадка составляет 20%</td>
+                    </tr>
+                    <tr>
+                        <td>При переходе на новый этап Вы можете получить свой доход</td>
+                    </tr>
+                    <tr>
+                        <td>Пополнять инвестиционный счет своими деньгами ЗАПРЕЩЕНО</td>
+                    </tr>
+                    <tr>
+                        <td>Вы имеете возможность пополнять реальный счет и работать на нем. Перейти на новый этап Вы
+                            можете в любое время
+                        </td>
+                    </tr>
+                    <tr>
                         <td>До перехода на третий этап, Вы ограничены в выводе денег с реального счета и открытии сделок
                             общим размером 1 стандартный лот
                         </td>
@@ -442,12 +533,12 @@
                     <span class="title">Трейдерам</span>
                     <ul>
                         <li><a href>Для начинающих</a></li>
-                        <li><a href>Учебный счет</a></li>
-                        <li><a href>Торговый счет</a></li>
-                        <li><a href>Ввод средств</a></li>
-                        <li><a href>Вывод средств</a></li>
-                        <li><a href="calculator.html">Калькулятор</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="l-traider/demo.html">Учебный счет</a></li>
+                        <li><a href="l-traider/open_account.html">Торговый счет</a></li>
+                        <li><a href="l-traider/fillup.html">Ввод средств</a></li>
+                        <li><a href="l-traider/withdraw.html">Вывод средств</a></li>
+                        <li><a href="l-traider/calculator.html">Калькулятор</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                         <li><a href>Условия торговли</a></li>
                     </ul>
                 </div>
@@ -461,7 +552,7 @@
                         <li><a href>Реферальная система</a></li>
                         <li><a href>Баннеры</a></li>
                         <li><a href>Промо код</a></li>
-                        <li><a href>FAQ</a></li>
+                        <li><a href="l-traider/faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col col_4">
@@ -489,11 +580,45 @@
                 <span>&copy;&nbsp;RBC&nbsp;Forex</span>
             </div>
             <div class="layout_footerBlock layout_footerBlock_protect">
-                <img src="../../images/main/Gurs_footer.png">
-                <span>Защищено GURS<br>Global Unite Responsibility System</span>
+                <img src="../images/main/Gurs_footer.png">
+                <span class="desktop">Защищено GURS<br>Global Unite Responsibility System</span>
+                <span class="mobile">Защищено<br>GURS</span>
             </div>
         </div>
     </div>
 </footer>
+
+<script>
+    //    Carousel for mobile
+
+    $(document).on('click', ".carousel-button-right",function(){
+        var carusel = $(this).parents('.carousel');
+        right_carusel(carusel);
+        return false;
+    });
+
+    $(document).on('click',".carousel-button-left",function(){
+        var carusel = $(this).parents('.carousel');
+        left_carusel(carusel);
+        return false;
+    });
+    function left_carusel(carusel){
+        var block_width = $(carusel).find('.item').outerWidth();
+        $(carusel).find(".items .item").eq(-1).clone().prependTo($(carusel).find(".items"));
+        $(carusel).find(".items").css({"left":"-"+block_width+"px"});
+        $(carusel).find(".items .item").eq(-1).remove();
+        $(carusel).find(".items").animate({left: "0px"}, 200);
+
+    }
+    function right_carusel(carusel){
+        var block_width = $(carusel).find('.item').outerWidth();
+        $(carusel).find(".items").animate({left: "-"+ block_width +"px"}, 200, function(){
+            $(carusel).find(".items .item").eq(0).clone().appendTo($(carusel).find(".items"));
+            $(carusel).find(".items .item").eq(0).remove();
+            $(carusel).find(".items").css({"left":"0px"});
+        });
+    }
+
+</script>
 </body>
 </html>
