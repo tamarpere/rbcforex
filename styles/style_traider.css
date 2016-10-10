@@ -1,5 +1,6 @@
 .mobile {display: none;}
 .desktop {display: block;}
+.layout_form_trader {display: none;}
 .layout_header .layout_header_container1                  {width: 100%; min-height: 64px; background: #0a79c0;}
 .layout_header .layout_headerBlock_menu li                {display: inline-block; color: #fff;}
 .layout_header .layout_headerBlock_menu a                 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}

@@ -12,6 +12,57 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
+<div class="layout_header_menu">
+    <div class="shadow">
+        <div class="close">
+            <img src="../images/main/Cross.png">
+        </div>
+        <div class="layout_contentBlock_mobileMenu">
+            <div class="nav">
+                <a href class="terminal">
+                    <img src="../images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
+                <a href>
+                    <img src="../images/main/Comment.svg" width="15" height="15">
+                    Live chat
+                </a>
+            </div>
+            <div class="nav_list">
+                <ul class="sup_menu">
+                    <li><a class="show_sub">Трейдерам</a>
+                        <ul class="sub_menu">
+                            <li><a class="active" href="open_account.html">Открыть счет</a></li>
+                            <li><a href="demo.html">Демо-счет</a></li>
+                            <li><a href="fillup.html">Пополнение счета</a></li>
+                            <li><a href="withdraw.html">Вывод средств</a></li>
+                            <li><a href="calculator.html">Калькулятор</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="terms.html">Условия торговли</a></li>
+                            <li><a href="feed.html">Обратная связь</a></li>
+                            <li><a href="konkurs.html">Конкурсы</a></li>
+                            <li><a href="bonus.html">Бонусы</a></li>
+                            <li><a href="novichkam.html">Новичкам</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="show_sub">Инвестиции</a>
+                        <ul class="sub_menu">
+                            <li><a href="../l_invest/rating.html">Рейтинг трейдеров</a></li>
+                            <li><a href="../l_invest/tis.html">TIS</a></li>
+                            <li><a href="../l_invest/dir_invest.html">Прямые инвестиции</a></li>
+                            <li><a href="../l_invest/copy_deal.html">Копирование сделок</a></li>
+                            <li><a href="../l_invest/faq.html">FAQ</a></li>
+                            <li><a href="../l_invest/be_trader.html">Стать управляющим</a></li>
+                            <li><a href="../l_invest/invest_programm.html">Инвестиционная программа</a></li>
+                        </ul></li>
+                    <li><a href>Компания</a></li>
+                    <li><a href>Обучение</a></li>
+                    <li><a href>Партнерам</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <header class="layout_header desktop">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -151,10 +202,10 @@
                 <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
-                <a href>
+                <a>
                     <img src="../images/main/Key.svg">
                 </a>
-                <a href>
+                <a>
                     <img class="mobile_menu" src="../images/main/Icon_mobile_menu.png">
                 </a>
             </div>
@@ -357,6 +408,26 @@
 	    })
 
 	});
+
+
+    $('.mobile_menu').on('click', function (){
+        var a = $('.layout_header_menu');
+        a.show();
+    });
+    $('.close').on('click', function (){
+        var a = $('.layout_header_menu');
+        a.hide();
+    });
+
+    $('.show_sub').on('click', function (){
+        $(this).siblings('.sub_menu').slideToggle();
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active')
+        } else {
+            $(this).addClass('active')
+        }
+    })
+
   </script>
 
 </body>

@@ -41,6 +41,7 @@ button.grey                 {border-color: #eef1f2; color: #181818; background: 
 
 /*Header*
 ***********************************************************/
+.layout_header_menu                                 {display: none;}
 .layout_header                                      {width: 100%; height: auto; background: #ffffff; color: #2a333c;}
 .layout_header.tablet                               {display: none;}
 .layout_header.mobile                               {display: none;}

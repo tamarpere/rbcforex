@@ -3,10 +3,26 @@
     /*Index*
    **************************************************************/
     .desktop {display: none;}
-    .mobile {display: block;}
+    .mobile  {display: block;}
+
+    /*Mobile menu*/
+    body                                                            {position: relative;}
+    .layout_header_menu                                             {display: none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 10;}
+    .layout_header_menu .close                                      {position: absolute; left: 15px; top: 15px; width: 24px; height: 24px;}
+    .layout_contentBlock_mobileMenu                                 {width: 245px; height: auto; background: #ffffff; display: inline-block; float: right;}
+    .layout_contentBlock_mobileMenu .nav                            {width: 100%; height: 49px; background: #f2f2f2; display: inline-block; line-height: 45px;}
+    .layout_contentBlock_mobileMenu .nav a                          {margin: 0 12px 0 15px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #2a333c;}
+    .layout_contentBlock_mobileMenu .nav a img                      {vertical-align: middle; margin-right: 3px;}
+    .layout_contentBlock_mobileMenu .nav_list                       {margin: 20px 0 20px 0;}
+    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
+    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a.active {color: #1c252f;}
+    .layout_contentBlock_mobileMenu .nav_list .sub_menu             {display: none;}
+    .layout_contentBlock_mobileMenu .nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
+    .layout_contentBlock_mobileMenu .nav_list .sub_menu li a.active {border-radius: 0 25px 25px 0; background: #218ed2; color: #ffffff;}
 
     .layout_header.mobile                                             {text-align: center; display: inline-block;}
-    .layout_header.mobile *                                           {display: inline-block;}
+    .layout_header.mobile .layout_header_content                      {display: inline-block;}
+    .layout_header.mobile .layout_header_content2                     {display: inline-block;}
     .layout_header.mobile .layout_header_container                    {height: 84px; padding: 25px 0;}
     .layout_header.mobile .layout_headerBlock_logo                    {float: left; margin-left: 25px;}
     .layout_header.mobile .layout_headerBlock_icons                   {float: right; line-height: 43px; margin-right: 25px;}
@@ -20,23 +36,23 @@
     .layout_header.mobile .layout_headerBlock_menuTablet a            {margin-right: 30px;}
     .layout_header.mobile .layout_headerBlock_menuTablet a:last-child {margin-right: 0;}
 
-    .layout_footer                                      {height: 87px; padding: 0;}
-    .layout_footer .layout_footer_container             {width: 100% !important;}
-    .layout_footer .layout_footer_content               {display: none;}
-    .layout_footer .layout_footer_content2              {text-align: left; margin-left: 25px; line-height: 87px;}
-    .layout_footer .layout_footerBlock_copyright        {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, serif; font-size: 115%; color: #353d45;}
-    .layout_footer .layout_footerBlock_protect          {width: 140px; bottom: 17px;}
-    .layout_footer .layout_footerBlock_protect .mobile  {display: block; line-height: 20px;}
+    .layout_footer                                     {height: 87px; padding: 0;}
+    .layout_footer .layout_footer_container            {width: 100% !important;}
+    .layout_footer .layout_footer_content              {display: none;}
+    .layout_footer .layout_footer_content2             {text-align: left; margin-left: 25px; line-height: 87px;}
+    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, serif; font-size: 115%; color: #353d45;}
+    .layout_footer .layout_footerBlock_protect         {width: 140px; bottom: 17px;}
+    .layout_footer .layout_footerBlock_protect .mobile {display: block; line-height: 20px;}
 
-    .layout_content1                                      {background: url("../images/main/Bg_index_mob.png") center center no-repeat; background-size: cover;}
+    .layout_content1 {background: url("../images/main/Bg_index_mob.png") center center no-repeat; background-size: cover;}
 
-    .layout_content1 .layout_content_container1           {height: 330px;}
-    .layout_content1 .layout_contentBlock_slide1          {text-align: center; padding: 30px 0 0 0; width: 100%;}
-    .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 148%; line-height: 25px; margin: 0 30px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
-    .layout_content1 .layout_contentBlock_slide1 .buttons {width: 260px; display: inline-block; margin-top: 25px;}
+    .layout_content1 .layout_content_container1                  {height: 330px;}
+    .layout_content1 .layout_contentBlock_slide1                 {text-align: center; padding: 30px 0 0 0; width: 100%;}
+    .layout_content1 .layout_contentBlock_slide1 h2              {font-size: 148%; line-height: 25px; margin: 0 30px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .layout_content1 .layout_contentBlock_slide1 .buttons        {width: 260px; display: inline-block; margin-top: 25px;}
     .layout_content1 .layout_contentBlock_slide1 .buttons button {width: 260px; margin-bottom: 25px;}
-    .layout_content1 .layout_contentBlock_slide2          {display: none;}
-    .layout_content1 .layout_contentBlock_slide3          {display: none;}
+    .layout_content1 .layout_contentBlock_slide2                 {display: none;}
+    .layout_content1 .layout_contentBlock_slide3                 {display: none;}
 
     .layout_content2.mobile                                            {display: block; margin-top: 0; margin-bottom: 0;}
     .layout_content2.mobile .layout_contentBlock                       {padding: 0; width: 100%}
@@ -90,51 +106,51 @@
     **************************************************************/
 
     /*Open account*/
-    .layout_content .layout_content_container1                             {max-width: none !important; padding: 0;}
-    .layout_content .layout_content_upper h2                               {font-size: 190%; margin: 30px 25px;}
-    .layout_content .layout_content_container1 .layout_contentBlock_choice {width: 262px; display: block; margin: 0 auto;}
-    .layout_content .layout_content_container1 .layout_contentBlock_choice .item {display: inline-block; margin: 0 auto;}
-    .layout_content .layout_contentBlock_choice label                      {margin-right: 0; margin-bottom: 10px;}
+    .layout_content .layout_content_container1                                             {max-width: none !important; padding: 0;}
+    .layout_content .layout_content_upper h2                                               {font-size: 190%; margin: 30px 25px;}
+    .layout_content .layout_content_container1 .layout_contentBlock_choice                 {width: 262px; display: block; margin: 0 auto;}
+    .layout_content .layout_content_container1 .layout_contentBlock_choice .item           {display: inline-block; margin: 0 auto;}
+    .layout_content .layout_contentBlock_choice label                                      {margin-right: 0; margin-bottom: 10px;}
     .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {padding-left: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_left        {float: none !important; width: 100% !important; padding: 0 0 30px 0 !important; margin: 0 auto 10px auto !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_left form   {position: relative !important;}
-    .layout_content .layout_content_lower label                            {float: none !important; width: auto !important; margin-left: 25px !important;}
-    .layout_content .layout_content_lower input                            {width: 248px !important; margin: 10px 25px !important;}
-    .layout_content .layout_content_lower .gen_pass                        {display: none;}
-    .layout_content .layout_content_lower .note.pass                       {display: none;}
-    .layout_content .layout_content_lower .show_pass                       {background: transparent !important; position: absolute !important; bottom: 282px; left: 240px;}
-    .layout_content .layout_content_lower label[for="check"]               {margin-left: 0 !important;}
-    .layout_content .layout_content_lower form .addition span              {width: 210px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right       {float: none !important; margin: 0 auto !important; width: 240px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after a {width: 242px;}
-    .layout_content .layout_content_lower .attention                                  {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
-    .layout_content .layout_content_lower .attention span                             {margin: 22px auto 10px auto;}
-    .layout_content .layout_content_lower .attention .password                        {margin: 0 0 22px 0; width: 100%; text-align: center;}
+    .layout_content .layout_content_lower .layout_contentBlock_left                        {float: none !important; width: 100% !important; padding: 0 0 30px 0 !important; margin: 0 auto 10px auto !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_left form                   {position: relative !important;}
+    .layout_content .layout_content_lower label                                            {float: none !important; width: auto !important; margin-left: 25px !important;}
+    .layout_content .layout_content_lower input                                            {width: 248px !important; margin: 10px 25px !important;}
+    .layout_content .layout_content_lower .gen_pass                                        {display: none;}
+    .layout_content .layout_content_lower .note.pass                                       {display: none;}
+    .layout_content .layout_content_lower .show_pass                                       {background: transparent !important; position: absolute !important; bottom: 282px; left: 240px;}
+    .layout_content .layout_content_lower label[for="check"]                               {margin-left: 0 !important;}
+    .layout_content .layout_content_lower form .addition span                              {width: 210px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_right                       {float: none !important; margin: 0 auto !important; width: 240px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right.after a               {width: 242px;}
+    .layout_content .layout_content_lower .attention                                       {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
+    .layout_content .layout_content_lower .attention span                                  {margin: 22px auto 10px auto;}
+    .layout_content .layout_content_lower .attention .password                             {margin: 0 0 22px 0; width: 100%; text-align: center;}
 
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: none;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left     {padding: 0 0 15px 0 !important;}
-    .layout_content_container1.opened .layout_content_upper                               {position: relative;}
-    .layout_content_container1.opened .layout_content_upper h2                            {margin: 30px 25px 15px 77px;}
-    .layout_content_container1.opened .layout_content_upper img                           {position: absolute; top: 40px; left: 25px;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left p   {background: #edf1f2; padding: 0 25px 32px 25px;}
-    .layout_content_container1.opened .layout_content_lower .more                         {width: 100%; height: 70px; padding: 0; text-align: left;}
-    .layout_content_container1.opened .layout_content_lower .more span                    {margin: 17px 60px 17px 25px; float: left;}
-    .layout_content_container1.opened .layout_content_lower .more a                       {line-height: 80px;}
-    .layout_content_container1.opened .layout_content_lower .profile_info                 {width: 100%; min-width: inherit;}
-    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile    {display: block; margin: 0 25px; width: auto;}
-    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop     {display: none;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left                   {padding: 0 0 15px 0 !important;}
+    .layout_content_container1.opened .layout_content_upper                                             {position: relative;}
+    .layout_content_container1.opened .layout_content_upper h2                                          {margin: 30px 25px 15px 77px;}
+    .layout_content_container1.opened .layout_content_upper img                                         {position: absolute; top: 40px; left: 25px;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left p                 {background: #edf1f2; padding: 0 25px 32px 25px;}
+    .layout_content_container1.opened .layout_content_lower .more                                       {width: 100%; height: 70px; padding: 0; text-align: left;}
+    .layout_content_container1.opened .layout_content_lower .more span                                  {margin: 17px 60px 17px 25px; float: left;}
+    .layout_content_container1.opened .layout_content_lower .more a                                     {line-height: 80px;}
+    .layout_content_container1.opened .layout_content_lower .profile_info                               {width: 100%; min-width: inherit;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile                  {display: block; margin: 0 25px; width: auto;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile td               {line-height: 25px; padding: 20px 25px; border-bottom: 1px solid #ececec; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content_container1.opened .layout_content_lower .profile_info table.mobile tr:last-child td {border-bottom: 0;}
-    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold {font-family: Roboto-Med, Arial, sans-serif; font-weight: 700;}
-    .layout_content_container1.opened .layout_content_lower .extra_info .blue {float: none; display: block; margin: 27px auto 15px auto;}
-    .layout_content_container1.opened .layout_content_lower .extra_info .edit {float: none; display: block; margin: 0 auto; text-align: center;}
-    .layout_content .layout_content_lower .extra_info                        {margin-top: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after   {width: 100%;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after a {margin: 10px auto;}
-    .layout_content .layout_content_lower .extra_info form                   {width: 100%;}
-    .layout_content .layout_content_lower .extra_info .form span             {display: none;}
-    .layout_content .layout_content_lower .extra_info .form input            {width: 280px; float: none;}
-    .layout_content .layout_content_lower .extra_info .form .blue.mobile     {display: block;}
-    .layout_content .layout_content_lower .extra_info .form .blue.desktop    {display: none;}
+    .layout_content_container1.opened .layout_content_lower .profile_info table.mobile .bold            {font-family: Roboto-Med, Arial, sans-serif; font-weight: 700;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .blue                           {float: none; display: block; margin: 27px auto 15px auto;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .edit                           {float: none; display: block; margin: 0 auto; text-align: center;}
+    .layout_content_container1.opened .layout_content_lower .extra_info                                 {margin-top: 0;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_right.after            {width: 100%;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_right.after a          {margin: 10px auto;}
+    .layout_content_container1.opened .layout_content_lower .extra_info form                            {width: 100%;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .form span                      {display: none;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .form input                     {width: 280px; float: none;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .form .blue.mobile              {display: block;}
+    .layout_content_container1.opened .layout_content_lower .extra_info .form .blue.desktop             {display: none;}
 
     /*Demo*/
     .layout_content_container1.demo .layout_content_middle .layout_contentBlock_left            {width: 100%; padding: 0;}
@@ -178,32 +194,33 @@
     .layout_content .layout_content_container1.fillup .payment.tablet .select span                    {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content .layout_content_container1.fillup .payment.tablet .dropdown                       {float: right; margin: 25px;}
 
-    .layout_content .layout_content_container1.fillup form.mobile                    {display: inline-block; height: 740px; padding-top: 10px;}
-    .layout_content .layout_content_container1.fillup form.mobile label              {width: 80% !important; display: inline-block; margin: 15px auto 0 auto;}
-    .layout_content .layout_content_container1.fillup form.mobile input.number       {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.bonus        {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.sum          {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.result       {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile select             {width: 115px !important; float: left; margin: 10px 0;}
-    .layout_content .layout_content_container1.fillup form.mobile .note              {width: 260px; margin-left: 25px; margin-bottom: 10px; display: inline-block;}
-    .layout_content .layout_content_container1.fillup form.mobile .note.done         {width: 260px; margin-left: 25px; margin-bottom: 0; display: inline-block; float: none;}
-    .layout_content .layout_content_container1.fillup form.mobile a.note             {width: 115px !important; float: left; margin-left: 0; line-height: 60px; margin-bottom: 0;}
-    .layout_content .layout_content_container1.fillup form.mobile .blue              {margin: 30px auto 0 auto;}
+    .layout_content .layout_content_container1.fillup form.mobile              {display: inline-block; height: 740px; padding-top: 10px;}
+    .layout_content .layout_content_container1.fillup form.mobile label        {width: 80% !important; display: inline-block; margin: 15px auto 0 auto;}
+    .layout_content .layout_content_container1.fillup form.mobile input.number {width: 115px !important; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.bonus  {width: 115px !important; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.sum    {width: 115px !important; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.result {width: 115px !important; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile select       {width: 115px !important; float: left; margin: 10px 0;}
+    .layout_content .layout_content_container1.fillup form.mobile .note        {width: 260px; margin-left: 25px; margin-bottom: 10px; display: inline-block;}
+    .layout_content .layout_content_container1.fillup form.mobile .note.done   {width: 260px; margin-left: 25px; margin-bottom: 0; display: inline-block; float: none;}
+    .layout_content .layout_content_container1.fillup form.mobile a.note       {width: 115px !important; float: left; margin-left: 0; line-height: 60px; margin-bottom: 0;}
+    .layout_content .layout_content_container1.fillup form.mobile .blue        {margin: 30px auto 0 auto;}
 
     /*Withdraw*/
-    .layout_content .layout_content_container1.withdraw form.mobile                  {height: 500px; display: inline-block;}
+    .layout_content .layout_content_container1.withdraw form.mobile                  {height: auto; display: block; position: relative; background: #ffffff;}
     .layout_content .layout_content_container1.withdraw form.mobile img              {top: 25px; left: 50%; margin-left: -118px;}
     .layout_content .layout_content_container1.withdraw form.mobile input.number     {width: 248px !important;}
     .layout_content .layout_content_container1.withdraw form.mobile input.result     {width: 248px !important;}
     .layout_content .layout_content_container1.withdraw form.mobile .addition        {margin-top: 20px; float: none; margin-left: 25px; display: inline-block; text-align: left;}
-    .layout_content .layout_content_container1.withdraw form.mobile .data_card       {margin-bottom: 0; height: 600px;}
-    .layout_content .layout_content_container1.withdraw form.mobile .side            {width: 100%; padding: 60px 0 25px 0; height: 500px; border-radius: 0;}
+    .layout_content .layout_content_container1.withdraw form.mobile .data_card       {margin-bottom: 0; height: 550px;}
+    .layout_content .layout_content_container1.withdraw form.mobile .side            {width: 100%; padding: 60px 0 25px 0; height: 470px; border-radius: 0;}
     .layout_content .layout_content_container1.withdraw .data_card .selects          {margin-left: 25px;}
     .layout_content .layout_content_container1.withdraw .data_card .selects label    {margin-left: 0 !important;}
     .layout_content .layout_content_container1.withdraw .data_card .selects select   {font-size: 118%;}
-    .layout_content .layout_content_container1.withdraw .data_card .cvv_number       {float: none; width: auto;}
+    .layout_content .layout_content_container1.withdraw .data_card .cvv_number       {float: none; width: auto; display: inline-block;}
     .layout_content .layout_content_container1.withdraw .data_card .cvv_number input {width: 75px !important; float: left;}
     .layout_content .layout_content_container1.withdraw .data_card .cvv_number .note {width: 120px; float: left; margin-top: 10px;}
+    .layout_content .layout_content_container1.withdraw form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
 
     /*Feedback*/
     .layout_content_container1.feed .wrapper                  {background: #ffffff; height: auto;}
@@ -369,6 +386,18 @@
     .layout_content_container1.dir_invest .layout_contentBlock_right       {width: 100%; padding: 0;}
     .layout_content_container1.dir_invest .red                             {width: 220px;}
 
+    /*Be trader*/
+    .layout_content_container1.be_trader            {display: none;}
+    .layout_form_trader                             {display: block; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
+    .layout_form_trader .form_wrapper               {width: 250px; height: 400px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
+    .layout_form_trader .form_wrapper .close        {position: absolute; top: 32px; right: 30px;}
+    .layout_form_trader .form_wrapper h2            {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818;}
+    .layout_form_trader .form_wrapper label         {line-height: 39px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
+    .layout_form_trader .form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
+    .layout_form_trader .form_wrapper button        {width: 238px; display: block; margin: 5px auto 15px auto; height: 39px;}
+    .layout_form_trader .form_wrapper .grey_outline {border: 2px dotted #218ed2; color: #218ed2; font-size: 110%;}
+    .layout_form_trader .form_wrapper .forget       {color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+
     /*Invest programm*/
     .layout_content_container1.programm h2                                         {line-height: 30px;}
     .layout_content_container1.programm .red                                       {height: 110px; line-height: 20px; border-radius: 60px; width: 228px;}
@@ -418,7 +447,7 @@
     .layout_content_container1.open_invest .layout_contentBlock_right.after .docs          {width: 100%; padding: 0;}
     .layout_content_container1.open_invest .layout_contentBlock_right .download            {position: absolute; top: 0; left: 0; width: 80%; text-align: left; padding: 20px 10%;}
     .layout_content .layout_content_lower .layout_contentBlock_right .docs .title          {margin-left: 25px; padding-top: 30px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right .docs ul              {padding-bottom: 30px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right .docs ul              {padding-bottom: 30px; padding-left: 25px;}
 
     .layout_content_container1.open_invest .layout_content_upper .ok                                                             {display: none;}
     .layout_content_container1.open_invest.ok .layout_content_lower .layout_contentBlock_left             {margin-top: 0 !important;}
@@ -433,6 +462,17 @@
     .layout_content_container1.open_invest .layout_content_lower .more                                    {width: 100%; padding: 10px 0;}
     .layout_content_container1.open_invest .layout_content_lower .more span                               {width: 180px; padding-left: 25px; display: block;}
     .layout_content_container1.open_invest .layout_content_lower .more a                                  {top: 20px;}
-    .layout_content_container1.open_invest .layout_content_lower .extra_info .blue                        {float: none; margin: 25px auto;}
-    .layout_content_container1.open_invest .layout_content_lower .extra_info .edit                        {float: none; margin-top: 0; width: 100%; text-align: center;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .blue                        {float: none; display: block; margin: 25px auto;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .edit                        {float: none; display: block; margin-top: 0; width: 100%; text-align: center;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info                              {margin-top: 0;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info form                         {width: 100%;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .form span                   {display: none;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .form input                  {width: 280px; float: none;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .form .blue.mobile           {display: block;}
+    .layout_content_container1.open_invest .layout_content_lower .extra_info .form .blue.desktop          {display: none;}
+
+
+
+
+
 }
