@@ -55,9 +55,33 @@
                             <li><a href="../l_invest/be_trader.html">Стать управляющим</a></li>
                             <li><a href="../l_invest/invest_programm.html">Инвестиционная программа</a></li>
                         </ul></li>
-                    <li><a href>Компания</a></li>
-                    <li><a href>Обучение</a></li>
-                    <li><a href>Партнерам</a></li>
+                    <li><a class="show_sub">Компания</a>
+                        <ul class="sub_menu">
+                            <li><a href="../l_company/about.html">RBC Forex</a></li>
+                            <li><a href="../l_company/why_we.html">Почему мы</a></li>
+                            <li><a href="../l_company/providers.html">Провайдеры ликвидности</a></li>
+                            <li><a href="../l_company/news.html">Новости</a></li>
+                            <li><a href="../l_company/contacts.html">Контакты</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="show_sub">Обучение</a>
+                        <ul class="sub_menu">
+                            <li><a href="../l_education/book.html">Учебник по Metatrader</a></li>
+                            <li><a href="../l_education/dictionary.html">Словарь</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="show_sub">Партнерам</a>
+                        <ul class="sub_menu">
+                            <li><a href="../l_partner/partner_programm.html">Партнерская программа</a></li>
+                            <li><a href="../l_partner/individual.html">Индивидуальный партнер</a></li>
+                            <li><a href="../l_partner/regional.html">Региональное представительство</a></li>
+                            <li><a href="../l_partner/white_label.html">White Label</a></li>
+                            <li><a href="../l_partner/referal.html">Реферальная система</a></li>
+                            <li><a href="../l_partner/banners.html">Баннеры</a></li>
+                            <li><a href="../l_partner/promo.html">Промо-код</a></li>
+                            <li><a href="../l_partner/faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -96,9 +120,9 @@
                         <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
                             <div class="triangle traider"></div></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
-                        <li><a href>Компания</a></li>
-                        <li><a href>Обучение</a></li>
-                        <li><a href>Партнерам</a></li>
+                        <li><a href="../l_company/about.html">Компания</a></li>
+                        <li><a href="../l_education/book.html">Обучение</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
                     </ul>
                 </nav>
             </div>
@@ -158,9 +182,9 @@
                         <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
                             <div class="triangle traider"></div></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
-                        <li><a href>Компания</a></li>
-                        <li><a href>Обучение</a></li>
-                        <li><a href>Партнерам</a></li>
+                        <li><a href="../l_company/about.html">Компания</a></li>
+                        <li><a href="../l_education/book.html">Обучение</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
                     </ul>
                 </nav>
             </div>
@@ -211,11 +235,11 @@
 
         <div class="layout_header_content2">
             <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
-                <a href="add_fee.html">Пополнить</a>
+                <a href="fillup.html">Пополнить</a>
                 <a href="withdraw.html">Вывести</a>
             </div>
         </div>
@@ -241,7 +265,6 @@
                 <div class="payment tablet">
                     <span class="title">Платежная система</span>
                     <span class="triangle"></span>
-
                     <span class="select">
                         Стоимость нескольких пипсов
                         <ul class="submenu">
@@ -256,7 +279,7 @@
                 </div>
             </div>
             <div class="layout_contentBlock_right">
-                <form>
+                <form class="desktop">
                     <div class="error">
                         <span class="text">
                             Ошибка
@@ -291,6 +314,31 @@
                         <img src="../images/calc/Add.svg" width="16">
                         <span>Добавить ряд</span>
                     </a>
+                </form>
+                <form class="mobile">
+                    <div class="error">
+                        <span class="text">
+                            Ошибка
+                            Вы неправильно ввели значение в поле «Позиций»
+                        </span>
+                    </div>
+                    <label>Тип счета</label>
+                    <select class="type_fee">
+                        <option>Долларовый</option>
+                    </select>
+                    <label>Инструмент</label>
+                    <select class="tool">
+                        <option>EURUSD</option>
+                    </select>
+                    <label>Лот</label>
+                    <input class="lot">
+                    <label>Позиций</label>
+                    <input class="count">
+                    <label>Пипсов</label>
+                    <input class="pips">
+                    <label class="result">Необходимо</label>
+                    <span class="result">11.04$</span>
+                    <button class="blue">Рассчитать</button>
                 </form>
                 <div class="clear"></div>
                 <div class="addition">

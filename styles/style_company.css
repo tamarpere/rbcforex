@@ -1,0 +1,53 @@
+.layout_header .layout_header_container .triangle.company {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 28px;}
+
+/*About*/
+.layout_content1.about                                             {background: url("../images/about/Bg_about.png") center; background-size: cover; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
+.layout_content1.about .layout_content_container1                  {margin: 45px auto; width: 1080px; height: auto;}
+.layout_content1.about .layout_content_container1 h2               {width: 100%; text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
+.layout_content1.about .layout_content_container1 p                {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
+.layout_content1.about .layout_contentBlock_block1                 {width: 590px; text-align: left; float: right; padding: 15px 40px 35px 60px;}
+.layout_content2.about                                             {width: 100%; height: 480px;}
+.layout_content2.about .layout_content_container2                  {margin: 50px auto; width: 1080px; position: relative;}
+.layout_content2.about .layout_contentBlock_image                  {position: absolute; right: 45%; top: -90px;}
+.layout_content2.about .layout_contentBlock_about_us               {width: 50%; float: right;}
+.layout_content2.about .layout_contentBlock_about_us h3            {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-bottom: 35px; line-height: 33px; color: #2a333c;}
+.layout_content2.about .layout_contentBlock_about_us p             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 23px; color: #2f3841;}
+.layout_content2.about .layout_contentBlock_about_us .apps         {width: 215px; display: inline-block; margin-top: 50px; margin-right: 40px; float: right;}
+.layout_content2.about .layout_contentBlock_about_us .blue         {float: left; margin-top: 40px;}
+.layout_content2.about .layout_contentBlock_about_us .win          {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.layout_content2.about .layout_contentBlock_about_us .apple        {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
+.layout_content2.about .layout_contentBlock_about_us .android      {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
+.layout_content2.about .layout_contentBlock_about_us .web          {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
+.layout_content3.about                                             {display: inline-block; width: 100%; height: 492px; background: #ffffff; text-align: center;}
+.layout_content3.about .layout_contentBlock_items                  {display: inline-block; width: 1080px; margin: 50px auto 75px auto;}
+.layout_content3.about .layout_contentBlock_items h3               {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; font-size: 300%; line-height: 25px; text-align: left;}
+.layout_content3.about .layout_contentBlock_items .item            {color: #2f3841; float: left; width: 250px; margin-right: 25px; margin-top: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
+.layout_content3.about .layout_contentBlock_items .item span       {max-width: 225px;}
+.layout_content3.about .layout_contentBlock_items .item:last-child {margin-right: 0;}
+.layout_content3.about .layout_contentBlock_items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #eef1f2; text-align: center; line-height: 118px;}
+.layout_content3.about .layout_contentBlock_items .image_wrap img  {vertical-align: middle;}
+.layout_content4.about                                             {background: #ff4830; text-align: center; width: 100%; height: 200px; display: inline-block; max-width: none; }
+.layout_content4.about .layout_content_container4                  {margin: 0 auto; width: 1080px; height: auto;}
+.layout_content4.about .layout_content_container4 h4               {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 230%; margin-top: 35px;}
+.layout_content4.about .layout_content_container4 .white           {display: inline-block; margin: 0 auto 40px auto; width: 278px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
+.layout_content5.about                                             {text-align: center; width: 100%; height: 477px; display: inline-block; max-width: none; }
+.layout_content5.about .layout_content_container5                  {margin: 0 auto; width: 100%; height: auto; display: inline-block;}
+.layout_content5.about .layout_contentBlock_left                   {width: 50%; float: left; margin: 0; background: url("../images/about/Img_about1.png") center no-repeat; background-size: cover; height: 477px;}
+.layout_content5.about .layout_contentBlock_right                  {width: 50%; float: left; margin: 0; background: url("../images/about/Img_about2.png") center no-repeat; background-size: cover;height: 477px;}
+.layout_content5.about .layout_contentBlock h4                     {line-height: 37px; width: 400px text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%;}
+.layout_content5.about .layout_contentBlock p                      {line-height: 27px; text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%;}
+.layout_content5.about .layout_contentBlock_left                   {color: #ffffff;}
+.layout_content5.about .layout_contentBlock_right                  {color: #2f3841;}
+.layout_content5.about .layout_contentBlock_right h4               {width: 175px;}
+.layout_content5.about .layout_contentBlock_left .text             {display: inline-block; margin: 50px 50px 50px auto; float: right; width: 480px; text-align: left;}
+.layout_content5.about .layout_contentBlock_right .text            {display: inline-block; margin: 50px auto 50px 50px; float: left; width: 480px; text-align: left;}
+
+/*Why we*/
+.layout_content1.why                                             {background: url("../images/pochemu/Bg_pochemu1.png") center; background-size: cover; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
+.layout_content1.why .layout_content_container1                  {margin: 45px auto; width: 1080px; height: auto;}
+.layout_content2.why                                             {background: transparent; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
+.layout_content2.why .layout_content_container2                  {margin: 45px auto; width: 1080px; height: auto;}
+.layout_content3.why                                             {background: url("../images/pochemu/Bg_pochemu2.png") center; background-size: cover; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
+.layout_content3.why .layout_content_container3                  {margin: 45px auto; width: 1080px; height: auto;}
+.layout_content4.why                                             {background: url("../images/pochemu/Bg_pochemu3.png") center; background-size: cover; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
+.layout_content4.why .layout_content_container4                  {margin: 45px auto; width: 1080px; height: auto;}

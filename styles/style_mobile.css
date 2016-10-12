@@ -222,7 +222,32 @@
     .layout_content .layout_content_container1.withdraw .data_card .cvv_number .note {width: 120px; float: left; margin-top: 10px;}
     .layout_content .layout_content_container1.withdraw form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
 
-    /*Feedback*/
+    /*Calculator*/
+    .layout_content .layout_content_container1.calc .layout_content_lower label {color: #181818; font-size: 100%; margin: 0 auto 0 0 !important; width: 100%; display: block; line-height: 20px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500;}
+    .layout_content .layout_content_container1.calc .layout_content_lower .result {float: left !important; text-align: left; width: 50% !important; line-height: 30px;}
+    .layout_content .layout_content_container1.calc .layout_content_lower span.result {text-align: right; font-size: 160%;}
+    .layout_content .layout_content_container1.calc .layout_content_lower input {width: 228px !important; margin: 10px auto 30px auto !important;}
+    .layout_content .layout_content_container1.calc .layout_content_lower select {width: 250px; margin: 10px auto 30px auto;}
+    .layout_content .layout_content_container1.calc .layout_content_lower .blue {width: 250px; margin: 30px auto;}
+    .layout_content .layout_content_container1.calc .layout_contentBlock_right .addition {width: 100%; padding: 0; font-size: 70%;}
+    .layout_content .layout_content_container1.calc .layout_contentBlock_right .addition .title {padding: 30px 0 10px 0;}
+    .layout_content .layout_content_container1.calc .layout_contentBlock_right .addition .text {padding: 10px 30px 30px 30px;}
+
+    /*Terms*/
+    .layout_content_container1.terms.mobile .layout_content_upper {text-align: center;}
+    .layout_content_container1.terms.mobile .layout_content_upper h2 {text-align: left; margin: 30px 0 30px 10%; width: 90%;}
+    .layout_content_container1.terms.mobile .kinds {float: none; width: 260px; margin: 0 auto; display: inline-block; background: #ffffff; height: 50px; text-align: center;}
+    .layout_content_container1.terms.mobile h4 {font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; margin: 30px 25px; text-align: left;}
+    .layout_content_container1.terms.mobile .summary td {padding: 15px 0 10px 25px; border: none; min-width: 120px; text-align: left;}
+    .layout_content_container1.terms.mobile .layout_content_middle {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; width: 230px; padding: 30px 25px; margin: 30px auto; text-align: center; background: #ffffff;}
+    .layout_content_container1.terms.mobile .layout_content_middle img {margin-bottom: 20px;}
+    .layout_content_container1.terms.mobile .layout_content_middle a {color: #0a79bf; text-decoration: underline;}
+
+
+
+
+
+        /*Feedback*/
     .layout_content_container1.feed .wrapper                  {background: #ffffff; height: auto;}
     .layout_content_container1.feed .form                     {padding: 25px 0; width: 100%;}
     .layout_content_container1.feed .form label               {float: none; width: 260px; margin-left: 25px; display: block;}
