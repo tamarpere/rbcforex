@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -249,38 +250,39 @@
 <section class="layout_content">
     <div class="layout_content_container1 terms">
         <div class="layout_content_upper">
-            <h2>Условия</h2>
-            <div class="kinds">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Условия</h2>
+            <div class="layout_contentBlock layout_contentBlock_kinds">
                 <ul>
                     <li><a href="terms.html">Условия торговли</a></li>
                     <li><a class="active" href="terms2.html">Типы счетов</a></li>
                     <li><a href="terms3.html">Торговые часы</a></li>
                 </ul>
             </div>
-            <p>RBC Forex Corp. - международная компания, которая занимается предоставлением брокерских услуг в сети Интернет для retail-клиентов с использованием электронных платежных систем. Мы представлены более чем в 30 странах, среди которых: Россия, Украина, Белорусия, Великобритания, Германия, Индия и др</p>
+            <div class="clear"></div>
+            <p class="paragraph">RBC Forex Corp. - международная компания, которая занимается предоставлением брокерских услуг в сети Интернет для retail-клиентов с использованием электронных платежных систем. Мы представлены более чем в 30 странах, среди которых: Россия, Украина, Белорусия, Великобритания, Германия, Индия и др</p>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_type">
+            <div class="layout_contentBlock layout_contentBlock_type">
                 <div class="types">
                     <div class="type">
                         <h3>Cent</h3>
-                        <p><span class="bold">Инструменты:</span> Forex, CFD, Commodities</p>
-                        <p><span class="bold">Тип исполнения:</span> Instant (Точное), возможны реквоты</p>
-                        <p><span class="bold">Спред:</span> EURUSD от 0.1 пипса, Кроссы от 1 пипса</p>
-                        <p>Нет брокерской комиссии</p>
-                        <p><span class="bold">Кредитное плечо</span> 1:10–1:500</p>
-                        <p><span class="bold">Средняя скорость исполнения</span> 0.64 секунды</p>
-                        <button class="blue">Открыть центовый счет</button>
+                        <p class="article"><span class="bold">Инструменты:</span> Forex, CFD, Commodities</p>
+                        <p class="article"><span class="bold">Тип исполнения:</span> Instant (Точное), возможны реквоты</p>
+                        <p class="article"><span class="bold">Спред:</span> EURUSD от 0.1 пипса, Кроссы от 1 пипса</p>
+                        <p class="article">Нет брокерской комиссии</p>
+                        <p class="article"><span class="bold">Кредитное плечо</span> 1:10–1:500</p>
+                        <p class="article"><span class="bold">Средняя скорость исполнения</span> 0.64 секунды</p>
+                        <a class="button blue medium">Открыть центовый счет</a>
                     </div>
                     <div class="type">
                         <h3>Dollar</h3>
-                        <p><span class="bold">Инструменты:</span> Forex, CFD, Commodities</p>
-                        <p><span class="bold">Тип исполнения:</span> Instant (Точное), возможны реквоты</p>
-                        <p><span class="bold">Спред:</span> EURUSD от 0.1 пипса, Кроссы от 1 пипса</p>
-                        <p>Нет брокерской комиссии</p>
-                        <p><span class="bold">Кредитное плечо</span> 1:10–1:500</p>
-                        <p><span class="bold">Средняя скорость исполнения</span> 0.64 секунды</p>
-                        <button class="blue">Открыть долларовый счет</button>
+                        <p class="article"><span class="bold">Инструменты:</span> Forex, CFD, Commodities</p>
+                        <p class="article"><span class="bold">Тип исполнения:</span> Instant (Точное), возможны реквоты</p>
+                        <p class="article"><span class="bold">Спред:</span> EURUSD от 0.1 пипса, Кроссы от 1 пипса</p>
+                        <p class="article">Нет брокерской комиссии</p>
+                        <p class="article"><span class="bold">Кредитное плечо</span> 1:10–1:500</p>
+                        <p class="article"><span class="bold">Средняя скорость исполнения</span> 0.64 секунды</p>
+                        <a class="button blue medium">Открыть долларовый счет</a>
                     </div>
                 </div>
             </div>
@@ -360,24 +362,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

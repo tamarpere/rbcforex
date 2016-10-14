@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -251,24 +252,23 @@
 <section class="layout_content">
     <div class="layout_content_container1 bonus">
         <div class="layout_content_upper">
-            <h2>Бонусная программа</h2>
-            <img class="mobile" src="../images/bonus/Img_bonus_mobile.png">
-            <div class="layout_contentBlock">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Бонусная программа</h2>
+            <div class="layout_contentBlock layout_contentBlock_article">
+                <img class="mobile" src="../images/bonus/Img_bonus_mobile.png">
                 <div class="text">
-                    <p>Бонусная программа компании RBC Forex позволяет клиенту дополнительно зарабатывать в процессе
+                    <p class="paragraph">Бонусная программа компании RBC Forex позволяет клиенту дополнительно зарабатывать в процессе
                         торговли. При внесении денежных средств на торговый счет вы получаете минимум 500% к депозиту, а
                         в дни рождения и до 5000%!
-                    <p>Данный бонус является неким кредитом, то есть вы не можете снять эти средства, а должны
+                    <p class="paragraph">Данный бонус является неким кредитом, то есть вы не можете снять эти средства, а должны
                         использовать его в торговых операциях. После того как вы закрыли определенное число сделок, вы
                         можете вывести средства на депозит. Сумма, заработанная Вами, зависит от объема лотов и вида
                         валютной - пары.</p>
-                    <p>Совершив 1 лот, Вы уже получаете возможность вывода средств на Ваш депозит. Данная бонусная
+                    <p class="paragraph">Совершив 1 лот, Вы уже получаете возможность вывода средств на Ваш депозит. Данная бонусная
                         программа действует с 15 июня 2009 года и продолжает радовать своих клиентов. Она предоставляет
                         уникальную возможность торговать при минимальном количестве средств.</p>
                 </div>
                 <img class="desktop" src="../images/bonus/Img_bonus.png">
                 <img class="tablet" src="../images/bonus/Img_bonus_tabl.png">
-
             </div>
         </div>
         <div class="layout_content_lower">
@@ -366,24 +366,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -251,12 +252,10 @@
 <section class="layout_content">
     <div class="layout_content_container1 konkurs">
         <div class="layout_content_upper">
-            <h2>Лови волну и зарабатывай всегда!</h2>
-
+            <h2 class="layout_contentBlock layout_contentBlock_title">Лови волну и зарабатывай всегда!</h2>
             <div class="layout_contentBlock_banner">
                 <img class="desktop" src="../images/konkursi/Img_lovivolnu.png">
                 <img class="tablet" src="../images/konkursi/Img_lovivolnu_tabl.png">
-
                 <div class="info">
                     <h4>Новички участвуют бесплатно</h4>
                     <ul>
@@ -353,7 +352,7 @@
                     <input id="number_fee">
                     <label for="pass">Пароль</label>
                     <input id="pass">
-                    <button class="blue">Принять участие в конкурсе</button>
+                    <a class="button blue medium">Принять участие в конкурсе</a>
                 </form>
             </div>
         </div>
@@ -433,24 +432,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

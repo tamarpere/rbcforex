@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -253,9 +254,8 @@
 <section class="layout_content">
     <div class="layout_content_container1 faq">
         <div class="layout_content_upper">
-            <h2>Вопросы о торговле и маржевом обеспечении</h2>
-
-            <div class="questions">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Вопросы о торговле и маржевом обеспечении</h2>
+            <div class="layout_contentBlock layout_contentBlock_questions">
                 <div class="question">
                     <span class="title">Сколько стоит 0.01 лот евро?</span>
 
@@ -293,9 +293,8 @@
                     </div>
                 </div>
             </div>
-            <h2>Юридические вопросы</h2>
-
-            <div class="questions">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Юридические вопросы</h2>
+            <div class="layout_contentBlock layout_contentBlock_questions">
                 <div class="question">
                     <span class="title">Как регулируются отношения между компанией и клиентом?</span>
 
@@ -315,9 +314,8 @@
                     </div>
                 </div>
             </div>
-            <h2>Вопросы по торговым счетам</h2>
-
-            <div class="questions">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Вопросы по торговым счетам</h2>
+            <div class="layout_contentBlock layout_contentBlock_questions">
                 <div class="question">
                     <span class="title">Сколько сделок в месяц/день необходимо совершать?</span>
 
@@ -413,36 +411,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(function () {
-        $('.question .title').click(function () {
-            $(this).siblings('.text').slideToggle(300);
-            if ($(this).hasClass('bold')) {
-                $(this).removeClass('bold');
-            } else {
-                $(this).addClass('bold');
-            }
-        });
-        $('.mobile_menu').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function (){
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
-
 </body>
 </html>

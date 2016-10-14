@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -250,8 +251,8 @@
 <section class="layout_content">
 	<div class="layout_content_container1 open">
         <div class="layout_content_upper">
-            <h2>Открытие торгового счета</h2>
-            <div class="layout_contentBlock_choice">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Открытие торгового счета</h2>
+            <div class="layout_contentBlock layout_contentBlock_choice">
                 <div class="item">
                     <input id="cent" type="radio" name="money" checked>
                     <label for="cent">
@@ -267,7 +268,7 @@
             </div>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
+            <div class="layout_contentBlock layout_contentBlock_left">
                 <form>
                     <label for="name">Имя</label>
                     <input id="name" required>
@@ -294,11 +295,11 @@
                     </div>
 					<span class="addition">
 						<span>Нажимая на кнопку, вы подтверждаете, что ознакомились с клиентским соглашением</span>
-                        <button type="submit" class="blue">Открыть торговый счет</button>
+                        <a class="button blue medium">Открыть торговый счет</a>
 					</span>
                 </form>
             </div>
-                <div class="layout_contentBlock_right">
+                <div class="layout_contentBlock layout_contentBlock_right">
                     <span class="title">Документы PDF</span>
                     <ul>
                         <li><a href>
@@ -396,24 +397,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

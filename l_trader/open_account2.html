@@ -9,7 +9,8 @@
     <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -254,8 +255,8 @@
             <h2>Ваш счет в компании открыт</h2>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
-                <p>На ваш адрес электронной почты выслано уведомление об открытии счета. Пароли по почте не высылаются.</p>
+            <div class="layout_contentBlock layout_contentBlock_left">
+                <p class="paragraph">На ваш адрес электронной почты выслано уведомление об открытии счета. Пароли по почте не высылаются.</p>
                 <div class="attention">
                     <span>Внимание: запомните или запишите пароль для снятия средств.</span>
                     <span class="password">UmUckpGo</span>
@@ -322,17 +323,17 @@
                             <input id="country">
                             <label for="city">Город</label>
                             <input id="city">
-                            <button class="blue save desktop" type="submit">Сохранить и перейти в личный кабинет</button>
-                            <button class="blue save mobile" type="submit">Перейти в личный кабинет</button>
+                            <a class="button medium blue save desktop">Сохранить и перейти в личный кабинет</a>
+                            <a class="button medium blue save mobile">Перейти в личный кабинет</a>
                         </form>
                     </div>
-	                <button class="blue simple_go" type="submit">Перейти в личный кабинет</button>
+	                <a class="button blue simple_go medium">Перейти в личный кабинет</a>
                     <a class="edit" href>Редактировать информацию</a>
 	                <div class="clear"></div>
 
                 </div>
             </div>
-            <div class="layout_contentBlock_right after">
+            <div class="layout_contentBlock layout_contentBlock_right">
                 <div class="download">
                     <a href>
                         <img src="../images/open_account/Metatrader_logo.svg" width="97">
@@ -423,36 +424,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-	$( document ).ready(function() {
-	    $('.more').click(function(){
-	        $(this).siblings('.form').slideToggle(300);
-		    $('.simple_go').toggle(300);
-	    })
-
-	});
-
-
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-
-  </script>
-
 </body>
 </html>

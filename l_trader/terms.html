@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -249,8 +250,8 @@
 <section class="layout_content">
     <div class="layout_content_container1 terms desktop">
         <div class="layout_content_upper">
-            <h2>Условия</h2>
-            <div class="kinds">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Условия</h2>
+            <div class="layout_contentBlock layout_contentBlock_kinds">
                 <ul>
                     <li><a class="active" href="terms.html">Условия торговли</a></li>
                     <li><a href="terms2.html">Типы счетов</a></li>
@@ -258,7 +259,7 @@
                 </ul>
             </div>
             <div class="clear"></div>
-            <h4>Компания ForexStart предоставляет своим клиентам наиболее выгодные условия торговли на мировом финансовом рынке Форекс.</h4>
+            <p class="title">Компания ForexStart предоставляет своим клиентам наиболее выгодные условия торговли на мировом финансовом рынке Форекс.</p>
             <table cellspacing="0" cellpadding="0" class="summary">
                 <tr>
                     <td><span>0,01&nbsp;лот</span><br>
@@ -274,13 +275,15 @@
             </table>
         </div>
         <div class="layout_content_middle">
-            <h3>Forex</h3>
-            <a href class="download_terms">
-                <img src="../images/uslovia/Excel.svg" width="22">
-                Скачать условия одним файлом
-            </a>
+            <h3 class="layout_contentBlock layout_contentBlock_title">Forex</h3>
+            <div class="layout_contentBlock layout_contentBlock_download">
+                <a href class="download_terms">
+                    <img src="../images/uslovia/Excel.svg" width="22">
+                    Скачать условия одним файлом
+                </a>
+            </div>
             <div class="clear"></div>
-            <p>Пожалуйста, обратите внимание: Спреды являются минимальными, когда рынок наиболее активен. Комиссия составляет 0,3 пункта. У нас нет никаких скрытых платежей: вы платите нам ровно 0,3 пипса комисси за сделку.</p>
+            <p class="article">Пожалуйста, обратите внимание: Спреды являются минимальными, когда рынок наиболее активен. Комиссия составляет 0,3 пункта. У нас нет никаких скрытых платежей: вы платите нам ровно 0,3 пипса комисси за сделку.</p>
             <div class="list">
                 <a class="active" href>ALL</a>
                 <a href>AUD</a>
@@ -346,8 +349,9 @@
             </div>
         </div>
         <div class="layout_content_lower">
-            <h3>Forex. Fixed Spreads</h3>
-            <p>Спреды фиксированы. Комиссия отсутствует.</p>
+            <h3 class="layout_contentBlock layout_contentBlock_title">Forex. Fixed Spreads</h3>
+            <div class="clear"></div>
+            <p class="article">Спреды фиксированы. Комиссия отсутствует.</p>
             <div class="list">
                 <a class="active" href>ALL</a>
                 <a href>AUD</a>
@@ -512,24 +516,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

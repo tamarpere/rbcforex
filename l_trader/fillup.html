@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -249,14 +250,14 @@
 <section class="layout_content">
     <div class="layout_content_container1 fillup">
         <div class="layout_content_upper">
-            <h2>Пополнение счета</h2>
+            <h2 class="layout_contentBlock layout_contentBlock_title">Пополнение счета</h2>
             <span class="comission">
                 <span class="bold">+3%</span>
                 комиссия
             </span>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
+            <div class="layout_contentBlock layout_contentBlock_left">
                 <div class="payment desktop">
                     <span class="title">Платежная система</span>
                     <table cellpadding="0" cellspacing="0">
@@ -349,7 +350,7 @@
                     <img class="dropdown" src="../images/popolnenie/Icon_dropdown.png">
                 </div>
             </div>
-            <div class="layout_contentBlock_right">
+            <div class="layout_contentBlock layout_contentBlock_right">
                 <form class="desktop">
                     <label for="number">Номер торгового счета</label>
                     <input id="number">
@@ -370,7 +371,7 @@
                     <input id="result">
                     <span class="note done">После нажатия на кнопку "Перейти к оплате" вам будет необходимо подтвердить номер счета и параметры платежа</span>
                     <div class="clear"></div>
-                    <button class="blue">Перейти к оплате</button>
+                    <a class="button" class="blue">Перейти к оплате</a>
                 </form>
                 <form class="mobile">
                     <label>Номер торгового счета</label>
@@ -394,7 +395,7 @@
                     <input class="result">
                     <span class="note done">После нажатия на кнопку "Перейти к оплате" вам будет необходимо подтвердить номер счета и параметры платежа</span>
                     <div class="clear"></div>
-                    <button class="blue">Перейти к оплате</button>
+                    <a class="button" class="blue">Перейти к оплате</a>
                 </form>
             </div>
         </div>
@@ -473,24 +474,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>
