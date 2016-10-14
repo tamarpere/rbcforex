@@ -2,16 +2,14 @@
 
 /*About*/
 .layout_content1.about                                             {background: url("../images/about/Bg_about.png") center; background-size: cover; text-align: center; width: 100%; height: 359px; display: inline-block; max-width: none; }
-.layout_content1.about .layout_content_container1                  {margin: 45px auto; width: 1080px; height: auto;}
-.layout_content1.about .layout_content_container1 h2               {width: 100%; text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
-.layout_content1.about .layout_content_container1 p                {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
+.layout_content1.about .layout_content_container h2               {color: #ffffff; text-align: left;}
+.layout_content1.about .layout_content_container p                {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
 .layout_content1.about .layout_contentBlock_block1                 {width: 590px; text-align: left; float: right; padding: 15px 40px 35px 60px;}
-.layout_content2.about                                             {width: 100%; height: 480px;}
-.layout_content2.about .layout_content_container2                  {margin: 50px auto; width: 1080px; position: relative;}
-.layout_content2.about .layout_contentBlock_image                  {position: absolute; right: 45%; top: -90px;}
+.layout_content2.about                                             {width: 100%; height: 480px; position: relative;}
+.layout_content2.about .layout_contentBlock_image                  {position: absolute; right: 45%; top: -37px;}
 .layout_content2.about .layout_contentBlock_about_us               {width: 50%; float: right;}
-.layout_content2.about .layout_contentBlock_about_us h3            {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-bottom: 35px; line-height: 33px; color: #2a333c;}
-.layout_content2.about .layout_contentBlock_about_us p             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 23px; color: #2f3841;}
+.layout_content2.about .layout_contentBlock_about_us h2            {margin-top: 45px; color: #2a333c;}
+.layout_content2.about .layout_contentBlock_about_us p             {color: #2f3841;}
 .layout_content2.about .layout_contentBlock_about_us .apps         {width: 215px; display: inline-block; margin-top: 50px; margin-right: 40px; float: right;}
 .layout_content2.about .layout_contentBlock_about_us .blue         {float: left; margin-top: 40px;}
 .layout_content2.about .layout_contentBlock_about_us .win          {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
@@ -20,119 +18,116 @@
 .layout_content2.about .layout_contentBlock_about_us .web          {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 .layout_content3.about                                             {display: inline-block; width: 100%; height: 492px; background: #ffffff; text-align: center;}
 .layout_content3.about .layout_contentBlock_items                  {display: inline-block; width: 1080px; margin: 50px auto 75px auto;}
-.layout_content3.about .layout_contentBlock_items h3               {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; font-size: 300%; line-height: 25px; text-align: left;}
+.layout_content3.about .layout_contentBlock_items h2               {color: #2a333c; text-align: left; margin: 0;}
 .layout_content3.about .layout_contentBlock_items .item            {color: #2f3841; float: left; width: 250px; margin-right: 25px; margin-top: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
 .layout_content3.about .layout_contentBlock_items .item span       {max-width: 225px;}
 .layout_content3.about .layout_contentBlock_items .item:last-child {margin-right: 0;}
 .layout_content3.about .layout_contentBlock_items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #eef1f2; text-align: center; line-height: 118px;}
 .layout_content3.about .layout_contentBlock_items .image_wrap img  {vertical-align: middle;}
 .layout_content4.about                                             {background: #ff4830; text-align: center; width: 100%; height: 200px; display: inline-block; max-width: none; }
-.layout_content4.about .layout_content_container4                  {margin: 0 auto; width: 1080px; height: auto;}
-.layout_content4.about .layout_content_container4 h4               {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 230%; margin-top: 35px;}
-.layout_content4.about .layout_content_container4 .white           {display: inline-block; margin: 0 auto 40px auto; width: 278px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
+.layout_content4.about .layout_content_container h4                {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 230%; margin-top: 35px;}
+.layout_content4.about .layout_content_container .white            {display: inline-block; margin: 0 auto 40px auto;}
 .layout_content5.about                                             {text-align: center; width: 100%; height: 477px; display: inline-block; max-width: none; }
-.layout_content5.about .layout_content_container5                  {margin: 0 auto; width: 100%; height: auto; display: inline-block;}
-.layout_content5.about .layout_contentBlock_left                   {width: 50%; float: left; margin: 0; background: url("../images/about/Img_about1.png") center no-repeat; background-size: cover; height: 477px;}
-.layout_content5.about .layout_contentBlock_right                  {width: 50%; float: left; margin: 0; background: url("../images/about/Img_about2.png") center no-repeat; background-size: cover;height: 477px;}
-.layout_content5.about .layout_contentBlock h4                     {line-height: 37px; width: 400px text-align: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%;}
+.layout_content5.about .layout_content_container                  {margin: 0 auto; width: 100%; height: auto; display: inline-block;}
+.layout_content5.about .layout_contentBlock                       {width: 50%; margin: 0; background-size: cover; height: 477px; padding: 0;}
+.layout_content5.about .layout_contentBlock_left                   {background: url("../images/about/Img_about1.png") center no-repeat;}
+.layout_content5.about .layout_contentBlock_right                  {background: url("../images/about/Img_about2.png") center no-repeat;}
+.layout_content5.about .layout_contentBlock h3                     {line-height: 37px; width: 400px; text-align: left;}
 .layout_content5.about .layout_contentBlock p                      {line-height: 27px; text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%;}
 .layout_content5.about .layout_contentBlock_left                   {color: #ffffff;}
 .layout_content5.about .layout_contentBlock_right                  {color: #2f3841;}
-.layout_content5.about .layout_contentBlock_right h4               {width: 175px;}
+.layout_content5.about .layout_contentBlock_right h3               {width: 175px;}
 .layout_content5.about .layout_contentBlock_left .text             {display: inline-block; margin: 50px 50px 50px auto; float: right; width: 480px; text-align: left;}
 .layout_content5.about .layout_contentBlock_right .text            {display: inline-block; margin: 50px auto 50px 50px; float: left; width: 480px; text-align: left;}
 
 /*Why we*/
-.layout_content1.why                                                    {background: url("../images/pochemu/Bg_pochemu1.png") center; background-size: cover; text-align: center; width: 100%; height: 690px; display: inline-block; max-width: none; }
-.layout_content1.why .layout_content_container1                         {margin: 45px auto; width: 1080px; height: auto;}
-.layout_content1.why .layout_content_container1 table                   {table-layout: fixed;}
-.layout_content1.why .layout_content_container1 table td                {text-align: left; width: 220px; line-height: 25px; padding: 26px 65px 20px 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; vertical-align: top;}
-.layout_content1.why .layout_content_container1 table td:first-child    {width: 250px;}
-.layout_content1.why .layout_content_container1 table td img            {display: block; margin-bottom: 25px; }
-.layout_content1.why .layout_content_container1 table td .bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
-.layout_content1.why .layout_content_container1 table td .red           {width: 229px; height: 39px; line-height: 36px; border-radius: 22px; margin: 20px auto;}
-.layout_content1.why .layout_content_container1 table td .dashed        {width: 134px; height: 39px; line-height: 36px; border-radius: 22px; margin: 0 auto; display: block;}
-.layout_content1.why .layout_content_container1 h2                      {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 270%; line-height: 41px;}
-.layout_content2.why                                                    {background: transparent; text-align: center; width: 100%; height: auto; display: inline-block; max-width: none; }
-.layout_content2.why .layout_content_container2                         {margin: 65px auto 0 auto; width: 1080px; height: auto;}
-.layout_content2.why .layout_content_container2 h2                      {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; font-size: 270%; text-align: center; line-height: 41px;}
-.layout_content2.why .layout_content_container2 img                     {width: 1025px; float: left; margin-top: 50px; margin-left: -350px;}
-.layout_content2.why .layout_content_container2 .blue                   {width: 232px; padding: 0; margin-bottom: 50px; float: right; margin-right: 80px;}
-.layout_content2.why .layout_content_container2 .blue img               {width: 12px; float: right; margin: 10px 10px 10px 0;}
-.layout_content2.why .layout_content_container2 ul li                   {width: 300px; display: inline-block; padding-left: 30px; margin: 15px 0; color: #2f3841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px;}
-.layout_content2.why .layout_content_container2 td                      {padding: 15px; vertical-align: top; color: #2f3841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px;}
-.layout_content2.why .layout_content_container2 ul li:before            {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
-.layout_content2.why .layout_content_container2 td:before               {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
+.layout_content1.why                                                   {background: url("../images/pochemu/Bg_pochemu1.png") center; background-size: cover; text-align: center; height: 690px;}
+.layout_content1.why .layout_contentBlock_table                        {padding: 0; margin: 80px auto;}
+.layout_content1.why .layout_content_container table                   {table-layout: fixed; color: #ffffff;}
+.layout_content1.why .layout_content_container table td                {text-align: left; width: 220px; line-height: 25px; padding: 0 25px 30px 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; vertical-align: top;}
+.layout_content1.why .layout_content_container table td:first-child    {width: 250px;}
+.layout_content1.why .layout_content_container table td img            {display: block; margin-bottom: 25px; }
+.layout_content1.why .layout_content_container table td .bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 118%;}
+.layout_content1.why .layout_content_container table td .red           {width: 229px; height: 39px; line-height: 36px; border-radius: 22px; margin: 20px auto;}
+.layout_content1.why .layout_content_container table td .dashed        {width: 134px; height: 39px; line-height: 36px; border-radius: 22px; margin: 0 auto; display: block;}
+.layout_content2.why                                                   {background: transparent; text-align: center; width: 100%; height: auto; display: inline-block; max-width: none; }
+.layout_content2.why .layout_contentBlock_mobius                       {padding: 0;}
+.layout_content2.why .layout_content_container h2                      {color: #2a333c; text-align: center; margin: 60px 0;}
+.layout_content2.why .layout_content_container img                     {width: 1025px; float: left; margin-top: 0; margin-left: -350px;}
+.layout_content2.why .layout_content_container .blue                   {margin-bottom: 50px; float: right; margin-right: 80px;}
+.layout_content2.why .layout_content_container .blue img               {width: 12px; float: right; margin: 10px;}
+.layout_content2.why .layout_content_container ul li                   {width: 300px; display: inline-block; padding-left: 30px; margin: 15px 0; color: #2f3841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px;}
+.layout_content2.why .layout_content_container td                      {padding: 15px; vertical-align: top; color: #2f3841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px;}
+.layout_content2.why .layout_content_container ul li:before            {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
+.layout_content2.why .layout_content_container td:before               {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
 .layout_content3.why                                                    {background: url("../images/pochemu/Bg_pochemu2.png") center; background-size: cover; text-align: center; width: 100%; height: 846px; display: inline-block; max-width: none; }
-.layout_content3.why .layout_content_container3                         {margin: 60px auto 0 auto; width: 1080px; height: auto;}
-.layout_content3.why .layout_content_container3 h2                      {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #ffffff; font-size: 270%; text-align: center; line-height: 41px;}
-.layout_content3.why .layout_contentBlock_items                         {width: 1080px; margin: 0 auto;}
-.layout_content3.why .layout_content_container3 .item                   {width: 490px; float: left; margin-bottom: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ffffff; font-size: 110%; text-align: left; line-height: 27px;}
-.layout_content3.why .layout_content_container3 .item:nth-child(2n + 1) {padding-right: 90px;}
-.layout_content3.why .layout_content_container3 .item .title_wrap img   {float: left; margin: 0 10px 10px 0;}
-.layout_content3.why .layout_content_container3 .item .title_wrap h4    {margin-bottom: 10px; font-weight: 400; font-size: 145%; font-family: Roboto-Reg, Arial, sans-serif; line-height: 40px;}
+.layout_content3.why .layout_content_container h2                       {color: #ffffff; text-align: left;}
+.layout_content3.why .layout_contentBlock_items                         {width: 1080px; margin: 0 auto; padding: 0;}
+.layout_content3.why .layout_content_container .item                    {width: 490px; float: left; margin-bottom: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ffffff; font-size: 110%; text-align: left; line-height: 27px;}
+.layout_content3.why .layout_content_container .item:nth-child(2n + 1)  {padding-right: 90px;}
+.layout_content3.why .layout_content_container .item .title_wrap img    {float: left; margin: 0 10px 10px 0;}
+.layout_content3.why .layout_content_container .item .title_wrap h4     {margin-bottom: 10px; font-weight: 400; font-size: 145%; font-family: Roboto-Reg, Arial, sans-serif; line-height: 40px;}
 .layout_content4.why                                                    {background: url("../images/pochemu/Bg_pochemu3.png") center; background-size: cover; text-align: center; width: 100%; height: 509px; display: inline-block; max-width: none; }
-.layout_content4.why .layout_content_container4                         {margin: 60px auto 0 auto; width: 1080px; height: auto;}
-.layout_content4.why .layout_content_container4 h2                      {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #ffffff; font-size: 270%; line-height: 41px; margin: 0 0 60px 0;}
+.layout_content4.why .layout_content_container h2                       {color: #ffffff;}
 .layout_content4.why .layout_contentBlock_left h2                       {padding-right: 120px;}
 .layout_content4.why .layout_contentBlock_right h2                      {padding-left: 150px;}
 .layout_content4.why .layout_contentBlock                               {color: #ffffff; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 125%; line-height: 27px;}
-.layout_content4.why .layout_contentBlock_left                          {float: left; text-align: left; width: 440px; margin-right: 90px;}
-.layout_content4.why .layout_contentBlock_right                         {float: right; text-align: right; width: 440px;}
-.layout_content4.why .layout_contentBlock_right .bold                   {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-top: 50px; display: inline-block;}
+.layout_content4.why .layout_contentBlock_left                          {text-align: left; width: 440px;}
+.layout_content4.why .layout_contentBlock_right                         {text-align: right; width: 440px;}
+.layout_content4.why .layout_contentBlock_right .bold                   {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-top: 40px; display: inline-block;}
 
 /*Providers*/
-.layout_content_container1.providers h2                                                         {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}
-.layout_content_container1.providers .layout_contentBlock_upper p                               {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 135%; line-height: 25px;}
-.layout_content_container1.providers .layout_contentBlock_lower                                 {display: inline-block; margin-top: 45px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left                       {float: left; width: 534px; padding: 0;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.right                      {float: right; width: 434px; height: 454px; padding: 40px 50px; background: #ffffff; color: #181818; margin-left: 10px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left .link                 {float: left; width: 262px; height: 262px; background: #ffffff; margin-bottom: 10px; text-align: center;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left .link:nth-child(2n+1) {margin-right: 10px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left .link a               {display: inline-block; width: 254px; height: 254px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left .link a.active        {border: 4px solid #0a79bf;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.left .link img             {margin: 30px auto;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.right h4                   {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 20px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.right p                    {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; padding: 30px 0 0 0; border-top: 1px solid #eef1f2; line-height: 25px;}
-.layout_content_container1.providers .layout_contentBlock_lower .col.right a                    {color: #218ed2; text-decoration: underline; font-size: 118%; margin-bottom: 30px;}
+.layout_content_container.providers h2                              {color: #181818;}
+.layout_content_container.providers p                               {color: #181818; margin-bottom: 40px;}
+.layout_content_container.providers .layout_contentBlock_left       {width: 534px; padding: 0; background: transparent;}
+.layout_content_container.providers .layout_contentBlock_right                      {width: 434px; height: 454px; padding: 40px 50px; background: #ffffff; color: #181818; margin-left: 10px;}
+.layout_content_container.providers .layout_contentBlock_left .link                 {float: left; width: 262px; height: 262px; background: #ffffff; margin-bottom: 10px; text-align: center;}
+.layout_content_container.providers .layout_contentBlock_left .link:nth-child(2n+1) {margin-right: 10px;}
+.layout_content_container.providers .layout_contentBlock_left .link a               {display: inline-block; width: 254px; height: 254px;}
+.layout_content_container.providers .layout_contentBlock_left .link a.active        {border: 4px solid #0a79bf;}
+.layout_content_container.providers .layout_contentBlock_left .link img             {margin: 30px auto;}
+.layout_content_container.providers .layout_contentBlock_right h4                   {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 20px;}
+.layout_content_container.providers .layout_contentBlock_right p                    {padding: 30px 0 0 0; border-top: 1px solid #eef1f2;}
+.layout_content_container.providers .layout_contentBlock_right a                    {color: #218ed2; text-decoration: underline; font-size: 118%; margin-bottom: 30px;}
 
 /*News*/
-.layout_content_container1.news h2                                     {width: 40%; float: left; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}
-.layout_content_container1.news .years                                 {float: right; display: inline-block; width: 60%; text-align: right;}
-.layout_content_container1.news .years li                              {display: inline-block;}
-.layout_content_container1.news .years li a                            {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; border-radius: 22px; text-align: center; font-size: 135%; color: #0a79bf; width: 74px; height: 44px; background: transparent; line-height: 40px;}
-.layout_content_container1.news .years li a.active                     {color: #ffffff; background: #0a79bf;}
-.layout_content_container1.news .layout_contentBlock_lower             {clear: both; margin-bottom: 130px;}
-.layout_content_container1.news .layout_contentBlock_lower .news_block {width: 1020px; padding: 30px; height: auto; display: inline-block; background: #ffffff; margin: 0 auto 10px auto;}
-.layout_content_container1.news .layout_contentBlock_lower .date       {float: left; color: #a7abad; width: 10%;}
-.layout_content_container1.news .layout_contentBlock_lower .num        {float: left; font-size: 243%; font-weight: 500; font-family: GothamPro-Med, Arial, sans-serif; margin-right: 8px;}
-.layout_content_container1.news .layout_contentBlock_lower .month      {font-size: 100%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
-.layout_content_container1.news .layout_contentBlock_lower .article    {float: left; width: 90%; color: #181818;}
-.layout_content_container1.news .layout_contentBlock_lower .article h4 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 150%; margin-bottom: 20px;}
-.layout_content_container1.news .layout_contentBlock_lower .article p  {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; margin-bottom: 20px;}
-.layout_content_container1.news .layout_contentBlock_lower .grey       {width: 118px;}
-.layout_content_container1.news .layout_contentBlock_lower .years      {line-height: 130px;}
+.layout_content_container.news                                     {padding-bottom: 0;}
+.layout_content_container.news h2                                     {width: 40%; float: left; color: #181818;}
+.layout_content_container.news .layout_contentBlock                                 {padding: 0;}
+.layout_content_container.news .layout_contentBlock_years                {margin: 50px 0; float: right; display: inline-block; width: 60%; text-align: right;}
+.layout_content_container.news .layout_contentBlock_years li            {display: inline-block;}
+.layout_content_container.news .layout_contentBlock_years li a          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; border-radius: 22px; text-align: center; font-size: 135%; color: #0a79bf; width: 74px; height: 44px; background: transparent; line-height: 40px;}
+.layout_content_container.news .layout_contentBlock_years li a.active   {color: #ffffff; background: #0a79bf;}
+.layout_content_container.news .layout_content_lower             {clear: both;}
+.layout_content_container.news .layout_content_lower .news_block {width: 1020px; padding: 30px; height: auto; display: inline-block; background: #ffffff; margin: 0 auto 10px auto;}
+.layout_content_container.news .layout_content_lower .date       {float: left; color: #a7abad; width: 10%;}
+.layout_content_container.news .layout_content_lower .num        {float: left; font-size: 243%; font-weight: 500; font-family: GothamPro-Med, Arial, sans-serif; margin-right: 8px;}
+.layout_content_container.news .layout_content_lower .month      {font-size: 100%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
+.layout_content_container.news .layout_content_lower .article    {float: left; width: 90%; color: #181818;}
+.layout_content_container.news .layout_content_lower .article h4 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 150%; margin-bottom: 20px;}
+.layout_content_container.news .layout_content_lower .article p  {margin-bottom: 20px;}
+.layout_content_container.news .layout_content_lower .grey       {width: 118px;}
 
 /*Contacts*/
-.layout_content_container1.contacts h2                                                                     {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}
-.layout_content_container1.contacts .layout_contentBlock_lower                                             {display: inline-block; margin-top: 15px; margin-bottom: 50px;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.left                                   {float: left; width: 534px; padding: 0;}
-.layout_content_container1.contacts .layout_contentBlock_choice                                            {display: inline-block; margin-bottom: 10px;}
-.layout_content_container1.contacts .layout_contentBlock_choice label                                      {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; color: #218ed2;}
-.layout_content_container1.contacts .layout_contentBlock_choice label .adress                              {height: 86px; display: inline-block;}
-.layout_content_container1.contacts .layout_contentBlock_choice label .phone                               {color: #181818; line-height: 35px;}
-.layout_content_container1.contacts .layout_contentBlock_choice label .phone img                           {margin-right: 10px; vertical-align: middle;}
-.layout_content_container1.contacts .layout_contentBlock_choice input[type="radio"]:checked + label .phone {color: #ffffff;}
-.layout_content_container1.contacts .layout_contentBlock_choice label:before                               {display: none;}
-.layout_content_container1.contacts .layout_contentBlock_choice label:last-child                           {margin-right: 0;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right                                  {float: right; width: 534px; height: auto; padding: 0; color: #181818; margin-left: 10px;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right ul                               {display: inline-block;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right li                               {float: left; width: 202px; padding: 30px; height: 110px; background: #ffffff; margin-bottom: 10px;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right li:nth-child(2n+1)               {margin-right: 10px;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right li img                           {margin-right: 7px; vertical-align: middle;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right li p                             {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; line-height: 20px;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right li a                             {margin: 20px auto 15px auto; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #218ed2; text-decoration: underline;}
-.layout_content_container1.contacts .layout_contentBlock_lower .col.right .regime                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 20px;}
+.layout_content_container.contacts h2                                                                     {color: #181818;}
+.layout_content_container.contacts .layout_content_lower                                             {display: inline-block; margin-top: 15px; margin-bottom: 50px;}
+.layout_content_container.contacts .layout_content_lower .col.left                                   {float: left; width: 534px; padding: 0;}
+.layout_content_container.contacts .layout_contentBlock_choice                                            {display: inline-block; margin-bottom: 0;}
+.layout_content_container.contacts .layout_contentBlock_choice label                                      {margin-top: 0; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; color: #218ed2;}
+.layout_content_container.contacts .layout_contentBlock_choice label .adress                              {height: 86px; display: inline-block;}
+.layout_content_container.contacts .layout_contentBlock_choice label .phone                               {color: #181818; line-height: 35px;}
+.layout_content_container.contacts .layout_contentBlock_choice label .phone img                           {margin-right: 10px; vertical-align: middle;}
+.layout_content_container.contacts .layout_contentBlock_choice input[type="radio"]:checked + label .phone {color: #ffffff;}
+.layout_content_container.contacts .layout_contentBlock_choice label:before                               {display: none;}
+.layout_content_container.contacts .layout_contentBlock_choice label:last-child                           {margin-right: 0;}
+.layout_content_container.contacts .layout_content_lower .col.right                                  {float: right; width: 534px; height: auto; padding: 0; color: #181818; margin-left: 10px;}
+.layout_content_container.contacts .layout_content_lower .col.right ul                               {display: inline-block;}
+.layout_content_container.contacts .layout_content_lower .col.right li                               {float: left; width: 202px; padding: 30px; height: 110px; background: #ffffff; margin-bottom: 10px;}
+.layout_content_container.contacts .layout_content_lower .col.right li:nth-child(2n+1)               {margin-right: 10px;}
+.layout_content_container.contacts .layout_content_lower .col.right li img                           {margin-right: 7px; vertical-align: middle;}
+.layout_content_container.contacts .layout_content_lower .col.right li p                             {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; line-height: 20px; margin: 0;}
+.layout_content_container.contacts .layout_content_lower .col.right li a                             {margin: 20px auto 15px auto; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #218ed2; text-decoration: underline;}
+.layout_content_container.contacts .layout_content_lower .col.right .regime                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 20px;}
 
 
 

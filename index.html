@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>RBS-Forex</title>
     <link href="styles/fonts.css" rel="stylesheet" type="text/css">
-    <link href="styles/styles.css" rel="stylesheet" type="text/css">
-    <script src="script.js"></script>
     <link href="styles/base_style.css" rel="stylesheet" type="text/css">
     <link href="styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -205,7 +204,7 @@
         </div>
     </div>
 </header>
-<section class="layout_content1">
+<section class="layout_content1 index">
     <div class="layout_content_container1">
         <div class="layout_contentBlock_slide1">
             <h2>Вы можете быть новичком или профессионалом — в&nbsp;любом случае, мы предоставим вам лучшие условия
@@ -240,7 +239,7 @@
         </div>
     </div>
 </section>
-<section class="layout_content2 desktop">
+<section class="layout_content2 index desktop">
     <div class="layout_content_container2">
         <div class="layout_contentBlock layout_contentBlock_block1">
             <div class="col col_left">
@@ -553,7 +552,7 @@
         </div>
     </div>
 </section>
-<section class="layout_content3">
+<section class="layout_content3 index">
     <div class="layout_content_container5 desktop">
         <div class="layout_contentBlock_resume">
             <table cellpadding="0" cellspacing="0">
@@ -702,45 +701,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(function () {
-        $('.layout_contentBlock_block3 .marker').click(function () {
-            var id = $(this).attr('id');
-//            $(this).siblings('.slide').hide();
-            $('.slide').hide();
-            $('.slide.' + id).show();
-            $('.marker').removeClass('active');
-            $(this).addClass('active')
-        });
-        $('.layout_contentBlock_providers .marker').click(function () {
-            var id = $(this).attr('id');
-            $(this).siblings('li').hide();
-            $('li a').hide();
-            $('li a.' + id).show();
-            $('.marker').removeClass('active');
-            $(this).addClass('active')
-        });
-
-        $('.mobile_menu').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function (){
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    })
-</script>
-
 </body>
 </html>

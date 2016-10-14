@@ -11,6 +11,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -257,9 +258,9 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 invest be_trader">
+    <div class="layout_content_container invest be_trader">
         <div class="layout_content_upper">
-            <h2>Стать управляющим можно в личном кабинете</h2>
+            <h2 class="layout_contentBlock layout_contentBlock_title">Стать управляющим можно в личном кабинете</h2>
             <div class="layout_contentBlock layout_contentBlock_left">
                 <form>
                     <label>Логин</label>
@@ -351,26 +352,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function (){
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>

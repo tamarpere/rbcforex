@@ -12,6 +12,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -239,13 +240,13 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 providers">
-        <div class="layout_contentBlock layout_contentBlock_upper">
-            <h2>Провайдеры ликвидности</h2>
-            <p>RBC Forex обладает доступом к почти неисчерпаемому уровню ликвидности, и мы можем брать самые привлекательные цены от мировых маркет-мейкеров. Благодаря этому наша компания заслуженно является лидером на рынке предоставления брокерских услуг. RBC Forex  гарантирует безупречное качество обработки каждого приказа.</p>
+    <div class="layout_content_container providers">
+        <div class="layout_content_upper">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Провайдеры ликвидности</h2>
+            <p class="paragraph">RBC Forex обладает доступом к почти неисчерпаемому уровню ликвидности, и мы можем брать самые привлекательные цены от мировых маркет-мейкеров. Благодаря этому наша компания заслуженно является лидером на рынке предоставления брокерских услуг. RBC Forex  гарантирует безупречное качество обработки каждого приказа.</p>
         </div>
-        <div class="layout_contentBlock layout_contentBlock_lower">
-            <div class="col left">
+        <div class="layout_content_lower">
+            <div class="layout_contentBlock layout_contentBlock_left">
                 <div class="link">
                     <a class="active" href>
                         <img src="../images/providers/DBank_large.png">
@@ -287,11 +288,12 @@
                     </a>
                 </div>
             </div>
-            <div class="col right">
+
+            <div class="layout_contentBlock layout_contentBlock_right">
                 <div class="text_wrapper">
                     <h4>Deutsche bank</h4>
                     <a href="https://www.deutsche-bank.de/">https://www.deutsche-bank.de/</a>
-                    <p>Deutsche bank заслуженно входит в тридцатку важнейших транснациональных банков. Это крупнейший немецкий финансовый конгломерат, включающий в себя лизинговые компании, а также ипотечные, коммерческие и ипотечные банки. Deutsche bank обслуживает 28 миллионов клиентов и имеет более 2800 отделений, расположенных по всему миру. Общая капитализация данного банка превышает 20 миллиардов евро.</p>
+                    <p class="article">Deutsche bank заслуженно входит в тридцатку важнейших транснациональных банков. Это крупнейший немецкий финансовый конгломерат, включающий в себя лизинговые компании, а также ипотечные, коммерческие и ипотечные банки. Deutsche bank обслуживает 28 миллионов клиентов и имеет более 2800 отделений, расположенных по всему миру. Общая капитализация данного банка превышает 20 миллиардов евро.</p>
                 </div>
             </div>
         </div>
@@ -371,26 +373,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function () {
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>

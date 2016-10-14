@@ -11,6 +11,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -239,13 +240,13 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 open_invest ok">
+    <div class="layout_content_container open_invest ok">
         <div class="layout_content_upper">
             <img class="ok" src="../images/open_account/Ok.svg" width="32">
-            <h2>Ваш инвестиционный счет открыт</h2>
+            <h2 class="layout_contentBlock layout_contentBlock_title">Ваш инвестиционный счет открыт</h2>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
+            <div class="layout_contentBlock layout_contentBlock_left">
                 <div class="notice">
                     <img src="../images/open_invest/Envelope.svg" width="42">
                     <span>На ваш адрес электронной почты выслано письмо с подтверждением.<br>
@@ -323,9 +324,9 @@
 
                 </div>
             </div>
-            <div class="layout_contentBlock_right after">
+            <div class="layout_contentBlock layout_contentBlock_right after">
                 <div class="download opened">
-                    <p><span>100$</span><br>
+                    <p class="article"><span>100$</span><br>
                     будет начислено на счет. Данный счет пополнять нельзя.</p>
                 </div>
                 <div class="docs">
@@ -440,36 +441,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $( document ).ready(function() {
-        $('.more').click(function(){
-            $(this).siblings('.form').slideToggle(300);
-            $('.simple_go').toggle(300);
-        });
-
-
-        $('.mobile_menu').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function (){
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-
-
-    });
-</script>
-
 </body>
 </html>

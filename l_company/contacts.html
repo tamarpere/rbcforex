@@ -12,6 +12,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -239,11 +240,11 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 contacts">
-        <div class="layout_contentBlock layout_contentBlock_upper">
-            <h2>Контактная информация</h2>
+    <div class="layout_content_container contacts">
+        <div class="layout_content_upper">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Контактная информация</h2>
         </div>
-        <div class="layout_contentBlock layout_contentBlock_lower">
+        <div class="layout_content_lower">
             <div class="col left">
                 <div class="layout_contentBlock_choice">
                     <div class="item">
@@ -401,26 +402,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function () {
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>
