@@ -12,77 +12,77 @@
 
 /*Open account*/
 .layout_content .layout_content_container                            {position: relative; width: 1080px; margin: 0 auto; padding: 0 0 50px 0;}
-.layout_content .layout_content_upper .ok                             {float: left; margin: 7px 15px 0 0;}
-.layout_content .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0 0 0;}
-.layout_content .layout_content_lower .layout_contentBlock_left       {width: 747px; background: #ffffff;}
-.layout_content .layout_content_lower .layout_contentBlock_right      {width: 202px; background: #ffffff;}
+.layout_content_container .layout_content_upper .ok                             {float: left; margin: 7px 15px 0 0;}
+.layout_content_container.open .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0 0 0;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_left       {width: 747px; background: #ffffff;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_right      {width: 202px; background: #ffffff;}
 
-.layout_content .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px;}
-.layout_content .layout_content_lower input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
-.layout_content .layout_contentBlock_choice                                            {padding: 0;}
-.layout_content .layout_contentBlock_choice label                                      {position: relative; line-height: 25px; margin-right: 10px; font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
-.layout_content .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content .layout_contentBlock_choice label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content .layout_contentBlock_choice input[type="radio"]                        {display: none;}
-.layout_content .layout_contentBlock_choice label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 30px; top: 24px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
-.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
-.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label .title {color: #ffffff;}
-.layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff; padding-left: 1px;}
+.layout_content_container.open .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px;}
+.layout_content_container.open .layout_content_lower input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
+.layout_content_container.open .layout_contentBlock_choice                                            {padding: 0;}
+.layout_content_container.open .layout_contentBlock_choice label                                      {position: relative; line-height: 25px; margin-right: 10px; font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
+.layout_content_container.open .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_content_container.open .layout_contentBlock_choice label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container.open .layout_contentBlock_choice input[type="radio"]                        {display: none;}
+.layout_content_container.open .layout_contentBlock_choice label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 30px; top: 24px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
+.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
+.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label .title {color: #ffffff;}
+.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff; padding-left: 1px;}
 
-.layout_content .layout_content_container.open .layout_contentBlock_right          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
-.layout_content .layout_content_lower .layout_contentBlock_right li                 {margin: 10px 0;}
-.layout_content .layout_content_lower .layout_contentBlock_right .title             {display: block; margin-bottom: 15px; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%;}
-.layout_content .layout_content_lower .layout_contentBlock_right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
-.layout_content .layout_content_lower .layout_contentBlock_right img                {float: left; margin-right: 10px; margin-top: 7px;}
-.layout_content .layout_content_lower #password                                     {width: 187px; float: left;}
-.layout_content .show_pass                                                          {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 10px 20px 10px 10px;}
-.layout_content .show_pass a                                                        {display: inline-block; width: 100%; height: 100%;}
-.layout_content .show_pass img                                                      {position: absolute; left: 12px; top: 15px;}
-.layout_content .show_pass a .hover                                                 {opacity: 0;}
-.layout_content .show_pass a .default                                               {opacity: 1;}
-.layout_content .show_pass a:hover .hover                                           {opacity: 1;}
-.layout_content .show_pass a:hover .default                                         {opacity: 0;}
-.layout_content .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
-.layout_content .layout_content_lower input#repeat_pass                             {width: 240px; float: left;}
-.layout_content .layout_content_lower .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content .layout_content_lower input[type="checkbox"]                        {display: none;}
-.layout_content .layout_content_lower label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content .layout_content_lower input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
-.layout_content .layout_content_lower input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
-.layout_content .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
-.layout_content .layout_content_lower form .addition                                {text-align: center;}
-.layout_content .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
-.layout_content .layout_content_lower form .addition .blue                          {margin: 0 auto;}
+.layout_content_container.open .layout_contentBlock_right          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_right li                 {margin: 10px 0;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_right .title             {display: block; margin-bottom: 15px; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_right img                {float: left; margin-right: 10px; margin-top: 7px;}
+.layout_content_container.open .layout_content_lower #password                                     {width: 187px; float: left;}
+.layout_content_container.open .show_pass                                                          {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 10px 20px 10px 10px;}
+.layout_content_container.open .show_pass a                                                        {display: inline-block; width: 100%; height: 100%;}
+.layout_content_container.open .show_pass img                                                      {position: absolute; left: 12px; top: 15px;}
+.layout_content_container.open .show_pass a .hover                                                 {opacity: 0;}
+.layout_content_container.open .show_pass a .default                                               {opacity: 1;}
+.layout_content_container.open .show_pass a:hover .hover                                           {opacity: 1;}
+.layout_content_container.open .show_pass a:hover .default                                         {opacity: 0;}
+.layout_content_container.open .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
+.layout_content_container.open .layout_content_lower input#repeat_pass                             {width: 240px; float: left;}
+.layout_content_container.open .layout_content_lower .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content_container.open .layout_content_lower input[type="checkbox"]                        {display: none;}
+.layout_content_container.open .layout_content_lower label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container.open .layout_content_lower input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
+.layout_content_container.open .layout_content_lower input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
+.layout_content_container.open .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
+.layout_content_container.open .layout_content_lower form .addition                                {text-align: center;}
+.layout_content_container.open .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
+.layout_content_container.open .layout_content_lower form .addition .blue                          {margin: 0 auto;}
 
-.layout_content .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
-.layout_content .layout_content_lower .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
-.layout_content .layout_content_lower .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
-.layout_content .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
-.layout_content .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
-.layout_content .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
-.layout_content .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; padding-right: 40px;}
-.layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop {display: block;}
-.layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.mobile {display: none;}
-.layout_content .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
-.layout_content .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
-.layout_content .layout_content_lower .more a                                        {position: absolute; right: 14px;}
-.layout_content .layout_content_lower .extra_info                                    {margin-top: 18px;}
-.layout_content .layout_content_lower .extra_info .form                              {display: none; margin-top: 30px;}
-.layout_content .layout_content_lower .extra_info form                               {width: 470px; position: relative;}
-.layout_content .layout_content_lower .extra_info .form label                        {float: left; line-height: 21px;}
-.layout_content .layout_content_lower .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
-.layout_content .layout_content_lower .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content .layout_content_lower .extra_info .blue                              {float: left; margin-top: 45px;}
-.layout_content .layout_content_lower .extra_info .blue.save                         {}
-.layout_content .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
-.layout_content .layout_content_lower .extra_info .form .blue.mobile                 {display: none;}
-.layout_content .layout_content_lower .extra_info .form .blue.desktop                {display: block;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right               {width: 262px; background: transparent; padding: 0;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right a             {width: 202px; background: #fff; display: block; padding: 30px; text-align: center; margin-bottom: 10px;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right img           {display: block; float: none; margin: 0 auto 20px auto;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right .link         {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right .devices      {font-size: 95%; font-weight: 400; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
-.layout_content .layout_content_container.opened .layout_contentBlock_right .fill_up span {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.layout_content_container.open .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
+.layout_content_container.open .layout_content_lower .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
+.layout_content_container.open .layout_content_lower .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
+.layout_content_container.open .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; padding-right: 40px;}
+.layout_content_container.opened .layout_contentBlock_left table.desktop {display: block;}
+.layout_content_container.opened .layout_contentBlock_left table.mobile {display: none;}
+.layout_content_container.open .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
+.layout_content_container.open .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.layout_content_container.open .layout_content_lower .more a                                        {position: absolute; right: 14px;}
+.layout_content_container.open .layout_content_lower .extra_info                                    {margin-top: 18px;}
+.layout_content_container.open .layout_content_lower .extra_info .form                              {display: none; margin-top: 30px;}
+.layout_content_container.open .layout_content_lower .extra_info form                               {width: 470px; position: relative;}
+.layout_content_container.open .layout_content_lower .extra_info .form label                        {float: left; line-height: 21px;}
+.layout_content_container.open .layout_content_lower .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
+.layout_content_container.open .layout_content_lower .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.layout_content_container.open .layout_content_lower .extra_info .blue                              {float: left; margin-top: 45px;}
+.layout_content_container.open .layout_content_lower .extra_info .blue.save                         {}
+.layout_content_container.open .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
+.layout_content_container.open .layout_content_lower .extra_info .form .blue.mobile                 {display: none;}
+.layout_content_container.open .layout_content_lower .extra_info .form .blue.desktop                {display: block;}
+.layout_content_container.opened .layout_contentBlock_right               {width: 262px !important; background: transparent !important; padding: 0;}
+.layout_content_container.opened .layout_contentBlock_right a             {width: 202px; background: #fff; display: inline-block; padding: 30px; text-align: center; margin-bottom: 10px;}
+.layout_content_container.opened .layout_contentBlock_right img           {display: block; float: none; margin: 0 auto 20px auto;}
+.layout_content_container.opened .layout_contentBlock_right .link         {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.layout_content_container.opened .layout_contentBlock_right .devices      {font-size: 95%; font-weight: 400; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
+.layout_content_container.opened .layout_contentBlock_right .fill_up span {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
 
 /*Demo*/
 .layout_content_container.demo                                                           {margin-bottom: 0; padding-bottom: 0;}
@@ -124,21 +124,21 @@
 /*Fillup*/
 .layout_content_container.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: 0; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
 .layout_content_container.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700;}
-.layout_content_container.fillup .layout_contentBlock_left    {width: 260px; padding: 30px 0;}
-.layout_content_container.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818;}
+.layout_content_container.fillup .layout_contentBlock_left    {width: 260px; padding: 30px 0; background: #ffffff;}
+.layout_content_container.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818; background: #ffffff;}
 .layout_content_container.fillup .payment.tablet              {display: none;}
 .layout_content_container.fillup .payment.desktop             {display: block;}
 .layout_content_container.fillup .payment.desktop table               {width: 260px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
 .layout_content_container.fillup .payment.desktop tr            {cursor: pointer;}
 .layout_content_container.fillup .payment.desktop tr.active           {background: #f1f8fc;}
 .layout_content_container.fillup .payment.desktop tr.active td:first-child {border-left: 3px solid #218ed2;}
-.layout_content_container.fillup .payment.desktop td                  {padding: 14px 0;}
+.layout_content_container.fillup .payment.desktop td                  {padding: 14px 0; font-size: 135%;}
 .layout_content_container.fillup .payment.desktop td:first-child      {text-align: center; padding-left: 25px; padding-right: 10px;}
 .layout_content_container.fillup .payment.desktop td:last-child       {padding-right: 25px;}
 .layout_content_container.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
 .layout_content_container.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
 .layout_content_container.fillup form.mobile                          {display: none;}
-.layout_content_container.fillup label                        {line-height: 23px;}
+.layout_content_container.fillup label                        {line-height: 23px; float: left; width: 240px;}
 .layout_content_container.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
 .layout_content_container.fillup #sum                         {width: 157px;}
 .layout_content_container.fillup #result                      {width: 157px;}
@@ -265,9 +265,10 @@
 .layout_content_container.konkurs p                                                      {font-size: 135%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px; margin: 0;}
 .layout_content_container.konkurs .bold                                                  {font-size: 88%; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .layout_content_container.konkurs .floats p                                              {float: left; margin-top: 20px; margin-right: 40px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner                            {display: inline-block;}
+.layout_content_container1.konkurs                                                       {width: 1080px; margin: 0 auto;}
+.layout_content_container1.konkurs .layout_contentBlock_banner                            {display: inline-block; width: 100%;}
 .layout_content_container1.konkurs .layout_contentBlock_banner img                        {float: left; margin-right: 10px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info                      {color: #2c2d2d; float: left; height: 340px; padding: 36px 29px; width: 340px; background: #ffffff;}
+.layout_content_container1.konkurs .layout_contentBlock_banner .info                      {color: #2c2d2d; float: right; height: 340px; padding: 36px 29px; width: 340px; background: #ffffff;}
 .layout_content_container1.konkurs .layout_contentBlock_banner h4                         {color: #ff321d; font-size: 150%; margin-bottom: 18px;}
 .layout_content_container1.konkurs .layout_contentBlock_banner ul                         {margin-bottom: 30px;}
 .layout_content_container1.konkurs .layout_contentBlock_banner .info li:before            {display: inline-block; margin-right: 10px; content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2;}
@@ -315,13 +316,14 @@
 
 /*Bonus*/
 .layout_content_container.bonus                  {padding-bottom: 40px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container.bonus .layout_content_lower                 {display: inline-block; margin-top: 10px;}
 .layout_content_container.bonus .layout_contentBlock_article                 {padding: 0;}
 .layout_content_container.bonus .text            {float: left; width: 497px; margin-right: 47px;}
 .layout_content_container.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
 .layout_content_container.bonus img.desktop      {display: block; float: left;}
 .layout_content_container.bonus img.tablet       {display: none;}
 .layout_content_container.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
-.layout_content_container.bonus .item:last-child {margin-right: 0 !important;}
+.layout_content_container.bonus .item:last-child {margin-right: 0;}
 .layout_content_container.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-weight: 400; font-size: 315%;}
 
 /*Novichkam*/

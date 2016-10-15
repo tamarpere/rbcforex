@@ -6,7 +6,7 @@
 .layout_content1.rating .layout_content_container.desktop                 {display: block; margin: 0 auto; width: 1080px;}
 .layout_content1.rating .layout_content_container h2.tablet               {display: none;}
 .layout_content1.rating .layout_content_container h2.desktop              {display: block; color: #f5f7f7; float: left; margin: 40px 0;}
-.layout_content1.rating .layout_content_container .blue                   {float: right; margin: 40px 0;}
+.layout_content1.rating .layout_content_container .blue                   {float: right; margin: 50px 0;}
 .layout_content1.rating .layout_content_container .blue img               {vertical-align: middle; margin-right: 5px;}
 .layout_content1.rating .layout_content_container .layout_contentBlock_items                  {display: inline-block; width: 1080px; padding: 0;}
 .layout_content1.rating .layout_content_container .layout_contentBlock_items .item            {color: #ffffff; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
@@ -60,7 +60,7 @@
 .layout_content2.rating .layout_contentBlock_right                                                   {width: 262px; height: auto; background: transparent; padding: 0;}
 .layout_content2.rating .layout_contentBlock_right label                                             {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
 .layout_content2.rating .layout_contentBlock_right input                                             {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .blue                                             {display: block; margin: 0 auto;}
+.layout_content2.rating .layout_contentBlock_right .blue                                             {margin: 0 auto;}
 .layout_content2.rating .layout_contentBlock_right .note                                             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
 .layout_content2.rating .layout_contentBlock_right .search                                           {position: relative; display: inline-block;}
 .layout_content2.rating .layout_contentBlock_right .search img                                       {position: absolute; top: 48px; left: 170px;}
@@ -69,7 +69,7 @@
 .layout_content2.rating .layout_contentBlock_right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
 .layout_content2.rating .layout_contentBlock_right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
 .layout_content2.rating .layout_contentBlock_right .calc h4                                          {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
-.layout_content2.rating .layout_contentBlock_right .calc select                                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 39px;}
+.layout_content2.rating .layout_contentBlock_right .calc select                                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 43px;}
 .layout_content2.rating .layout_contentBlock_right .spred                                            {display: inline-block; background: #ffffff; padding: 30px;}
 .layout_content2.rating .layout_contentBlock_right .spred h4                                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
 .layout_content2.rating .layout_contentBlock_right .radio                                            {position: relative; display: inline-block; margin-bottom: 15px;}
@@ -178,14 +178,16 @@
 .layout_content1.steps.step6 h3 {font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
 
 /*Open invest*/
+.layout_content_container.open_invest .layout_content_lower                         {display: inline-block;}
 .layout_content_container.open_invest .layout_content_lower form                        {position: relative;}
 .layout_content_container.open_invest .layout_content_lower form .calendar              {position: absolute; top: 80px; right: 20px;}
 .layout_content_container.open_invest .layout_content_lower .checkbox                   {text-align: right; margin-right: 100px;}
 .layout_content_container.open_invest .layout_content_lower label[for="promo_cod"] span {color: #9b9a9a;}
-.layout_content_container.open_invest .layout_contentBlock_right                        {display: inline-block; width: 262px; padding: 0; background: transparent;}
+.layout_content_container.open_invest .layout_contentBlock_right                        {font-size: 100%; display: inline-block; width: 262px !important; padding: 0; background: transparent !important;}
 .layout_content_container.open_invest .layout_contentBlock_right .download              {margin-bottom: 10px; text-align: center; display: inline-block; background: #ffffff; padding: 30px 25px; width: 212px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c;}
 .layout_content_container.open_invest .layout_contentBlock_right .download span         {color: #ff4830; font-size: 260%;}
 .layout_content_container.open_invest .layout_contentBlock_right .docs                  {background: #ffffff; padding: 30px; width: 202px;}
 .layout_content_container.open_invest .layout_contentBlock_right a                      {text-align: left; padding: 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
 .layout_content_container.open_invest .layout_content_lower .notice                     {border-bottom: 1px solid #eef1f2; line-height: 27px; padding-bottom: 30px; width: 100%; font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818;}
 .layout_content_container.open_invest .layout_content_lower .notice img                 {height: 50px; margin-right: 20px; float: left;}
+.layout_content_container.open_invest .layout_content_lower .more                 {width: 628px;}

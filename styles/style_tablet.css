@@ -21,6 +21,8 @@
     .layout_header .layout_headerBlock_left a.desktop {display: inline-block;}
     .layout_header .layout_headerBlock_left a.mobile {display: none;}
 
+    .layout_header .layout_header_container .triangle {top: 20px;}
+
     .layout_footer                               {padding: 0;}
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
     .layout_footer .layout_footer_content        {display: none;}
@@ -28,9 +30,7 @@
     .layout_footer .layout_footerBlock_copyright {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
 
-    .layout_header .layout_header_container .triangle.company {top: 20px;}
-    .layout_header .layout_header_container .triangle.education {top: 20px;}
-    .layout_header .layout_header_container .triangle.partner {top: 20px;}
+    .layout_content_upper {width: 100%;}
 
     .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
     .layout_content1 .layout_contentBlock_slide1          {width: 490px;}
@@ -45,7 +45,6 @@
     .layout_content1 .layout_contentBlock_slide2 .android {margin: 7px; width: 15px; height: 17px;}
     .layout_content1 .layout_contentBlock_slide2 .web     {margin: 7px; width: 15px; height: 15px;}
 
-    .layout_content2                                                {max-width: 748px; margin-top: 10px;}
     .layout_content2 .layout_contentBlock_block1 .col_left          {padding: 0 28px; width: 120px;}
     .layout_content2 .layout_contentBlock_block1 .col_right         {padding: 0 28px;}
     .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
@@ -75,182 +74,185 @@
 
     /*Trader menu*
     **************************************************************/
-    .layout_header .layout_headerBlock_menu                                      {max-width: 748px !important; text-align: left;}
-    .layout_header .layout_header_container .triangle.traider                    {top: 20px !important; left: 15px !important;}
-
 
     /*Open account*/
-    .layout_content .layout_content_container1                                   {max-width: 747px !important; padding: 36px 0 0 0 !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_left              {width: 687px !important; margin-right: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_right             {width: 687px !important; margin-top: 10px; float: none; display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right ul          {display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right ul li       {display: inline-block; margin-right: 20px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right li a:before {margin-right: 5px !important;}
-    .layout_content .layout_content_lower input                                  {width: 414px !important;}
-    .layout_content .layout_content_lower input#password                         {width: 187px !important;}
-    .layout_content .layout_content_lower input#repeat_pass                      {width: 240px !important;}
-    .layout_content .layout_content_lower .note                                  {width: 150px !important;}
-
-    .layout_content .layout_content_lower .attention                                     {width: 638px !important;}
-    .layout_content .layout_content_lower .more                                          {width: 638px !important;}
-    .layout_content .layout_content_lower .extra_info .form input                        {width: 205px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after a             {float: left; text-align: left !important; height: 73px; width: 303px !important; margin-bottom: 0 !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after               {width: 748px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .download a   {margin-right: 20px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after img           {float: left !important; margin: 0 20px 0 0 !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .link         {margin-top: 20px; display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {display: block; margin-top: 20px;}
+    .layout_content_container                                             {width: 747px !important; padding: 0 0 30px 0;}
+    .layout_content_container.open .layout_contentBlock_left              {width: 687px !important; margin-right: 0;}
+    .layout_content_container.open .layout_contentBlock_right             {width: 687px !important; margin-top: 10px; float: none; display: inline-block;}
+    .layout_content_container.open .layout_contentBlock_right ul          {display: inline-block;}
+    .layout_content_container.open .layout_contentBlock_right ul li       {display: inline-block; margin-right: 20px;}
+    .layout_content_container.open .layout_contentBlock_right li a:before {margin-right: 5px;}
+    .layout_content_container.open input                                  {width: 414px !important;}
+    .layout_content_container.open input#password                         {width: 187px !important;}
+    .layout_content_container.open input#repeat_pass                      {width: 240px !important;}
+    .layout_content_container.open .note                                  {width: 150px !important;}
+    .layout_content_container.open .layout_content_lower form .clear {width: 200px;}
+    .layout_content_container.open .attention                                     {width: 638px !important;}
+    .layout_content_container.opened .more                                          {width: 638px !important;}
+    .layout_content_container.opened .extra_info .form input                        {width: 205px;}
+    .layout_content_container.opened .layout_contentBlock_right              {width: 747px !important; margin: 10px auto 0 auto; display: inline-block;}
+    .layout_content_container.opened .layout_contentBlock_right a             {text-align: left; height: 73px; width: 303px; margin-bottom: 0;}
+    .layout_content_container.opened .layout_contentBlock_right .download a   {float: left; margin-right: 20px;}
+    .layout_content_container.opened .layout_contentBlock_right .fill_up a   {float: right;}
+    .layout_content_container.opened .layout_contentBlock_right img           {float: left; margin: 0 20px 0 0;}
+    .layout_content_container.opened .layout_contentBlock_right .link         {margin-top: 20px; display: inline-block;}
+    .layout_content_container.opened .layout_contentBlock_right .fill_up span {display: block; margin-top: 20px;}
 
     /*Demo*/
-    .layout_content .layout_content_upper h2 {margin-left: 25px;}
-    .layout_content .layout_content_container1.demo        {width: 100%; max-width: none !important;}
-    .layout_content .layout_content_middle.desktop {display: none;}
-    .layout_content .layout_content_middle.tablet                                     {clear: both; display: inline-block;}
-    .layout_content .layout_content_middle.tablet .form                               {position: absolute; padding: 15px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
-    .layout_content .layout_content_middle.tablet .gen_pass {bottom: 215px;}
-    .layout_content .layout_content_middle.tablet .learning {background: #ffffff; float: left;}
-    .layout_content .layout_content_middle.tablet .learning h3 {margin: 40px 50px 30px 392px;}
-    .layout_content .layout_content_middle.tablet .learning p {margin-left: 392px; margin-right: 30px;}
-    .layout_content .layout_content_middle.tablet .learning .first {margin-left: 392px; margin-right: 30px;}
-    .layout_content .layout_content_middle.tablet .learning .second {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .third {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .fourth {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .done h2 {width: 80%; margin: 0 auto; display: block;}
-    .layout_content .layout_content_middle.tablet .learning .done p {width: 80%; margin: 15px auto;}
-    .layout_content .layout_content_middle.tablet .learning .done .server {width: 80%; margin: 15px auto 45px auto;}
-    .layout_content .layout_contentBlock_reklama {width: 500px; padding: 0 30px;}
-    .layout_content .layout_contentBlock_reklama h3 {margin: 90px 0 25px 0;}
-    .layout_content .layout_contentBlock_image {left: -500px; top: 50px;}
-    .layout_content_container1.demo .layout_content_lower {height: 456px;}
+    .layout_content_container.demo .layout_content_middle.desktop {display: none;}
+    .layout_content_container.demo .layout_content_middle.tablet                                     {clear: both; display: inline-block;}
+    .layout_content_container.demo .layout_content_middle.tablet .form                               {position: absolute; padding: 15px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
+    .layout_content_container.demo .layout_content_middle.tablet .gen_pass {bottom: 215px;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning {background: #ffffff; float: left;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning h6 {margin: 40px 50px 30px 392px;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning p {margin-left: 392px; margin-right: 30px;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .first {margin-left: 392px; margin-right: 30px;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .second {width: 80%; margin: 0 auto;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .third {width: 80%; margin: 0 auto;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .fourth {width: 80%; margin: 0 auto;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .done h4 {width: 80%; margin: 0 auto; display: block;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .done p {width: 80%; margin: 15px auto;}
+    .layout_content_container.demo .layout_content_middle.tablet .learning .done .server {width: 80%; margin: 15px auto 45px auto;}
+    .layout_content_container.demo .layout_contentBlock_reklama {width: 500px; padding: 0 30px;}
+    .layout_content_container.demo .layout_contentBlock_reklama h3 {margin: 25px 0;}
+    .layout_content_container.demo .layout_contentBlock_image {left: -500px; top: 35px;}
+    .layout_content_container.demo .layout_content_lower {height: 456px;}
 
     /*Fillup*/
-    .layout_content .layout_content_container1.fillup .comission                   {padding: 14px 19px 26px 19px !important; height: 34px !important; top: 16px !important;}
-    .layout_content .layout_content_container1.fillup .layout_contentBlock_left    {padding: 0 !important; width: 734px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
-    .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 677px !important;}
-    .layout_content .layout_content_container1.fillup label                        {width: 200px !important; margin-right: 35px;}
-    .layout_content .layout_content_container1.fillup input                        {width: 240px !important;}
-    .layout_content .layout_content_container1.fillup input#sum                    {width: 137px !important;}
-    .layout_content .layout_content_container1.fillup input#result                 {width: 137px !important;}
-    .layout_content .layout_content_container1.fillup select                       {width: 93px !important;}
-    .layout_content .layout_content_container1.fillup .note.long                   {margin-top: -20px;}
-    .layout_content .layout_content_container1.fillup .note.done                   {width: 440px !important; clear: both;}
-    .layout_content .layout_content_container1.fillup .blue                        {margin-left: 240px !important;}
-    .layout_content .layout_content_container1.fillup .payment .more_payment       {display: inline-block;}
-    .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px !important;}
-    .layout_content .layout_content_container1.fillup .data_card .note             {width: 70px !important;}
-    .layout_content .layout_content_container1.fillup .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
-    .layout_content .layout_content_container1.fillup .payment.desktop             {display: none;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
+    .layout_content_container.fillup .comission                   {padding: 14px 19px 26px 19px; height: 34px; top: 0;}
+    .layout_content_container.fillup .layout_contentBlock_left    {float: none; padding: 0; width: 734px; height: 53px; margin-right: 0; line-height: 53px; border: 2px solid #ffffff;}
+    .layout_content_container.fillup .layout_contentBlock_right   {width: 677px; float: none; margin-top: 10px;}
+    .layout_content_container.fillup label                        {width: 200px; margin-right: 35px;}
+    .layout_content_container.fillup input                        {width: 238px;}
+    .layout_content_container.fillup #sum                         {width: 137px;}
+    .layout_content_container.fillup #result                      {width: 137px;}
+    .layout_content_container.fillup select                       {width: 93px;}
+    .layout_content_container.fillup .note {width: 150px;}
+    .layout_content_container.fillup .note.long                   {margin-top: -20px;}
+    .layout_content_container.fillup .note.done                   {width: 440px; clear: both;}
+    .layout_content_container.fillup .blue                        {margin-left: 240px;}
+    .layout_content_container.fillup .payment .more_payment       {display: inline-block;}
+    .layout_content_container.fillup .data_card .cvv_number input {width: 70px;}
+    .layout_content_container.fillup .data_card .note             {width: 70px;}
+    .layout_content_container.fillup .payment.tablet              {display: block; position: relative; background: #ffffff;}
+    .layout_content_container.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content_container.fillup .payment.desktop             {display: none;}
+    .layout_content_container.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
+    .layout_content_container.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
+    .layout_content_container.fillup .payment.tablet .select img  {vertical-align: middle;}
+    .layout_content_container.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
 
     /*Calculator*/
-    .layout_content .layout_content_container1.calc h2 {margin-left: 0 !important;}
-    .layout_content .layout_content_container1.calc .layout_contentBlock_left    {padding: 0 !important; width: 734px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
-    .layout_content .layout_content_container1.calc .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
-    .layout_content .layout_content_container1.calc .payment.desktop             {display: none;}
-    .layout_content .layout_content_container1.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content .layout_content_container1.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
-    .layout_content .layout_content_container1.calc .payment.tablet .submenu     {display: none;}
+    .layout_content_container.calc h2 {margin-left: 0;}
+    .layout_content_container.calc .layout_contentBlock_left    {padding: 0; width: 734px; height: 53px; margin-right: 0; line-height: 53px; border: 2px solid #ffffff;}
+    .layout_content_container.calc .payment.tablet              {display: block; position: relative;}
+    .layout_content_container.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .layout_content_container.calc .payment.desktop             {display: none;}
+    .layout_content_container.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
+    .layout_content_container.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content_container.calc .payment.tablet .select img  {vertical-align: middle;}
+    .layout_content_container.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
+    .layout_content_container.calc .payment.tablet .submenu     {display: none;}
 
-    .layout_content_container1.calc .layout_contentBlock_right                {width: 678px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right .addition      {width: 630px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .type_fee {width: 147px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .tool     {width: 115px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .lot      {width: 67px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .count    {width: 67px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form #pips     {width: 57px !important;}
+    .layout_content_container.calc .layout_contentBlock_right                {width: 678px;}
+    .layout_content_container.calc .layout_contentBlock_right .addition      {width: 630px;}
+    .layout_content_container.calc .layout_contentBlock_right form .type_fee {width: 147px;}
+    .layout_content_container.calc .layout_contentBlock_right form .tool     {width: 115px;}
+    .layout_content_container.calc .layout_contentBlock_right form .lot      {width: 67px;}
+    .layout_content_container.calc .layout_contentBlock_right form .count    {width: 67px;}
+    .layout_content_container.calc .layout_contentBlock_right form #pips     {width: 57px;}
 
     /*FAQ*/
-    .layout_content_container1.faq .question {width: 100% !important; padding-right: 0; padding-left: 0;}
-    .layout_content_container1.faq .title {margin-left: 30px;}
-    .layout_content_container1.faq .text {padding-left: 30px;}
+    .layout_content_container.faq .question {width: 100%; padding-right: 0; padding-left: 0;}
+    .layout_content_container.faq .title {margin-left: 30px;}
+    .layout_content_container.faq .text {padding-left: 30px;}
 
     /*Terms*/
-    .layout_content_container1 .kinds       {width: 70% !important;}
-    .layout_content_container1 .table_terms {width: 748px !important;}
-    .layout_content_container1 .list a      {font-size: 100% !important; margin-right: 13px !important; padding-bottom: 6px !important;}
-    .layout_content_container1 .table_terms td {font-size: 118%;}
-    .layout_content_container1 .table_terms td:first-child {font-size: 118%;}
-    .layout_content_container1 .kinds ul li {font-size: 118%;}
-    .layout_content_container1 .summary {width: 80%;}
-    .layout_content_container1 .summary td {padding-right: 17px;}
-    .layout_content_container1 .layout_contentBlock_type .type {width: 305px !important;}
+    .layout_content_container .layout_contentBlock_kinds       {width: 70% !important;}
+    .layout_content_container .table_terms {width: 748px !important;}
+    .layout_content_container .list a      {font-size: 100% !important; margin-right: 12px !important; padding-bottom: 6px !important;}
+    .layout_content_container .table_terms td {font-size: 118% !important;}
+    .layout_content_container .table_terms td:first-child {font-size: 118% !important;}
+    .layout_content_container .layout_contentBlock_kinds ul li {font-size: 118% !important;}
+    .layout_content_container .summary {width: 747px !important;}
+    .layout_content_container .summary td {padding-right: 17px !important; min-width: 120px !important;}
+    .layout_content_container .layout_contentBlock_type .type {width: 305px !important;}
 
     /*Feedback*/
-    .layout_content_container1.feed .wrapper                       {background: #ffffff !important; margin-bottom: 10px;}
-    .layout_content_container1.feed .form                          {width: 90%; margin: 0 auto; padding: 30px 0;}
-    .layout_content_container1.feed .form input                    {width: 420px !important;}
-    .layout_content_container1.feed .form input[name="city"]       {width: 205px !important;}
-    .layout_content_container1.feed .form input[name="number"]     {width: 205px !important;}
-    .layout_content_container1.feed .form textarea[name="message"] {width: 420px;}
+    .layout_content_container.feed .layout_contentBlock_wrapper                       {background: #ffffff; margin-bottom: 10px;}
+    .layout_content_container.feed .form                          {width: 90%; margin: 0 auto; padding: 30px 0;}
+    .layout_content_container.feed .form input                    {width: 420px !important;}
+    .layout_content_container.feed .form input[name="city"]       {width: 205px !important;}
+    .layout_content_container.feed .form input[name="number"]     {width: 205px !important;}
+    .layout_content_container.feed .form textarea[name="message"] {width: 420px !important;}
 
     /*Konkurs, bonus, novichkam*/
-    .layout_content_container2.konkurs .wrapper                                      {width: 100% !important; padding: 30px 0;}
+    .layout_content_container2.konkurs .wrapper                                      {width: 100%; padding: 30px 0;}
     .layout_content_container2.konkurs .form                                         {width: 100%;}
     .layout_content_container2.konkurs .form h3                                      {width: 90%; margin: 0 auto 40px auto;}
     .layout_content_container2.konkurs .form form                                    {width: 90%; margin: 0 auto;}
     .layout_content_container2.konkurs label                                         {margin-right: 20px;}
-    .layout_content_container1.konkurs .sections .get_pris_link                      {display: none;}
-    .layout_content_container1.konkurs .banner                                       {width: 748px !important; background-position: left center !important;}
-    .layout_content_container1.konkurs .banner.third                                 {width: 748px !important; background-position: center center !important;}
-    .layout_content_container1.konkurs .banner a                                     {width: 748px !important;}
+    .layout_content_container.konkurs .layout_contentBlock_sections .get_pris_link   {display: none;}
+    .layout_content_container.konkurs .banner                                        {width: 748px; background-position: left center;}
+    .layout_content_container.konkurs .banner.third                                  {width: 748px; background-position: center center;}
+    .layout_content_container.konkurs .banner a                                      {width: 718px;}
     .layout_content_container1.konkurs .layout_contentBlock_prises .table_pris table {float: left;}
     .layout_content_container1.konkurs .layout_contentBlock_prises .how_get          {width: 440px !important;}
     .layout_content_container1.konkurs img.desktop                                   {display: none;}
     .layout_content_container1.konkurs img.tablet                                    {display: block; float: left;}
+    .layout_content_container1.konkurs                                               {margin: 0 auto; width: 747px;}
 
-    .layout_content_container1.bonus img.tablet                {display: block; float: left;}
-    .layout_content_container1.bonus img.desktop               {display: none;}
-    .layout_content_container1.bonus .text                     {width: 320px;}
-    .layout_content_container1.bonus .item                     {width: 152px !important; height: 130px; margin-right: 5px !important; padding: 15px;}
-    .layout_content_container1.bonus .item .number             {line-height: 60px;}
-    .layout_content_container1.novichkam                       {padding-bottom: 50px !important;}
-    .layout_content_container1.novichkam .desktop.image_banner {display: none;}
-    .layout_content_container1.novichkam .tablet.image_banner  {display: block; float: left; margin-right: 10px;}
-    .layout_content_container1.novichkam .article              {width: 100%}
+    .layout_content_container.bonus img.tablet                {display: block; float: left;}
+    .layout_content_container.bonus img.desktop               {display: none;}
+    .layout_content_container.bonus .text                     {width: 320px;}
+    .layout_content_container.bonus .item                     {width: 150px !important; height: 130px; margin-right: 5px !important; padding: 15px;}
+    .layout_content_container.bonus .item .number             {line-height: 60px;}
+
+    .layout_content_container.novichkam                       {padding-bottom: 50px !important;}
+    .layout_content_container.novichkam .desktop.image_banner {display: none;}
+    .layout_content_container.novichkam .tablet.image_banner  {display: block; float: left; margin-right: 10px;}
+    .layout_content_container.novichkam .article              {width: 100%}
 
     /*Invest menu*
     **************************************************************/
-    .layout_header .layout_header_container .triangle.invest {top: 20px; left: 40px;}
 
     /*Rating*/
-    .layout_content1.rating .layout_content_container1.mobile                              {display: none;}
-    .layout_content1.rating .layout_content_container1.desktop                             {display: block; margin: 45px auto; width: 1080px;}
-    .layout_content1.rating .layout_content_container1                                     {width: 748px;}
-    .layout_content1.rating .layout_content_container1 h2.desktop                          {display: none;}
-    .layout_content1.rating .layout_content_container1 h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
-    .layout_content1.rating .layout_content_container1 .blue                               {height: 51px; line-height: 47px; padding: 0 15px; border-radius: 28px;}
-    .layout_content1.rating .layout_content_container1 .items                              {width: 718px; margin-left: 30px;}
-    .layout_content1.rating .layout_content_container1 .items .item                        {width: 160px;}
-    .layout_content2.rating                                                                {margin-top: 20px;}
-    .layout_content2.rating .layout_content_container2.tablet                              {display: inline-block;}
-    .layout_content2.rating .layout_content_container2.desktop                             {display: none;}
-    .layout_content2.rating .layout_content_container2.mobile                              {display: none;}
-    .layout_content2.rating .layout_content_container2.tablet .filter                      {width: 100%; background: #ffffff; margin-bottom: 20px; position: relative;}
-    .layout_content2.rating .layout_content_container2.tablet .filter table                {width: 100%;}
-    .layout_content2.rating .layout_content_container2.tablet .filter label                {float: none; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 13px; width: 100%; display: block;}
-    .layout_content2.rating .layout_content_container2.tablet .filter input[type="search"] {width: 195px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; border: 2px solid #e8eaeb; background: #ffffff;}
-    .layout_content2.rating .layout_content_container2.tablet .filter td                   {padding: 13px;}
-    .layout_content2.rating .layout_content_container2.tablet .filter img                  {position: absolute; top: 60px; left: 185px;}
-    .layout_content2.rating .layout_content_container2.tablet .layout_contentBlock_left    {width: 100%;}
+    .layout_content1.rating .layout_content_container.mobile                              {display: none;}
+    .layout_content1.rating .layout_content_container.desktop                             {display: block; width: 748px; padding-bottom: 0;}
+    .layout_content1.rating .layout_content_container h2.desktop                          {display: none;}
+    .layout_content1.rating .layout_content_container h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
+    .layout_content1.rating .layout_content_container .blue                               {height: 44px; line-height: 40px; padding: 0 15px; border-radius: 24px;}
+    .layout_content1.rating .layout_content_container .layout_contentBlock_items          {width: 718px;}
+    .layout_content1.rating .layout_content_container .layout_contentBlock_items .item    {width: 167px; margin-right: 15px;}
+    .layout_content2.rating                                                               {margin-top: 20px; max-width: none;}
+    .layout_content2.rating .layout_content_container                             {width: 747px; margin: 0 auto;}
+    .layout_content2.rating .layout_content_container.mobile                              {display: none;}
+    .layout_content2.rating .layout_content_container .filter                      {width: 100%; position: absolute; height: 200px; padding: 0; top: 0;}
+    .layout_content2.rating .layout_content_container .filter label                     {display: inline;}
+    .layout_content2.rating .layout_content_container .filter input[type="range"]                     {display: inline;}
+    .layout_content2.rating .layout_content_container .layout_contentBlock_right    {position: static;}
+    .layout_content2.rating .layout_content_container .layout_contentBlock_left    {width: 100%; margin-top: 220px;}
+    .layout_content2.rating .layout_contentBlock_left tr:hover                        {background: #ffffff;}
+    .layout_content2.rating .layout_contentBlock_left tr:hover img                       {display: none;}
     .layout_content2.rating .layout_contentBlock_left td:last-child                        {padding-right: 70px;}
     .layout_content2.rating .layout_contentBlock_left table .col.left                      {width: 330px;}
     .layout_content2.rating .layout_contentBlock_left table .col.right                     {width: 360px;}
-    .layout_content2.rating .layout_contentBlock_left .blue                                {margin: 30px auto; display: block;}
+    .layout_content2.rating .layout_contentBlock_left .blue                                {margin: 30px auto;}
     .layout_content2.rating .layout_contentBlock_right                                     {width: 100%; float: none; margin: 20px auto; display: inline-block;}
     .layout_content2.rating .layout_contentBlock_right h4                                  {float: left; width: 30%;}
     .layout_content2.rating .layout_contentBlock_right .note                               {float: right; margin-top: 0; width: 60%;}
-    .layout_content2.rating .layout_contentBlock_right .calc td                            {padding-right: 20px;}
-    .layout_content2.rating .layout_contentBlock_right .spred input                        {margin: 0; float: left;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio                       {float: left; display: inline-block; margin-left: 30px; margin-bottom: 30px;}
+    .layout_content2.rating .layout_contentBlock_right .calc                           {width: 687px; height: 220px; position: relative;}
+    .layout_content2.rating .layout_contentBlock_right .calc .note                           {position: absolute; top: 35px; right: 0;}
+    .layout_content2.rating .layout_contentBlock_right .calc h4                         {margin-bottom: 15px;}
+    .layout_content2.rating .layout_contentBlock_right .calc .item                            {margin-right: 20px;}
+    .layout_content2.rating .layout_contentBlock_right .spred                         {width: 687px; height: 220px; position: relative;}
+    .layout_content2.rating .layout_contentBlock_right .spred .note                        {position: absolute; top: 35px; right: 0;}
+    .layout_content2.rating .layout_contentBlock_right .spred h4                         {margin-bottom: 15px;}
+    .layout_content2.rating .layout_contentBlock_right .spred label                        {margin: 0;}
+    .layout_content2.rating .layout_contentBlock_right .spred input                        {margin: 0 0 30px 0; float: left;}
+    .layout_content2.rating .layout_contentBlock_right .spred .radio                       {float: left; display: inline-block; margin: 50px 0 0 30px;}
     .layout_content2.rating .layout_contentBlock_right .spred .radio label                 {float: left; margin-right: 30px;}
     .layout_content2.rating .layout_contentBlock_right .spred .radio label:before          {width: 14px; height: 14px;}
     .layout_content2.rating .layout_contentBlock_right .spred .radio label.luck:before     {top: 2px; left: 120px;}
@@ -258,59 +260,59 @@
     .layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]:checked + label:before {font-size: 30px; line-height: 13px;}
 
     /*TIS*/
-    .layout_content2.tis                            {margin-top: -20px;}
+    .layout_content2.tis                            {width: 100%; margin-top: -20px;}
     .layout_content2.tis img.desktop                {display: none;}
     .layout_content2.tis img.tablet                 {display: block;}
     .layout_content2.tis .layout_contentBlock_left  {float: none; width: 748px; margin-bottom: 20px;}
     .layout_content2.tis .layout_contentBlock_right {float: none; width: 748px;}
 
     /*Direct invest*/
-    .layout_content_container1.dir_invest .layout_contentBlock             {padding-top: 0;}
-    .layout_content_container1.dir_invest .layout_contentBlock_left        {width: 468px !important;}
-    .layout_content_container1.dir_invest .layout_contentBlock_right       {width: 258px !important; float: right;}
-    .layout_content_container1.dir_invest .layout_contentBlock h3          {margin-bottom: 15px;}
-    .layout_content_container1.dir_invest .layout_contentBlock_right h3    {margin-top: 10px;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block; margin-left: -30px;}
-    .layout_content_container1.dir_invest .banner                          {background: url("../images/pryam_invest/Banner1_tabl.png") center;}
+    .layout_content_container.dir_invest .layout_contentBlock             {padding-top: 0;}
+    .layout_content_container.dir_invest .layout_contentBlock_left        {width: 468px !important;}
+    .layout_content_container.dir_invest .layout_contentBlock_right       {width: 258px !important; float: right;}
+    .layout_content_container.dir_invest .layout_contentBlock h3          {margin-bottom: 15px;}
+    .layout_content_container.dir_invest .layout_contentBlock_right h3    {margin-top: 10px;}
+    .layout_content_container.dir_invest .layout_contentBlock img.desktop {display: none;}
+    .layout_content_container.dir_invest .layout_contentBlock img.tablet  {display: block; margin-left: -30px;}
+    .layout_content_container.dir_invest .banner                          {background: url("../images/pryam_invest/Banner1_tabl.png") center;}
 
     /*Copy deal*/
-    .layout_content_container1.copy_deal .banner {background: url("../images/copi_sdel/Banner1_tabl.png") center;}
-    .layout_content_container1.copy_deal .screen {width: 467px;}
+    .layout_content_container.copy_deal .banner {background: url("../images/copi_sdel/Banner1_tabl.png") center;}
+    .layout_content_container.copy_deal .screen {width: 467px;}
 
     /*Be trader*/
-    .layout_content_container1.invest .layout_contentBlock_right        {width: 200px;}
-    .layout_content_container1.invest .layout_contentBlock_left .forget {margin-top: 20px;}
-    .layout_content_container1.invest .layout_contentBlock_left .blue   {margin-top: 20px;}
+    .layout_content_container.invest .layout_contentBlock_right        {width: 200px;}
+    .layout_content_container.invest .layout_contentBlock_left .forget {margin-top: 20px;}
+    .layout_content_container.invest .layout_contentBlock_left .blue   {margin-top: 20px;}
 
     /*Invest programm*/
-    .layout_content_container1.programm .layout_content_lower.rules img {width: 100%;}
+    .layout_content_container.programm .layout_contentBlock_rules img {width: 100%;}
 
     /*Steps*/
-    .layout_content1.steps .layout_content_container1.desktop                        {display: inline-block;}
-    .layout_content1.steps .layout_content_container1.mobile                         {display: none;}
+    .layout_content1.steps .layout_content_container.desktop                        {display: inline-block;}
+    .layout_content1.steps .layout_content_container.mobile                         {display: none;}
     .layout_contentBlock_steps.desktop                        {display: none;}
     .layout_contentBlock_steps.tablet                         {display: inline-block;}
-    .layout_content2.steps                                    {margin-top: -80px;}
+    .layout_content2.steps                                    {margin-top: -50px; padding-bottom: 30px;}
+    .layout_content2.steps .layout_content_container          {width: 680px;}
     .layout_content1.steps .layout_contentBlock_steps ul li a {margin: 0 10px;}
     .layout_content1.steps .layout_contentBlock_steps ul      {margin: 30px auto;}
     .layout_content1.steps .table_steps td                    {padding-bottom: 10px;}
     .layout_content1.steps .table_steps .blue                 {margin: 30px auto; width: 345px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
-    .layout_content2.steps.step3                              {margin-top: -160px;}
-    .layout_content2.steps.step4                              {margin-top: -160px;}
+    .layout_content2.steps.step3                              {margin-top: -130px;}
+    .layout_content2.steps.step4                              {margin-top: -130px;}
     .layout_content1.steps.step6 h2                           {margin-top: 170px;}
 
      /*Invest open*/
-    .layout_content_container1.open_invest   {position: relative;}
-    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left {margin-top: 140px;}
-    .layout_content_container1.open_invest .layout_content_upper h2 {margin-bottom: 40px;}
-    .layout_content_container1.open_invest .layout_content_lower .checkbox {margin-right: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after   {width: 100%; padding: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after .docs  {width: 100%; padding: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right .download {position: absolute; top: 0; left: 0; width: 687px; text-align: left;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after a {width: auto !important; height: auto; float: none;}
-    .layout_content .layout_content_lower .layout_contentBlock_right .docs .title {margin-left: 30px; padding-top: 30px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right .docs ul {margin-left: 30px; margin-bottom: 30px;}
+    .layout_content_container.open_invest .layout_content_lower .layout_contentBlock_left {margin-top: 140px;}
+    .layout_content_container.open_invest .layout_content_upper h2 {margin-bottom: 40px;}
+    .layout_content_container.open_invest .layout_content_lower .checkbox {margin-right: 0;}
+    .layout_content_container.open_invest .layout_contentBlock_right   {width: 100% !important; padding: 0; position: static;}
+    .layout_content_container.open_invest .layout_contentBlock_right .docs  {width: 100%; padding: 0;}
+    .layout_content_container.open_invest .layout_contentBlock_right .download {position: absolute; top: 0; left: 0; width: 697px; text-align: left;}
+    .layout_content_container.open_invest .layout_contentBlock_right a {width: auto !important; height: auto; float: none;}
+    .layout_content_lower .layout_contentBlock_right .docs .title {margin-left: 30px; padding-top: 30px;}
+    .layout_content_lower .layout_contentBlock_right .docs ul {margin-left: 30px; margin-bottom: 30px;}
 
 
 

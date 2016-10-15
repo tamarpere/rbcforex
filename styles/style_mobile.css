@@ -106,29 +106,29 @@
     **************************************************************/
 
     /*Open account*/
-    .layout_content .layout_content_container1                                             {max-width: none !important; padding: 0;}
+    .layout_content .layout_content_container1                                             {max-width: none; padding: 0;}
     .layout_content .layout_content_upper h2                                               {font-size: 190%; margin: 30px 25px;}
     .layout_content .layout_content_container1 .layout_contentBlock_choice                 {width: 262px; display: block; margin: 0 auto;}
     .layout_content .layout_content_container1 .layout_contentBlock_choice .item           {display: inline-block; margin: 0 auto;}
     .layout_content .layout_contentBlock_choice label                                      {margin-right: 0; margin-bottom: 10px;}
     .layout_content .layout_contentBlock_choice input[type="radio"]:checked + label:before {padding-left: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_left                        {float: none !important; width: 100% !important; padding: 0 0 30px 0 !important; margin: 0 auto 10px auto !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_left form                   {position: relative !important;}
-    .layout_content .layout_content_lower label                                            {float: none !important; width: auto !important; margin-left: 25px !important;}
-    .layout_content .layout_content_lower input                                            {width: 248px !important; margin: 10px 25px !important;}
+    .layout_content .layout_content_lower .layout_contentBlock_left                        {float: none; width: 100%; padding: 0 0 30px 0; margin: 0 auto 10px auto;}
+    .layout_content .layout_content_lower .layout_contentBlock_left form                   {position: relative;}
+    .layout_content .layout_content_lower label                                            {float: none; width: auto; margin-left: 25px;}
+    .layout_content .layout_content_lower input                                            {width: 248px; margin: 10px 25px;}
     .layout_content .layout_content_lower .gen_pass                                        {display: none;}
     .layout_content .layout_content_lower .note.pass                                       {display: none;}
-    .layout_content .layout_content_lower .show_pass                                       {background: transparent !important; position: absolute !important; bottom: 282px; left: 240px;}
-    .layout_content .layout_content_lower label[for="check"]                               {margin-left: 0 !important;}
-    .layout_content .layout_content_lower form .addition span                              {width: 210px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right                       {float: none !important; margin: 0 auto !important; width: 240px;}
+    .layout_content .layout_content_lower .show_pass                                       {background: transparent; position: absolute; bottom: 282px; left: 240px;}
+    .layout_content .layout_content_lower label[for="check"]                               {margin-left: 0;}
+    .layout_content .layout_content_lower form .addition span                              {width: 210px;}
+    .layout_content .layout_content_lower .layout_contentBlock_right                       {float: none; margin: 0 auto; width: 240px;}
     .layout_content .layout_content_lower .layout_contentBlock_right.after a               {width: 242px;}
     .layout_content .layout_content_lower .attention                                       {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
     .layout_content .layout_content_lower .attention span                                  {margin: 22px auto 10px auto;}
     .layout_content .layout_content_lower .attention .password                             {margin: 0 0 22px 0; width: 100%; text-align: center;}
 
     .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left table.desktop     {display: none;}
-    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left                   {padding: 0 0 15px 0 !important;}
+    .layout_content_container1.opened .layout_content_lower .layout_contentBlock_left                   {padding: 0 0 15px 0;}
     .layout_content_container1.opened .layout_content_upper                                             {position: relative;}
     .layout_content_container1.opened .layout_content_upper h2                                          {margin: 30px 25px 15px 77px;}
     .layout_content_container1.opened .layout_content_upper img                                         {position: absolute; top: 40px; left: 25px;}
@@ -183,7 +183,7 @@
     .layout_content .layout_content_container1.fillup .layout_content_upper h2                        {margin-bottom: 0;}
     .layout_content .layout_content_container1.fillup .layout_contentBlock_right                      {padding: 0; width: 100%;}
     .layout_content .layout_content_container1.fillup input                                           {float: none;}
-    .layout_content .layout_content_container1.fillup .layout_content_lower .layout_contentBlock_left {padding: 0 !important; height: 54px; width: 266px !important; margin: 10px auto 82px auto !important; line-height: 54px;}
+    .layout_content .layout_content_container1.fillup .layout_content_lower .layout_contentBlock_left {padding: 0; height: 54px; width: 266px; margin: 10px auto 82px auto; line-height: 54px;}
     .layout_content .layout_content_container1.fillup .payment.desktop                                {display: none;}
     .layout_content .layout_content_container1.fillup .payment.tablet                                 {display: block; text-align: center;}
     .layout_content .layout_content_container1.fillup .payment.tablet .title                          {display: none;}
@@ -195,38 +195,38 @@
     .layout_content .layout_content_container1.fillup .payment.tablet .dropdown                       {float: right; margin: 25px;}
 
     .layout_content .layout_content_container1.fillup form.mobile              {display: inline-block; height: 740px; padding-top: 10px;}
-    .layout_content .layout_content_container1.fillup form.mobile label        {width: 80% !important; display: inline-block; margin: 15px auto 0 auto;}
-    .layout_content .layout_content_container1.fillup form.mobile input.number {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.bonus  {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.sum    {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile input.result {width: 115px !important; float: left;}
-    .layout_content .layout_content_container1.fillup form.mobile select       {width: 115px !important; float: left; margin: 10px 0;}
+    .layout_content .layout_content_container1.fillup form.mobile label        {width: 80%; display: inline-block; margin: 15px auto 0 auto;}
+    .layout_content .layout_content_container1.fillup form.mobile input.number {width: 115px; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.bonus  {width: 115px; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.sum    {width: 115px; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile input.result {width: 115px; float: left;}
+    .layout_content .layout_content_container1.fillup form.mobile select       {width: 115px; float: left; margin: 10px 0;}
     .layout_content .layout_content_container1.fillup form.mobile .note        {width: 260px; margin-left: 25px; margin-bottom: 10px; display: inline-block;}
     .layout_content .layout_content_container1.fillup form.mobile .note.done   {width: 260px; margin-left: 25px; margin-bottom: 0; display: inline-block; float: none;}
-    .layout_content .layout_content_container1.fillup form.mobile a.note       {width: 115px !important; float: left; margin-left: 0; line-height: 60px; margin-bottom: 0;}
+    .layout_content .layout_content_container1.fillup form.mobile a.note       {width: 115px; float: left; margin-left: 0; line-height: 60px; margin-bottom: 0;}
     .layout_content .layout_content_container1.fillup form.mobile .blue        {margin: 30px auto 0 auto;}
 
     /*Withdraw*/
     .layout_content .layout_content_container1.withdraw form.mobile                  {height: auto; display: block; position: relative; background: #ffffff;}
     .layout_content .layout_content_container1.withdraw form.mobile img              {top: 25px; left: 50%; margin-left: -118px;}
-    .layout_content .layout_content_container1.withdraw form.mobile input.number     {width: 248px !important;}
-    .layout_content .layout_content_container1.withdraw form.mobile input.result     {width: 248px !important;}
+    .layout_content .layout_content_container1.withdraw form.mobile input.number     {width: 248px;}
+    .layout_content .layout_content_container1.withdraw form.mobile input.result     {width: 248px;}
     .layout_content .layout_content_container1.withdraw form.mobile .addition        {margin-top: 20px; float: none; margin-left: 25px; display: inline-block; text-align: left;}
     .layout_content .layout_content_container1.withdraw form.mobile .data_card       {margin-bottom: 0; height: 550px;}
     .layout_content .layout_content_container1.withdraw form.mobile .side            {width: 100%; padding: 60px 0 25px 0; height: 470px; border-radius: 0;}
     .layout_content .layout_content_container1.withdraw .data_card .selects          {margin-left: 25px;}
-    .layout_content .layout_content_container1.withdraw .data_card .selects label    {margin-left: 0 !important;}
+    .layout_content .layout_content_container1.withdraw .data_card .selects label    {margin-left: 0;}
     .layout_content .layout_content_container1.withdraw .data_card .selects select   {font-size: 118%;}
     .layout_content .layout_content_container1.withdraw .data_card .cvv_number       {float: none; width: auto; display: inline-block;}
-    .layout_content .layout_content_container1.withdraw .data_card .cvv_number input {width: 75px !important; float: left;}
+    .layout_content .layout_content_container1.withdraw .data_card .cvv_number input {width: 75px; float: left;}
     .layout_content .layout_content_container1.withdraw .data_card .cvv_number .note {width: 120px; float: left; margin-top: 10px;}
     .layout_content .layout_content_container1.withdraw form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
 
     /*Calculator*/
-    .layout_content .layout_content_container1.calc .layout_content_lower label {color: #181818; font-size: 100%; margin: 0 auto 0 0 !important; width: 100%; display: block; line-height: 20px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500;}
-    .layout_content .layout_content_container1.calc .layout_content_lower .result {float: left !important; text-align: left; width: 50% !important; line-height: 30px;}
+    .layout_content .layout_content_container1.calc .layout_content_lower label {color: #181818; font-size: 100%; margin: 0 auto 0 0; width: 100%; display: block; line-height: 20px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500;}
+    .layout_content .layout_content_container1.calc .layout_content_lower .result {float: left; text-align: left; width: 50%; line-height: 30px;}
     .layout_content .layout_content_container1.calc .layout_content_lower span.result {text-align: right; font-size: 160%;}
-    .layout_content .layout_content_container1.calc .layout_content_lower input {width: 228px !important; margin: 10px auto 30px auto !important;}
+    .layout_content .layout_content_container1.calc .layout_content_lower input {width: 228px; margin: 10px auto 30px auto;}
     .layout_content .layout_content_container1.calc .layout_content_lower select {width: 250px; margin: 10px auto 30px auto;}
     .layout_content .layout_content_container1.calc .layout_content_lower .blue {width: 250px; margin: 30px auto;}
     .layout_content .layout_content_container1.calc .layout_contentBlock_right .addition {width: 100%; padding: 0; font-size: 70%;}
@@ -251,8 +251,8 @@
     .layout_content_container1.feed .wrapper                  {background: #ffffff; height: auto;}
     .layout_content_container1.feed .form                     {padding: 25px 0; width: 100%;}
     .layout_content_container1.feed .form label               {float: none; width: 260px; margin-left: 25px; display: block;}
-    .layout_content_container1.feed .form input               {float: none; width: 246px !important; margin-left: 25px; display: block;}
-    .layout_content_container1.feed .form textarea            {float: none; width: 246px !important; margin-left: 25px;}
+    .layout_content_container1.feed .form input               {float: none; width: 246px; margin-left: 25px; display: block;}
+    .layout_content_container1.feed .form textarea            {float: none; width: 246px; margin-left: 25px;}
     .layout_content_container1.feed .form label[for="capcha"] {display: none;}
     .layout_content_container1.feed .form input#capcha        {display: none;}
     .layout_content_container1.feed .form img                 {display: none;}
@@ -263,15 +263,15 @@
     .layout_content_container1.faq .question:last-child {margin-bottom: 20px;}
 
     /*Konkurs*/
-    .layout_content_container1.konkurs h2                                      {margin-right: 0 !important;}
+    .layout_content_container1.konkurs h2                                      {margin-right: 0;}
     .layout_content_container1.konkurs .sections .get_pris_link                {display: none;}
     .layout_content_container1.konkurs .sections a                             {margin-right: 25px; margin-top: 30px; line-height: 33px; margin-left: 0;}
     .layout_content_container1.konkurs .sections a img                         {float: left;}
-    .layout_content_container1.konkurs .banner                                 {width: 100%; background-size: cover !important;}
+    .layout_content_container1.konkurs .banner                                 {width: 100%; background-size: cover;}
     .layout_content_container1.konkurs .banner a                               {width: 90%; padding: 0; margin-left: 10%;}
     .layout_content_container1.konkurs p                                       {font-size: 118%;}
     .layout_content_container1.konkurs .banner.first                           {background: url("../images/konkursi/Banner1_mobile.png") center no-repeat;}
-    .layout_content_container1.konkurs .banner  h3                             {font-size: 200% !important;}
+    .layout_content_container1.konkurs .banner  h3                             {font-size: 200%;}
     .layout_content_container1.konkurs .banner.second                          {background: url("../images/konkursi/Banner2_mobile.png") center no-repeat;}
     .layout_content_container1.konkurs .banner.third                           {background: url("../images/konkursi/Banner3_mobile.png") center no-repeat;}
     .layout_content_container1.konkurs .floats p                               {margin-right: 20px;}
@@ -284,8 +284,8 @@
     .layout_content_container2.konkurs .form                                   {width: 100%;}
     .layout_content_container2.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
     .layout_content_container2.konkurs label                                   {width: 260px; float: none; margin-left: 25px; display: block;}
-    .layout_content_container2.konkurs input                                   {width: 246px !important; margin-left: 25px; display: block;}
-    .layout_content_container2.konkurs input#password                          {width: 180px !important;}
+    .layout_content_container2.konkurs input                                   {width: 246px; margin-left: 25px; display: block;}
+    .layout_content_container2.konkurs input#password                          {width: 180px;}
     .layout_content_container2.konkurs .note                                   {display: none;}
     .layout_content_container2.konkurs .gen_pass                               {display: none;}
     .layout_content_container2.konkurs .form h4                                {width: auto; margin-left: 25px; font-size: 155%; font-weight: 400;}
@@ -405,7 +405,7 @@
     .layout_content_container1.dir_invest .layout_contentBlock h3          {margin: 0 0 0 25px;}
     .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
     .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block; width: 100%;}
-    .layout_content_container1.dir_invest .layout_contentBlock_left        {padding-bottom: 0 !important;}
+    .layout_content_container1.dir_invest .layout_contentBlock_left        {padding-bottom: 0;}
     .layout_content_container1.dir_invest .layout_contentBlock_left img    {width: 100%;}
     .layout_content_container1.dir_invest .layout_contentBlock_right img   {width: 100%; margin: 0 auto 20px auto;}
     .layout_content_container1.dir_invest .layout_contentBlock_right       {width: 100%; padding: 0;}
@@ -462,7 +462,7 @@
 
     /*Invest open*/
     .layout_content_container1.open_invest                                                 {position: relative;}
-    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left {margin-top: 140px !important;}
+    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left {margin-top: 140px;}
     .layout_content_container1.open_invest .layout_content_upper h2                        {line-height: 35px;}
     .layout_content_container1.open_invest .layout_content_lower .checkbox                 {margin-left: 25px; text-align: left; margin-right: 20px; padding-top: 20px; padding-bottom: 20px;}
     .layout_content_container1.open_invest .layout_content_lower label[for="check"]        {line-height: 30px;}
@@ -475,14 +475,14 @@
     .layout_content .layout_content_lower .layout_contentBlock_right .docs ul              {padding-bottom: 30px; padding-left: 25px;}
 
     .layout_content_container1.open_invest .layout_content_upper .ok                                                             {display: none;}
-    .layout_content_container1.open_invest.ok .layout_content_lower .layout_contentBlock_left             {margin-top: 0 !important;}
+    .layout_content_container1.open_invest.ok .layout_content_lower .layout_contentBlock_left             {margin-top: 0;}
     .layout_content_container1.open_invest .layout_contentBlock_right .download.opened                    {display: none;}
     .layout_content_container1.open_invest .layout_content_lower .notice                                  {text-align: center; font-size: 118%; display: inline-block;}
     .layout_content_container1.open_invest .layout_content_lower .notice img                              {float: none; margin: 20px auto; display: block;}
     .layout_content_container1.open_invest .layout_content_lower .notice span                             {padding: 0 20px;}
     .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left .profile_info  {min-width: 300px; width: 100%}
     .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left table          {width: 80%; margin: 0 10%;}
-    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left table td       {border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif !important; font-weight: 400 !important;}
+    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left table td       {border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
     .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left table td .bold {font-family: Roboto-Med, Arial, sans-serif; font-weight: 400;}
     .layout_content_container1.open_invest .layout_content_lower .more                                    {width: 100%; padding: 10px 0;}
     .layout_content_container1.open_invest .layout_content_lower .more span                               {width: 180px; padding-left: 25px; display: block;}
