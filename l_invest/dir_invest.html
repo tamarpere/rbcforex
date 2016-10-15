@@ -89,21 +89,22 @@
         </div>
     </div>
 </div>
-<header class="layout_header desktop">
+<header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
             <div class="layout_headerBlock layout_headerBlock_left">
-                <a href="../l_trader/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
                 <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="desktop" href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="mobile" href="../l_trader/withdraw.html">Вывести</a>
+                <a class="terminal" href>
+                    <img src="../images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
             </div>
-            <a href class="terminal">
-                <img src="../images/main/Terminal.svg" width="14" height="13">
-                Web-терминал
-            </a>
             <div class="layout_headerBlock layout_headerBlock_right">
                 <a href>
                     <img src="../images/main/Comment.svg" width="15" height="15">
@@ -121,7 +122,6 @@
                     <ul>
                         <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
                         <li class="active"><a class="active" href="rating.html">Инвестиции</a>
-
                             <div class="triangle invest"></div>
                         </li>
                         <li><a href="../l_company/about.html">Компания</a></li>
@@ -133,89 +133,9 @@
             <div class="layout_headerBlock layout_headerBlock_account">
                 <a href>
                     <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет трейдера
+                    <span class="desktop">Кабинет трейдера</span>
+                    <span class="tablet">Кабинет</span>
                 </a>
-            </div>
-        </div>
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="rating.html">Рейтинг управляющих</a></li>
-                    <li><a href="tis.html">TIS</a></li>
-                    <li><a class="active" href="dir_invest.html">Прямые инвестиции</a></li>
-                    <li><a href="copy_deal.html">Копирование сделок</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="be_trader.html">Стать управляющим</a></li>
-                    <li><a href="invest_programm.html">Инвестиционная программа</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header tablet">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
-                <a href>
-                    <img src="../images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
-            </div>
-        </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_nav">
-                <nav class="main_menu">
-                    <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li class="active"><a class="active" href="rating.html">Инвестиции</a>
-                            <div class="triangle invest"></div>
-                        </li>
-                        <li><a href="../l_company/about.html">Компания</a></li>
-                        <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
-                    <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="rating.html">Рейтинг управляющих</a></li>
-                    <li><a href="tis.html">TIS</a></li>
-                    <li><a class="active" href="dir_invest.html">Прямые инвестиции</a></li>
-                    <li><a href="copy_deal.html">Копирование сделок</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="be_trader.html">Стать управляющим</a></li>
-                    <li><a href="invest_programm.html">Инвестиционная программа</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header mobile">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
                 <a>
@@ -226,16 +146,21 @@
                 </a>
             </div>
         </div>
+    </div>
 
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить</a>
-                <a href="../l_trader/withdraw.html">Вывести</a>
-            </div>
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu trader">
+                <ul>
+                    <li><a href="rating.html">Рейтинг трейдеров</a></li>
+                    <li><a href="tis.html">TIS</a></li>
+                    <li><a class="active" href="dir_invest.html">Прямые инвестиции</a></li>
+                    <li><a href="copy_deal.html">Копирование сделок</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="be_trader.html">Стать управляющим</a></li>
+                    <li><a href="invest_programm.html">Инвестиционная программа</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>

@@ -1,130 +1,138 @@
-.layout_header .layout_header_container .triangle.partner {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 28px;}
+.layout_header .layout_header_container .triangle.partner {left: 28px;}
 
 /*Partner programm*/
-.layout_content1.partner                                                           {background: url("../images/partner/Bg_partner.png") center; background-size: cover; text-align: center; width: 100%; height: 580px; display: inline-block; max-width: none; }
-.layout_content1.partner .layout_content_container1                                {margin: 45px auto; width: 1080px; height: auto; text-align: center;}
-.layout_content1.partner .layout_content_container1 h2                             {width: 100%; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
-.layout_content1.partner .layout_content_container1 .layout_contentBlock_items     {display: inline-block; margin-bottom: 50px;}
-.layout_content1.partner .layout_content_container1 .item                          {float: left; width: 33%;}
-.layout_content1.partner .layout_content_container1 .item .image_wrap              {height: 160px;}
-.layout_content1.partner .layout_content_container1 .item img                      {display: block; margin: 20px auto;}
-.layout_content1.partner .layout_content_container1 h3                             {line-height: 30px; width: 100%; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 165%; text-decoration: underline; color: #abdfff; margin-bottom: 15px; margin-top: 0;}
-.layout_content1.partner .layout_content_container1 p                              {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; padding: 0 50px; text-align: center; color: #ffffff; line-height: 27px;}
-.layout_content1.partner .layout_content_container1 .link                          {clear: both; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
-.layout_content1.partner .layout_content_container1 .link img                      {vertical-align: top; margin: 0 10px;}
-.layout_contentBlock_article h3                                                    {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #0a79bf; text-decoration: underline; margin-bottom: 40px; margin-top: 50px;}
-.layout_contentBlock_article h4                                                    {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; color: #2a333c; line-height: 30px; margin-bottom: 20px;}
-.layout_contentBlock_article p                                                     {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #2a333c; line-height: 27px; margin-bottom: 60px;}
-.layout_content2.partner                                                           {max-width: none; background: #ffffff; height: 693px; margin: 0 auto;}
-.layout_content2.partner .layout_content_container2                                {position: relative; max-width: 1080px;}
-.layout_content2.partner .layout_content_container2 .layout_contentBlock           {padding: 0;}
-.layout_content2.partner .layout_content_container2 img                            {position: absolute; right: 0; top: -100px;}
-.layout_content2.partner .layout_content_container2 .first_text                    {width: 70%;}
-.layout_content2.partner .layout_content_container2 .text                          {width: 500px;}
-.layout_content2.partner .layout_content_container2 .text.left                     {float: left;}
-.layout_content2.partner .layout_content_container2 .text.right                    {float: right;}
-.layout_content3.partner                                                           {max-width: none; background: url("../images/partner/Banner1.png") center no-repeat; background-size: cover; height: 424px;}
-.layout_content3.partner .layout_content_container3                                {width: 1080px; margin: 0 auto;}
-.layout_content3.partner .layout_contentBlock_left                                 {float: left; width: 400px;}
-.layout_content3.partner .layout_contentBlock_left h3                              {margin: 50px 0; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; color: #303841; line-height: 37px;}
-.layout_content3.partner .layout_contentBlock_left .red                            {margin: 0 auto; width: 383px; font-size: 135%; height: 51px; border-radius: 28px; line-height: 45px;}
-.layout_content3.partner .layout_contentBlock_right                                {float: right; width: 500px;}
-.layout_content3.partner .layout_contentBlock_right p                              {margin: 50px 0; color: #303841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
-.layout_content4.partner                                                           {max-width: none; background: #ffffff; height: 1190px; margin: 0 auto; border-bottom: 4px solid #eef1f2;}
-.layout_content4.partner .layout_content_container4                                {position: relative; max-width: 1080px; margin: 0 auto;}
-.layout_content4.partner .layout_content_container4 .layout_contentBlock           {padding: 0;}
-.layout_content4.partner .layout_content_container4 .layout_contentBlock_image img {position: absolute; right: 0; top: 80px;}
-.layout_content4.partner .layout_content_container4 h3                             {width: 50%;}
-.layout_content4.partner .layout_content_container4 .first_text                    {width: 50%; margin-bottom: 0;}
-.layout_content4.partner .layout_content_container4 img                            {display: block;}
-.layout_content4.partner .layout_content_container4 .text                          {width: 500px;}
-.layout_content4.partner .layout_content_container4 .text.left                     {float: left;}
-.layout_content4.partner .layout_content_container4 .text.right                    {float: right;}
-.layout_content4.partner .layout_content_container4 .red                           {margin: 0 auto 0 0; width: 363px; font-size: 135%; height: 51px; border-radius: 28px; line-height: 45px;}
-.layout_content5.partner                                                           {max-width: none; background: #ffffff; height: 820px; margin: 0 auto; border-bottom: 4px solid #eef1f2;}
-.layout_content5.partner .layout_content_container5                                {position: relative; max-width: 1080px; margin: 0 auto;}
-.layout_content5.partner .layout_content_container5 .layout_contentBlock           {padding: 0;}
-.layout_content5.partner .layout_content_container5 .layout_contentBlock_image img {position: absolute; right: 30px; top: -30px;}
-.layout_content5.partner .layout_content_container5 .first_text                    {width: 50%; margin-bottom: 90px;}
-.layout_content5.partner .layout_content_container5 .text                          {width: 500px;}
-.layout_content5.partner .layout_content_container5 .text.left                     {float: left;}
-.layout_content5.partner .layout_content_container5 .text.right                    {float: right;}
-.layout_content6.partner                                                           {max-width: none; background: url("../images/partner/Banner2.png") center no-repeat; background-size: cover; height: 417px; text-align: center;}
-.layout_content6.partner .layout_content_container6                                {position: relative; width: 1080px; margin: 0 auto;}
-.layout_content6.partner .layout_content_container6 h3                             {margin: 50px 0 30px 0; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; color: #2a333c; line-height: 30px;}
-.layout_content6.partner .layout_content_container6 p                              {margin: 0 0 35px 0; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
-.layout_content6.partner .layout_content_container6 .red                           {margin: 0 auto; width: 333px; font-size: 135%; height: 51px; border-radius: 28px; line-height: 45px;}
-.layout_content7.partner                                                           {max-width: none; background: #ffffff; height: 720px; margin: 0 auto;}
-.layout_content7.partner .layout_content_container7                                {position: relative; max-width: 1080px; margin: 0 auto;}
-.layout_content7.partner .layout_contentBlock_left                                 {float: left; width: 295px; margin-top: 50px;}
-.layout_content7.partner .layout_contentBlock_left h4                              {color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 170%; line-height: 27px;}
-.layout_content7.partner .layout_contentBlock_left p                               {color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
-.layout_content7.partner .layout_contentBlock_right                                {float: right; width: 700px; margin-top: 50px;}
-.layout_content7.partner .layout_contentBlock_right h3                             {color: #2a333c; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%;}
-.layout_content7.partner .layout_contentBlock_right td                             {padding: 0 20px 40px 0; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px;}
-.layout_content7.partner .layout_contentBlock_right .image_wrap                    {height: 120px;}
-.layout_content7.partner .layout_contentBlock_right img                            {display: block;}
-.layout_content8.partner                                                           {max-width: none; background: #101d27; height: 466px; margin: 0 auto;}
-.layout_content8.partner .layout_content_container8                                {position: relative; max-width: 1080px; margin: 0 auto;}
-.layout_content8.partner .layout_contentBlock_image                                {position: absolute; left: -150px; top: 38px;}
-.layout_content8.partner .layout_contentBlock_text                                 {float: right; width: 740px;}
-.layout_content8.partner .layout_contentBlock_text h4                              {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-top: 60px;}
-.layout_content8.partner .layout_contentBlock_text p                               {color: #ffffff; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px; margin-bottom: 20px;}
-.layout_content9.partner                                                           {max-width: none; background: #ff4830; height: 315px; margin: 0 auto; text-align: center;}
-.layout_content9.partner .layout_content_container9                                {position: relative; max-width: 1080px; margin: 0 auto; color: #ffffff; display: inline-block;}
-.layout_content9.partner .layout_content_container9 img                            {display: block; margin: 20px auto;}
-.layout_content9.partner .layout_content_container9 h3                             {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin-top: 60px;}
-.layout_content9.partner .layout_content_container9 a                              {color: #ffffff; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 10px;}
-.layout_content9.partner .layout_content_container9 .regime                        {color: #ffffff; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.layout_content1.partner                                {background: url("../images/partner/Bg_partner.png") center; background-size: cover; height: 580px;}
+.layout_content1.partner h2                             {color: #ffffff; text-align: center;}
+.layout_content1.partner .layout_contentBlock_items     {display: inline-block; margin-bottom: 50px; padding: 0;}
+.layout_content1.partner .item                          {width: 33%;}
+.layout_content1.partner .item .image_wrap              {height: 160px;}
+.layout_content1.partner .item img                      {display: block; margin: 20px auto;}
+.layout_content1.partner .item a                             {display: block;}
+.layout_content1.partner .item h3                             {font-size: 165%; text-align: center; text-decoration: underline; color: #abdfff; margin-bottom: 15px; margin-top: 0;}
+.layout_content1.partner .item p                              {padding: 0 50px; text-align: center; color: #ffffff;}
+.layout_content1.partner .layout_contentBlock_link           {padding: 0; text-align: center; line-height: 30px; color: #ffffff; clear: both; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
+.layout_content1.partner .layout_contentBlock_link img       {vertical-align: top; margin: 0 10px;}
+.layout_content2.partner                                {background: #ffffff; height: 693px;}
+.layout_content2.partner .layout_contentBlock_article h2  {color: #0a79bf; text-decoration: underline;}
+.layout_content2.partner .layout_contentBlock_article h5  {color: #2a333c; margin-bottom: 20px;}
+.layout_content2.partner .layout_contentBlock_article p   {color: #2a333c; margin-bottom: 60px;}
+.layout_content2.partner .layout_contentBlock           {padding: 0; display: inline-block;}
+.layout_content2.partner .layout_contentBlock_image                            {position: absolute; right: 0; top: -120px;}
+.layout_content2.partner .first_text                    {width: 60%;}
+.layout_content2.partner .text                          {width: 500px;}
+.layout_content3.partner                                 {background: url("../images/partner/Banner1.png") center no-repeat; background-size: cover; height: 424px;}
+.layout_content3.partner .layout_contentBlock_left       {width: 400px;}
+.layout_content3.partner .layout_contentBlock_left h3    {color: #303841; margin-top: 50px;}
+.layout_content3.partner .layout_contentBlock_left .red  {margin: 0 auto;}
+.layout_content3.partner .layout_contentBlock_right      {width: 500px;}
+.layout_content3.partner .layout_contentBlock_right p    {margin: 50px 0; color: #303841;}
+.layout_content4.partner                                 {background: #ffffff; height: 1190px; border-bottom: 4px solid #eef1f2;}
+.layout_content4.partner .layout_contentBlock           {padding: 0;}
+.layout_content4.partner .layout_contentBlock_image    {position: absolute; right: 0; top: 80px;}
+.layout_content4.partner h2                             {width: 50%; color: #0a79bf; text-decoration: underline;}
+.layout_content4.partner .first_text                    {width: 50%; margin-bottom: 0;}
+.layout_content4.partner img                            {display: block;}
+.layout_content4.partner .text                          {width: 500px;}
+.layout_content4.partner .text.left                     {float: left;}
+.layout_content4.partner .text.right                    {float: right;}
+.layout_content4.partner .red                           {margin: 30px auto 0 0;}
+.layout_content5.partner                                {background: #ffffff; height: 820px;}
+.layout_content5.partner .layout_contentBlock           {padding: 0;}
+.layout_content5.partner h2                             {color: #0a79bf; text-decoration: underline;}
+.layout_content5.partner .layout_contentBlock_image     {position: absolute; right: 30px; top: -30px;}
+.layout_content5.partner .first_text                    {width: 50%; margin-bottom: 90px;}
+.layout_content5.partner .text                          {width: 500px;}
+.layout_content6.partner                                {height: 417px;}
+.layout_content6.partner h3                             {margin: 50px 0 30px 0; color: #2a333c; text-align: center;}
+.layout_content6.partner p                              {margin: 0 0 35px 0; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 27px;}
+.layout_content6.partner .red                           {margin: 0 auto;}
+.layout_content6.partner .layout_contentBlock_image     {margin: 0 auto;}
+.layout_content7.partner                                         {background: #ffffff; height: 720px;}
+.layout_content7.partner .layout_contentBlock_left                {width: 295px; margin-top: 50px; padding: 0;}
+.layout_content7.partner .layout_contentBlock_left h4             {color: #2a333c;}
+.layout_content7.partner .layout_contentBlock_left p              {color: #2a333c;}
+.layout_content7.partner .layout_contentBlock_right               {width: 700px; margin-top: 50px; padding: 0;}
+.layout_content7.partner .layout_contentBlock_right h3            {color: #2a333c;}
+.layout_content7.partner .layout_contentBlock_right .item             {width: 33%; height: 270px;}
+.layout_content7.partner .layout_contentBlock_right .item p            {color: #2a333c; padding-right: 20px;}
+.layout_content7.partner .layout_contentBlock_right .image_wrap   {height: 120px;}
+.layout_content7.partner .layout_contentBlock_right img           {display: block;}
+.layout_content8.partner                                          {background: #101d27; height: 466px;}
+.layout_content8.partner .layout_contentBlock_image               {position: absolute; left: -150px; top: 38px;}
+.layout_content8.partner .layout_contentBlock_text                {float: right; width: 740px; padding: 0;}
+.layout_content8.partner .layout_contentBlock_text h3             {color: #ffffff; margin-top: 60px;}
+.layout_content8.partner .layout_contentBlock_text p              {color: #ffffff; margin-bottom: 20px;}
+.layout_content9.partner                                          {background: #ff4830; height: 315px;}
+.layout_content9.partner img                            {display: block; margin: 20px auto;}
+.layout_content9.partner h3                             {color: #ffffff; margin-top: 60px; text-align: center;}
+.layout_content9.partner a                              {color: #ffffff; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 10px;}
+.layout_content9.partner .regime                        {color: #ffffff; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
 
 /*Individual*/
-.layout_content_container1.individual h2       {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}
-.layout_content_container1.individual  p               {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 135%; line-height: 25px;}
-.layout_content_container1.individual .layout_contentBlock_upper .text               {width: 480px;}
-.layout_content_container1.individual  h3               {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c; font-size: 170%; line-height: 25px;}
-.layout_content_container1.individual .layout_contentBlock_upper .text .red               {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ff321d; font-size: 118%; line-height: 25px;}
-.layout_content_container1.individual .layout_contentBlock_upper .text .large               {font-size: 450%; float: left; height: 50px; display: inline-block;}
-.layout_content_container1.individual .layout_contentBlock_upper .text.left               {float: left;}
-.layout_content_container1.individual .layout_contentBlock_upper .text.right        {float: right;}
-
-.layout_content_container1.individual.lower .text {float: left; width: 50%;}
-.layout_content_container1.individual.lower img {float: right;}
-.layout_content_container1.individual.lower .info_block {border: 5px solid #ffffff; margin: 50px auto; padding: 0 30px;}
-.layout_content_container1.individual.lower .image_wrap {height: 150px; display: inline-block;}
-.layout_content_container1.individual.lower .text_wrap {float: right; width: 80%;}
-.layout_content_container1.individual.lower img {float: left; margin-right: 25px;}
+.layout_content_container.individual h2       {color: #181818;}
+.layout_content_container.individual h5       {margin-top: 48px;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text       {padding: 0;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text               {width: 480px;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text h5               {color: #2a333c;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .red               {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ff321d; font-size: 118%; line-height: 25px;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .large               {font-size: 450%; float: left; height: 50px; display: inline-block;}
+.layout_content_container.individual .layout_content_lower .layout_contentBlock_text {float: left; width: 50%;}
+.layout_content_container.individual .layout_content_lower .layout_contentBlock_image {float: right;}
+.layout_content_container.individual .layout_content_lower .layout_contentBlock_info {border: 5px solid #ffffff; margin: 50px auto; display: inline-block; padding: 0 30px;}
+.layout_content_container.individual .layout_content_lower .image_wrap {margin: 40px 25px 40px 10px; display: inline-block; float: left;}
+.layout_content_container.individual .layout_content_lower .text_wrap {float: left; width: 80%;}
+.layout_content_container.individual .layout_content_lower .layout_contentBlock_info h5 {margin: 30px 0 10px 0;}
 
 /*Regional*/
-.layout_content.regional {width: 100%; display: inline-block; background: #ffffff; height: auto;}
-.layout_content.regional .layout_content_container {width: 1080px; margin: 0 auto 50px auto;}
-.layout_content.regional .layout_content_container h3 {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; color: #2a333c; margin: 50px 0 30px 0;}
-.layout_content.regional .layout_content_container p {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #2a333c; margin: 0 0 15px 0;}
-.layout_content.regional .layout_content_container span {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #2a333c; margin-top: 30px; display: inline-block;}
+.layout_content.regional {background: #ffffff;}
+.layout_content.regional .layout_content_container {text-align: left;}
+.layout_content.regional .layout_content_container h3 {color: #2a333c; margin: 50px 0 30px 0;}
+.layout_content.regional .layout_content_container p {color: #2a333c; margin: 0 0 15px 0;}
 .layout_content.regional .layout_content_container p img {vertical-align: middle; margin-right: 10px;}
 
 /*Referal*/
-.layout_content1.referal                                    {background: url("../images/partner_referal/Bg_ref1.png") center; background-size: cover; text-align: center; width: 100%; height: 580px; display: inline-block; max-width: none; }
-.layout_content1.referal .layout_content_container1         {margin: 45px auto; width: 1080px; height: auto; text-align: center;}
-.layout_content1.referal .layout_content_container1 h2      {width: 100%; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
-.layout_content1.referal .layout_contentBlock_items .item      {width: 33%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #ffffff; float: left; margin: 0 0 30px 0; text-align: left;}
+.layout_content1.referal                                    {background: url("../images/partner_referal/Bg_ref1.png") center; background-size: cover; height: 670px;}
+.layout_content1.referal h2      {color: #ffffff; text-align: center;}
+.layout_content1.referal .layout_contentBlock_items .item      {width: 33%; height: 140px; color: #ffffff; text-align: left; margin-bottom: 30px;}
+.layout_content1.referal .layout_contentBlock_items .item p     {padding-right: 30px;}
 .layout_content1.referal .layout_contentBlock_items .item h4     {text-transform: uppercase; color: #9ce138; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 180%; margin-bottom: 20px;}
-.layout_content1.referal .layout_content_container1 .link       {margin-top: 45px; display: inline-block; clear: both; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
-.layout_content1.referal .layout_content_container1 .link img   {vertical-align: top; margin: 0 10px;}
+.layout_content1.referal .layout_contentBlock_link       {padding: 0; color: #ffffff; margin-top: 45px; display: inline-block; clear: both; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
+.layout_content1.referal .layout_contentBlock_link img   {vertical-align: top; margin: 0 10px;}
 
-.layout_content2.referal                                    {background: url("../images/partner_referal/Bg_ref2.png") center; background-size: cover; text-align: center; width: 100%; height: 580px; display: inline-block; max-width: none; }
-.layout_content2.referal .layout_content_container2         {margin: 45px auto; width: 1080px; height: auto; text-align: center;}
-.layout_content2.referal .layout_content_container2 h3      {width: 100%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
+.layout_content2.referal                                    {background: url("../images/partner_referal/Bg_ref2.png") center; background-size: cover; height: 672px;}
+.layout_content2.referal .layout_content_container h2      {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; color: #ffffff; text-align: center;}
+.layout_content2.referal .layout_content_container h5      {color: #ffffff; text-align: center; margin-bottom: 0;}
+.layout_content2.referal .layout_contentBlock_cols       {padding: 30px 0; display: inline-block;}
+.layout_content2.referal .layout_contentBlock_cols .col      {color: #ffffff; text-align: left; margin-right: 30px;}
+.layout_content2.referal .layout_contentBlock_cols .col.short      {width: 140px;}
+.layout_content2.referal .layout_contentBlock_cols .col.long      {width: 210px;}
+.layout_content2.referal .layout_contentBlock_cols .number      {font-size: 550%; margin-bottom: 15px;}
+.layout_content2.referal .layout_contentBlock_button      {position: absolute; bottom: 60px; left: 0;}
 
-.layout_content3.referal                                    {background: url("../images/partner_referal/Bg_ref3.png") center; background-size: cover; text-align: center; width: 100%; height: 580px; display: inline-block; max-width: none; }
-.layout_content3.referal .layout_content_container3         {margin: 45px auto; width: 1080px; height: auto; text-align: center;}
-.layout_content3.referal .layout_content_container3 h3      {width: 100%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 300%; color: #ffffff; margin-bottom: 45px;}
+.layout_content3.referal                                    {color: #ffffff; background: url("../images/partner_referal/Bg_ref3.png") center; background-size: cover; text-align: center; width: 100%; height: 672px;}
+.layout_content3.referal .layout_content_container h2      {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; color: #ffffff; text-align: center;}
+.layout_content3.referal .layout_contentBlock_left      {width: 65%; padding: 0;}
+.layout_content3.referal .layout_contentBlock_right      {width: 30%; padding: 0;}
+.layout_content3.referal .layout_contentBlock .title      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 160%; display: inline-block;}
+.layout_content3.referal .layout_contentBlock_left .title      {margin-top: 45px;}
+.layout_content3.referal .layout_contentBlock_right .title      {margin-bottom: 30px;}
+.layout_content3.referal .layout_contentBlock_left .example      {margin-top: 20px; display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 155%;}
+.layout_content3.referal .article.lower      {text-align: left; display: inline-block; margin-top: 50px;}
 
-.layout_content4.referal                                    {background: url("../images/partner_referal/Bg_ref4.png") right; background-size: cover; text-align: center; width: 100%; height: 580px; display: inline-block; max-width: none; }
-.layout_content4.referal .layout_content_container4         {margin: 45px auto; width: 1080px; height: auto; text-align: center;}
-.layout_content4.referal .layout_content_container4 h3      {width: 100%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 300%; color: #2a333c; margin-bottom: 45px;}
+.layout_content4.referal                                    {background: url("../images/partner_referal/Bg_ref4.png") right; background-size: cover; height: 529px;}
+.layout_content4.referal .layout_content_container h2      {font-family: GothamPro-Med, Arial, sans-serif; color: #2a333c;}
+.layout_content4.referal .layout_content_container .article      {padding: 0 110px;}
+.layout_content4.referal .layout_content_container h5      {margin: 50px 0; font-family: GothamPro-Bold, Arial, sans-serif;}
 
-
-
+/*Banners*/
+.layout_content.banners .layout_contentBlock_left {background: #ffffff; width: 425px;}
+.layout_content.banners .layout_contentBlock_left label {width: 100%;}
+.layout_content.banners .layout_contentBlock_left input {width: 400px;}
+.layout_content.banners .layout_contentBlock_left .decimal {background: url("../images/banner/Icon_decimal.png") center no-repeat; width: 100%; height: 28px; margin: 30px auto 0 auto;}
+.layout_content.banners .layout_contentBlock_left .decimal:before {float: left; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
+.layout_content.banners .layout_contentBlock_left .decimal:after {float: right; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
+.layout_content.banners .layout_contentBlock_right {background: transparent; width: 530px;}
+.layout_content.banners .point {display: inline-block; width: 32px; height: 32px; border-radius: 50%; background: #218ed2; color: #ffffff; font-size: 160%; text-align: center; line-height: 32px; float: left; margin-right: 10px;}
 
 
 

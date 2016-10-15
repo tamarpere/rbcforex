@@ -1,19 +1,25 @@
-@media screen and (min-device-width: 768px) and (max-device-width: 939px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1079px) {
 
     /*Index*
     **************************************************************/
     .mobile  {display: none;}
     .desktop {display: block;}
 
-    .layout_header.desktop                                       {display: none;}
-    .layout_header.tablet                                        {text-align: center; display: inline-block;}
-    .layout_header.tablet .layout_header_container               {max-width: 748px; display: inline-block; height: 90px; padding: 26px 0;}
-    .layout_header.tablet .layout_headerBlock_logo               {float: left;}
-    .layout_header.tablet .layout_headerBlock_menuTablet         {text-align: right;}
-    .layout_header.tablet .layout_headerBlock_menuTablet .left   {float: left; margin-left: 55px;}
-    .layout_header.tablet .layout_headerBlock_nav                {width: auto; margin: 0; float: left;}
-    .layout_header.tablet .layout_headerBlock_nav li:first-child {padding-left: 0;}
-    .layout_header .layout_headerBlock_nav li {padding: 0 20px;}
+    .layout_header                                       {text-align: center;}
+    .layout_header .layout_header_container               {width: 748px; display: inline-block; height: 90px; padding: 26px 0; margin: 0 auto;}
+    .layout_header .layout_headerBlock_right               {display: none;}
+    .layout_header .layout_header_content {display: inline-block; width: 80%; float: right;}
+    .layout_header .layout_headerBlock_left {width: auto; float: right;}
+    .layout_header .layout_headerBlock_nav {margin: 0; float: left;}
+    .layout_header .layout_headerBlock_nav li {padding-right: 27px;}
+    .layout_header .layout_headerBlock_nav li:first-child {padding-left: 0;}
+    .layout_header .layout_headerBlock_account .desktop {display: none;}
+    .layout_header .layout_headerBlock_account .tablet {display: inline-block;}
+    .layout_header .layout_headerBlock_account          {float: none; width: auto; text-align: right;}
+    .layout_header .layout_headerBlock_account img         {margin-left: 24px;}
+    .layout_header .layout_headerBlock_icons {display: none;}
+    .layout_header .layout_headerBlock_left a.desktop {display: inline-block;}
+    .layout_header .layout_headerBlock_left a.mobile {display: none;}
 
     .layout_footer                               {padding: 0;}
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
@@ -21,6 +27,10 @@
     .layout_footer .layout_footer_content2       {width: 100%; height: 77px; line-height: 77px; position: relative;}
     .layout_footer .layout_footerBlock_copyright {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
+
+    .layout_header .layout_header_container .triangle.company {top: 20px;}
+    .layout_header .layout_header_container .triangle.education {top: 20px;}
+    .layout_header .layout_header_container .triangle.partner {top: 20px;}
 
     .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
     .layout_content1 .layout_contentBlock_slide1          {width: 490px;}
@@ -298,303 +308,6 @@
     .layout_content_container1.open_invest .layout_contentBlock_right.after   {width: 100%; padding: 0;}
     .layout_content_container1.open_invest .layout_contentBlock_right.after .docs  {width: 100%; padding: 0;}
     .layout_content_container1.open_invest .layout_contentBlock_right .download {position: absolute; top: 0; left: 0; width: 687px; text-align: left;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after a {width: auto !important; height: auto; float: none;}
-    .layout_content .layout_content_lower .layout_contentBlock_right .docs .title {margin-left: 30px; padding-top: 30px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right .docs ul {margin-left: 30px; margin-bottom: 30px;}
-
-
-
-}
-
-@media screen and (min-device-width: 940px) and (max-device-width: 1079px) {
-
-    /*Index*
-   **************************************************************/
-    .mobile  {display: none;}
-    .desktop {display: block;}
-
-    .layout_header.desktop                                       {display: none;}
-    .layout_header.tablet                                        {text-align: center; display: inline-block;}
-    .layout_header.tablet .layout_header_container               {max-width: 920px; display: inline-block; height: 90px; padding: 26px 0;}
-    .layout_header.tablet .layout_headerBlock_logo               {float: left;}
-    .layout_header.tablet .layout_headerBlock_menuTablet         {text-align: right;}
-    .layout_header.tablet .layout_headerBlock_menuTablet .left   {float: left; margin-left: 55px;}
-    .layout_header.tablet .layout_headerBlock_nav                {width: auto; margin: 0; float: left;}
-    .layout_header.tablet .layout_headerBlock_nav li:first-child {padding-left: 0;}
-    .layout_header .layout_headerBlock_nav li                    {padding: 0 20px;}
-
-    .layout_footer                                     {padding: 0;}
-    .layout_footer .layout_footer_container            {width: 100%; max-width: 920px;}
-    .layout_footer .layout_footer_content              {display: none;}
-    .layout_footer .layout_footer_content2             {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
-    .layout_footer .layout_footerBlock_protect         {line-height: 16px; bottom: 15px;}
-    .layout_footer .layout_footerBlock_protect .mobile {display: none;}
-
-    .layout_content1 .layout_content_container1 {max-width: 920px;}
-
-    .layout_content2                                        {max-width: 806px;}
-    .layout_content2 .layout_contentBlock_block1 .col_left  {padding: 0 28px; width: 180px;}
-    .layout_content2 .layout_contentBlock_block1 .col_right {padding: 0 28px; width: 234px;}
-    .layout_content2 .layout_contentBlock_block2            {margin-right: 0; margin-bottom: 10px;}
-    .layout_content2 .layout_contentBlock_block4            {width: 735px;}
-
-    .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
-    .layout_content2 .layout_content_container3                     {margin-top: 0; display: inline-block;}
-    .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
-    .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; max-width: 806px; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
-    .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
-    .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 735px;}
-    .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
-    .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
-    .layout_content2 .layout_contentBlock_rating .addition span     {float: none; margin-bottom: 24px; display: inline-block;}
-    .layout_content2 .layout_contentBlock_rating .addition span img {display: none;}
-    .layout_content3 .layout_contentBlock_resume                    {max-width: 920px;}
-    .layout_content3 .layout_contentBlock_resume .left_col          {width: 288px; padding-right: 30px; float: left; text-align: left;}
-    .layout_content3 .layout_contentBlock_resume .left_col div      {margin-bottom: 43px;}
-    .layout_content3 .layout_contentBlock_resume .left_col .info    {width: 223px; margin-top: 10px;}
-
-    .layout_content2 .layout_content_container4         {margin-top: 0; width: 100%;}
-    .layout_content3 .layout_content_container5.desktop {display: none;}
-    .layout_content3 .layout_content_container5.tablet  {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
-
-    /*Trader menu*
-    **************************************************************/
-
-    /*Open account*/
-    .layout_header .layout_headerBlock_menu                   {max-width: 920px !important; text-align: left;}
-    .layout_header .layout_header_container .triangle.traider {top: 20px !important; left: 15px !important;}
-
-    .layout_content .layout_content_container1                                   {max-width: 920px !important; padding: 36px 0 0 0 !important; margin: 0 auto 0 25px;}
-    .layout_content .layout_content_lower .layout_contentBlock_left              {width: 900px !important; margin-right: 0;}
-    .layout_content .layout_content_lower .layout_contentBlock_right             {width: 900px !important; margin-top: 10px; float: none; display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right ul          {display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right ul li       {display: inline-block; margin-right: 20px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right li a:before {margin-right: 5px !important;}
-    .layout_content .layout_content_lower input                                  {width: 414px !important;}
-    .layout_content .layout_content_lower input#password                         {width: 187px !important;}
-    .layout_content .layout_content_lower input#repeat_pass                      {width: 240px !important;}
-    .layout_content .layout_content_lower .note                                  {width: 150px !important;}
-
-    .layout_content .layout_content_lower .attention                                     {width: 850px !important;}
-    .layout_content .layout_content_lower .more                                          {width: 850px !important;}
-    .layout_content .layout_content_lower .extra_info .form input                        {width: 205px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after a             {float: left; text-align: left !important; height: 73px; width: 303px !important; margin-bottom: 0 !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after               {width: 920px !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .download a   {margin-right: 20px;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after img           {float: left !important; margin: 0 20px 0 0 !important;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .link         {margin-top: 20px; display: inline-block;}
-    .layout_content .layout_content_lower .layout_contentBlock_right.after .fill_up span {display: block; margin-top: 20px;}
-
-    /*Demo*/
-    .layout_content .layout_content_container1.demo                       {width: 100%; max-width: none !important; margin-left: 0;}
-    .layout_content .layout_content_upper h2                              {margin-left: 25px;}
-    .layout_content .layout_content_middle.desktop                        {display: none;}
-    .layout_content .layout_content_middle.tablet                         {clear: both; display: inline-block;}
-    .layout_content .layout_content_middle.tablet .form                   {position: absolute; padding: 15px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
-    .layout_content .layout_content_middle.tablet .gen_pass               {bottom: 215px;}
-    .layout_content .layout_content_middle.tablet .learning               {background: #ffffff; float: left;}
-    .layout_content .layout_content_middle.tablet .learning h3            {margin: 40px 50px 30px 392px;}
-    .layout_content .layout_content_middle.tablet .learning p             {margin-left: 392px; margin-right: 30px;}
-    .layout_content .layout_content_middle.tablet .learning .first        {margin-left: 392px; margin-right: 30px;}
-    .layout_content .layout_content_middle.tablet .learning .second       {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .third        {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .fourth       {width: 80%; margin: 0 auto;}
-    .layout_content .layout_content_middle.tablet .learning .done h2      {width: 80%; margin: 0 auto; display: block;}
-    .layout_content .layout_content_middle.tablet .learning .done p       {width: 80%; margin: 15px auto;}
-    .layout_content .layout_content_middle.tablet .learning .done .server {width: 80%; margin: 15px auto 45px auto;}
-    .layout_content .layout_contentBlock_reklama                          {width: 700px; padding: 0 30px;}
-    .layout_content .layout_contentBlock_reklama h3                       {margin: 90px 0 25px 0;}
-    .layout_content .layout_contentBlock_image                            {left: -500px; top: 50px;}
-    .layout_content_container1.demo .layout_content_lower                 {height: 456px;}
-
-    /*Fillup*/
-    .layout_content .layout_content_container1.fillup .comission                   {padding: 14px 19px 26px 19px !important; height: 34px !important; top: 16px !important;}
-    .layout_content .layout_content_container1.fillup .layout_contentBlock_left    {padding: 0 !important; width: 900px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
-    .layout_content .layout_content_container1.fillup .layout_contentBlock_right   {width: 840px !important;}
-    .layout_content .layout_content_container1.fillup .layout_contentBlock_right form  {width: 700px !important; margin: 0 auto;}
-    .layout_content .layout_content_container1.fillup label                        {width: 200px !important; margin-right: 35px;}
-    .layout_content .layout_content_container1.fillup input                        {width: 240px !important;}
-    .layout_content .layout_content_container1.fillup input#sum                    {width: 137px !important;}
-    .layout_content .layout_content_container1.fillup input#result                 {width: 137px !important;}
-    .layout_content .layout_content_container1.fillup select                       {width: 93px !important;}
-    .layout_content .layout_content_container1.fillup .note.long                   {margin-top: -20px;}
-    .layout_content .layout_content_container1.fillup .note.done                   {width: 440px !important; clear: both;}
-    .layout_content .layout_content_container1.fillup .blue                        {margin-left: 240px !important;}
-    .layout_content .layout_content_container1.fillup .data_card .cvv_number input {width: 70px !important;}
-    .layout_content .layout_content_container1.fillup .data_card .note             {width: 70px !important;}
-    .layout_content .layout_content_container1.fillup .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
-    .layout_content .layout_content_container1.fillup .payment.desktop             {display: none;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content .layout_content_container1.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
-
-    /*Calculator*/
-    .layout_content .layout_content_container1.calc h2                           {margin-left: 0 !important;}
-    .layout_content .layout_content_container1.calc .layout_contentBlock_left    {padding: 0 !important; width: 900px !important; height: 53px; margin-right: 0 !important; line-height: 53px; border: 2px solid #ffffff;}
-    .layout_content .layout_content_container1.calc .payment.tablet              {display: block; position: relative;}
-    .layout_content .layout_content_container1.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
-    .layout_content .layout_content_container1.calc .payment.desktop             {display: none;}
-    .layout_content .layout_content_container1.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select img  {vertical-align: middle;}
-    .layout_content .layout_content_container1.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content .layout_content_container1.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
-    .layout_content .layout_content_container1.calc .payment.tablet .submenu     {display: none;}
-
-    .layout_content_container1.calc .layout_contentBlock_right                {width: 844px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right .addition      {width: 788px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .type_fee {width: 147px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .tool     {width: 135px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .lot      {width: 87px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form .count    {width: 87px !important;}
-    .layout_content_container1.calc .layout_contentBlock_right form #pips     {width: 87px !important;}
-
-    /*FAQ*/
-    .layout_content_container1.faq .question {width: 100% !important;}
-
-    /*Terms*/
-    .layout_content_container1 .kinds       {width: 70% !important;}
-    .layout_content_container1 .table_terms {width: 100% !important;}
-    .layout_content_container1 .list a      {font-size: 100% !important; margin-right: 13px !important; padding-bottom: 6px !important;}
-    .layout_content_container1 .kinds ul li {font-size: 118%;}
-    .layout_content_container1 .download_terms {font-size: 118%;}
-    .layout_content_container1 .table_terms td {font-size: 118%;}
-    .layout_content_container1 .table_terms td:first-child {font-size: 118%;}
-    .layout_content_container1 .layout_contentBlock_type {text-align: center;}
-    .layout_content_container1 .layout_contentBlock_type .types {text-align: center;margin: 0 auto;}
-    .layout_content_container1 .layout_contentBlock_type .type {width: 305px !important; text-align: left;}
-
-    /*Feedback*/
-    .layout_content_container1.feed .wrapper                   {background: #ffffff !important; margin-bottom: 10px;}
-    .layout_content_container1.feed .form                      {width: 80%; margin: 0 auto; padding: 30px 0;}
-    .layout_content_container1.feed .form input                {width: 420px !important;}
-    .layout_content_container1.feed .form input[name="city"]   {width: 205px !important;}
-    .layout_content_container1.feed .form input[name="number"] {width: 205px !important;}
-
-    /*Konkurs, bonus, novichkam*/
-    .layout_content_container2.konkurs .wrapper                                      {width: 100% !important; padding: 30px 0;}
-    .layout_content_container2.konkurs .form                                         {width: 100%;}
-    .layout_content_container2.konkurs .form h3                                      {width: 80%; margin: 0 auto 40px auto;}
-    .layout_content_container2.konkurs .form form                                    {width: 80%; margin: 0 auto;}
-    .layout_content_container1.konkurs .sections .get_pris_link                      {display: none;}
-    .layout_content_container1.konkurs .banner                                       {width: 920px !important;}
-    .layout_content_container1.konkurs .banner a                                     {width: 920px !important;}
-    .layout_content_container1.konkurs .layout_contentBlock_prises .table_pris table {float: left;}
-    .layout_content_container1.konkurs .layout_contentBlock_prises .how_get          {width: 440px !important;}
-    .layout_content_container1.konkurs img.desktop      {display: none;}
-    .layout_content_container1.konkurs img.tablet       {display: block; float: left;}
-
-    .layout_content_container1.bonus img.tablet      {display: block; float: left;}
-    .layout_content_container1.bonus img.desktop       {display: none;}
-
-    .layout_content_container1.bonus .text {width: 400px;}
-    .layout_content_container1.bonus .item {width: 170px !important; margin-right: 5px !important; padding: 24px 15px;}
-
-    .layout_content_container1.novichkam {padding-bottom: 50px !important;}
-    .layout_content_container1.novichkam .desktop.image_banner         {display: none;}
-    .layout_content_container1.novichkam .tablet.image_banner         {display: block; float: left; margin-right: 10px;}
-
-    .layout_content_container1.novichkam .article {width: 100%}
-
-    /*Invest menu*
-    **************************************************************/
-    .layout_header .layout_header_container .triangle.invest {top: 20px; left: 40px;}
-
-    /*Rating*/
-    .layout_content1.rating .layout_content_container1.mobile                              {display: none;}
-    .layout_content1.rating .layout_content_container1.desktop                             {display: block; margin: 45px auto; width: 1080px;}
-    .layout_content1.rating .layout_content_container1                                     {width: 748px;}
-    .layout_content1.rating .layout_content_container1 h2.desktop                          {display: none;}
-    .layout_content1.rating .layout_content_container1 h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
-    .layout_content1.rating .layout_content_container1 .blue                               {height: 51px; line-height: 47px; padding: 0 15px; border-radius: 28px;}
-    .layout_content1.rating .layout_content_container1 .items                              {width: 718px; margin-left: 30px;}
-    .layout_content1.rating .layout_content_container1 .items .item                        {width: 160px;}
-    .layout_content2.rating                                                                {margin-top: 20px;}
-    .layout_content2.rating .layout_content_container2.tablet                              {display: inline-block;}
-    .layout_content2.rating .layout_content_container2.desktop                             {display: none;}
-    .layout_content2.rating .layout_content_container2.mobile                              {display: none;}
-    .layout_content2.rating .layout_content_container2.tablet .filter                      {width: 100%; background: #ffffff; margin-bottom: 20px; position: relative;}
-    .layout_content2.rating .layout_content_container2.tablet .filter table                {width: 100%;}
-    .layout_content2.rating .layout_content_container2.tablet .filter label                {float: none; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; margin-bottom: 13px; width: 100%; display: block;}
-    .layout_content2.rating .layout_content_container2.tablet .filter input[type="search"] {width: 195px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; border: 2px solid #e8eaeb; background: #ffffff;}
-    .layout_content2.rating .layout_content_container2.tablet .filter td                   {padding: 13px;}
-    .layout_content2.rating .layout_content_container2.tablet .filter img                  {position: absolute; top: 60px; left: 185px;}
-    .layout_content2.rating .layout_content_container2.tablet .layout_contentBlock_left    {width: 100%;}
-    .layout_content2.rating .layout_contentBlock_left td:last-child                        {padding-right: 70px;}
-    .layout_content2.rating .layout_contentBlock_left table .col.left                      {width: 330px;}
-    .layout_content2.rating .layout_contentBlock_left table .col.right                     {width: 360px;}
-    .layout_content2.rating .layout_contentBlock_left .blue                                {margin: 30px auto; display: block;}
-    .layout_content2.rating .layout_contentBlock_right                                     {width: 100%; float: none; margin: 20px auto; display: inline-block;}
-    .layout_content2.rating .layout_contentBlock_right h4                                  {float: left; width: 30%;}
-    .layout_content2.rating .layout_contentBlock_right .note                               {float: right; margin-top: 0; width: 60%;}
-    .layout_content2.rating .layout_contentBlock_right .calc td                            {padding-right: 20px;}
-    .layout_content2.rating .layout_contentBlock_right .spred input                        {margin: 0; float: left;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio                       {float: left; display: inline-block; margin-left: 30px; margin-bottom: 30px;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio label                 {float: left; margin-right: 30px;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio label:before          {width: 14px; height: 14px;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio label.luck:before     {top: 2px; left: 120px;}
-    .layout_content2.rating .layout_contentBlock_right .spred .radio label.best:before     {top: 2px; left: 265px;}
-    .layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]:checked + label:before {font-size: 30px; line-height: 13px;}
-
-    /*TIS*/
-    .layout_content2.tis                            {margin-top: -20px;}
-    .layout_content2.tis img.desktop                {display: none;}
-    .layout_content2.tis img.tablet                 {display: block;}
-    .layout_content2.tis .layout_contentBlock_left  {float: none; width: 748px; margin-bottom: 20px;}
-    .layout_content2.tis .layout_contentBlock_right {float: none; width: 748px;}
-
-    /*Direct invest*/
-    .layout_content_container1.dir_invest .layout_contentBlock             {padding-top: 0;}
-    .layout_content_container1.dir_invest .layout_contentBlock_left        {width: 570px !important;}
-    .layout_content_container1.dir_invest .layout_contentBlock_right       {width: 258px !important; float: right;}
-    .layout_content_container1.dir_invest .layout_contentBlock h3          {margin-bottom: 15px;}
-    .layout_content_container1.dir_invest .layout_contentBlock_right h3    {margin-top: 10px;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block; margin-left: 0;}
-    .layout_content_container1.dir_invest .banner                          {background: url("../images/pryam_invest/Banner1_tabl.png") center;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.desktop {display: none;}
-    .layout_content_container1.dir_invest .layout_contentBlock img.tablet  {display: block;}
-
-    /*Copy deal*/
-    .layout_content_container1.copy_deal .banner {background: url("../images/copi_sdel/Banner1_tabl.png") center;}
-    .layout_content_container1.copy_deal .screen {width: 467px;}
-
-    /*Be trader*/
-    .layout_content_container1.invest .layout_contentBlock_right        {width: 200px;}
-    .layout_content_container1.invest .layout_contentBlock_left .forget {margin-top: 20px;}
-    .layout_content_container1.invest .layout_contentBlock_left .blue   {margin-top: 20px;}
-
-    /*Invest programm*/
-    .layout_content_container1.programm .layout_content_lower.rules img {width: 100%;}
-
-    /*Steps*/
-    .layout_content1.steps .layout_content_container1.desktop                        {display: inline-block;}
-    .layout_content1.steps .layout_content_container1.mobile                         {display: none;}
-    .layout_contentBlock_steps.desktop                        {display: none;}
-    .layout_contentBlock_steps.tablet                         {display: inline-block;}
-    .layout_content2.steps                                    {margin-top: -80px;}
-    .layout_content1.steps .layout_contentBlock_steps ul li a {margin: 0 10px;}
-    .layout_content1.steps .layout_contentBlock_steps ul      {margin: 30px auto;}
-    .layout_content1.steps .table_steps td                    {padding-bottom: 10px;}
-    .layout_content1.steps .table_steps .blue                 {margin: 30px auto; width: 345px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
-    .layout_content2.steps.step3                              {margin-top: -160px;}
-    .layout_content2.steps.step4                              {margin-top: -160px;}
-    .layout_content1.steps.step6 h2                           {margin-top: 170px;}
-
-    /*Invest open*/
-    .layout_content_container1.open_invest   {position: relative;}
-    .layout_content_container1.open_invest .layout_content_lower .layout_contentBlock_left {margin-top: 140px;}
-    .layout_content_container1.open_invest .layout_content_upper h2 {margin-bottom: 40px;}
-    .layout_content_container1.open_invest .layout_content_lower .checkbox {margin-right: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after   {width: 100%; padding: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right.after .docs  {width: 100%; padding: 0;}
-    .layout_content_container1.open_invest .layout_contentBlock_right .download {position: absolute; top: 0; left: 0; width: 860px; text-align: left;}
     .layout_content_container1.open_invest .layout_contentBlock_right.after a {width: auto !important; height: auto; float: none;}
     .layout_content .layout_content_lower .layout_contentBlock_right .docs .title {margin-left: 30px; padding-top: 30px;}
     .layout_content .layout_content_lower .layout_contentBlock_right .docs ul {margin-left: 30px; margin-bottom: 30px;}

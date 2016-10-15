@@ -13,6 +13,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -91,22 +92,22 @@
         </div>
     </div>
 </div>
-<header class="layout_header desktop">
+<header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
             <div class="layout_headerBlock layout_headerBlock_left">
-                <a href="../l_trader/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
                 <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="desktop" href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="mobile" href="../l_trader/withdraw.html">Вывести</a>
+                <a class="terminal" href>
+                    <img src="../images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
             </div>
-            <a href class="terminal">
-                <img src="../images/main/Terminal.svg" width="14" height="13">
-                Web-терминал
-            </a>
-
             <div class="layout_headerBlock layout_headerBlock_right">
                 <a href>
                     <img src="../images/main/Comment.svg" width="15" height="15">
@@ -127,7 +128,6 @@
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
                         <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
                             <div class="triangle partner"></div>
                         </li>
                     </ul>
@@ -136,93 +136,9 @@
             <div class="layout_headerBlock layout_headerBlock_account">
                 <a href>
                     <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет трейдера
+                    <span class="desktop">Кабинет трейдера</span>
+                    <span class="tablet">Кабинет</span>
                 </a>
-            </div>
-        </div>
-
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a class="active" href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header tablet">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
-                <a href>
-                    <img src="../images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
-            </div>
-        </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_nav">
-                <nav class="main_menu">
-                    <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
-                        <li><a href="../l_company/about.html">Компания</a></li>
-                        <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
-                            <div class="triangle partner"></div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
-                    <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a class="active" href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header mobile">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
                 <a>
@@ -233,49 +149,62 @@
                 </a>
             </div>
         </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить</a>
-                <a href="../l_trader/withdraw.html">Вывести</a>
-            </div>
+    </div>
+
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu trader">
+                <ul>
+                    <li><a href="partner_programm.html">Партнерская программа</a></li>
+                    <li><a class="active" href="individual.html">Индивидуальный партнер</a></li>
+                    <li><a href="regional.html">Региональное представительство</a></li>
+                    <li><a href="white_label.html">White Label</a></li>
+                    <li><a href="referal.html">Реферальная система</a></li>
+                    <li><a href="banners.html">Баннеры</a></li>
+                    <li><a href="promo.html">Промо-код</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 individual">
-        <div class="layout_contentBlock_upper">
-            <h2>Индивидуальное партнерство</h2>
-            <p>Стать индивидуальным партнером может каждый клиент нашей компании. Более того, это происходит в автоматическом режиме. Вы получаете в своем личном кабинете специальную реферальную ссылку. Её Вы можете установить для привлечения новых пользователей на любом ресурсе, разослать друзьям или просто попросить пройти регистрацию в нашей компании по предоставленной ссылке. Если приглашенный клиент зарегистрировался по Вашей ссылке, то он автоматически становится
+    <div class="layout_content_container individual">
+        <div class="layout_content_upper">
+            <h2 class="layout_contentBlock layout_contentBlock_title">Индивидуальное партнерство</h2>
+            <p class="paragraph">Стать индивидуальным партнером может каждый клиент нашей компании. Более того, это происходит в автоматическом режиме. Вы получаете в своем личном кабинете специальную реферальную ссылку. Её Вы можете установить для привлечения новых пользователей на любом ресурсе, разослать друзьям или просто попросить пройти регистрацию в нашей компании по предоставленной ссылке. Если приглашенный клиент зарегистрировался по Вашей ссылке, то он автоматически становится
                 Вашим рефералом.</p>
-            <img src="../images/individual/Banner.png">
-            <div class="text left">
-                <h3>Как узнать что пользователь действительно
-                    стал моим рефералом?</h3>
-                <p>Ежедневно нашими клиентами становятся сотни пользователей. При этом благодаря использованию специальных cookies мы имеем возможность точно определить приглашенных трейдеров. Вы можете быть полностью уверены в том, что пользователь, перейдя один раз по Вашей реферальной ссылке, может в любой момент пройти регистрацию на сайте нашей компании и при этом он гарантированно станет Вашим рефералом. Обращаем внимание, что время действия cookies является неограниченным.</p>
+            <div class="layout_contentBlock layout_contentBlock_image">
+                <img src="../images/individual/Banner.png">
             </div>
-            <div class="text right">
-                <h3>Сколько я буду получать?</h3>
-                <span class="red"><span class="large">1 пипс</span>с каждой<br>заключенной сделки</span>
-                <p>После того как трейдер прошел регистрацию по реферальной ссылке, Вы будете получать в автоматическом режиме 1 пипс с каждой заключенной сделки своего реферала после её закрытия. Следует отметить, что ознакомиться с перечнем своих рефералов Вы всегда можете на соответствующей странице в партнерском кабинете.</p>
+            <div class="layout_contentBlock layout_contentBlock_text">
+                <div class="text left">
+                    <h5>Как узнать что пользователь действительно
+                        стал моим рефералом?</h5>
+                    <p class="article">Ежедневно нашими клиентами становятся сотни пользователей. При этом благодаря использованию специальных cookies мы имеем возможность точно определить приглашенных трейдеров. Вы можете быть полностью уверены в том, что пользователь, перейдя один раз по Вашей реферальной ссылке, может в любой момент пройти регистрацию на сайте нашей компании и при этом он гарантированно станет Вашим рефералом. Обращаем внимание, что время действия cookies является неограниченным.</p>
+                </div>
+                <div class="text right">
+                    <h5>Сколько я буду получать?</h5>
+                    <span class="red"><span class="large">1 пипс</span>с каждой<br>заключенной сделки</span>
+                    <p class="article">После того как трейдер прошел регистрацию по реферальной ссылке, Вы будете получать в автоматическом режиме 1 пипс с каждой заключенной сделки своего реферала после её закрытия. Следует отметить, что ознакомиться с перечнем своих рефералов Вы всегда можете на соответствующей странице в партнерском кабинете.</p>
+                </div>
+                <div class="clear"></div>
+                <h5>Какими качествами должен обладать успешный индивидуальный партнер?</h5>
+                <p class="article">Чтобы постоянно привлекать хороших клиентов, Вам необходимо иметь хорошее знание финансовых рынков, уметь продвигать свой сайт или любой другой ресурс в интернете и отлично ориентироваться в современном онлайн пространстве.</p>
+
             </div>
-            <div class="clear"></div>
-            <h3>Какими качествами должен обладать успешный индивидуальный партнер?</h3>
-            <p>Чтобы постоянно привлекать хороших клиентов, Вам необходимо иметь хорошее знание финансовых рынков, уметь продвигать свой сайт или любой другой ресурс в интернете и отлично ориентироваться в современном онлайн пространстве.</p>
-        </div>
+
+            </div>
     </div>
 </section>
 <section class="layout_content3 partner">
-    <div class="layout_content_container3">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_left">
-            <h3>Сколько зарабатывают ваши индивидуальные партнеры?</h3>
+            <h3 class="layout_contentBlock layout_contentBlock_title">Сколько зарабатывают ваши индивидуальные партнеры?</h3>
             <a class="button red large">Стать индивидуальным партнером</a>
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
-            <p>Многие индивидуальные партнеры нашей компании ежемесячно зарабатывают по несколько тысяч американских
+            <p class="article">Многие индивидуальные партнеры нашей компании ежемесячно зарабатывают по несколько тысяч американских
                 долларов. При этом данная цифра постоянно увеличивается. Мы предельно открыты по отношению к нашим
                 партнерам, поэтому Вы можете быть на 100% уверены, что привлеченный Вами трейдер будет приносить хороший
                 доход на протяжении всего времени сотрудничества с нами. Мы обеспечиваем безупречный уровень
@@ -284,31 +213,34 @@
     </div>
 </section>
 <section class="layout_content">
-    <div class="layout_content_container1 individual lower">
-        <div class="text">
-            <h3>Каков алгоритм получения дохода с привлеченного клиента?</h3>
-            <p>С каждой завершенной сделки приведенного трейдера Вы будете получать один пипс. Ваш доход будет пропорционально изменяться в зависимости от числа сделок Вашего реферала.
-            </p>
-            <p>Например, пользователь открывает позицию по валютному сочетанию Евро/Доллар и оказывается в небольшом убытке. Этот убыток и есть спред, который представляет собой разницу между размером приобретения и продажи. Данный спред получает наша фирма, а определенная его часть отправляется индивидуальному партнеру, который пригласил трейдера. В случае если пользовать открывает позицию по комбинации Евро/Доллар с окончанием «v», тогда он платит спред в минимальном размере, однако при этом он дополнительно должен заплатить еще комиссию.</p>
-            <h3>Немного цифр</h3>
-            <p>На основании элементарных арифметических расчетов мы можем сказать, что если Вы сможете привлечь несколько десятков трейдеров, и каждый из них ежемесячно будет заключать более 30-40 сделок, то за каждого своего реферала Вы будете получать примерно 10 долларов.
-            </p>
-            <p>Одновременно занимаясь торговлей и приглашением людей, Вы сможете максимизировать свой оборот. Спустя определенное время Ваш ежемесячный доход вполне возможно будет исчисляться тысячами долларов. Обращаем внимание, что всей работой с привлеченными клиентами будет заниматься наша компания. Это позволит Вам сконцентрироваться на трейдинге и привлечении новых пользователей!
-            </p>
+    <div class="layout_content_container individual">
+        <div class="layout_content_lower">
+            <div class="layout_contentBlock layout_contentBlock_text">
+                <h5>Каков алгоритм получения дохода с привлеченного клиента?</h5>
+                <p class="article">С каждой завершенной сделки приведенного трейдера Вы будете получать один пипс. Ваш доход будет пропорционально изменяться в зависимости от числа сделок Вашего реферала.
+                </p>
+                <p class="article">Например, пользователь открывает позицию по валютному сочетанию Евро/Доллар и оказывается в небольшом убытке. Этот убыток и есть спред, который представляет собой разницу между размером приобретения и продажи. Данный спред получает наша фирма, а определенная его часть отправляется индивидуальному партнеру, который пригласил трейдера. В случае если пользовать открывает позицию по комбинации Евро/Доллар с окончанием «v», тогда он платит спред в минимальном размере, однако при этом он дополнительно должен заплатить еще комиссию.</p>
+                <h5>Немного цифр</h5>
+                <p class="article">На основании элементарных арифметических расчетов мы можем сказать, что если Вы сможете привлечь несколько десятков трейдеров, и каждый из них ежемесячно будет заключать более 30-40 сделок, то за каждого своего реферала Вы будете получать примерно 10 долларов.
+                </p>
+                <p class="article">Одновременно занимаясь торговлей и приглашением людей, Вы сможете максимизировать свой оборот. Спустя определенное время Ваш ежемесячный доход вполне возможно будет исчисляться тысячами долларов. Обращаем внимание, что всей работой с привлеченными клиентами будет заниматься наша компания. Это позволит Вам сконцентрироваться на трейдинге и привлечении новых пользователей!
+                </p>
+            </div>
+            <div class="layout_contentBlock layout_contentBlock_image">
+                <img src="../images/individual/Img_ind.png">
+            </div>
+            <div class="clear"></div>
+            <div class="layout_contentBlock layout_contentBlock_info">
+                <div class="image_wrap">
+                    <img src="../images/uslovia/Info.svg" width="77">
+                </div>
+                <div class="text_wrap">
+                    <h5>Надо помнить</h5>
+                    <p class="article">Хотим обратить Ваше внимание на то, что реклама вашей реферальной ссылки посредством спама строго запрещена, как и использование автореферальной системы.</p>
+                </div>
+            </div>
+            <a class="button red large">Стать индивидуальным партнером</a>
         </div>
-        <img src="../images/individual/Img_ind.png">
-        <div class="clear"></div>
-        <div class="info_block">
-            <div class="image_wrap">
-                <img src="../images/uslovia/Info.svg" width="77">
-            </div>
-            <div class="text_wrap">
-                <h3>Надо помнить</h3>
-                <p>Хотим обратить Ваше внимание на то, что реклама вашей реферальной ссылки посредством спама строго запрещена, как и использование автореферальной системы.</p>
-
-            </div>
-            </div>
-        <a class="button red large">Стать индивидуальным партнером</a>
     </div>
 </section>
 
@@ -385,26 +317,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function () {
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>

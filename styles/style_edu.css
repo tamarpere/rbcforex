@@ -1,4 +1,4 @@
-.layout_header .layout_header_container .triangle.education {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 28px;}
+.layout_header .layout_header_container .triangle.education {left: 28px;}
 
 /*Book*/
 .layout_content_container.edu h2                                          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}

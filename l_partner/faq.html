@@ -13,6 +13,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -91,22 +92,22 @@
         </div>
     </div>
 </div>
-<header class="layout_header desktop">
+<header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
             <div class="layout_headerBlock layout_headerBlock_left">
-                <a href="../l_trader/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
                 <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="desktop" href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="mobile" href="../l_trader/withdraw.html">Вывести</a>
+                <a class="terminal" href>
+                    <img src="../images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
             </div>
-            <a href class="terminal">
-                <img src="../images/main/Terminal.svg" width="14" height="13">
-                Web-терминал
-            </a>
-
             <div class="layout_headerBlock layout_headerBlock_right">
                 <a href>
                     <img src="../images/main/Comment.svg" width="15" height="15">
@@ -127,7 +128,6 @@
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
                         <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
                             <div class="triangle partner"></div>
                         </li>
                     </ul>
@@ -136,93 +136,9 @@
             <div class="layout_headerBlock layout_headerBlock_account">
                 <a href>
                     <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет трейдера
+                    <span class="desktop">Кабинет трейдера</span>
+                    <span class="tablet">Кабинет</span>
                 </a>
-            </div>
-        </div>
-
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a class="active" href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header tablet">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
-                <a href>
-                    <img src="../images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
-            </div>
-        </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_nav">
-                <nav class="main_menu">
-                    <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
-                        <li><a href="../l_company/about.html">Компания</a></li>
-                        <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
-                            <div class="triangle partner"></div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
-                    <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a class="active" href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header mobile">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
                 <a>
@@ -233,23 +149,30 @@
                 </a>
             </div>
         </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить</a>
-                <a href="../l_trader/withdraw.html">Вывести</a>
-            </div>
+    </div>
+
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu trader">
+                <ul>
+                    <li><a href="partner_programm.html">Партнерская программа</a></li>
+                    <li><a href="individual.html">Индивидуальный партнер</a></li>
+                    <li><a href="regional.html">Региональное представительство</a></li>
+                    <li><a href="white_label.html">White Label</a></li>
+                    <li><a href="referal.html">Реферальная система</a></li>
+                    <li><a href="banners.html">Баннеры</a></li>
+                    <li><a href="promo.html">Промо-код</a></li>
+                    <li><a class="active" href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container1 faq">
+    <div class="layout_content_container faq">
         <div class="layout_content_upper">
-            <h2>FAQ по партнерской программе</h2>
-            <div class="questions">
+            <h2 class="layout_contentBlock layout_contentBlock_title">FAQ по партнерской программе</h2>
+            <div class="layout_contentBlock layout_contentBlock_questions">
                 <div class="question">
                     <span class="title">Сколько стоит 0.01 лот евро?</span>
 
@@ -310,12 +233,12 @@
                     <span class="title">Трейдерам</span>
                     <ul>
                         <li><a href>Для начинающих</a></li>
-                        <li><a href="l-traider/demo.html">Учебный счет</a></li>
-                        <li><a href="l-traider/open_account.html">Торговый счет</a></li>
-                        <li><a href="l-traider/fillup.html">Ввод средств</a></li>
-                        <li><a href="l-traider/withdraw.html">Вывод средств</a></li>
-                        <li><a href="l-traider/calculator.html">Калькулятор</a></li>
-                        <li><a href="l-traider/faq.html">FAQ</a></li>
+                        <li><a href="l_traider/demo.html">Учебный счет</a></li>
+                        <li><a href="l_traider/open_account.html">Торговый счет</a></li>
+                        <li><a href="l_traider/fillup.html">Ввод средств</a></li>
+                        <li><a href="l_traider/withdraw.html">Вывод средств</a></li>
+                        <li><a href="l_traider/calculator.html">Калькулятор</a></li>
+                        <li><a href="l_traider/faq.html">FAQ</a></li>
                         <li><a href>Условия торговли</a></li>
                     </ul>
                 </div>
@@ -364,35 +287,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.question .title').click(function () {
-            $(this).siblings('.text').slideToggle(300);
-            if ($(this).hasClass('bold')) {
-                $(this).removeClass('bold');
-            } else {
-                $(this).addClass('bold');
-            }
-        });
-
-        $('.mobile_menu').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function () {
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>

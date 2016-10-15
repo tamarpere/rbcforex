@@ -8,14 +8,24 @@ h5 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 190
 h6 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 0 0 32px 0;}
 p.paragraph {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; margin: 0; line-height: 27px;}
 p.article {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; margin: 0; line-height: 25px;}
-.layout_content            {width: 100%; margin: 0; text-align: center; display: inline-block;}
+.layout_content,
+.layout_content2,
+.layout_content3,
+.layout_content4,
+.layout_content5,
+.layout_content6,
+.layout_content7,
+.layout_content8,
+.layout_content9            {width: 100%; margin: 0; text-align: center; display: inline-block;}
 .layout_content_upper {text-align: left; width: 100%; position: relative;}
 .layout_content_middle {text-align: left; width: 100%; position: relative;}
 .layout_content_lower {text-align: left; width: 100%; position: relative;}
-.layout_content_container  {width: 1080px; margin: 0 auto; display: inline-block;}
+.layout_content_container  {width: 1080px; margin: 0 auto; display: inline-block; position: relative;}
 .layout_contentBlock       {padding: 30px; text-align: left; height: auto; position: relative;}
 .layout_contentBlock_title       {padding: 0;}
 .layout_contentBlock_questions       {padding: 0;}
+.layout_contentBlock_image {padding: 0;}
+.layout_contentBlock_button {padding: 0;}
 .layout_contentBlock_left       {float: left;}
 .layout_contentBlock_right       {float: right;}
 .left  {float: left;}
@@ -65,33 +75,37 @@ table {border-collapse: collapse; border: none;}
 .mobile {display: none;}
 .desktop {display: block;}
 
+.layout_header .layout_header_container .triangle {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 45px;}
+
+
 /*Header*
 ***********************************************************/
 .layout_header_menu                                 {display: none;}
 .layout_header                                      {width: 100%; height: auto; background: #ffffff; color: #2a333c;}
-.layout_header.tablet                               {display: none;}
-.layout_header.mobile                               {display: none;}
 .layout_header .layout_header_container             {height: 147px; margin: 0 auto; width: 100%; max-width: 1080px;}
-.layout_header .layout_header_content               {width: 100%; line-height: 60px;}
+.layout_header .layout_header_content               {width: 100%; line-height: 60px; display: inline-block;}
 .layout_header .layout_header_content a             {margin: 0 35px 0 0; color: #2a333c; display: inline-block; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
 .layout_header .layout_header_content a:last-child  {margin-right: 0;}
 .layout_header .layout_header_content a:hover       {color: #ff4830;}
 .layout_header .layout_header_content img           {margin: 0 7px 0 0; vertical-align: middle;}
-.layout_header .layout_headerBlock_left             {float: left; width: 60%;}
-.layout_header .layout_header_content a.terminal    {margin-right: 0; width: 12.5%; text-align: right;}
+.layout_header .layout_headerBlock_left             {float: left; width: 760px;}
+.layout_header .layout_headerBlock_left a.terminal  {float: right;}
 .layout_header .layout_headerBlock_right            {float: right; text-align: right;}
 .layout_header .layout_header_content2              {width: 100%;}
 .layout_header .layout_headerBlock_logo             {background: url("../images/main/logo.png") center no-repeat; display: inline-block; width: 139px; height: 43px; background-size: cover;}
 .layout_header .layout_headerBlock_logo a           {display: block; height: 100%;}
-.layout_header .layout_headerBlock_nav              {display: inline-block; line-height: 47px; vertical-align: bottom; margin: 0 7%;}
+.layout_header .layout_headerBlock_nav              {display: inline-block; line-height: 47px; vertical-align: bottom; margin: 0 0 0 50px;}
 .layout_header .layout_headerBlock_nav li           {display: inline-block; padding: 0 15px; color: #218ed2;}
 .layout_header .layout_headerBlock_nav li.active    {position: relative;}
 .layout_header .layout_headerBlock_nav li a         {text-transform: uppercase; font-size: 100%; font-weight: 700; font-family: GothamPro-Bold, Arial, sans-serif;}
 .layout_header .layout_headerBlock_nav li a.active  {color: #1c252f;}
-.layout_header .layout_headerBlock_account          {float: right; text-align: right; font-size: 100%; line-height: 47px;}
-.layout_header .layout_headerBlock_account a        {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 120%;}
-.layout_header .layout_headerBlock_account img      {vertical-align: middle;}
-
+.layout_header .layout_headerBlock_account          {float: right; text-align: right; font-size: 100%; width: 180px; line-height: 40px;}
+.layout_header .layout_headerBlock_account a        {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 120%; display: block;}
+.layout_header .layout_headerBlock_account img      {float: left; margin: 10px 0 0 10px;}
+.layout_header .layout_headerBlock_left a.desktop   {display: inline-block;}
+.layout_header .layout_headerBlock_left a.mobile    {display: none;}
+.layout_header .layout_headerBlock_icons {display: none;}
+.layout_header .layout_headerBlock_account .tablet {display: none;}
 /*Footer*
 **********************************************************/
 .layout_footer                                                 {height: auto; background: #fff; padding:  0;}
@@ -129,8 +143,8 @@ table {border-collapse: collapse; border: none;}
 .layout_content1.index .layout_contentBlock_slide2 .web     {margin: 10px; display: inline-block; background: url("../images/main/Web.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 .layout_content1.index .layout_contentBlock_slide3          {position: absolute; right: 0; bottom: 76px; font-weight: 300; font-family: GothamPro-NarMed, Arial, sans-serif; text-align: right; font-size: 130%; line-height: 25px; width: 160px;}
 
-.layout_content2.mobile                                     {display: none;}
-.layout_content2                                            {text-align: center; margin: -30px auto 30px auto; width: 1080px;}
+.layout_content2.mobile                                           {display: none;}
+.layout_content2.index                                            {margin: -30px auto 30px auto; width: 1080px;}
 .layout_content2.index .layout_content_container2                 {display: inline-block; text-align: left;}
 .layout_content2.index .layout_contentBlock                       {float: left; display: inline-block; padding: 30px;}
 .layout_content2.index .layout_contentBlock_block1                {color: #ffffff; text-align: center; margin-right: 10px; padding: 0;}

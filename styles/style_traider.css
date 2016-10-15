@@ -8,7 +8,7 @@
 .layout_header .layout_headerBlock_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; background: #fff; color: #181818;}
 .layout_header .layout_headerBlock_menu                   {max-width: 1080px; margin: 0 auto; position: relative;}
 .layout_header .layout_headerBlock_menu .menu             {display: inline-block; margin: 13px 0;}
-.layout_header .layout_header_container .triangle.traider {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 30px;}
+.layout_header .layout_header_container .triangle.traider {left: 30px;}
 
 /*Open account*/
 .layout_content .layout_content_container                            {position: relative; width: 1080px; margin: 0 auto; padding: 0 0 50px 0;}

@@ -1,4 +1,4 @@
-.layout_header .layout_header_container .triangle.invest {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 50px; left: 38px;}
+.layout_header .layout_header_container .triangle.invest {left: 38px;}
 
 /*Rating*/
 .layout_content1.rating                                                   {background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}

@@ -13,6 +13,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -91,22 +92,22 @@
         </div>
     </div>
 </div>
-<header class="layout_header desktop">
+<header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
             <div class="layout_headerBlock layout_headerBlock_left">
-                <a href="../l_trader/open_account.html">
+                <a href="open_account.html">
                     <img src="../images/main/Profile.svg" width="17" height="17">
                     Открыть счет
                 </a>
                 <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="desktop" href="../l_trader/withdraw.html">Вывести средства</a>
+                <a class="mobile" href="../l_trader/withdraw.html">Вывести</a>
+                <a class="terminal" href>
+                    <img src="../images/main/Terminal.svg" width="14" height="13">
+                    Web-терминал
+                </a>
             </div>
-            <a href class="terminal">
-                <img src="../images/main/Terminal.svg" width="14" height="13">
-                Web-терминал
-            </a>
-
             <div class="layout_headerBlock layout_headerBlock_right">
                 <a href>
                     <img src="../images/main/Comment.svg" width="15" height="15">
@@ -127,7 +128,6 @@
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
                         <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
                             <div class="triangle partner"></div>
                         </li>
                     </ul>
@@ -136,93 +136,9 @@
             <div class="layout_headerBlock layout_headerBlock_account">
                 <a href>
                     <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет трейдера
+                    <span class="desktop">Кабинет трейдера</span>
+                    <span class="tablet">Кабинет</span>
                 </a>
-            </div>
-        </div>
-
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a class="active" href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header tablet">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить счет</a>
-                <a href="../l_trader/withdraw.html">Вывести средства</a>
-                <a href>
-                    <img src="../images/main/Terminal.svg" width="14" height="13">
-                    Web-терминал
-                </a>
-            </div>
-        </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_nav">
-                <nav class="main_menu">
-                    <ul>
-                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
-                        <li><a href="../l_invest/rating.html">Инвестиции</a></li>
-                        <li><a href="../l_company/about.html">Компания</a></li>
-                        <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li class="active"><a class="active" href="partner_programm.html">Партнерам</a>
-
-                            <div class="triangle partner"></div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
-                    <img src="../images/main/Key.svg" width="35" height="20">
-                    Кабинет
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="layout_header_container1">
-        <div class="layout_headerBlock layout_headerBlock_menu">
-            <nav class="menu invest">
-                <ul>
-                    <li><a class="active" href="partner_programm.html">Партнерская программа</a></li>
-                    <li><a href="individual.html">Индивидуальный партнер</a></li>
-                    <li><a href="regional.html">Региональное представительство</a></li>
-                    <li><a href="white_label.html">White Label</a></li>
-                    <li><a href="referal.html">Реферальная система</a></li>
-                    <li><a href="banners.html">Баннеры</a></li>
-                    <li><a href="promo.html">Промо-код</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<header class="layout_header mobile">
-    <div class="layout_header_container">
-        <div class="layout_header_content">
-            <div class="layout_headerBlock layout_headerBlock_logo">
-                <a href="/"></a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
                 <a>
@@ -233,53 +149,52 @@
                 </a>
             </div>
         </div>
-        <div class="layout_header_content2">
-            <div class="layout_headerBlock layout_headerBlock_menuTablet">
-                <a href="../l_trader/open_account.html">
-                    <img src="../images/main/Profile.svg" width="17" height="17">
-                    Открыть счет
-                </a>
-                <a href="../l_trader/fillup.html">Пополнить</a>
-                <a href="../l_trader/withdraw.html">Вывести</a>
-            </div>
+    </div>
+
+    <div class="layout_header_container1">
+        <div class="layout_headerBlock layout_headerBlock_menu">
+            <nav class="menu trader">
+                <ul>
+                    <li><a class="active" href="partner_programm.html">Партнерская программа</a></li>
+                    <li><a href="individual.html">Индивидуальный партнер</a></li>
+                    <li><a href="regional.html">Региональное представительство</a></li>
+                    <li><a href="white_label.html">White Label</a></li>
+                    <li><a href="referal.html">Реферальная система</a></li>
+                    <li><a href="banners.html">Баннеры</a></li>
+                    <li><a href="promo.html">Промо-код</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 <section class="layout_content1 partner">
-    <div class="layout_content_container1">
-        <h2>Три уровня партнерской программы</h2>
-
+    <div class="layout_content_container">
+        <h2 class="layout_contentBlock layout_contentBlock_title">Три уровня партнерской программы</h2>
         <div class="layout_contentBlock layout_contentBlock_items">
             <div class="item">
                 <div class="image_wrap">
                     <img src="../images/partner/Individual_partner_white.svg" width="133">
                 </div>
-
                 <a href><h3>Индивидуальное<br>партнерство</h3></a>
-
-                <p>Ваш персональный источник стабильного дохода</p>
+                <p class="paragraph">Ваш персональный источник стабильного дохода</p>
             </div>
             <div class="item">
                 <div class="image_wrap">
                     <img src="../images/partner/Predstavitelstvo_white.svg" width="141">
                 </div>
-
                 <a href><h3>Представительство<br>в регионах</h3></a>
-
-                <p>Возможность построить прибыльный бизнес</p>
+                <p class="paragraph">Возможность построить прибыльный бизнес</p>
             </div>
             <div class="item">
                 <div class="image_wrap">
                     <img src="../images/partner/White_label_white.svg" width="133">
                 </div>
-
-
                 <a href><h3>White Label</h3></a>
-
-                <p>Расширение финансовых услуг вашей компании</p>
+                <p class="paragraph">Расширение финансовых услуг вашей компании</p>
             </div>
         </div>
-        <div class="link">
+        <div class="layout_contentBlock layout_contentBlock_link">
             <span>Ниже мы подробно рассказываем</span>
             <img src="../images/partner/Icon_mouse.png">
             <span>как устроена партнерская программа</span>
@@ -287,14 +202,14 @@
     </div>
 </section>
 <section class="layout_content2 partner">
-    <div class="layout_content_container2">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_image">
             <img src="../images/partner/Img_partner1.png">
         </div>
         <div class="layout_contentBlock layout_contentBlock_article">
-            <a href><h3>Индивидуальный партнер</h3></a>
+            <a href><h2>Индивидуальный партнер</h2></a>
 
-            <p class="first_text">Стать индивидуальным партнером может каждый клиент нашей компании. Более того, это
+            <p class="first_text article">Стать индивидуальным партнером может каждый клиент нашей компании. Более того, это
                 происходит в
                 автоматическом режиме. Вы получаете в своем личном кабинете специальную реферальную ссылку. Её Вы можете
                 установить для привлечения новых пользователей на любом ресурсе, разослать друзьям или просто попросить
@@ -302,18 +217,18 @@
                 зарегистрировался по Вашей ссылке, то он автоматически становится Вашим рефералом.</p>
 
             <div class="text left">
-                <h4>Как узнать, что пользователь действительно стал моим рефералом?</h4>
+                <h5>Как узнать, что пользователь действительно стал моим рефералом?</h5>
 
-                <p>Ежедневно нашими клиентами становятся сотни пользователей. При этом благодаря использованию
+                <p class="article">Ежедневно нашими клиентами становятся сотни пользователей. При этом благодаря использованию
                     специальных cookies мы имеем возможность точно определить приглашенных трейдеров. Вы можете быть
                     полностью уверены в том, что пользователь, перейдя один раз по Вашей реферальной ссылке, может в
                     любой момент пройти регистрацию на сайте нашей компании и при этом он гарантированно станет Вашим
                     рефералом. Обращаем внимание, что время действия cookies является неограниченным.</p>
             </div>
             <div class="text right">
-                <h4>Вы будете получать 1 пипс с каждой сделки реферала</h4>
+                <h5>Вы будете получать 1 пипс с каждой сделки реферала</h5>
 
-                <p>После того как трейдер прошел регистрацию по реферальной ссылке, Вы будете получать в автоматическом
+                <p class="article">После того как трейдер прошел регистрацию по реферальной ссылке, Вы будете получать в автоматическом
                     режиме 1 пипс с каждой заключенной сделки своего реферала после её закрытия. Следует отметить, что
                     ознакомиться с перечнем своих рефералов и получить полный набор наших баннеров Вы всегда можете на
                     соответствующей странице в партнерском кабинете. При этом Ваш счет будет пополняться в
@@ -323,13 +238,13 @@
     </div>
 </section>
 <section class="layout_content3 partner">
-    <div class="layout_content_container3">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_left">
-            <h3>Сколько зарабатывают ваши индивидуальные партнеры?</h3>
+            <h3 class="layout_contentBlock layout_contentBlock_title">Сколько зарабатывают ваши индивидуальные партнеры?</h3>
             <a class="button red large">Стать индивидуальным партнером</a>
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
-            <p>Многие индивидуальные партнеры нашей компании ежемесячно зарабатывают по несколько тысяч американских
+            <p class="article">Многие индивидуальные партнеры нашей компании ежемесячно зарабатывают по несколько тысяч американских
                 долларов. При этом данная цифра постоянно увеличивается. Мы предельно открыты по отношению к нашим
                 партнерам, поэтому Вы можете быть на 100% уверены, что привлеченный Вами трейдер будет приносить хороший
                 доход на протяжении всего времени сотрудничества с нами. Мы обеспечиваем безупречный уровень
@@ -338,23 +253,22 @@
     </div>
 </section>
 <section class="layout_content4 partner">
-    <div class="layout_content_container4">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_image">
             <img src="../images/partner/Img_partner2.png">
         </div>
         <div class="layout_contentBlock layout_contentBlock_article">
-            <a href><h3>Представительство
-                в регионах</h3></a>
+            <a href><h2>Представительство в регионах</h2></a>
 
-            <p class="first_text">Эта форма сотрудничества идеально подходит для успешных и целеустремленных агентов и
+            <p class="first_text article">Эта форма сотрудничества идеально подходит для успешных и целеустремленных агентов и
                 компаний, обладающих собственным офисом в любом регионе РФ. Вы сможете вывести на новый уровень свой
                 доход и привлечь дополнительных клиентов для главного вида Вашей деятельности.</p>
             <img src="../images/partner/Img_partner4.png">
 
             <div class="text left">
-                <h4>Сотрудничать с нами легко!</h4>
+                <h5>Сотрудничать с нами легко!</h5>
 
-                <p>Чтобы открыть региональное представительство, Вам достаточно просто наличия офиса, где Вы будете
+                <p class="article">Чтобы открыть региональное представительство, Вам достаточно просто наличия офиса, где Вы будете
                     иметь возможность проконсультировать клиентов и при желании осуществлять процедуру вывода/ввода
                     денежных средств на счета нашей компании. Если Вы активно работаете в области онлайн технологий, и
                     особенно если сфера Вашей деятельности тесно связана электронными платежами или обменом электронных
@@ -364,9 +278,9 @@
                 <a class="button red large">Стать региональным партнером</a>
             </div>
             <div class="text right">
-                <h4>Всё предельно прозрачно!</h4>
+                <h5>Всё предельно прозрачно!</h5>
 
-                <p>Вы будете получать один пункт с каждой завершенной сделки своего клиента. Мы стремимся максимально
+                <p class="article">Вы будете получать один пункт с каждой завершенной сделки своего клиента. Мы стремимся максимально
                     открыто работать с нашими региональными представителями, поэтому Вы всегда можете следить за работой
                     своих клиентов в режиме онлайн. Кроме этого ссылка на Ваше представительство обязательно появится на
                     нашем сайте, и Вы получите разностороннюю и комплексную помощь в продвижении и популяризации своих
@@ -376,44 +290,47 @@
     </div>
 </section>
 <section class="layout_content5 partner">
-    <div class="layout_content_container5">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_image">
             <img src="../images/partner/Img_partner3.png">
         </div>
         <div class="layout_contentBlock layout_contentBlock_article">
-            <a href><h3>Партнер White Label</h3></a>
+            <a href><h2>Партнер White Label</h2></a>
 
-            <p class="first_text">Вы хотите расширить линейку своих финансовых продуктов и желаете предоставить клиентам прямой доступ к работе на Forex? Тогда данное предложение создано специально для Вас! Мы даём возможность нашим партнерам распространять клиентскую платформу с собственным логотипом и гарантированно получать повышенный процент с каждой заключенной Вашим клиентом сделки. По сути, Вы в данном случае выступаете в качестве посредника между брокерской компанией RBC Forex и трейдером на рынке Форекс. При этом Вы получаете полный набор возможностей полноценного Дилингового Центра.</p>
+            <p class="first_text article">Вы хотите расширить линейку своих финансовых продуктов и желаете предоставить клиентам прямой доступ к работе на Forex? Тогда данное предложение создано специально для Вас! Мы даём возможность нашим партнерам распространять клиентскую платформу с собственным логотипом и гарантированно получать повышенный процент с каждой заключенной Вашим клиентом сделки. По сути, Вы в данном случае выступаете в качестве посредника между брокерской компанией RBC Forex и трейдером на рынке Форекс. При этом Вы получаете полный набор возможностей полноценного Дилингового Центра.</p>
             <div class="text left">
-                <h4>Самостоятельно выбирайте комиссию!</h4>
+                <h5>Самостоятельно выбирайте комиссию!</h5>
 
-                <p>Вы имеете возможность повысить спред до любых показателей. Обращаем внимание, что в данном случае разница между спредом компании RBC Forex и Вашим спредом полностью будет идти в Ваш карман. Кроме этого Вы сможете создавать свою партнерскую сеть. Более того, в случае поступательного развития этого нового для себя направления бизнеса Вы получите возможность стать самостоятельным ДЦ. Мы стремимся предлагать нашим партнерам максимально комфортные условия, поэтому в данном случае привлеченные Вами клиенты перейдут к Вам.</p>
+                <p class="article">Вы имеете возможность повысить спред до любых показателей. Обращаем внимание, что в данном случае разница между спредом компании RBC Forex и Вашим спредом полностью будет идти в Ваш карман. Кроме этого Вы сможете создавать свою партнерскую сеть. Более того, в случае поступательного развития этого нового для себя направления бизнеса Вы получите возможность стать самостоятельным ДЦ. Мы стремимся предлагать нашим партнерам максимально комфортные условия, поэтому в данном случае привлеченные Вами клиенты перейдут к Вам.</p>
             </div>
             <div class="text right">
-                <h4>Сотрудничать с нами удобно и надежно</h4>
+                <h5>Сотрудничать с нами удобно и надежно</h5>
 
-                <p>Каждому партнеру мы предоставляем всестороннюю комплексную рекламную и информационную поддержку. Так же для привлечения пользователей и предоставления им доступа на рынок форекс мы разрабатываем нашим партнерам индивидуализированный торговый терминал и платформу менеджера с исчерпывающим набором данных привлеченных клиентов.</p>
+                <p class="article">Каждому партнеру мы предоставляем всестороннюю комплексную рекламную и информационную поддержку. Так же для привлечения пользователей и предоставления им доступа на рынок форекс мы разрабатываем нашим партнерам индивидуализированный торговый терминал и платформу менеджера с исчерпывающим набором данных привлеченных клиентов.</p>
             </div>
         </div>
     </div>
 </section>
 <section class="layout_content6 partner">
-    <div class="layout_content_container6">
-        <h3>Еще несколько деталей</h3>
+    <div class="layout_content_container">
+        <h3 class="layout_contentBlock layout_contentBlock_title">Еще несколько деталей</h3>
 
-        <p>Партнеры White Label имеют право получить до десяти профилей менеджеров. Это позволит Вам распределять
+        <p class="article">Партнеры White Label имеют право получить до десяти профилей менеджеров. Это позволит Вам распределять
             клиентов по различным профилям. Партнеру White Label предоставляется бесплатно торговая платформа
             Mobius-trader от компании MobiusSoft.</p>
         <a class="button red large">Стать партнером White Label</a>
+        <div class="layout_contentBlock layout_contentBlock_image">
+            <img src="../images/partner/Banner2.png">
+        </div>
     </div>
 </section>
 <section class="layout_content7 partner">
-    <div class="layout_content_container7">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_left">
-            <h4>Чем отличаются уровни
-                партнерской программы?</h4>
+            <h5>Чем отличаются уровни
+                партнерской программы?</h5>
 
-            <p>Уровни партнерской программы компании RBC Forex отличаются только степенью самостоятельности при работе с
+            <p class="article">Уровни партнерской программы компании RBC Forex отличаются только степенью самостоятельности при работе с
                 привлеченными клиентами и размером Ваших вложений. Так, например, индивидуальное партнерство вообще не
                 предусматривает каких-либо расходов, и каждый клиент RBC Forex уже по умолчанию выступает нашим
                 индивидуальным партнером. В свою очередь партнерам, которые хотят сотрудничать с нашей компанией по
@@ -423,69 +340,67 @@
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
             <h3>Преимущества партнерства с RBC Forex</h3>
-            <table cellpadding="0" cellspacing="0" class="items">
-                <tr>
-                    <td>
+            <div class="items">
+
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Icon_busyness.png" width="88">
                         </div>
-
-                        Ваши клиенты в любом случае останутся Вашими. При этом Время жизни
-                        cookies абсолютно не ограничено
-                    </td>
-                    <td>
+                        <p class="article">Ваши клиенты в любом случае останутся Вашими. При этом Время жизни
+                        cookies абсолютно не ограничено</p>
+                    </div>
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Icon_hands_blue.png" width="88">
                         </div>
 
-                        Все клиенты компании RBC Forex уже автоматически являются нашими партнерами
-                    </td>
-                    <td>
+                        <p class="article">Все клиенты компании RBC Forex уже автоматически являются нашими партнерами</p>
+                    </div>
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Icon_time_money.png" width="149">
                         </div>
 
-                        Свою комиссию Вы можете получить сразу после закрытия позиции клиентом.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
+                        <p class="article">Свою комиссию Вы можете получить сразу после закрытия позиции клиентом.</p>
+                    </div>
+
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Icon_links.png" width="93">
                         </div>
 
-                        Вы получаете доступ к личному кабинету, в котором указывается перечень всех ваших рефералов и
-                        привлеченных трейдеров
-                    </td>
-                    <td>
+                        <p class="article">Вы получаете доступ к личному кабинету, в котором указывается перечень всех ваших рефералов и
+                        привлеченных трейдеров</p>
+                    </div>
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Banner.svg" width="100">
                         </div>
 
-                        Предоставление множества рекламных баннеров разных размеров
-                    </td>
-                    <td>
+                        <p class="article">Предоставление множества рекламных баннеров разных размеров</p>
+                    </div>
+                    <div class="item">
                         <div class="image_wrap">
                             <img src="../images/partner/Icon_money.png" width="85">
                         </div>
 
-                        Полученный доход Вы можете использовать для торговли или вывести
-                    </td>
-                </tr>
-            </table>
+                        <p class="article">Полученный доход Вы можете использовать для торговли или вывести</p>
+                    </div>
+
+            </div>
         </div>
     </div>
 
 </section>
 <section class="layout_content8 partner">
-    <div class="layout_content_container8">
+    <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_image">
             <img src="../images/partner/Img_partner5.png">
         </div>
         <div class="layout_contentBlock layout_contentBlock_text">
-            <h4>Ваш заработок не имеет границ</h4>
+            <h3>Ваш заработок не имеет границ</h3>
 
-            <p>Сотрудничая с компанией RBC Forex, Вы получаете возможность зарабатывать каждый месяц тысячи долларов от
+            <p class="article">Сотрудничая с компанией RBC Forex, Вы получаете возможность зарабатывать каждый месяц тысячи долларов от
                 сделок
                 привлеченных клиентов. Более того, хотим подчеркнуть, что мы платим за каждую сделку на протяжении всего
                 времени
@@ -495,15 +410,15 @@
                 работы трейдера. Ваш доход в данном случае гарантирован и защищен.
             </p>
 
-            <p>
+            <p class="article">
                 Тысячи людей каждый день выходят на рынок Forex. Вам остается просто порекомендовать данной аудитории нашу
                 компанию, которая является, пожалуй, лучшим брокером на постсоветском пространстве!</p>
         </div>
     </div>
 </section>
 <section class="layout_content9 partner">
-    <div class="layout_content_container9">
-        <h3>За дополнительной информацией обращайтесь в отдел регионального развития</h3>
+    <div class="layout_content_container">
+        <h3 class="layout_contentBlock layout_contentBlock_title">За дополнительной информацией обращайтесь в отдел регионального развития</h3>
         <img src="../images/partner/Envelope2_white.svg" width="48">
         <a mailto="partner@rbcforex.org">partner@rbcforex.org</a><br>
         <span class="regime">с 9 до 20 МСК</span>
@@ -583,26 +498,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function () {
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function () {
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-</script>
 </body>
 </html>
