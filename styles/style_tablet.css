@@ -352,7 +352,7 @@
     .layout_content2.why .layout_content_container img {margin-left: -630px;}
     .layout_content3.why  {height: 1130px;}
     .layout_content3.why .layout_contentBlock_items {width: 748px;}
-    .layout_content3.why .layout_content_container .item {width: 340px; height: 280px;}
+    .layout_content3.why .layout_content_container .item {width: 340px; height: auto;}
     .layout_content3.why .layout_content_container .item:nth-child(2n + 1) {padding-right: 30px; width: 360px;}
     .layout_content4.why {background-position: left center; height: 553px;}
     .layout_content4.why h2 {margin: 30px 0; text-align: left;}
@@ -395,5 +395,85 @@
     .layout_content_container.edu .layout_content_upper .layout_contentBlock_paragraph p {font-size: 118%;}
     .layout_content_container.edu .layout_content_lower .col {width: 312px; margin-bottom: 25px; height: auto;}
     .layout_content_container.edu .layout_content_lower .col:nth-child(2n) {margin-right: 0; float: right;}
+
+    /*Partner menu*
+    **************************************************************/
+
+    /*Partner programm*/
+    .layout_content1.partner {height: 430px;}
+    .layout_content1.partner h2 {margin: 35px 0 25px 0;}
+    .layout_content1.partner .item h3 {font-family: GothamPro-Light, Arial, sans-serif; font-weight: 300;}
+    .layout_content1.partner .item p {padding: 0 10px; font-size: 118%;}
+    .layout_content1.partner .layout_contentBlock_link {display: none;}
+    .layout_content2.partner {height: 830px; overflow: hidden;}
+    .layout_content2.partner .layout_contentBlock_image {top: -30px; right: -125px;}
+    .layout_content2.partner .layout_contentBlock_article h2 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 30px 0;}
+    .layout_content2.partner p.first_text {margin-bottom: 30px; width: 70%;}
+    .layout_content2.partner .text {float: none; width: 100%;}
+    .layout_content2.partner .layout_contentBlock_article p {margin-bottom: 30px;}
+    .layout_content2.partner .layout_contentBlock_article .left h5 {width: 70%;}
+    .layout_content3.partner .layout_contentBlock_left {padding: 0; width: 600px; float: none; position: static;}
+    .layout_content3.partner .layout_contentBlock_left h3 {margin: 30px 0;}
+    .layout_content3.partner .layout_contentBlock_right {padding: 0; float: none; width: 100%;}
+    .layout_content3.partner .layout_contentBlock_left .red {position: absolute; bottom: 0; left: 50%; margin-left: -188px;}
+    .layout_content3.partner .layout_contentBlock_right p {margin-top: 10px;}
+    .layout_content4.partner h2 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 30px 0; width: 100%;}
+    .layout_content4.partner .layout_contentBlock_image {right: -190px; top: 115px;}
+    .layout_content4.partner .first_text {width: 70%;}
+    .layout_content4.partner .text {width: 370px;}
+    .layout_content5.partner {display: none;}
+    .layout_content7.partner {height: 973px;}
+    .layout_content7.partner .layout_contentBlock_left {width: 100%; float: none; text-align: center; margin-top: 30px;}
+    .layout_content7.partner .layout_contentBlock_left h5 {margin-bottom: 25px;}
+    .layout_content7.partner .layout_contentBlock_right {margin-top: 35px;}
+    .layout_content8.partner .layout_content_container {padding-bottom: 0;}
+    .layout_content8.partner .layout_contentBlock_text {width: 560px;}
+    .layout_content8.partner .layout_contentBlock_image {left: -305px;}
+    .layout_content9.partner h3 {margin-top: 35px; font-size: 230%;}
+    .layout_content9.partner a {font-size: 160%;}
+    .layout_content9.partner .regime {font-size: 160%;}
+
+    /*Individual*/
+    .layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text {float: none; width: 100%;}
+    .layout_content_container.individual .layout_content_upper .layout_contentBlock_text h5 {margin-top: 0;}
+    .layout_content_container.individual .layout_content_lower .layout_contentBlock_text {padding: 0; width: 100%;}
+    .layout_content_container.individual .layout_content_lower .layout_contentBlock_text p.article {width: 61%;}
+    .layout_content_container.individual .layout_content_lower .layout_contentBlock_image {position: absolute; right: -180px; top: 65px;}
+    .layout_content_container.individual .layout_content_lower .layout_contentBlock_info h5 {margin-top: 20px;}
+
+    /*Referal*/
+    .layout_content1.referal  {height: 620px;}
+    .layout_content1.referal h2 {font-size: 240%; text-align: left; margin: 35px 0;}
+    .layout_content1.referal .layout_contentBlock_items {padding: 0;}
+    .layout_content1.referal .layout_contentBlock_items .item {width: 50%; height: auto;}
+    .layout_content1.referal .layout_contentBlock_items .item h4 {font-size: 200%;}
+    .layout_content1.referal .layout_contentBlock_link {display: none;}
+    .layout_content2.referal  {height: 921px;}
+    .layout_content2.referal .layout_content_container {padding-bottom: 0;}
+    .layout_content2.referal .layout_contentBlock_cols {padding-bottom: 0;}
+    .layout_content2.referal .layout_content_container h2 {margin: 30px 0;}
+    .layout_content2.referal .layout_content_container h5 {font-size: 175%;}
+    .layout_content2.referal .layout_contentBlock_cols .col {margin-bottom: 30px; margin-right: 0; height: auto;}
+    .layout_content2.referal .layout_contentBlock_cols .col p.article {padding-right: 30px;}
+    .layout_content2.referal .layout_contentBlock_cols .col.short {width: 50%;}
+    .layout_content2.referal .layout_contentBlock_cols .col.long {width: 50%;}
+    .layout_content2.referal .layout_contentBlock_cols .number {font-size: 390%;}
+    .layout_content2.referal .layout_contentBlock_button {bottom: 128px; right: 50px; left: auto;}
+    .layout_content3.referal  {height: 723px; margin-top: -5px;}
+    .layout_content3.referal .layout_content_container h2 {font-size: 240%; margin: 35px 0;}
+    .layout_content3.referal .layout_contentBlock_left {width: 385px;}
+    .layout_content3.referal .layout_contentBlock_right {width: 335px;}
+    .layout_content3.referal .layout_contentBlock_left .title {width: 740px; margin-top: 25px;}
+    .layout_content3.referal .layout_contentBlock_left .example {margin-top: 0;}
+    .layout_content3.referal .article.lower {margin-top: 30px;}
+    .layout_content4.referal .layout_content_container h2 {font-size: 240%; text-align: center; margin: 30px 0;}
+    .layout_content4.referal .layout_content_container .article {padding: 0 30px;}
+    .layout_content4.referal .layout_content_container h5 {width: 650px; margin: 30px auto;}
+
+    /*Promo cod*/
+
+
+
+
 
 }

@@ -16,7 +16,7 @@ p.article {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-si
 .layout_content6,
 .layout_content7,
 .layout_content8,
-.layout_content9            {width: 100%; margin: 0; text-align: center; display: inline-block;}
+.layout_content9            {width: 100%; margin: 0; text-align: center; display: inline-block; overflow: hidden;}
 .layout_content_upper {text-align: left; width: 100%; position: relative;}
 .layout_content_middle {text-align: left; width: 100%; position: relative;}
 .layout_content_lower {text-align: left; width: 100%; position: relative;}
