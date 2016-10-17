@@ -145,7 +145,6 @@
     .layout_content_container.fillup .note {width: 150px;}
     .layout_content_container.fillup .note.long                   {margin-top: -20px;}
     .layout_content_container.fillup .note.done                   {width: 440px; clear: both;}
-    .layout_content_container.fillup .payment .more_payment       {display: inline-block;}
     .layout_content_container.fillup .data_card .cvv_number input {width: 70px;}
     .layout_content_container.fillup .data_card .note             {width: 70px;}
     .layout_content_container.fillup .payment.tablet              {display: block; position: relative; background: #ffffff;}
@@ -157,26 +156,32 @@
     .layout_content_container.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
     .layout_content_container.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
 
+    .layout_content_container.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content_container.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container.fillup .payment.tablet .select select {width: 470px; padding-left: 40px; font-size: 110%; color: #218ed2; background: transparent; height: 50px; border: none;}
+    .layout_content_container.fillup .payment.tablet .select select:hover {box-shadow: none;}
+
+
+
     /*Calculator*/
     .layout_content_container.calc h2 {margin-left: 0;}
-    .layout_content_container.calc .layout_contentBlock_left    {padding: 0; width: 734px; height: 53px; margin-right: 0; line-height: 53px; border: 2px solid #ffffff;}
+    .layout_content_container.calc .layout_contentBlock_left    {padding: 0; float: none; display: block; width: 734px; height: 53px; margin-right: 0; line-height: 53px; border: 2px solid #ffffff;}
     .layout_content_container.calc .payment.tablet              {display: block; position: relative;}
     .layout_content_container.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .layout_content_container.calc .payment.desktop             {display: none;}
     .layout_content_container.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
     .layout_content_container.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .layout_content_container.calc .payment.tablet .select img  {vertical-align: middle;}
     .layout_content_container.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content_container.calc .payment.tablet .dropdown    {float: right; margin: 25px;}
-    .layout_content_container.calc .payment.tablet .submenu     {display: none;}
+    .layout_content_container.calc .payment.tablet .select select {width: 470px; padding-left: 40px; font-size: 110%; color: #218ed2; background: transparent; height: 50px; border: none;}
+    .layout_content_container.calc .payment.tablet .select select:hover {box-shadow: none;}
 
-    .layout_content_container.calc .layout_contentBlock_right                {width: 678px;}
+    .layout_content_container.calc .layout_contentBlock_right                {width: 678px; float: none; display: block; margin-top: 7px;}
     .layout_content_container.calc .layout_contentBlock_right .addition      {width: 630px;}
-    .layout_content_container.calc .layout_contentBlock_right form .type_fee {width: 147px;}
-    .layout_content_container.calc .layout_contentBlock_right form .tool     {width: 115px;}
-    .layout_content_container.calc .layout_contentBlock_right form .lot      {width: 67px;}
-    .layout_content_container.calc .layout_contentBlock_right form .count    {width: 67px;}
-    .layout_content_container.calc .layout_contentBlock_right form #pips     {width: 57px;}
+    .layout_content_container.calc .layout_contentBlock_right form .type_fee {width: 135px;}
+    .layout_content_container.calc .layout_contentBlock_right form .tool     {width: 100px;}
+    .layout_content_container.calc .layout_contentBlock_right form .lot      {width: 57px;}
+    .layout_content_container.calc .layout_contentBlock_right form .count    {width: 63px;}
+    .layout_content_container.calc .layout_contentBlock_right form .pips     {width: 57px;}
 
     /*FAQ*/
     .layout_content_container.faq .question {width: 100%; padding-right: 0; padding-left: 0;}

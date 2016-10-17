@@ -10,6 +10,7 @@
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -175,7 +176,7 @@
                     <li><a href="demo.html">Демо счет</a></li>
                     <li><a href="fillup.html">Пополнение счета</a></li>
                     <li><a href="withdraw.html">Вывод средств</a></li>
-                    <li><a href="calculator.html">Калькулятор</a></li>
+                    <li><a class="active" href="calculator.html">Калькулятор</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="terms.html">Условия торговли</a></li>
                     <li><a href="feed.html">Обратная связь</a></li>
@@ -191,88 +192,106 @@
 <section class="layout_content">
     <div class="layout_content_container calc">
         <div class="layout_content_upper">
-            <h2>Калькуляторы торговой стратегии</h2>
+            <h2 class="layout_contentBlock layout_contentBlock_title">Калькуляторы торговой стратегии</h2>
         </div>
         <div class="layout_content_lower">
-            <div class="layout_contentBlock_left">
+            <div class="layout_contentBlock layout_contentBlock_left">
                 <div class="payment desktop">
                     <span class="title">Платежная система</span>
                     <ul>
-                        <li><a href>Стоимость одного пипса</a></li>
+                        <li><a href="calculator_pips.html">Стоимость одного пипса</a></li>
                         <li><a href="calculator.html">Стоимость нескольких пипсов</a></li>
-                        <li><a href>Начальное количество средств</a></li>
+                        <li><a href="calculator_start.html">Начальное количество средств</a></li>
                         <li><a class="active" href="calculator_svop.html">Калькулятор свопов</a></li>
                         <li><a href="calculator_prib.html">Ваша прибыль</a></li>
                     </ul>
                 </div>
                 <div class="payment tablet">
-                    <span class="title">Платежная система</span>
+                    <span class="title">Выберите калькулятор</span>
                     <span class="triangle"></span>
-
-                    <span class="select">
-                        Калькулятор свопов
-                        <ul class="submenu">
-                            <li><a href>Стоимость одного пипса</a></li>
-                            <li><a class="active" href="calculator.html">Стоимость нескольких пипсов</a></li>
-                            <li><a href>Начальное количество средств</a></li>
-                            <li><a href="calculator_svop.html">Калькулятор свопов</a></li>
-                            <li><a href="calculator_prib.html">Ваша прибыль</a></li>
-                        </ul>
-                    </span>
-                    <img class="dropdown" src="../images/popolnenie/Icon_dropdown.png">
+                    <div class="select">
+                        <select>
+                            <option>Стоимость одного пипса</option>
+                            <option>Стоимость нескольких пипсов</option>
+                            <option>Начальное количество средств</option>
+                            <option>Калькулятор свопов</option>
+                            <option>Ваша прибыль</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div class="layout_contentBlock_right">
+            <div class="layout_contentBlock layout_contentBlock_right">
                 <form>
                     <div class="error">
                         <span class="text">
-                            Ошибка
+                            <span class="title">Ошибка</span><br>
                             Вы неправильно ввели значение в поле «Позиций»
                         </span>
                     </div>
-                    <table cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td>Направление</td>
-                            <td>Инструмент</td>
-                            <td>Время(лни)</td>
-                            <td>Лот</td>
-                            <td class="last">Необходимо</td>
-                        </tr>
-                        <tr>
-                            <td><select class="type_fee">
+                    <div class="items">
+                        <div class="item">
+                            <label>Направление</label>
+                            <select class="type_fee">
                                 <option>Покупка</option>
-                                <option>Продажа</option>
-                            </select></td>
-                            <td><select class="tool">
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Инструмент</label>
+                            <select class="tool">
                                 <option>EURUSD</option>
-                            </select></td>
-                            <td><input class="lot"></td>
-                            <td><input class="count"></td>
-                            <td class="result">11.04$</td>
-                        </tr>
-                        <tr>
-                            <td><select class="type_fee">
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Время (лни)</label>
+                            <input class="lot" value="2">
+                        </div>
+                        <div class="item">
+                            <label>Лот</label>
+                            <input class="count" value="1">
+                        </div>
+                        <div class="item">
+                            <label class="label_res">Необходимо</label>
+                            <input class="result" value="11.04$">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="items">
+                        <div class="item">
+                            <label>Направление</label>
+                            <select class="type_fee">
                                 <option>Покупка</option>
-                                <option>Продажа</option>
-                            </select></td>
-                            <td><select class="tool">
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Инструмент</label>
+                            <select class="tool">
                                 <option>EURUSD</option>
-                            </select></td>
-                            <td><input class="lot"></td>
-                            <td><input class="count"></td>
-                            <td class="result">11.04$</td>
-                        </tr>
-                    </table>
-
-                    <a class="button" class="blue">Рассчитать</a>
-                    <a href class="add_row">
-                        <img src="../images/calc/Add.svg" width="16">
-                        <span>Добавить ряд</span>
-                    </a>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Время (лни)</label>
+                            <input class="lot" value="2">
+                        </div>
+                        <div class="item">
+                            <label>Лот</label>
+                            <input class="count" value="1">
+                        </div>
+                        <div class="item">
+                            <label class="label_res">Необходимо</label>
+                            <input class="result" value="11.04$">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="button_wrapper">
+                        <button class="blue medium">Рассчитать</button>
+                        <a href class="add_row">
+                            <img src="../images/calc/Add.svg" width="16">
+                            <span>Добавить ряд</span>
+                        </a>
+                    </div>
                 </form>
-                <div class="clear"></div>
                 <div class="addition">
-                    <span class="title">Как это считалось</span>
+                    <span class="title">Как это считалось</span><br>
                     <span class="text">Прибыль от нескольких пипсов = 100000 × размер пипса инструмента (0.0001) × лот (0.01) × цену второй валюты в паре (USD) × кол-во открытых позиций (1) × кол-во пипсов (1)</span>
                 </div>
             </div>
@@ -352,24 +371,5 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.mobile_menu').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.show();
-    });
-    $('.close').on('click', function (){
-        var a = $('.layout_header_menu');
-        a.hide();
-    });
-
-    $('.show_sub').on('click', function (){
-        $(this).siblings('.sub_menu').slideToggle();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active')
-        } else {
-            $(this).addClass('active')
-        }
-    })
-</script>
 </body>
 </html>

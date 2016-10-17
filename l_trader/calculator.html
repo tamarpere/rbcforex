@@ -199,94 +199,77 @@
                 <div class="payment desktop">
                     <span class="title">Платежная система</span>
                     <ul>
-                        <li><a href>Стоимость одного пипса</a></li>
+                        <li><a href="calculator_pips.html">Стоимость одного пипса</a></li>
                         <li><a class="active" href="calculator.html">Стоимость нескольких пипсов</a></li>
-                        <li><a href>Начальное количество средств</a></li>
+                        <li><a href="calculator_start.html">Начальное количество средств</a></li>
                         <li><a href="calculator_svop.html">Калькулятор свопов</a></li>
                         <li><a href="calculator_prib.html">Ваша прибыль</a></li>
                     </ul>
                 </div>
                 <div class="payment tablet">
-                    <span class="title">Платежная система</span>
+                    <span class="title">Выберите калькулятор</span>
                     <span class="triangle"></span>
-                    <span class="select">
-                        Стоимость нескольких пипсов
-                        <ul class="submenu">
-                            <li><a href>Стоимость одного пипса</a></li>
-                            <li><a class="active" href="calculator.html">Стоимость нескольких пипсов</a></li>
-                            <li><a href>Начальное количество средств</a></li>
-                            <li><a href="calculator_svop.html">Калькулятор свопов</a></li>
-                            <li><a href="calculator_prib.html">Ваша прибыль</a></li>
-                        </ul>
-                    </span>
-                    <img class="dropdown" src="../images/popolnenie/Icon_dropdown.png">
+                    <div class="select">
+                        <select>
+                            <option>Стоимость одного пипса</option>
+                            <option>Стоимость нескольких пипсов</option>
+                            <option>Начальное количество средств</option>
+                            <option>Калькулятор свопов</option>
+                            <option>Ваша прибыль</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="layout_contentBlock layout_contentBlock_right">
-                <form class="desktop">
+                <form>
                     <div class="error">
                         <span class="text">
-                            Ошибка
+                            <span class="title">Ошибка</span><br>
                             Вы неправильно ввели значение в поле «Позиций»
                         </span>
                     </div>
-                    <table cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td>Тип счета</td>
-                            <td>Инструмент</td>
-                            <td>Лот</td>
-                            <td>Позиций</td>
-                            <td>Пипсов</td>
-                            <td>Необходимо</td>
-                        </tr>
-                        <tr>
-                            <td><select class="type_fee">
+                    <div class="items">
+                        <div class="item">
+                            <label>Тип счета</label>
+                            <select class="type_fee">
                                 <option>Долларовый</option>
-                            </select></td>
-                            <td><select class="tool">
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Инструмент</label>
+                            <select class="tool">
                                 <option>EURUSD</option>
-                            </select></td>
-                            <td><input class="lot"></td>
-                            <td><input class="count"></td>
-                            <td><input id="pips"></td>
-                            <td class="result">11.04$</td>
-                        </tr>
-                    </table>
-
-                    <a class="button" class="blue">Рассчитать</a>
-                    <a href class="add_row">
-                        <img src="../images/calc/Add.svg" width="16">
-                        <span>Добавить ряд</span>
-                    </a>
-                </form>
-                <form class="mobile">
-                    <div class="error">
-                        <span class="text">
-                            Ошибка
-                            Вы неправильно ввели значение в поле «Позиций»
-                        </span>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label>Лот</label>
+                            <input class="lot" value="0.01">
+                        </div>
+                        <div class="item">
+                            <label>Позиций</label>
+                            <input class="count" value="1">
+                        </div>
+                        <div class="item">
+                            <label>Пипсов</label>
+                            <input class="pips" value="1">
+                        </div>
+                        <div class="item">
+                            <label class="label_res">Необходимо</label>
+                            <input class="result" value="11.04$">
+                        </div>
                     </div>
-                    <label>Тип счета</label>
-                    <select class="type_fee">
-                        <option>Долларовый</option>
-                    </select>
-                    <label>Инструмент</label>
-                    <select class="tool">
-                        <option>EURUSD</option>
-                    </select>
-                    <label>Лот</label>
-                    <input class="lot">
-                    <label>Позиций</label>
-                    <input class="count">
-                    <label>Пипсов</label>
-                    <input class="pips">
-                    <label class="result">Необходимо</label>
-                    <span class="result">11.04$</span>
-                    <a class="button" class="blue">Рассчитать</a>
+                    <div class="clear"></div>
+                    <div class="button_wrapper">
+                        <button class="blue medium">Рассчитать</button>
+                        <a href class="add_row">
+                            <img src="../images/calc/Add.svg" width="16">
+                            <span>Добавить ряд</span>
+                        </a>
+                    </div>
                 </form>
-                <div class="clear"></div>
+
                 <div class="addition">
-                    <span class="title">Как это считалось</span>
+                    <span class="title">Как это считалось</span><br>
                     <span class="text">Прибыль от нескольких пипсов = 100000 × размер пипса инструмента (0.0001) × лот (0.01) × цену второй валюты в паре (USD) × кол-во открытых позиций (1) × кол-во пипсов (1)</span>
                 </div>
             </div>

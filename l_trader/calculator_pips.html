@@ -199,11 +199,11 @@
                 <div class="payment desktop">
                     <span class="title">Платежная система</span>
                     <ul>
-                        <li><a href="calculator_pips.html">Стоимость одного пипса</a></li>
+                        <li><a class="active" href="calculator_pips.html">Стоимость одного пипса</a></li>
                         <li><a href="calculator.html">Стоимость нескольких пипсов</a></li>
                         <li><a href="calculator_start.html">Начальное количество средств</a></li>
                         <li><a href="calculator_svop.html">Калькулятор свопов</a></li>
-                        <li><a class="active" href="calculator_prib.html">Ваша прибыль</a></li>
+                        <li><a href="calculator_prib.html">Ваша прибыль</a></li>
                     </ul>
                 </div>
                 <div class="payment tablet">
@@ -236,16 +236,18 @@
                             </select>
                         </div>
                         <div class="item">
-                            <label>Сделок в день</label>
-                            <input class="deals" value="3">
+                            <label>Инструмент</label>
+                            <select class="tool">
+                                <option>EURUSD</option>
+                            </select>
                         </div>
                         <div class="item">
-                            <label>Средний лот</label>
-                            <input class="lot" value="2">
+                            <label>Лот</label>
+                            <input class="lot" value="0.01">
                         </div>
                         <div class="item">
-                            <label>Средняя прибыль</label>
-                            <input class="prib" value="1">
+                            <label>Позиций</label>
+                            <input class="count" value="1">
                         </div>
                         <div class="item">
                             <label class="label_res">Необходимо</label>
@@ -261,6 +263,7 @@
                         </a>
                     </div>
                 </form>
+
                 <div class="addition">
                     <span class="title">Как это считалось</span><br>
                     <span class="text">Прибыль от нескольких пипсов = 100000 × размер пипса инструмента (0.0001) × лот (0.01) × цену второй валюты в паре (USD) × кол-во открытых позиций (1) × кол-во пипсов (1)</span>

@@ -175,25 +175,37 @@
 /*Calculator*/
 .layout_content_container.calc .payment.desktop                                  {display: block;}
 .layout_content_container.calc .payment.tablet                                   {display: none;}
-.layout_content_container.calc .layout_contentBlock_left                         {width: 261px; padding: 30px 0;}
+.layout_content_container.calc .layout_contentBlock_left                         {width: 261px; padding: 30px 0; background: #ffffff;}
 .layout_content_container.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .layout_content_container.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
 .layout_content_container.calc .payment .title                                   {font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
-.layout_content_container.calc .layout_contentBlock_right                        {width: 747px; padding: 30px;}
-.layout_content_container.calc .layout_contentBlock_right .error                 {display: none;}
-.layout_content_container.calc .layout_contentBlock_right form table             {margin-bottom: 20px;}
-.layout_content_container.calc .layout_contentBlock_right form .type_fee         {width: 147px; margin-right: 15px;}
-.layout_content_container.calc .layout_contentBlock_right form .tool             {width: 147px; margin-right: 15px;}
-.layout_content_container.calc .layout_contentBlock_right form .lot              {width: 77px; margin-right: 15px;}
-.layout_content_container.calc .layout_contentBlock_right form .count            {width: 77px; margin-right: 15px;}
-.layout_content_container.calc .layout_contentBlock_right form #pips             {width: 67px; margin-right: 15px;}
-.layout_content_container.calc .layout_contentBlock_right form td.last           {padding-left: 30px;}
-.layout_content_container.calc .layout_contentBlock_right form tr:first-child td {color: #181818; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content_container.calc .layout_contentBlock_right .result                {color: #388d40; font-size: 112%; text-align: right;}
-.layout_content_container.calc .layout_contentBlock_right .blue                  {float: left; margin-right: 28px;}
-.layout_content_container.calc .layout_contentBlock_right .add_row img           {margin: 10px;}
+.layout_content_container.calc .layout_contentBlock_right                        {width: 747px; padding: 30px; background: #ffffff;}
+.layout_content_container.calc .layout_contentBlock_right .error                 {font-family: Roboto-Med, Arial, sans-serif; display: none; width: 100%; padding: 15px 0; background: #fff8f8; border: 2px solid #ffbcbc;}
+.layout_content_container.calc .layout_contentBlock_right .error .text                 {margin-left: 25px; display: inline-block; line-height: 20px;}
+.layout_content_container.calc .layout_contentBlock_right .error .title                 {color: #e75a5a; text-transform: uppercase;}
+.layout_content_container.calc .layout_contentBlock_right label                 {display: block;}
+.layout_content_container.calc .layout_contentBlock_right form                 {font-family: Roboto-Reg, Arial, sans-serif; display: inline-block;}
+.layout_content_container.calc .layout_contentBlock_right input                 {font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_content_container.calc .layout_contentBlock_right .items                 {width: 100%; display: inline-block;}
+.layout_content_container.calc .layout_contentBlock_right .item                 {margin-right: 18px;}
+.layout_content_container.calc .layout_contentBlock_right .item:last-child        {margin-right: 0; float: right; text-align: right;}
+.layout_content_container.calc .layout_contentBlock_right form .type_fee         {width: 170px;}
+.layout_content_container.calc .layout_contentBlock_right form .tool             {width: 147px;}
+.layout_content_container.calc .layout_contentBlock_right form .lot              {width: 55px;}
+.layout_content_container.calc .layout_contentBlock_right form .count            {width: 55px;}
+.layout_content_container.calc .layout_contentBlock_right form .pips             {width: 43px;}
+.layout_content_container.calc .layout_contentBlock_right form .lever             {width: 90px;}
+.layout_content_container.calc .layout_contentBlock_right form .deals             {width: 95px;}
+.layout_content_container.calc .layout_contentBlock_right form .prib             {width: 95px;}
+.layout_content_container.calc .layout_contentBlock_right .result                {border: none; color: #388d40; font-size: 135%; padding: 0; text-align: right; width: 80px;}
+.layout_content_container.calc .layout_contentBlock_right .button_wrapper   {display: inline-block; margin-top: 30px; text-align: left;}
+.layout_content_container.calc .layout_contentBlock_right .button_wrapper .blue  {margin-right: 20px;}
+.layout_content_container.calc .layout_contentBlock_right .add_row           {margin: 0 20px 0 0; line-height: 42px;}
+.layout_content_container.calc .layout_contentBlock_right .add_row img           {margin: 0 5px 0 0; vertical-align: middle;}
 .layout_content_container.calc .layout_contentBlock_right .add_row span          {font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; color: #0a79bf; line-height: 36px;}
-.layout_content_container.calc .layout_contentBlock_right .addition              {margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 100%; text-align: center;}
+.layout_content_container.calc .layout_contentBlock_right .free_cash          {font-size: 135%; color: #181818; float: right; line-height: 42px;}
+.layout_content_container.calc .layout_contentBlock_right .free_cash .bold          {font-family: Roboto-Bold, Arial, sans-serif;}
+.layout_content_container.calc .layout_contentBlock_right .addition              {line-height: 23px; display: block; margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 100%; text-align: center;}
 .layout_content_container.calc .layout_contentBlock_right .addition .title       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-bottom: 10px;}
 
 /*FAQ*/

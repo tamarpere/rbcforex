@@ -209,59 +209,83 @@
     .layout_content_container.demo .layout_contentBlock_reklama .apps                          {float: none; left: 50%; margin-left: -50%; position: absolute; bottom: 100px; text-align: center; width: 100%;}
 
     /*Fillup*/
-    .layout_content_container.fillup .comission                                      {width: 266px; padding: 0; height: 45px; line-height: 45px; text-align: center; top: 145px; left: 50%; margin-left: -133px;}
-    .layout_content_container.fillup .layout_content_upper h2                        {margin-bottom: 0;}
+    .layout_content_container.fillup .comission                                      {width: 260px; padding: 0; height: 45px; line-height: 45px; text-align: center; top: 100px; left: 15px;}
+    .layout_content_container.fillup .layout_content_upper h2                        {margin-bottom: 10px;}
     .layout_content_container.fillup .layout_contentBlock_right                      {padding: 0; width: 100%; text-align: center;}
-    .layout_content_container.fillup input                                           {float: none;}
-    .layout_content_container.fillup .layout_content_lower .layout_contentBlock_left {padding: 0; height: 54px; width: 266px; margin: 10px auto 82px auto; line-height: 54px;}
+    .layout_content_container.fillup input                                           {float: none; width: 242px;}
+    .layout_content_container.fillup #bonus                                           {width: 111px; float: left;}
+    .layout_content_container.fillup .layout_contentBlock_left    {padding: 0; float: none; display: block; margin-bottom: 70px; width: 100%; height: 53px; margin-right: 0; line-height: 53px; background: transparent;}
     .layout_content_container.fillup .payment.desktop                                {display: none;}
     .layout_content_container.fillup .payment.tablet                                 {display: block; text-align: center;}
     .layout_content_container.fillup .payment.tablet .title                          {display: none;}
     .layout_content_container.fillup .payment.tablet .triangle                       {display: none;}
-    .layout_content_container.fillup .payment.tablet .select                         {margin-left: 0; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
-    .layout_content_container.fillup .payment.tablet .select img                     {vertical-align: middle;}
-    .layout_content_container.fillup .payment.tablet .select span                    {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-    .layout_content_container.fillup .payment.tablet .dropdown                       {float: right; margin: 25px;}
+    .layout_content_container.fillup .payment.tablet .select      {width: 90%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content_container.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container.fillup .payment.tablet .select select {width: 250px; margin-left: auto; padding-left: 15px; font-size: 100%; background: #ffffff; color: #218ed2; height: 50px; border: none;}
+    .layout_content_container.fillup .payment.tablet .select select:hover {box-shadow: none;}
 
-    .layout_content_container.fillup form              {display: inline-block; height: auto; padding-top: 10px; margin: 0 auto; width: 320px; text-align: left;}
-    .layout_content_container.fillup form label        {width: 80%; display: inline-block; margin: 10px auto; float: none;}
-    .layout_content_container.fillup form #number {width: 115px; float: left;}
-    .layout_content_container.fillup form #bonus  {width: 115px; float: left;}
+    .layout_content_container.fillup form              {display: inline-block; height: auto; padding-top: 20px; width: 80%; text-align: left;}
+    .layout_content_container.fillup form label        {width: 100%; display: inline-block; float: none; margin-bottom: 10px;}
+    .layout_content_container.fillup form #number {width: 111px; float: left;}
     .layout_content_container.fillup form #sum    {width: 115px; float: left;}
     .layout_content_container.fillup form #result {width: 115px; float: left;}
-    .layout_content_container.fillup form select       {width: 115px; float: left; margin: 0 0 0 20px; }
-    .layout_content_container.fillup form .note        {width: 260px; margin-left: 0; margin-bottom: 10px; display: inline-block;}
-    .layout_content_container.fillup form .note.done   {width: 260px; margin-left: 0; margin-bottom: 0; display: inline-block; float: none;}
+    .layout_content_container.fillup form .note.done   {width: 260px; margin: 500px 0 0 0; display: inline-block; float: none;}
     .layout_content_container.fillup form .note.desktop       {display: none;}
-    .layout_content_container.fillup form .note.mobile       {display: inline-block;}
-    .layout_content_container.fillup form a.note       {width: 115px; float: left; margin-left: 20px; line-height: 42px; margin-bottom: 0;}
-    .layout_content_container.fillup form .blue        {margin: 30px auto 0 auto;}
+    .layout_content_container.fillup form .note.mobile       {display: inline-block; float: right;}
+    .layout_content_container.fillup form a.note       {width: 90px; float: left; margin-left: 20px; margin-bottom: 0;}
+    .layout_content_container.fillup form .blue        {margin: 30px auto;}
 
     /*Withdraw*/
-    .layout_content_container.withdraw form                  {height: auto; display: block; position: relative; background: #ffffff;}
+    .layout_content_container.withdraw form                  {display: inline-block; height: auto; padding-top: 20px; width: 80%; text-align: left;}
     .layout_content_container.withdraw form img              {top: 25px; left: 50%; margin-left: -118px;}
-    .layout_content_container.withdraw form #result {width: 260px;}
+    .layout_content_container.withdraw form #result {width: 242px;}
     .layout_content_container.fillup .addition {float: none; width: 80%; display: inline-block;}
-    .layout_content_container.withdraw form .data_card       {margin-bottom: 0; height: 550px;}
+    .layout_content_container.withdraw form .data_card       {margin-bottom: 0; height: 550px; position: absolute; left: 0; top: 450px;}
     .layout_content_container.withdraw form .side            {width: 100%; padding: 60px 0 25px 0; height: 470px; border-radius: 0;}
-    .layout_content_container.withdraw .data_card .selects          {margin-left: 25px;}
+    .layout_content_container.withdraw form .side input            {width: 242px !important;}
+    .layout_content_container.withdraw .data_card .selects          {margin-left: 0;}
     .layout_content_container.withdraw .data_card .selects label    {margin-left: 0;}
     .layout_content_container.withdraw .data_card .selects select   {font-size: 118%;}
     .layout_content_container.withdraw .data_card .cvv_number       {float: none; width: auto; display: inline-block;}
-    .layout_content_container.withdraw .data_card .cvv_number input {width: 75px; float: left;}
-    .layout_content_container.withdraw .data_card .cvv_number .note {width: 120px; float: left; margin-top: 10px;}
+    .layout_content_container.withdraw .data_card .cvv_number input {width: 75px !important; float: left; margin-right: 20px;}
+    .layout_content_container.withdraw .data_card .cvv_number .note {width: 120px; float: left; margin-top: 0; font-size: 100%;}
+    .layout_content_container.fillup .side.back  {width: 100%; height: 60px; z-index: 10; left: 25px; top: 290px; padding: 0; background: transparent;}
+    .layout_content_container.fillup .side.back .line {display: none;}
+    .layout_content_container.fillup .side.front {height: 410px;}
     .layout_content_container.withdraw form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
 
     /*Calculator*/
-    .layout_content_container.calc .layout_content_lower label {color: #181818; font-size: 100%; margin: 0 auto 0 0; width: 100%; display: block; line-height: 20px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500;}
-    .layout_content_container.calc .layout_content_lower .result {float: left; text-align: left; width: 50%; line-height: 30px;}
-    .layout_content_container.calc .layout_content_lower span.result {text-align: right; font-size: 160%;}
-    .layout_content_container.calc .layout_content_lower input {width: 228px; margin: 10px auto 30px auto;}
-    .layout_content_container.calc .layout_content_lower select {width: 250px; margin: 10px auto 30px auto;}
-    .layout_content_container.calc .layout_content_lower .blue {width: 250px; margin: 30px auto;}
-    .layout_content_container.calc .layout_contentBlock_right .addition {width: 100%; padding: 0; font-size: 70%;}
-    .layout_content_container.calc .layout_contentBlock_right .addition .title {padding: 30px 0 10px 0;}
-    .layout_content_container.calc .layout_contentBlock_right .addition .text {padding: 10px 30px 30px 30px;}
+    .layout_content_container.calc {padding-bottom: 270px;}
+    .layout_content_container.calc .layout_contentBlock_right .addition {position: absolute; top: 100%; left: 50%; margin-left: -140px; width: 222px; padding: 25px; font-size: 100%; background: transparent; border: 4px solid #ffffff;}
+    .layout_content_container.calc h2 {margin-bottom: 10px;}
+    .layout_content_container.calc .layout_contentBlock_right {width: 100%; padding: 0; margin-top: 75px;}
+    .layout_content_container.calc .layout_contentBlock_left    {padding: 0; float: none; display: block; width: 100%; height: 53px; margin-right: 0; line-height: 53px; background: transparent;}
+    .layout_content_container.calc .payment.tablet              {display: block; position: relative;}
+    .layout_content_container.calc .payment.tablet .title       {padding-left: 0; display: block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: none; background: transparent; text-align: left; width: 90%; margin: 0 auto;}
+    .layout_content_container.calc .payment.desktop             {display: none;}
+    .layout_content_container.calc .payment.tablet .triangle    {display: none;}
+    .layout_content_container.calc .payment.tablet .select      {width: 90%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .layout_content_container.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_content_container.calc .payment.tablet .select select {width: 250px; padding-left: 15px; font-size: 100%; background: #ffffff; color: #218ed2; height: 50px; border: none;}
+    .layout_content_container.calc .payment.tablet .select select:hover {box-shadow: none;}
+    .layout_content_container.calc .layout_contentBlock_right .items {width: 100%; text-align: center;}
+    .layout_content_container.calc .layout_contentBlock_right .items .item {width: 80%; margin: 10px auto; float: none; display: block; text-align: left;}
+    .layout_content_container.calc .layout_contentBlock_right form {width: 100%;}
+    .layout_content_container.calc .layout_contentBlock_right form .type_fee         {width: 262px;}
+    .layout_content_container.calc .layout_contentBlock_right form .tool             {width: 262px;}
+    .layout_content_container.calc .layout_contentBlock_right form .lot              {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right form .count            {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right form .pips             {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right form .lever            {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right form .deals            {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right form .prib             {width: 242px;}
+    .layout_content_container.calc .layout_contentBlock_right .label_res             {width: 50%; float: left;}
+    .layout_content_container.calc .layout_contentBlock_right .result                {width: 90px; float: right;}
+    .layout_content_container.calc .layout_contentBlock_right .add_row                {display: none;}
+    .layout_content_container.calc .layout_contentBlock_right .button_wrapper {text-align: center; margin-bottom: 30px;}
+    .layout_content_container.calc .layout_contentBlock_right .blue {margin-right: auto;}
+    .layout_content_container.calc .layout_contentBlock_right .free_cash {display: none;}
+
 
     /*Terms*/
     .layout_content_container.terms.mobile .layout_content_upper {text-align: center;}
