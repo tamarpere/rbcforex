@@ -92,6 +92,27 @@
         </div>
     </div>
 </div>
+<div class="layout_form_login">
+    <div class="form_wrapper">
+        <h2>Личный кабинет</h2>
+        <a class="close_login">
+            <img src="../images/open_invest/Cross_blue.png">
+        </a>
+        <form>
+            <label>Логин</label>
+            <input>
+            <label>Пароль</label>
+            <input>
+            <div class="clear"></div>
+            <div class="button_wrapper">
+                <span class="forget">Забыли?</span>
+                <a class="button blue medium">Войти в кабинет</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
 <header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -134,14 +155,14 @@
                 </nav>
             </div>
             <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
+                <a class="login">
                     <img src="../images/main/Key.svg" width="35" height="20">
                     <span class="desktop">Кабинет трейдера</span>
                     <span class="tablet">Кабинет</span>
                 </a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
-                <a>
+                <a class="login">
                     <img src="../images/main/Key.svg">
                 </a>
                 <a>
@@ -172,26 +193,34 @@
     <div class="layout_content_container">
         <h2 class="layout_contentBlock layout_contentBlock_title">Три уровня партнерской программы</h2>
         <div class="layout_contentBlock layout_contentBlock_items">
-            <div class="item">
-                <div class="image_wrap">
-                    <img src="../images/partner/Individual_partner_white.svg" width="133">
+            <div class="carousel">
+                <div class="carousel-button-left"><a href="#"></a></div>
+                <div class="carousel-button-right"><a href="#"></a></div>
+                <div class="carousel_wrapper">
+                    <div class="items">
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Individual_partner_white.svg" width="133">
+                            </div>
+                            <a href><h3>Индивидуальное<br>партнерство</h3></a>
+                            <p class="paragraph">Ваш персональный источник стабильного дохода</p>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Predstavitelstvo_white.svg" width="141">
+                            </div>
+                            <a href><h3>Представительство<br>в регионах</h3></a>
+                            <p class="paragraph">Возможность построить прибыльный бизнес</p>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/White_label_white.svg" width="133">
+                            </div>
+                            <a href><h3>White Label</h3></a>
+                            <p class="paragraph">Расширение финансовых услуг вашей компании</p>
+                        </div>
+                    </div>
                 </div>
-                <a href><h3>Индивидуальное<br>партнерство</h3></a>
-                <p class="paragraph">Ваш персональный источник стабильного дохода</p>
-            </div>
-            <div class="item">
-                <div class="image_wrap">
-                    <img src="../images/partner/Predstavitelstvo_white.svg" width="141">
-                </div>
-                <a href><h3>Представительство<br>в регионах</h3></a>
-                <p class="paragraph">Возможность построить прибыльный бизнес</p>
-            </div>
-            <div class="item">
-                <div class="image_wrap">
-                    <img src="../images/partner/White_label_white.svg" width="133">
-                </div>
-                <a href><h3>White Label</h3></a>
-                <p class="paragraph">Расширение финансовых услуг вашей компании</p>
             </div>
         </div>
         <div class="layout_contentBlock layout_contentBlock_link">
@@ -240,8 +269,11 @@
 <section class="layout_content3 partner">
     <div class="layout_content_container">
         <div class="layout_contentBlock layout_contentBlock_left">
-            <h3 class="layout_contentBlock layout_contentBlock_title">Сколько зарабатывают ваши индивидуальные партнеры?</h3>
-            <a class="button red large">Стать индивидуальным партнером</a>
+            <h3>Сколько зарабатывают ваши индивидуальные партнеры?</h3>
+            <div class="button_wrapper">
+                <a class="button red large">Стать индивидуальным партнером</a>
+            </div>
+
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
             <p class="article">Многие индивидуальные партнеры нашей компании ежемесячно зарабатывают по несколько тысяч американских
@@ -274,8 +306,10 @@
                     особенно если сфера Вашей деятельности тесно связана электронными платежами или обменом электронных
                     валют, то предоставьте своим клиентам возможность пополнения счета в компании RBC Forex и получите
                     дополнительный доход!</p>
+                <div class="button_wrapper">
+                    <a class="button red large">Стать региональным партнером</a>
+                </div>
 
-                <a class="button red large">Стать региональным партнером</a>
             </div>
             <div class="text right">
                 <h5>Всё предельно прозрачно!</h5>
@@ -318,9 +352,8 @@
         <p class="article">Партнеры White Label имеют право получить до десяти профилей менеджеров. Это позволит Вам распределять
             клиентов по различным профилям. Партнеру White Label предоставляется бесплатно торговая платформа
             Mobius-trader от компании MobiusSoft.</p>
-        <a class="button red large">Стать партнером White Label</a>
-        <div class="layout_contentBlock layout_contentBlock_image">
-            <img src="../images/partner/Banner2.png">
+        <div class="button_wrapper">
+            <a class="button red large">Стать партнером White Label</a>
         </div>
     </div>
 </section>
@@ -340,53 +373,57 @@
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
             <h3>Преимущества партнерства с RBC Forex</h3>
-            <div class="items">
-
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Icon_busyness.png" width="88">
+            <div class="carousel">
+                <div class="carousel-button-left"><a href="#"></a></div>
+                <div class="carousel-button-right"><a href="#"></a></div>
+                <div class="carousel_wrapper">
+                    <div class="items">
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Icon_busyness.png" width="88">
+                            </div>
+                            <p class="article">Ваши клиенты в любом случае останутся Вашими. При этом Время жизни
+                                cookies абсолютно не ограничено</p>
                         </div>
-                        <p class="article">Ваши клиенты в любом случае останутся Вашими. При этом Время жизни
-                        cookies абсолютно не ограничено</p>
-                    </div>
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Icon_hands_blue.png" width="88">
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Icon_hands_blue.png" width="88">
+                            </div>
+
+                            <p class="article">Все клиенты компании RBC Forex уже автоматически являются нашими партнерами</p>
                         </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Icon_time_money.png" width="149">
+                            </div>
 
-                        <p class="article">Все клиенты компании RBC Forex уже автоматически являются нашими партнерами</p>
-                    </div>
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Icon_time_money.png" width="149">
-                        </div>
-
-                        <p class="article">Свою комиссию Вы можете получить сразу после закрытия позиции клиентом.</p>
-                    </div>
-
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Icon_links.png" width="93">
+                            <p class="article">Свою комиссию Вы можете получить сразу после закрытия позиции клиентом.</p>
                         </div>
 
-                        <p class="article">Вы получаете доступ к личному кабинету, в котором указывается перечень всех ваших рефералов и
-                        привлеченных трейдеров</p>
-                    </div>
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Banner.svg" width="100">
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Icon_links.png" width="93">
+                            </div>
+
+                            <p class="article">Вы получаете доступ к личному кабинету, в котором указывается перечень всех ваших рефералов и
+                                привлеченных трейдеров</p>
                         </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Banner.svg" width="100">
+                            </div>
 
-                        <p class="article">Предоставление множества рекламных баннеров разных размеров</p>
-                    </div>
-                    <div class="item">
-                        <div class="image_wrap">
-                            <img src="../images/partner/Icon_money.png" width="85">
+                            <p class="article">Предоставление множества рекламных баннеров разных размеров</p>
                         </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/partner/Icon_money.png" width="85">
+                            </div>
 
-                        <p class="article">Полученный доход Вы можете использовать для торговли или вывести</p>
+                            <p class="article">Полученный доход Вы можете использовать для торговли или вывести</p>
+                        </div>
                     </div>
-
+                </div>
             </div>
         </div>
     </div>

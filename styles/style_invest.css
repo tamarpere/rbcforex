@@ -1,11 +1,11 @@
-.layout_header .layout_header_container .triangle.invest {left: 38px;}
+.layout_header .layout_header_container .triangle.invest {left: 35px;}
 
 /*Rating*/
 .layout_content1.rating                                                   {background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
-.layout_content1.rating .layout_content_container.mobile                  {display: none;}
-.layout_content1.rating .layout_content_container.desktop                 {display: block; margin: 0 auto; width: 1080px;}
+.layout_content1.rating .layout_content_container .header_rating.desktop       {display: inline-block; width: 100%;}
+.layout_content1.rating .layout_content_container .header_rating.mobile       {display: none;}
 .layout_content1.rating .layout_content_container h2.tablet               {display: none;}
-.layout_content1.rating .layout_content_container h2.desktop              {display: block; color: #f5f7f7; float: left; margin: 40px 0;}
+.layout_content1.rating .layout_content_container h2.desktop              {display: block; color: #f5f7f7; float: left; margin: 40px 0; width: 60%; text-align: left;}
 .layout_content1.rating .layout_content_container .blue                   {float: right; margin: 50px 0;}
 .layout_content1.rating .layout_content_container .blue img               {vertical-align: middle; margin-right: 5px;}
 .layout_content1.rating .layout_content_container .layout_contentBlock_items                  {display: inline-block; width: 1080px; padding: 0;}
@@ -13,7 +13,10 @@
 .layout_content1.rating .layout_content_container .layout_contentBlock_items .item:last-child {margin-right: 0;}
 .layout_content1.rating .layout_content_container .layout_contentBlock_items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
 .layout_content1.rating .layout_content_container .layout_contentBlock_items .image_wrap img  {vertical-align: middle;}
+.layout_content_container .carousel .carousel-button-left            {display: none;}
+.layout_content_container .carousel .carousel-button-right           {display: none;}
 
+.layout_content2.rating .layout_contentBlock_filter_wrapper {display: none;}
 .layout_content2.rating                                                                    {height: auto; width: 100%; margin: -70px auto 50px auto; text-align: center;}
 .layout_content2.rating .layout_content_container.tablet                                  {display: none;}
 .layout_content2.rating .layout_content_container.mobile                                  {display: none;}
@@ -105,7 +108,6 @@
 .layout_content_container.dir_invest .layout_contentBlock a           {text-decoration: underline; color: #0a79bf;}
 .layout_content_container.dir_invest .layout_contentBlock_left        {padding: 0; background: transparent; width: 747px;}
 .layout_content_container.dir_invest .layout_contentBlock_right       {padding: 0; background: transparent; font-size: 100%; width: 262px;}
-.layout_content_container.dir_invest .red                             {margin: 0 auto 30px auto;}
 .layout_content_container.dir_invest .layout_contentBlock .example    {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
 .layout_content_container.dir_invest .layout_contentBlock img.desktop {display: block;}
 .layout_content_container.dir_invest .layout_contentBlock img.tablet  {display: none;}
@@ -114,6 +116,9 @@
 .layout_content_container.copy_deal .banner {background: url("../images/copi_sdel/Banner1.png") center;}
 .layout_content_container.copy_deal .example h4 {font-size: 145%; color: #2a333c;}
 .layout_content_container.copy_deal .example p {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #2a333c;}
+.layout_content_container.dir_invest a.button.mobile {display: none;}
+.layout_content_container.dir_invest a.button.desktop {display: inline-block;}
+
 
 /*Be trader*/
 .layout_content_container.invest .layout_content_upper                 {display: inline-block; margin-bottom: 56px;}
@@ -178,6 +183,7 @@
 .layout_content1.steps.step6 h3 {font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
 
 /*Open invest*/
+.layout_content_container.open_invest .download_mobius                         {display: none;}
 .layout_content_container.open_invest .layout_content_lower                         {display: inline-block;}
 .layout_content_container.open_invest .layout_content_lower form                        {position: relative;}
 .layout_content_container.open_invest .layout_content_lower form .calendar              {position: absolute; top: 80px; right: 20px;}

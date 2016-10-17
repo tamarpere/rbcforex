@@ -89,6 +89,27 @@
         </div>
     </div>
 </div>
+<div class="layout_form_login">
+    <div class="form_wrapper">
+        <h2>Личный кабинет</h2>
+        <a class="close_login">
+            <img src="../images/open_invest/Cross_blue.png">
+        </a>
+        <form>
+            <label>Логин</label>
+            <input>
+            <label>Пароль</label>
+            <input>
+            <div class="clear"></div>
+            <div class="button_wrapper">
+                <span class="forget">Забыли?</span>
+                <a class="button blue medium">Войти в кабинет</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
 <header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -131,14 +152,14 @@
                 </nav>
             </div>
             <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
+                <a class="login">
                     <img src="../images/main/Key.svg" width="35" height="20">
                     <span class="desktop">Кабинет трейдера</span>
                     <span class="tablet">Кабинет</span>
                 </a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
-                <a>
+                <a class="login">
                     <img src="../images/main/Key.svg">
                 </a>
                 <a>
@@ -587,57 +608,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(function () {
-        $('.mobile_menu').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.show();
-        });
-        $('.close').on('click', function (){
-            var a = $('.layout_header_menu');
-            a.hide();
-        });
-
-        $('.show_sub').on('click', function (){
-            $(this).siblings('.sub_menu').slideToggle();
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active')
-            } else {
-                $(this).addClass('active')
-            }
-        })
-    });
-    //    Carousel for mobile
-
-    $(document).on('click', ".carousel-button-right",function(){
-        var carusel = $(this).parents('.carousel');
-        right_carusel(carusel);
-        return false;
-    });
-
-    $(document).on('click',".carousel-button-left",function(){
-        var carusel = $(this).parents('.carousel');
-        left_carusel(carusel);
-        return false;
-    });
-    function left_carusel(carusel){
-        var block_width = $(carusel).find('.item').outerWidth();
-        $(carusel).find(".items .item").eq(-1).clone().prependTo($(carusel).find(".items"));
-        $(carusel).find(".items").css({"left":"-"+block_width+"px"});
-        $(carusel).find(".items .item").eq(-1).remove();
-        $(carusel).find(".items").animate({left: "0px"}, 200);
-
-    }
-    function right_carusel(carusel){
-        var block_width = $(carusel).find('.item').outerWidth();
-        $(carusel).find(".items").animate({left: "-"+ block_width +"px"}, 200, function(){
-            $(carusel).find(".items .item").eq(0).clone().appendTo($(carusel).find(".items"));
-            $(carusel).find(".items .item").eq(0).remove();
-            $(carusel).find(".items").css({"left":"0px"});
-        });
-    }
-
-</script>
 </body>
 </html>

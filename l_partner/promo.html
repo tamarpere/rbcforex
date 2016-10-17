@@ -92,6 +92,27 @@
         </div>
     </div>
 </div>
+<div class="layout_form_login">
+    <div class="form_wrapper">
+        <h2>Личный кабинет</h2>
+        <a class="close_login">
+            <img src="../images/open_invest/Cross_blue.png">
+        </a>
+        <form>
+            <label>Логин</label>
+            <input>
+            <label>Пароль</label>
+            <input>
+            <div class="clear"></div>
+            <div class="button_wrapper">
+                <span class="forget">Забыли?</span>
+                <a class="button blue medium">Войти в кабинет</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
 <header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -134,14 +155,14 @@
                 </nav>
             </div>
             <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
+                <a class="login">
                     <img src="../images/main/Key.svg" width="35" height="20">
                     <span class="desktop">Кабинет трейдера</span>
                     <span class="tablet">Кабинет</span>
                 </a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
-                <a>
+                <a class="login">
                     <img src="../images/main/Key.svg">
                 </a>
                 <a>
@@ -169,18 +190,18 @@
     </div>
 </header>
 <section class="layout_content">
-    <div class="layout_content_container novichkam">
+    <div class="layout_content_container promo novichkam">
         <div class="layout_content_upper">
             <h2 class="layout_contentBlock layout_contentBlock_title">Система реферальных ссылок</h2>
 
             <div class="layout_contentBlock layout_contentBlock_banner">
                 <img class="desktop image_banner" src="../images/promo_cod/Banner.png">
                 <div class="buttons">
-                    <a href class="button demo">
+                    <a href="referal.html" class="button demo">
                         <img src="../images/promo_cod/Referal_link_white.svg" width="90">
                         <span>Создать реферальную ссылку</span>
                     </a>
-                    <a href class="button edu">
+                    <a href="banners.html" class="button edu">
                         <img src="../images/bonus/Education.svg" width="90">
                         <span>Баннеры для вашего сайта</span>
                     </a>
@@ -204,13 +225,13 @@
         <div class="layout_content_lower">
         <h4>Более подробная информация о партнерской системе</h4>
 
-        <p class="article">Автоматически создать собственную партнерскую ссылку, вы можете в личном кабинете.</p>
+        <p class="article">Автоматически создать собственную партнерскую ссылку, вы можете в <a href>личном кабинете</a>.</p>
 
-        <p class="article">Общий вид реферальной ссылки таков: обычная ссылка на страницу нашего сайта?rXXXX, где XXXX
+        <p class="article">Общий вид реферальной ссылки таков: <span class="bold">обычная ссылка на страницу нашего сайта</span>?rXXXX, где XXXX
             — это номер вашего счета.</p>
 
-        <p class="article">Например, http://www.rbcforex.org/?r10000 или
-            http://www.rbcforex.org/account/open?r23910.</p>
+        <p class="article">Например, <a href>http://www.rbcforex.org/?r10000</a> или
+            <a href>http://www.rbcforex.org/account/open?r23910</a>.</p>
 
         <p class="article">В принципе, изменив окончание на номер своего счета, вы можете вставлять эту ссылку куда
             угодно
@@ -221,9 +242,9 @@
 
         <p class="article">Поэтому везде, где используются теги HTML, мы советуем использовать следующий прием:</p>
         <span class="example">
-            HTML Код:
-            <a href="http://www.rbcforex.org/?rXXXX">Ваш текст</a>
-            Результат: Ваш текст
+            <span class="bold">HTML Код:</span><br>
+            &lt;a href="http://www.rbcforex.org/?rXXXX"&gt;Ваш текст&lt;/a&gt;<br>
+            <span class="bold">Результат:</span> <a href>Ваш текст</a>
         </span>
 
         <p class="article">Однако, если вы попробуете перейти по указанной ссылке, то увидите, что в адресной строке
@@ -233,9 +254,9 @@
             Главное, чтобы в конце стояло ?rXXXX- где XXXX это номер вашего счета.</p>
 
              <span class="example">
-            HTML Код:
-            <a href="http://www.rbcforex.org/?rXXXX">Ваш текст</a>
-            Результат: Ваш текст
+            <span class="bold">HTML Код:</span><br>
+            &lt;a href="http://www.rbcforex.org/?rXXXX"&gt;Ваш текст&lt;/a&gt;<br>
+            <span class="bold">Результат:</span> <a href>Ваш текст</a>
         </span>
 
 
@@ -254,25 +275,25 @@
 
         <p class="article">Если вы ставите ссылку на вашем сайте, этого можно избежать следующим способом (отмечены
             слова, которые необходимо заменить):</p>
+<span class="example">
+            &lt;a href="http://www.rbcforex.org/" target="_blank" onClick="this.href='http://www.rbcforex.org/?rXXXX'">Ваш
+            текст&lt;/a&gt;</span>
 
-        <a href="http://www.rbcforex.org/" target="_blank" onClick="this.href='http://www.rbcforex.org/?rXXXX'">Ваш
-            текст</a>
+        <p class="bold">Пример:</p>
 
-        <span class="bold">Пример:</span>
+        <span class="example">&lt;a href="http://www.rbcforex.org" target="_blank"
+                                 onClick="this.href='http://www.rbcforex.org/?r10000'">RBC Forex&lt;/a&gt;</span>
 
-        <span class="example"><a href="http://www.rbcforex.org" target="_blank"
-                                 onClick="this.href='http://www.rbcforex.org/?r10000'">RBC Forex</a></span>
-
-        <p class="article">В личном кабинете, вы также можете автоматически составить любую комбинацию страница +
+        <p class="article">В <a href>личном кабинете</a>, вы также можете автоматически составить любую комбинацию страница +
             текст.</p>
 
         <p class="article">Мы советуем давать не просто ссылку на главную страницу, а, скажем, ссылку на наш конкурс или
             даже на наши аналитические разделы на сайте. Так ваши будущие рефералы будут чаще заходить к нам.</p>
 
-        <span class="bold">К примеру:</span>
+        <p class="bold">К примеру:</p>
 
-            <span class="example"><a href="http://www.rbcforex.org/account/open" target="_blank"
-                                     onClick="this.href='http://www.rbcforex.org/account/open?r10000'">Открыть счет</a></span>
+            <span class="example">&lt;a href="http://www.rbcforex.org/account/open" target="_blank"
+                                     onClick="this.href='http://www.rbcforex.org/account/open?r10000'">Открыть счет&lt;/a&gt;</span>
 
 
     </div>

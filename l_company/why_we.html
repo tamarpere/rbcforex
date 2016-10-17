@@ -91,6 +91,27 @@
         </div>
     </div>
 </div>
+<div class="layout_form_login">
+    <div class="form_wrapper">
+        <h2>Личный кабинет</h2>
+        <a class="close_login">
+            <img src="../images/open_invest/Cross_blue.png">
+        </a>
+        <form>
+            <label>Логин</label>
+            <input>
+            <label>Пароль</label>
+            <input>
+            <div class="clear"></div>
+            <div class="button_wrapper">
+                <span class="forget">Забыли?</span>
+                <a class="button blue medium">Войти в кабинет</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
 <header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -125,6 +146,7 @@
                         <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li class="active"><a class="active" href="about.html">Компания</a>
+
                             <div class="triangle company"></div>
                         </li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
@@ -133,14 +155,14 @@
                 </nav>
             </div>
             <div class="layout_headerBlock layout_headerBlock_account">
-                <a href>
+                <a class="login">
                     <img src="../images/main/Key.svg" width="35" height="20">
                     <span class="desktop">Кабинет трейдера</span>
                     <span class="tablet">Кабинет</span>
                 </a>
             </div>
             <div class="layout_headerBlock layout_headerBlock_icons">
-                <a>
+                <a class="login">
                     <img src="../images/main/Key.svg">
                 </a>
                 <a>
@@ -167,6 +189,59 @@
 <section class="layout_content1 why">
     <div class="layout_content_container">
         <h2 class="layout_contentBlock layout_contentBlock_title tablet">Почему мы</h2>
+
+        <div class="layout_contentBlock layout_contentBlock_carousel">
+            <div class="carousel">
+                <div class="carousel-button-left"><a href="#"></a></div>
+                <div class="carousel-button-right"><a href="#"></a></div>
+                <div class="carousel_wrapper">
+                    <div class="items">
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Deposit_white.svg" width="88">
+                            </div>
+                            <span><span class="bold">Нет ограничений на депозит</span><br>Мы предоставляем возможность выйти на
+                            рынок форекс с любой суммой</span>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Liquidnost_white.svg" width="84">
+                            </div>
+                            <span><span class="bold">Прямой доступ к межбанковской ликвидности!</span><br>Все сделки наших
+                            клиентов перекупаются в банке.</span>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Sand_clock_white.svg" width="59">
+                            </div>
+                            <span><span class="bold">Быстрое открытие счета</span><br>Торговый счет открывается за несколько
+                            минут по максимально упрощенной процедуры</span>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Save_money_white.svg" width="92">
+                            </div>
+                            <span><span class="bold">Мгновенное исполнение сделок без сюрпризов!</span><br>Мы гарантируем, что
+                            все сделки будут заключены по указанным при их открытии условиям.</span>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Minimal_spread_white.svg" width="91">
+                            </div>
+                            <span><span class="bold">Минимальный спред</span><br>Благодаря минимальным комиссиям Вы получите
+                            максимальную прибыль</span>
+                        </div>
+                        <div class="item">
+                            <div class="image_wrap">
+                                <img src="../images/pochemu/Handshake2_white.svg" width="84">
+                            </div>
+                            <span><span class="bold">Надежная репутация</span><br>Мы ценим свою репутацию и стремимся стать
+                            надежным партнером для трейдеров</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="layout_contentBlock layout_contentBlock_table">
             <table cellpadding="0" cellspacing="0">
                 <tr>
@@ -236,12 +311,6 @@
                 <li>Мощнейший и продуманный до мельчайших деталей тиковый график для использования скальпинга</li>
                 <li>Возможность вести торговлю в один клик</li>
                 <li>Вы можете управлять на графике всеми характеристиками открываемой сделки</li>
-                <!--<li>Эффективная обучающая система</li>-->
-                <!--<li>Широкий спектр интегрированных индикаторов</li>-->
-                <!--<li>Бинарные Опционы гармонично интегрированы в терминал</li>-->
-                <!--<li>Возможность использования скриптов MQL4</li>-->
-                <!--<li>Советники могут работать даже когда Вы в оффлайн благодаря подключению к специальному серверу</li>-->
-                <!--<li>Поддержка и выставление одинаковых настроек на любых устройствах</li>-->
             </ul>
             <div class="clear"></div>
             <table cellpadding="0" cellspacing="0">
@@ -252,7 +321,9 @@
                     <td>Возможность использования скриптов MQL4</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Советники могут работать даже когда Вы в оффлайн благодаря подключению к специальному серверу</td>
+                    <td colspan="2">Советники могут работать даже когда Вы в оффлайн благодаря подключению к
+                        специальному серверу
+                    </td>
                     <td colspan="2">Поддержка и выставление одинаковых настроек на любых устройствах</td>
                 </tr>
             </table>
@@ -262,54 +333,65 @@
 <section class="layout_content3 why">
     <div class="layout_content_container">
         <h2>Мы точно знаем, что нужно нашим клиентам</h2>
+
         <div class="layout_contentBlock layout_contentBlock_items">
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_bag_white.png">
-                    <h4>Щедрые бонусы</h4>
-                </div>
+            <div class="carousel">
+                <div class="carousel-button-left"><a href="#"></a></div>
+                <div class="carousel-button-right"><a href="#"></a></div>
+                <div class="carousel_wrapper">
+                    <div class="items">
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_bag_white.png">
+                                <h4>Щедрые бонусы</h4>
+                            </div>
                 <span>RBC Forex разработала сбалансированную бонусную программу, которая подходит и новичкам, и профессионалам. Она помогает начинающим трейдерам делать первые успешные шаги в торговле, поощряя приветственными и другими приятными бонусами. В свою очередь опытным пользователям мы готовы предложить индивидуальные условия для ведения торговли и привилегии использования клубных карт.
                 </span>
-            </div>
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_face.png">
-                    <h4>Безупречное обслуживание</h4>
-                </div>
+                        </div>
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_face.png">
+                                <h4>Безупречное обслуживание</h4>
+                            </div>
                 <span>У нас работают отзывчивые, вежливые и квалифицированные менеджеры, которые помогут оперативно решить любые Ваши вопросы. Служба поддержки компании RBC Forex работает круглосуточно и оперативно обрабатывает каждый запрос клиентов. При этом получить помощь Вы можете в любой удобной форме (по телефону, электронной почте и т.д.).
                 </span>
-            </div>
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_access.png">
-                    <h4>Доступ к инновационным сервисам</h4>
-                </div>
-                <span>Мы ежедневно предоставляем прогнозы ведущих экспертов по наиболее популярным валютным парам. Более того, при желании Вы имеете возможность в режиме реального времени отслеживать статистику показателей работы брокера RBC Forex.
-                </span>
-            </div>
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_cash.png">
-                    <h4>Быстрый вывод средств без комиссии!</h4>
-                </div>
-                <span>Чаще всего снять заработанные деньги Вы можете в течение пяти минут. Мы предлагаем огромный выбор различных способов вывода от электронных платежных систем до валютного перевода. Все комиссии компания RBC Forex берет на себя!
-                </span>
-            </div>
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_safe.png">
-                    <h4>Сегрегированные счета</h4>
-                </div>
+                        </div>
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_safe.png">
+                                <h4>Сегрегированные счета</h4>
+                            </div>
                 <span>Мы поддерживаем сегрегированные счета, которые защищают депозит клиента от каких-либо рисков, связанных с нашей деятельностью. В данном случае деньги клиента будут храниться отдельно от активов компании RBC Forex
                 </span>
-            </div>
-            <div class="item">
-                <div class="title_wrap">
-                    <img src="../images/pochemu/Icon_safe1.png">
-                    <h4>Полная безопасность</h4>
+                        </div>
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_access.png">
+                                <h4>Доступ к инновационным сервисам</h4>
+                            </div>
+                                <span>Мы ежедневно предоставляем прогнозы ведущих экспертов по наиболее популярным валютным парам. Более того, при желании Вы имеете возможность в режиме реального времени отслеживать статистику показателей работы брокера RBC Forex.
+                                </span>
+                        </div>
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_cash.png">
+                                <h4>Быстрый вывод средств без комиссии!</h4>
+                            </div>
+                <span>Чаще всего снять заработанные деньги Вы можете в течение пяти минут. Мы предлагаем огромный выбор различных способов вывода от электронных платежных систем до валютного перевода. Все комиссии компания RBC Forex берет на себя!
+                </span>
+                        </div>
+                        <div class="item">
+                            <div class="title_wrap">
+                                <img src="../images/pochemu/Icon_safe1.png">
+                                <h4>Полная безопасность</h4>
+                            </div>
+                            <span>Мы обеспечиваем надежную защиту счетов наших клиентов от взлома и кражи паролей благодаря функции SMS-паролей.</span>
+                        </div>
+                    </div>
                 </div>
-                <span>Мы обеспечиваем надежную защиту счетов наших клиентов от взлома и кражи паролей благодаря функции SMS-паролей.</span>
             </div>
+
+
         </div>
     </div>
 </section>
@@ -319,10 +401,12 @@
             <div class="text">
                 <h2>Призовой фонд</h2>
 
-                <p>Мы&nbsp;регулярно поощряем клиентов за&nbsp;их&nbsp;успехи&nbsp;на&nbsp;рынке. Еженедельно проводятся конкурсы, призовой фонд
+                <p>Мы&nbsp;регулярно поощряем клиентов за&nbsp;их&nbsp;успехи&nbsp;на&nbsp;рынке. Еженедельно проводятся
+                    конкурсы, призовой фонд
                     которых превышает 1000&nbsp;долларов. Ежегодно мы&nbsp;подводим итоги работы каждого клиента и&nbsp;обязательно
                     радуем приятными бонусами. Наиболее активным участникам RBC Forex дарит автомобили
-                    представительского уровня. Мы&nbsp;предоставляем уникальную возможность зарабатывать и&nbsp;при этом получать
+                    представительского уровня. Мы&nbsp;предоставляем уникальную возможность зарабатывать и&nbsp;при этом
+                    получать
                     ценные призы.</p>
             </div>
         </div>
@@ -331,7 +415,8 @@
                 <h2>Бонусные баллы</h2>
 
                 <p>Уже после регистрации каждый трейдер получает 10&nbsp;бонусных баллов. Торгуйте,
-                    участвуйте в&nbsp;конкурсах, накапливайте баллы и&nbsp;обмениваете их&nbsp;на&nbsp;ценные призы от&nbsp;бытовой техники до
+                    участвуйте в&nbsp;конкурсах, накапливайте баллы и&nbsp;обмениваете их&nbsp;на&nbsp;ценные призы от&nbsp;бытовой
+                    техники до
                     престижных автомобилей!
                 </p>
 

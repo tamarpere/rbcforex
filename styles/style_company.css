@@ -5,7 +5,7 @@
 .layout_content1.about .layout_content_container h2               {color: #ffffff; text-align: left;}
 .layout_content1.about .layout_content_container p                {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; color: #ffffff; line-height: 30px;}
 .layout_content1.about .layout_contentBlock_block1                 {width: 590px; text-align: left; float: right; padding: 15px 40px 35px 60px;}
-.layout_content2.about                                             {width: 100%; height: 480px; position: relative;}
+.layout_content2.about                                             {overflow: inherit; width: 100%; height: 480px; position: relative;}
 .layout_content2.about .layout_contentBlock_image                  {position: absolute; right: 45%; top: -37px;}
 .layout_content2.about .layout_contentBlock_about_us               {width: 50%; float: right;}
 .layout_content2.about .layout_contentBlock_about_us h2            {margin-top: 45px; color: #2a333c;}
@@ -16,18 +16,17 @@
 .layout_content2.about .layout_contentBlock_about_us .apple        {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
 .layout_content2.about .layout_contentBlock_about_us .android      {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
 .layout_content2.about .layout_contentBlock_about_us .web          {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
-.layout_content3.about                                             {display: inline-block; width: 100%; height: 492px; background: #ffffff; text-align: center;}
-.layout_content3.about .layout_contentBlock_items                  {display: inline-block; width: 1080px; margin: 50px auto 75px auto;}
-.layout_content3.about .layout_contentBlock_items h2               {color: #2a333c; text-align: left; margin: 0;}
-.layout_content3.about .layout_contentBlock_items .item            {color: #2f3841; float: left; width: 250px; margin-right: 25px; margin-top: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
+.layout_content3.about                                             {display: inline-block; width: 100%; height: 492px; background: #ffffff; text-align: center; margin-bottom: -5px;}
+.layout_content3.about .layout_contentBlock_items                  {padding: 0; display: inline-block; width: 1080px; margin: 0 auto 75px auto;}
+.layout_content3.about .layout_contentBlock_items .item            {color: #2f3841; float: left; width: 250px; margin-right: 25px; margin-top: 20px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
 .layout_content3.about .layout_contentBlock_items .item span       {max-width: 225px;}
 .layout_content3.about .layout_contentBlock_items .item:last-child {margin-right: 0;}
 .layout_content3.about .layout_contentBlock_items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #eef1f2; text-align: center; line-height: 118px;}
 .layout_content3.about .layout_contentBlock_items .image_wrap img  {vertical-align: middle;}
-.layout_content4.about                                             {background: #ff4830; text-align: center; width: 100%; height: 200px; display: inline-block; max-width: none; }
+.layout_content4.about                                             {background: #ff4830; margin-bottom: -5px; text-align: center; width: 100%; height: 200px; display: inline-block; max-width: none; }
 .layout_content4.about .layout_content_container h4                {color: #ffffff; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 230%; margin-top: 35px;}
 .layout_content4.about .layout_content_container .white            {display: inline-block; margin: 0 auto 40px auto;}
-.layout_content5.about                                             {text-align: center; width: 100%; height: 477px; display: inline-block; max-width: none; }
+.layout_content5.about                                             {text-align: center; margin-bottom: -5px; width: 100%; height: 477px; display: inline-block; max-width: none; }
 .layout_content5.about .layout_content_container                  {margin: 0 auto; width: 100%; height: auto; display: inline-block;}
 .layout_content5.about .layout_contentBlock                       {width: 50%; margin: 0; background-size: cover; height: 477px; padding: 0;}
 .layout_content5.about .layout_contentBlock_left                   {background: url("../images/about/Img_about1.png") center no-repeat;}
@@ -39,14 +38,19 @@
 .layout_content5.about .layout_contentBlock_right h3               {width: 175px;}
 .layout_content5.about .layout_contentBlock_left .text             {display: inline-block; margin: 50px 50px 50px auto; float: right; width: 480px; text-align: left;}
 .layout_content5.about .layout_contentBlock_right .text            {display: inline-block; margin: 50px auto 50px 50px; float: left; width: 480px; text-align: left;}
+.layout_content1.about .layout_content_container .carousel .carousel-button-left  {display: none;}
+.layout_content1.about .layout_content_container .carousel .carousel-button-right {display: none;}
 
 /*Why we*/
-.layout_content1.why                                                   {background: url("../images/pochemu/Bg_pochemu1.png") center; background-size: cover; text-align: center; height: 690px;}
+.layout_content1.why                                                   {margin-bottom: -5px; background: url("../images/pochemu/Bg_pochemu1.png") center; background-size: cover; text-align: center; height: 690px;}
+.layout_content1.why .carousel .carousel-button-left  {display: none;}
+.layout_content1.why .carousel .carousel-button-right {display: none;}
 .layout_content1.why h2.tablet {display: none;}
-.layout_content1.why h2                                                {line-height: 40px; margin-top: 0;}
+.layout_content1.why h2                                                {line-height: 40px; margin-top: 0; color: #ffffff;}
 .layout_content1.why .layout_contentBlock_buttons                      {padding: 0; position: absolute; bottom: 200px; left: 0; width: 230px; text-align: center;}
 .layout_content1.why .layout_contentBlock_buttons a                     {margin: 10px auto;}
 .layout_content1.why .layout_contentBlock_table                        {padding: 0; margin: 80px auto;}
+.layout_content1.why .layout_contentBlock_carousel                        {display: none;}
 .layout_content1.why .layout_content_container table                   {table-layout: fixed; color: #ffffff;}
 .layout_content1.why .layout_content_container table td                {text-align: left; width: 220px; line-height: 25px; padding: 0 25px 30px 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; vertical-align: top;}
 .layout_content1.why .layout_content_container table td:first-child    {width: 250px;}
@@ -54,7 +58,7 @@
 .layout_content1.why .layout_content_container table td .bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 118%;}
 .layout_content1.why .layout_content_container table td .red           {width: 229px; height: 39px; line-height: 36px; border-radius: 22px; margin: 20px auto;}
 .layout_content1.why .layout_content_container table td .dashed        {width: 134px; height: 39px; line-height: 36px; border-radius: 22px; margin: 0 auto; display: block;}
-.layout_content2.why                                                   {background: transparent; text-align: center; width: 100%; height: auto; display: inline-block; max-width: none; }
+.layout_content2.why                                                   {margin-bottom: -5px; background: transparent; text-align: center; width: 100%; height: auto; display: inline-block; max-width: none; }
 .layout_content2.why .layout_contentBlock_mobius                       {padding: 0;}
 .layout_content2.why .layout_content_container h2                      {color: #2a333c; text-align: center; margin: 60px 0;}
 .layout_content2.why .layout_content_container img                     {width: 1025px; float: left; margin-top: 0; margin-left: -350px;}
@@ -64,14 +68,16 @@
 .layout_content2.why .layout_content_container td                      {padding: 15px; vertical-align: top; color: #2f3841; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px;}
 .layout_content2.why .layout_content_container ul li:before            {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
 .layout_content2.why .layout_content_container td:before               {content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2; margin-right: 10px; display: inline-block;}
-.layout_content3.why                                                    {background: url("../images/pochemu/Bg_pochemu2.png") center; background-size: cover; text-align: center; width: 100%; height: 846px; display: inline-block; max-width: none; }
+.layout_content3.why                                                    {margin-bottom: -5px; background: url("../images/pochemu/Bg_pochemu2.png") center; background-size: cover; text-align: center; width: 100%; height: 846px; display: inline-block; max-width: none; }
+.layout_content3.why .carousel .carousel-button-left  {display: none;}
+.layout_content3.why .carousel .carousel-button-right {display: none;}
 .layout_content3.why .layout_content_container h2                       {color: #ffffff; text-align: left;}
 .layout_content3.why .layout_contentBlock_items                         {width: 1080px; margin: 0 auto; padding: 0;}
 .layout_content3.why .layout_content_container .item                    {width: 490px; float: left; margin-bottom: 50px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ffffff; font-size: 110%; text-align: left; line-height: 27px;}
 .layout_content3.why .layout_content_container .item:nth-child(2n + 1)  {padding-right: 90px;}
 .layout_content3.why .layout_content_container .item .title_wrap img    {float: left; margin: 0 10px 10px 0;}
 .layout_content3.why .layout_content_container .item .title_wrap h4     {margin-bottom: 10px; font-weight: 400; font-size: 145%; font-family: Roboto-Reg, Arial, sans-serif; line-height: 40px;}
-.layout_content4.why                                                    {background: url("../images/pochemu/Bg_pochemu3.png") center; background-size: cover; text-align: center; width: 100%; height: 509px; display: inline-block; max-width: none; }
+.layout_content4.why                                                    {margin-bottom: -5px; background: url("../images/pochemu/Bg_pochemu3.png") center; background-size: cover; text-align: center; width: 100%; height: 509px; display: inline-block; max-width: none; }
 .layout_content4.why .layout_content_container h2                       {color: #ffffff; line-height: 40px;}
 .layout_content4.why .layout_contentBlock_left h2                       {padding-right: 120px;}
 .layout_content4.why .layout_contentBlock_right h2                      {padding-left: 150px;}
@@ -102,6 +108,7 @@
 .layout_content_container.news .layout_contentBlock                                 {padding: 0;}
 .layout_content_container.news .layout_contentBlock_years                {margin: 50px 0; float: right; display: inline-block; width: 60%; text-align: right;}
 .layout_content_container.news .layout_contentBlock_years li            {display: inline-block;}
+.layout_content_container.news .layout_contentBlock_years li.mobile            {display: none;}
 .layout_content_container.news .layout_contentBlock_years li a          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; border-radius: 22px; text-align: center; font-size: 135%; color: #0a79bf; width: 74px; height: 44px; background: transparent; line-height: 40px;}
 .layout_content_container.news .layout_contentBlock_years li a.active   {color: #ffffff; background: #0a79bf;}
 .layout_content_container.news .layout_content_lower             {clear: both;}

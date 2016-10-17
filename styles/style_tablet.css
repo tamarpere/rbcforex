@@ -5,10 +5,13 @@
     .mobile  {display: none;}
     .desktop {display: block;}
 
+    .layout_form_login .form_wrapper {left: 50%; margin-left: -160px; right: auto;}
+
     .layout_header                                       {text-align: center;}
     .layout_header .layout_header_container               {width: 748px; display: inline-block; height: 90px; padding: 26px 0; margin: 0 auto;}
     .layout_header .layout_headerBlock_right               {display: none;}
     .layout_header .layout_header_content {display: inline-block; width: 80%; float: right;}
+    .layout_header .layout_headerBlock_menu {max-width: 768px;}
     .layout_header .layout_headerBlock_left {width: auto; float: right;}
     .layout_header .layout_headerBlock_nav {margin: 0; float: left;}
     .layout_header .layout_headerBlock_nav li {padding-right: 27px;}
@@ -22,6 +25,7 @@
     .layout_header .layout_headerBlock_left a.mobile {display: none;}
 
     .layout_header .layout_header_container .triangle {top: 20px;}
+    .layout_header .layout_header_container .triangle.traider {left: 15px;}
 
     .layout_footer                               {padding: 0;}
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
@@ -32,45 +36,55 @@
 
     .layout_content_upper {width: 100%;}
 
-    .layout_content1 .layout_content_container1           {max-width: 748px; height: 378px;}
+    .layout_content1.index         {background-position: 57%;}
+    .layout_content1 .layout_content_container1           {width: 748px; height: 378px;}
     .layout_content1 .layout_contentBlock_slide1          {width: 490px;}
-    .layout_content1 .layout_contentBlock_slide1 h2       {font-size: 235%; margin: 54px 0;}
-    .layout_content1 .layout_contentBlock_slide1 .buttons {display: inline-block; margin-top: 20px;}
-    .layout_content1 .layout_contentBlock_slide2 h2       {font-size: 150%; margin-top: 27px;}
-    .layout_content1 .layout_contentBlock_slide2 p        {font-size: 117%; font-weight: 100; font-family: Roboto-Thin, Arial, sans-serif;}
-    .layout_content1 .layout_contentBlock_slide3          {font-size: 117%; text-align: left; bottom: 35px;}
-    .layout_content1 .layout_contentBlock_slide2 .apps    {width: 65px;}
-    .layout_content1 .layout_contentBlock_slide2 .win     {margin: 7px; width: 13px; height: 13px;}
-    .layout_content1 .layout_contentBlock_slide2 .apple   {margin: 7px; width: 14px; height: 16px;}
-    .layout_content1 .layout_contentBlock_slide2 .android {margin: 7px; width: 15px; height: 17px;}
-    .layout_content1 .layout_contentBlock_slide2 .web     {margin: 7px; width: 15px; height: 15px;}
+    .layout_content1.index .layout_contentBlock_slide1 h2       {font-size: 235%; margin: 30px 0;}
+    .layout_content1.index .layout_contentBlock_slide1 .buttons {display: inline-block; margin-top: 0; width: 500px;}
+    .layout_content1.index .layout_contentBlock_slide2 h3       {font-size: 150%; margin-top: 27px;}
+    .layout_content1.index .layout_contentBlock_slide2 p        {font-size: 117%; font-weight: 100; font-family: Roboto-Thin, Arial, sans-serif; margin: 0;}
+    .layout_content1.index .layout_contentBlock_slide3          {font-size: 117%; text-align: left; bottom: 0;}
+    .layout_content1.index .layout_contentBlock_slide2 .apps    {width: 65px;}
+    .layout_content1.index .layout_contentBlock_slide2 .win     {margin: 7px; width: 13px; height: 13px;}
+    .layout_content1.index .layout_contentBlock_slide2 .apple   {margin: 7px; width: 14px; height: 16px;}
+    .layout_content1.index .layout_contentBlock_slide2 .android {margin: 7px; width: 15px; height: 17px;}
+    .layout_content1.index .layout_contentBlock_slide2 .web     {margin: 7px; width: 15px; height: 15px;}
 
-    .layout_content2 .layout_contentBlock_block1 .col_left          {padding: 0 28px; width: 120px;}
-    .layout_content2 .layout_contentBlock_block1 .col_right         {padding: 0 28px;}
-    .layout_content2 .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
-    .layout_content2 .layout_contentBlock_block4                    {width: 674px;}
-    .layout_content2 .layout_contentBlock_invest.desktop            {display: none;}
-    .layout_content2 .layout_contentBlock_invest.tablet             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 46px auto;}
-    .layout_content2 .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
-    .layout_content2 .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 23px;}
-    .layout_content2 .layout_contentBlock_invest.tablet p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
-    .layout_content2 .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 674px;}
-    .layout_content2 .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
-    .layout_content2 .layout_contentBlock_rating tr th:last-child   {display: none}
-    .layout_content2 .layout_contentBlock_rating tr td:last-child   {display: none}
-    .layout_content2 .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
-    .layout_content2 .layout_contentBlock_rating .addition span     {float: none; margin-bottom: 24px; display: inline-block;}
-    .layout_content2 .layout_contentBlock_rating .addition span img {display: none;}
-    .layout_content3 .layout_contentBlock_resume                    {max-width: 748px;}
-    .layout_content2 .layout_content_container4                     {width: 100%;}
-    .layout_content2 .layout_contentBlock_rating .addition .red     {margin: 0 auto;}
+    .layout_content2.index .layout_content_container2                     {width: 748px; margin-top: 20px; margin-bottom: 0;}
+    .layout_content2.index .layout_contentBlock_block1 {width: 470px;}
+    .layout_content2.index .layout_contentBlock_block1 .col_left          {padding: 0 28px; width: 120px;}
+    .layout_content2.index .layout_contentBlock_block1 .col_right         {padding: 0 28px;}
+    .layout_content2.index .layout_contentBlock_block2                    {margin-right: 0; margin-bottom: 10px;}
+    .layout_content2.index .layout_contentBlock_block4                    {width: 682px;}
+    .layout_content2.index .layout_contentBlock_invest.desktop            {display: none;}
+    .layout_content2.index .layout_contentBlock_invest.tablet             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 30px auto;}
+    .layout_content2.index .layout_contentBlock_invest.tablet img         {position: absolute; right: 22px; top: 4px;}
+    .layout_content2.index .layout_contentBlock_invest.tablet h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 23px;}
+    .layout_content2.index .layout_contentBlock_invest.tablet p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
+    .layout_content2.index .layout_contentBlock_rating                    {position: relative; height: 620px; margin-right: 0; width: 674px;}
+    .layout_content2.index .layout_contentBlock_rating tr td:first-child  {font-size: 150%;}
+    .layout_content2.index .layout_contentBlock_rating tr th:last-child   {display: none}
+    .layout_content2.index .layout_contentBlock_rating tr td:last-child   {display: none}
+    .layout_content2.index .layout_contentBlock_rating .addition          {width: 490px; margin: 0 auto; text-align: center;}
+    .layout_content2.index .layout_contentBlock_rating .addition span     {float: none; margin-bottom: 24px; display: inline-block;}
+    .layout_content2.index .layout_contentBlock_rating .addition span img {display: none;}
+    .layout_content3.index .layout_contentBlock_resume                    {max-width: 748px;}
 
-    .layout_content3 .layout_content_container5.desktop          {display: none;}
-    .layout_content3 .layout_content_container5.tablet           {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+    .layout_content2.index .layout_content_container3 {width: 748px; margin: 20px auto;}
+
+    .layout_content2.index .layout_content_container4                     {width: 100%;}
+    .layout_content2.index .layout_contentBlock_rating .addition .red     {margin: 0 auto;}
+
+    .layout_content3 .layout_content_container5          {padding: 57px 0; display: inline-block; text-align: center; width: 100%; background: #ffffff; color: #000000; border-bottom: 1px solid #f5f7f7;}
+    .layout_content3.index .layout_contentBlock_resume table {float: left; width: 300px;}
+    .layout_content3.index .layout_contentBlock_resume table td {display: block; padding: 15px 0;}
+    .layout_content3.index .layout_contentBlock_resume table td:first-child {padding-top: 0;}
+
     .layout_content3 .layout_contentBlock_resume                 {max-width: 748px;}
     .layout_content3 .layout_contentBlock_resume .left_col       {width: 288px; padding-right: 30px; float: left; text-align: left;}
     .layout_content3 .layout_contentBlock_resume .left_col div   {margin-bottom: 43px;}
     .layout_content3 .layout_contentBlock_resume .left_col .info {width: 223px; margin-top: 10px;}
+
 
     /*Trader menu*
     **************************************************************/
@@ -89,7 +103,7 @@
     .layout_content_container.open .layout_content_lower form .clear {width: 200px;}
     .layout_content_container.open .attention                                     {width: 638px !important;}
     .layout_content_container.opened .more                                          {width: 638px !important;}
-    .layout_content_container.opened .extra_info .form input                        {width: 205px;}
+    .layout_content_container.opened .extra_info .form input                        {width: 205px !important;}
     .layout_content_container.opened .layout_contentBlock_right              {width: 747px !important; margin: 10px auto 0 auto; display: inline-block;}
     .layout_content_container.opened .layout_contentBlock_right a             {text-align: left; height: 73px; width: 303px; margin-bottom: 0;}
     .layout_content_container.opened .layout_contentBlock_right .download a   {float: left; margin-right: 20px;}
@@ -97,12 +111,13 @@
     .layout_content_container.opened .layout_contentBlock_right img           {float: left; margin: 0 20px 0 0;}
     .layout_content_container.opened .layout_contentBlock_right .link         {margin-top: 20px; display: inline-block;}
     .layout_content_container.opened .layout_contentBlock_right .fill_up span {display: block; margin-top: 20px;}
+    .layout_content_container.open .layout_content_lower .extra_info .form span {top: 0; left: 100%;}
 
     /*Demo*/
     .layout_content_container.demo .layout_content_middle.desktop {display: none;}
     .layout_content_container.demo .layout_content_middle.tablet                                     {clear: both; display: inline-block;}
     .layout_content_container.demo .layout_content_middle.tablet .form                               {position: absolute; padding: 15px; width: 323px; height: auto; background: #ffffff; float: left; margin-right: 0;}
-    .layout_content_container.demo .layout_content_middle.tablet .gen_pass {bottom: 215px;}
+    .layout_content_container.demo .layout_content_middle.tablet .gen_pass {top: 220px; left: 250px;}
     .layout_content_container.demo .layout_content_middle.tablet .learning {background: #ffffff; float: left;}
     .layout_content_container.demo .layout_content_middle.tablet .learning h6 {margin: 40px 50px 30px 392px;}
     .layout_content_container.demo .layout_content_middle.tablet .learning p {margin-left: 392px; margin-right: 30px;}
@@ -130,7 +145,6 @@
     .layout_content_container.fillup .note {width: 150px;}
     .layout_content_container.fillup .note.long                   {margin-top: -20px;}
     .layout_content_container.fillup .note.done                   {width: 440px; clear: both;}
-    .layout_content_container.fillup .blue                        {margin-left: 240px;}
     .layout_content_container.fillup .payment .more_payment       {display: inline-block;}
     .layout_content_container.fillup .data_card .cvv_number input {width: 70px;}
     .layout_content_container.fillup .data_card .note             {width: 70px;}
@@ -228,7 +242,6 @@
     .layout_content1.rating .layout_content_container .layout_contentBlock_items .item    {width: 167px; margin-right: 15px;}
     .layout_content2.rating                                                               {margin-top: 20px; max-width: none;}
     .layout_content2.rating .layout_content_container                             {width: 747px; margin: 0 auto;}
-    .layout_content2.rating .layout_content_container.mobile                              {display: none;}
     .layout_content2.rating .layout_content_container .filter                      {width: 100%; position: absolute; height: 200px; padding: 0; top: 0;}
     .layout_content2.rating .layout_content_container .filter label                     {display: inline;}
     .layout_content2.rating .layout_content_container .filter input[type="range"]                     {display: inline;}
@@ -313,6 +326,10 @@
     .layout_content_container.open_invest .layout_contentBlock_right a {width: auto !important; height: auto; float: none;}
     .layout_content_lower .layout_contentBlock_right .docs .title {margin-left: 30px; padding-top: 30px;}
     .layout_content_lower .layout_contentBlock_right .docs ul {margin-left: 30px; margin-bottom: 30px;}
+    .layout_content_container.open_invest .download_mobius                         {display: inline-block; width: 100%; text-align: center; background: #ffffff; padding: 20px 0;}
+    .layout_content_container.open_invest .download_mobius  img                       {display: block; margin: 10px auto !important; float: none !important;}
+    .layout_content_container.open_invest .download_mobius  a                       {text-align: center; float: none;}
+    .layout_content_container.open_invest .docs                         {display: none;}
 
 
     /*Company menu*
@@ -326,7 +343,7 @@
     .layout_content2.about .layout_contentBlock_about_us .apps {width: 190px; margin-right: 0;}
     .layout_content2.about .layout_contentBlock_about_us .apps a {margin: 0 12px;}
     .layout_content3.about  {height: 500px; text-align: center;}
-    .layout_content3.about .layout_contentBlock_items h2 {font-size: 260%; text-align: center;}
+    .layout_content3.about  h2 {font-size: 260%; text-align: center;}
     .layout_content3.about .layout_contentBlock_items {width: 748px; padding: 0;}
     .layout_content3.about .layout_contentBlock_items .item {width: 25%; margin-right: 0; text-align: center;}
     .layout_content3.about .layout_contentBlock_items .item .image_wrap {margin: 0 auto 20px auto;}
@@ -417,11 +434,16 @@
     .layout_content3.partner .layout_contentBlock_right {padding: 0; float: none; width: 100%;}
     .layout_content3.partner .layout_contentBlock_left .red {position: absolute; bottom: 0; left: 50%; margin-left: -188px;}
     .layout_content3.partner .layout_contentBlock_right p {margin-top: 10px;}
+    .layout_content4.partner  {height: auto;}
+    .layout_content4.partner .button_wrapper {margin-top: 40px;}
     .layout_content4.partner h2 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 30px 0; width: 100%;}
     .layout_content4.partner .layout_contentBlock_image {right: -190px; top: 115px;}
-    .layout_content4.partner .first_text {width: 70%;}
-    .layout_content4.partner .text {width: 370px;}
+    .layout_content4.partner .layout_contentBlock_article img {width: 350px;}
+    .layout_content4.partner .first_text {width: 60%; margin-bottom: 50px;}
+    .layout_content4.partner .text.right {margin-top: 250px;}
+    .layout_content4.partner .text {width: 45%;}
     .layout_content5.partner {display: none;}
+    .layout_content6.partner {height: 460px;}
     .layout_content7.partner {height: 973px;}
     .layout_content7.partner .layout_contentBlock_left {width: 100%; float: none; text-align: center; margin-top: 30px;}
     .layout_content7.partner .layout_contentBlock_left h5 {margin-bottom: 25px;}
@@ -471,9 +493,13 @@
     .layout_content4.referal .layout_content_container h5 {width: 650px; margin: 30px auto;}
 
     /*Promo cod*/
+    .layout_content_container.promo .layout_content_lower .example   {width: 80%;}
 
-
-
+    /*Banners*/
+    .layout_content.banners .layout_contentBlock_tablet {display: inline-block; width: 100%; padding: 30px 0; background: #ffffff; text-align: center;}
+    .layout_content.banners .layout_contentBlock_tablet p {width: 70%; margin: 20px auto;}
+    .layout_content.banners .layout_contentBlock_left {display: none;}
+    .layout_content.banners .layout_contentBlock_right {display: none;}
 
 
 }

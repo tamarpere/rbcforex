@@ -7,7 +7,7 @@
 .layout_header .layout_headerBlock_menu a:hover           {background: #218ed2;}
 .layout_header .layout_headerBlock_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; background: #fff; color: #181818;}
 .layout_header .layout_headerBlock_menu                   {max-width: 1080px; margin: 0 auto; position: relative;}
-.layout_header .layout_headerBlock_menu .menu             {display: inline-block; margin: 13px 0;}
+.layout_header .layout_headerBlock_menu .menu             {display: inline-block; margin: 13px 0; text-align: left;}
 .layout_header .layout_header_container .triangle.traider {left: 30px;}
 
 /*Open account*/
@@ -93,9 +93,15 @@
 .layout_content_container.demo .layout_content_middle.desktop .layout_contentBlock_right {padding: 30px 40px; width: 596px; height: auto; background: #fbfcfc; float: right;}
 .layout_content_container.demo .layout_content_middle label                              {float: left; width: 240px; margin: 0;}
 .layout_content_container.demo .layout_content_middle input                              {width: 300px; margin: 0 0 10px 0;}
-.layout_content_container.demo .layout_content_middle input[id="password"]               {width: 245px;}
-.layout_content_container.demo .layout_content_middle .gen_pass                          {position: absolute; right: 40px; bottom: 230px;}
-.layout_content_container.demo .layout_content_middle .show_pass                         {vertical-align: top; margin: 0 0 0 8px;}
+.layout_content_container.demo .layout_content_middle input[id="password"]               {width: 245px; float: left;}
+.layout_content_container.demo .layout_content_middle .gen_pass                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; left: 275px; top: 234px;}
+.layout_content_container.demo .layout_content_middle .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0;}
+.layout_content_container.demo .layout_content_middle .show_pass a                       {display: inline-block; width: 100%; height: 100%;}
+.layout_content_container.demo .layout_content_middle .show_pass img                     {position: absolute; left: 12px; top: 15px;}
+.layout_content_container.demo .layout_content_middle .show_pass a .hover                {opacity: 0;}
+.layout_content_container.demo .layout_content_middle .show_pass a .default              {opacity: 1;}
+.layout_content_container.demo .layout_content_middle .show_pass a:hover .hover          {opacity: 1;}
+.layout_content_container.demo .layout_content_middle .show_pass a:hover .default        {opacity: 0;}
 .layout_content_container.demo .layout_content_middle .item                              {width: 50%;}
 .layout_content_container.demo .layout_content_middle .selects                           {display: inline-block;}
 .layout_content_container.demo .layout_content_middle select                             {float: left; width: 153px;}
@@ -146,7 +152,7 @@
 .layout_content_container.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
 .layout_content_container.fillup a.note                       {color: #218ed2;}
 .layout_content_container.fillup .note.done                   {width: 504px; float: right;}
-.layout_content_container.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; width: 80%;}
+.layout_content_container.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; width: 80%;}
 .layout_content_container.fillup .blue                        {margin: 30px auto 0 auto;}
 .layout_content_container.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
 .layout_content_container.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
@@ -162,6 +168,9 @@
 .layout_content_container.fillup .data_card .cvv_number       {width: 90px; float: right; margin-right: 25px;}
 .layout_content_container.fillup .data_card .cvv_number input {width: 70px;}
 .layout_content_container.fillup .data_card .note             {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
+.layout_content_container.fillup form .note.desktop       {display: inline-block;}
+.layout_content_container.fillup form .note.mobile       {display: none;}
+
 
 /*Calculator*/
 .layout_content_container.calc .payment.desktop                                  {display: block;}
@@ -287,7 +296,7 @@
 .layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td             {padding: 18px; font-size: 135%; vertical-align: top;}
 .layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td:first-child {border-right: 1px solid #419ed8; text-align: right;}
 .layout_content_container1.konkurs .layout_contentBlock_prises .how_get                   {float: left; width: 757px;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .how_get .answer           {margin-bottom: 30px; line-height: 20px; font-size: 118%;}
+.layout_content_container1.konkurs .layout_contentBlock_prises .how_get .answer           {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px; font-size: 118%;}
 .layout_content_container2.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
 .layout_content_container2.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 44px;}
 .layout_content_container2.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
