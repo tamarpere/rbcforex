@@ -80,8 +80,8 @@
 .layout_content_container.individual .layout_content_upper .layout_contentBlock_text       {padding: 0;}
 .layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text               {width: 480px;}
 .layout_content_container.individual .layout_content_upper .layout_contentBlock_text h5               {color: #2a333c;}
-.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .red               {display: inline-block; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ff321d; font-size: 118%; line-height: 25px;}
-.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .large               {font-size: 450%; float: left; height: 50px; display: inline-block;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .red               {height: 70px; display: block; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #ff321d; font-size: 118%; line-height: 18px;}
+.layout_content_container.individual .layout_content_upper .layout_contentBlock_text .text .large               {font-size: 450%; float: left; height: 50px; display: inline-block; margin-right: 15px;}
 .layout_content_container.individual .layout_content_lower .layout_contentBlock_text {float: left; width: 48%;}
 .layout_content_container.individual .layout_content_lower .layout_contentBlock_image {float: right;}
 .layout_content_container.individual .layout_content_lower .layout_contentBlock_info {border: 5px solid #ffffff; margin: 50px auto; display: inline-block; padding: 0 30px;}
@@ -133,35 +133,34 @@
 .layout_content4.referal .layout_content_container h5      {margin: 50px 0; font-family: GothamPro-Bold, Arial, sans-serif;}
 
 /*Banners*/
-.layout_content.banners .layout_content_lower {margin-top: 30px;}
-.layout_content.banners .layout_contentBlock_tablet {display: none;}
-.layout_content.banners .layout_contentBlock_left {background: #ffffff; width: 425px;}
-.layout_content.banners .layout_contentBlock_left label {width: 100%;}
-.layout_content.banners .layout_contentBlock_left input {width: 400px;}
-.layout_content.banners .layout_contentBlock_left .decimal {background: url("../images/banner/Icon_decimal.png") center no-repeat; width: 100%; height: 28px; margin: 30px auto 0 auto;}
-.layout_content.banners .layout_contentBlock_left .decimal:before {float: left; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
-.layout_content.banners .layout_contentBlock_left .decimal:after {float: right; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
-.layout_content.banners .layout_contentBlock_right {background: transparent; width: 530px;}
-.layout_content.banners .point {display: inline-block; width: 32px; height: 32px; border-radius: 50%; background: #218ed2; color: #ffffff; font-size: 160%; text-align: center; line-height: 32px; float: left; margin-right: 10px;}
-.layout_content.banners .layout_contentBlock_right .highs {margin-bottom: 30px; display: inline-block; width: 100%;}
-.layout_content.banners .layout_contentBlock_right .highs a {padding: 10px; text-align: center; position: relative;}
-.layout_content.banners .layout_contentBlock_right .highs a.active {border: 2px solid #218ed2;}
-.layout_content.banners .layout_contentBlock_right .highs a.active:before {content: "120x160"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
-.layout_content.banners .layout_contentBlock_right .banner_high {float: left; width: 33%; display: inline-block;}
-.layout_content.banners .layout_contentBlock_right .banner_square {float: left; width: 50%; display: inline-block;}
-.layout_content.banners .layout_contentBlock_right .squares {margin-bottom: 30px; display: inline-block; width: 100%;}
-.layout_content.banners .layout_contentBlock_right .squares a {padding: 10px; text-align: center; position: relative;}
-.layout_content.banners .layout_contentBlock_right .squares a.active {border: 2px solid #218ed2;}
-.layout_content.banners .layout_contentBlock_right .squares a.active:before {content: "200x200"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
-.layout_content.banners .layout_contentBlock_right .strings {display: inline-block; width: 100%;}
-.layout_content.banners .layout_contentBlock_right .strings a {padding: 10px; text-align: center; position: relative; margin-bottom: 30px;}
-.layout_content.banners .layout_contentBlock_right .strings a.active {border: 2px solid #218ed2;}
-.layout_content.banners .layout_contentBlock_right .strings a.active:before {content: "200x60"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
+.section.banners .show_tablet {display: none;}
+.section.banners .left {background: #ffffff; width: 425px; padding: 30px;}
+.section.banners .left label {width: 100%;}
+.section.banners .left input {width: 400px;}
+.section.banners .left .decimal {background: url("../images/banner/Icon_decimal.png") center no-repeat; width: 100%; height: 28px; margin: 30px auto 0 auto;}
+.section.banners .left .decimal:before {float: left; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
+.section.banners .left .decimal:after {float: right; height: 12px; width: 47%; display: block; content: ""; border-bottom: 1px solid #f1f2f3;}
+.section.banners .right {background: transparent; width: 530px;}
+.section.banners .point {display: inline-block; width: 32px; height: 32px; border-radius: 50%; background: #218ed2; color: #ffffff; font-size: 160%; text-align: center; line-height: 32px; float: left; margin-right: 10px;}
+.section.banners .right .highs {margin-bottom: 30px; display: inline-block; width: 100%;}
+.section.banners .right .highs a {padding: 10px; text-align: center; position: relative;}
+.section.banners .right .highs a.active {border: 2px solid #218ed2;}
+.section.banners .right .highs a.active:before {content: "120x160"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
+.section.banners .right .banner_high {float: left; width: 33%; display: inline-block;}
+.section.banners .right .banner_square {float: left; width: 50%; display: inline-block;}
+.section.banners .right .squares {margin-bottom: 30px; display: inline-block; width: 100%;}
+.section.banners .right .squares a {padding: 10px; text-align: center; position: relative;}
+.section.banners .right .squares a.active {border: 2px solid #218ed2;}
+.section.banners .right .squares a.active:before {content: "200x200"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
+.section.banners .right .strings {display: inline-block; width: 100%;}
+.section.banners .right .strings a {padding: 10px; text-align: center; position: relative; margin-bottom: 30px;}
+.section.banners .right .strings a.active {border: 2px solid #218ed2;}
+.section.banners .right .strings a.active:before {content: "200x60"; position: absolute; color: #218ed2; font-family: Roboto-Reg, Arial, sans-serif; width: 70px; background: #edf1f2; top: -10px; left: 50%; margin-left: -35px;}
 
 /*Promo*/
-.layout_content_container.promo .layout_content_lower a {color: #0a79bf;}
-.layout_content_container.promo .layout_content_lower .bold  {font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.promo .layout_content_lower .example   {background: #ffffff; padding: 15px 20px; width: 70%; display: inline-block; line-height: 30px;}
+.section.promo .lower a {color: #0a79bf;}
+.section.promo .lower .bold  {font-family: Roboto-Bold, Arial, sans-serif;}
+.section.promo .lower .example   {background: #ffffff; padding: 15px 20px; width: 70%; display: inline-block; line-height: 30px;}
 
 
 

@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>RBS-Forex</title>
-    <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
-    <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_invest.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
-    <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="../script.js"></script>
+    <link type="text/css" rel="stylesheet" href="../styles/fonts.css">
+    <link type="text/css" rel="stylesheet" href="../styles/base_style.css">
+    <link type="text/css" rel="stylesheet" href="../styles/style_traider.css">
+    <link type="text/css" rel="stylesheet" href="../styles/style_invest.css">
+    <link type="text/css" rel="stylesheet" href="../styles/style_tablet.css">
+    <link type="text/css" rel="stylesheet" href="../styles/style_mobile.css">
+    <link type="text/css" rel="stylesheet" href="../jslider/bin/jquery.slider.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../jslider/js/jshashtable-2.1_src.js"></script>
+    <script type="text/javascript" src="../jslider/js/jquery.numberformatter-1.2.3.js"></script>
+    <script type="text/javascript" src="../jslider/js/tmpl.js"></script>
+    <script type="text/javascript" src="../jslider/js/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="../jslider/js/draggable-0.1.js"></script>
+    <script type="text/javascript" src="../jslider/js/jquery.slider.js"></script>
+    <script type="text/javascript" src="../script.js"></script>
 </head>
 <body>
 <div class="layout_header_menu">
@@ -56,7 +63,8 @@
                             <li><a href="faq.html">FAQ</a></li>
                             <li><a href="be_trader.html">Стать управляющим</a></li>
                             <li><a href="invest_programm.html">Инвестиционная программа</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li><a class="show_sub">Компания</a>
                         <ul class="sub_menu">
                             <li><a href="../l_company/about.html">RBC Forex</a></li>
@@ -95,11 +103,13 @@
         <a class="close_login">
             <img src="../images/open_invest/Cross_blue.png">
         </a>
+
         <form>
             <label>Логин</label>
             <input>
             <label>Пароль</label>
             <input>
+
             <div class="clear"></div>
             <div class="button_wrapper">
                 <span class="forget">Забыли?</span>
@@ -143,6 +153,7 @@
                     <ul>
                         <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
                         <li class="active"><a class="active" href="rating.html">Инвестиции</a>
+
                             <div class="triangle invest"></div>
                         </li>
                         <li><a href="../l_company/about.html">Компания</a></li>
@@ -195,7 +206,9 @@
         </div>
         <div class="header_rating desktop">
             <h2 class="layout_contentBlock layout_contentBlock_title desktop">Рейтинг управляющих трейдеров</h2>
+
             <h2 class="layout_contentBlock layout_contentBlock_title tablet">Управляющие трейдеры</h2>
+
             <div class="button_wrapper">
                 <a class="button blue medium">
                     <img src="../images/rating/Question_white.svg" width="20">
@@ -243,34 +256,6 @@
 </section>
 <section class="layout_content layout_content2 rating">
     <div class="layout_content_container">
-        <div class="layout_contentBlock layout_contentBlock_filter_wrapper">
-            <div class="filter">
-                <span class="show_filter">Показать фильтр</span>
-                <span class="settings"><img src="../images/rating/Icon_settings.png"></span>
-            </div>
-            <div class="filter_block">
-                <div class="search">
-                    <label>Найти трейдера</label>
-                    <input type="search" placeholder="Ник или счет">
-                    <img src="../images/education/Icon_search.png">
-                </div>
-                <div class="filters">
-                    <label>Доходность</label>
-                    <input type="range" min="-100%" max="2450%">
-                    <label>Максимальная просадка</label>
-                    <input type="range">
-                    <label>Средства</label>
-                    <input type="range">
-                    <label>Возраст счета</label>
-                    <input type="range">
-                    <label>Комиссия трейдера</label>
-                    <input type="range">
-                </div>
-                <div class="button_wrapper">
-                    <button class="blue medium">Подобрать трейдера</button>
-                </div>
-            </div>
-        </div>
         <div class="layout_contentBlock layout_contentBlock_left">
             <div class="table_rating">
                 <table cellpadding="0" cellspacing="0">
@@ -307,7 +292,10 @@
                             <div>
                                 <div class="col left">
                                     <h4>Кратко о трейдере</h4>
-                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке.
+                                        Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
                                     <div class="info">
                                         <div class="block">
                                             69 лет<br><span>Возраст</span>
@@ -337,6 +325,7 @@
                                 </div>
                                 <div class="col right">
                                     <h4>Инвестиции в этого трейдера</h4>
+
                                     <div class="note">
                                         <span>Деньги спишутся с
                                         <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
@@ -346,6 +335,7 @@
                                         <label>Сумма</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Соответствие</label>
                                         <select>
@@ -355,10 +345,12 @@
                                             <option>6</option>
                                         </select>
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Торговля</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="button_wrapper">
                                             <a class="button red large">Инвестировать</a>
                                         </div>
@@ -383,7 +375,10 @@
                             <div>
                                 <div class="col left">
                                     <h4>Кратко о трейдере</h4>
-                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке.
+                                        Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
                                     <div class="info">
                                         <div class="block">
                                             69 лет<br><span>Возраст</span>
@@ -413,6 +408,7 @@
                                 </div>
                                 <div class="col right">
                                     <h4>Инвестиции в этого трейдера</h4>
+
                                     <div class="note">
                                         <span>Деньги спишутся с
                                         <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
@@ -422,6 +418,7 @@
                                         <label>Сумма</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Соответствие</label>
                                         <select>
@@ -431,10 +428,12 @@
                                             <option>6</option>
                                         </select>
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Торговля</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="button_wrapper">
                                             <a class="button red large">Инвестировать</a>
                                         </div>
@@ -459,7 +458,10 @@
                             <div>
                                 <div class="col left">
                                     <h4>Кратко о трейдере</h4>
-                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке. Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
+                                    <p>Опытный трейдер. На рынке Forex с 2009 года. Я прекрассно ориентируюсь на рынке.
+                                        Возраст дает опыт и знания — и поэтому моя торговля столь успешна.</p>
+
                                     <div class="info">
                                         <div class="block">
                                             69 лет<br><span>Возраст</span>
@@ -489,6 +491,7 @@
                                 </div>
                                 <div class="col right">
                                     <h4>Инвестиции в этого трейдера</h4>
+
                                     <div class="note">
                                         <span>Деньги спишутся с
                                         <a href>вашего баланса</a>. Ваши инвестиции можно отслеживать в
@@ -498,6 +501,7 @@
                                         <label>Сумма</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Соответствие</label>
                                         <select>
@@ -507,10 +511,12 @@
                                             <option>6</option>
                                         </select>
                                         <a class="tooltip" href></a>
+
                                         <div class="clear"></div>
                                         <label>Торговля</label>
                                         <input value="$">
                                         <a class="tooltip" href></a>
+
                                         <div class="button_wrapper">
                                             <a class="button red large">Инвестировать</a>
                                         </div>
@@ -524,28 +530,71 @@
             </div>
         </div>
         <div class="layout_contentBlock layout_contentBlock_right">
-            <div class="filter">
-                <div class="search">
-                    <label>Найти трейдера</label>
-                    <input type="search" placeholder="Ник или счет">
-                    <img src="../images/education/Icon_search.png">
+            <div class="filter_wrapper">
+                <div class="show_filter">
+                    <a>Показать фильтр</a>
+                    <span class="settings"><img src="../images/rating/Icon_settings.png"></span>
                 </div>
-                <div class="filters">
-                    <label>Доходность</label>
-                    <input type="range" min="-100%" max="2450%">
-                    <label>Максимальная просадка</label>
-                    <input type="range">
-                    <label>Средства</label>
-                    <input type="range">
-                    <label>Возраст счета</label>
-                    <input type="range">
-                    <label>Комиссия трейдера</label>
-                    <input type="range">
+
+                <div class="filter">
+                    <div class="search">
+                        <label>Найти трейдера</label>
+                        <input type="search" placeholder="Ник или счет">
+                        <img src="../images/education/Icon_search.png">
+                    </div>
+                    <div class="filters">
+                        <div class="item">
+                            <label>Доходность</label>
+
+                            <div class="slider" style="width: 100%">
+                        <span style="display: inline-block; width: 100%; padding: 0 5px;">
+                        <input id="Slider1" type="slider" name="price" value="200;800"/>
+                        </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Максимальная просадка</label>
+
+                            <div class="slider" style="width: 100%">
+                        <span style="display: inline-block; width: 100%; padding: 0 5px;">
+                        <input id="Slider2" type="slider" name="price" value="500;100000"/>
+                        </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Средства</label>
+
+                            <div class="slider" style="width: 100%">
+                        <span style="display: inline-block; width: 100%; padding: 0 5px;">
+                        <input id="Slider3" type="slider" name="price" value="500;100000"/>
+                        </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Возраст счета</label>
+
+                            <div class="slider" style="width: 100%">
+                        <span style="display: inline-block; width: 100%; padding: 0 5px;">
+                            <input id="Slider4" type="slider" name="price" value="2;350"/>
+                        </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Комиссия трейдера</label>
+
+                            <div class="slider" style="width: 100%">
+                        <span style="display: inline-block; width: 100%; padding: 0 5px;">
+                        <input id="Slider5" type="slider" name="price" value="200;800"/>
+                        </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="calc">
                 <img src="../images/rating/Calculator.svg" width="28">
                 <h4>Инвестиционный калькулятор</h4>
+
                 <div class="clear"></div>
                 <form>
                     <div class="item">
@@ -556,12 +605,12 @@
                         <label>Трейдер</label>
                         <input type="text">
                     </div>
-                   <div class="item">
-                       <label>Период</label>
-                       <select>
-                           <option>Неделя</option>
-                       </select>
-                   </div>
+                    <div class="item">
+                        <label>Период</label>
+                        <select>
+                            <option>Неделя</option>
+                        </select>
+                    </div>
                     <div class="clear"></div>
                     <div class="button_wrapper">
                         <a class="button blue medium">Рассчитать</a>
@@ -571,6 +620,7 @@
             </div>
             <div class="spred">
                 <h4>Инвестировать в нескольких трейдеров</h4>
+
                 <div class="clear"></div>
                 <div class="item">
                     <label>Сумма инвестиций</label>

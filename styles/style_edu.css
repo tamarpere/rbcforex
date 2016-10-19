@@ -1,31 +1,26 @@
 .layout_header .layout_header_container .triangle.education {left: 28px;}
 
 /*Book*/
-.layout_content_container.edu h2                                          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 300%; line-height: 41px;}
-.layout_content_container.edu .layout_content_upper p                {color: #000000;}
-.layout_content_container.edu .layout_contentBlock         {padding: 0;}
-.layout_content_container.edu .layout_content_upper .layout_contentBlock_paragraph         {float: left; width: 70%; }
-.layout_content_container.edu .layout_content_upper .layout_contentBlock_chapter         {float: right; padding: 15px 30px; background: #ffffff; color: #218ed2; font-size: 135%; line-height: 35px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
-.layout_content_container.edu .layout_content_upper .layout_contentBlock_search          {margin-top: 40px; width: 100%; clear: both; position: relative; display: inline-block;}
-.layout_content_container.edu .layout_content_upper .layout_contentBlock_search input    {width: 100%; padding: 0 10px; height: 39px; border: 2px solid #ced1d2;}
-.layout_content_container.edu .layout_content_upper .layout_contentBlock_search img      {position: absolute; top: 12px; right: 15px;}
-.layout_content_container.edu .layout_content_lower                  {width: 100%; display: inline-block; margin: 45px auto;}
-.layout_content_container.edu .layout_content_lower .col             {width: 212px; padding: 30px 25px; background: #ffffff; margin-right: 10px; height: 727px;}
-.layout_content_container.edu .layout_content_lower .col:last-child  {margin-right: 0;}
-.layout_content_container.edu .layout_content_lower .col .title      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 135%; margin: 30px 0 20px 0; display: block;}
-.layout_content_container.edu .layout_content_lower .col .image_wrap {height: 75px;}
-.layout_content_container.edu .layout_content_lower .col img         {display: block; margin: 0 auto;}
-.layout_content_container.edu .layout_content_lower .col a           {color: #0a79bf; text-decoration: underline; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 30px;}
+.section.book .article         {color: #000000; width: 70%; float: left;}
+.section.book .chapter         {float: right; padding: 15px 30px; background: #ffffff; color: #218ed2; font-size: 135%; line-height: 35px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+.section.book .search          {margin: 40px 0; width: 100%; clear: both; position: relative; display: inline-block;}
+.section.book .search input    {width: 100%; padding: 0 10px; height: 39px; border: 2px solid #ced1d2;}
+.section.book .search img      {position: absolute; top: 12px; right: 15px;}
+.section.book .col             {width: 212px; padding: 30px 25px; background: #ffffff; margin-right: 10px; height: 727px;}
+.section.book .col:last-child  {margin-right: 0;}
+.section.book .col .title      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 135%; margin: 30px 0 20px 0; display: block;}
+.section.book .col .image_wrap {height: 75px;}
+.section.book .col img         {display: block; margin: 0 auto;}
+.section.book .col a           {color: #0a79bf; text-decoration: underline; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 30px;}
 
 /*Book2*/
 
 
 /*Dictionary*/
-.layout_content_container.faq.edu h2     {float: left; width: 50%}
-.layout_content_container.faq.edu .layout_contentBlock_show     {float: right; width: 40%; margin: 50px 0;}
-.layout_content_container.faq.edu .layout_contentBlock_questions     {clear: both;}
-.layout_content_container.faq.edu .show_all     {color: #000000; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; float: right; width: 168px; height: 43px; line-height: 40px; background: #ffffff; border-radius: 22px; text-align: center;}
-.layout_content_container.faq.edu .show_all img {vertical-align: middle; margin-right: 8px;}
+.section.dictionary .show     {position: absolute; height: 90px; bottom: 100%; right: 0;}
+.section.dictionary .questions     {clear: both;}
+.section.dictionary .show_all     {color: #000000; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; float: right; width: 168px; height: 43px; line-height: 40px; background: #ffffff; border-radius: 22px; text-align: center;}
+.section.dictionary .show_all img {vertical-align: middle; margin-right: 8px;}
 
 
 

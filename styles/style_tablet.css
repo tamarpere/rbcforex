@@ -238,8 +238,7 @@
     **************************************************************/
 
     /*Rating*/
-    .layout_content1.rating .layout_content_container.mobile                              {display: none;}
-    .layout_content1.rating .layout_content_container.desktop                             {display: block; width: 748px; padding-bottom: 0;}
+    .layout_content1.rating .layout_content_container                             {display: block; width: 748px; padding-bottom: 0;}
     .layout_content1.rating .layout_content_container h2.desktop                          {display: none;}
     .layout_content1.rating .layout_content_container h2.tablet                           {display: inline-block; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; color: #f5f7f7; float: left;}
     .layout_content1.rating .layout_content_container .blue                               {height: 44px; line-height: 40px; padding: 0 15px; border-radius: 24px;}
@@ -279,8 +278,6 @@
 
     /*TIS*/
     .layout_content2.tis                            {width: 100%; margin-top: -20px;}
-    .layout_content2.tis img.desktop                {display: none;}
-    .layout_content2.tis img.tablet                 {display: block;}
     .layout_content2.tis .layout_contentBlock_left  {float: none; width: 748px; margin-bottom: 20px;}
     .layout_content2.tis .layout_contentBlock_right {float: none; width: 748px;}
 
@@ -307,16 +304,15 @@
     .layout_content_container.programm .layout_contentBlock_rules img {width: 100%;}
 
     /*Steps*/
-    .layout_content1.steps .layout_content_container.desktop                        {display: inline-block;}
-    .layout_content1.steps .layout_content_container.mobile                         {display: none;}
-    .layout_contentBlock_steps.desktop                        {display: none;}
-    .layout_contentBlock_steps.tablet                         {display: inline-block;}
     .layout_content2.steps                                    {margin-top: -50px; padding-bottom: 30px;}
+    .layout_content1.steps .navigation                                   {display: none;}
     .layout_content2.steps .layout_content_container          {width: 680px;}
+    .layout_content1.steps .layout_contentBlock_steps  {position: static;}
     .layout_content1.steps .layout_contentBlock_steps ul li a {margin: 0 10px;}
     .layout_content1.steps .layout_contentBlock_steps ul      {margin: 30px auto;}
-    .layout_content1.steps .table_steps td                    {padding-bottom: 10px;}
-    .layout_content1.steps .table_steps .blue                 {margin: 30px auto; width: 345px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
+    .layout_content1.steps .table_steps td                    {padding: 10px 0; display: inline-block; width: 50%; float: left;}
+    .layout_content1.steps .table_steps .td_button            {width: auto; position: absolute; top: 100%; display: inline-block; left: 50%; margin-left: -200px;}
+    .layout_content1.steps .table_steps .blue                 {margin: 0; width: 345px; height: 51px; line-height: 45px; font-size: 135%; border-radius: 28px;}
     .layout_content2.steps.step3                              {margin-top: -130px;}
     .layout_content2.steps.step4                              {margin-top: -130px;}
     .layout_content1.steps.step6 h2                           {margin-top: 170px;}
@@ -390,7 +386,7 @@
     .layout_content_container.providers .layout_contentBlock_left .link {width: 180px; height: 180px; margin-right: 7px;}
     .layout_content_container.providers .layout_contentBlock_left .link:nth-child(2n+1) {margin-right: 7px;}
     .layout_content_container.providers .layout_contentBlock_left .link:nth-child(4n) {margin-right: 0;}
-    .layout_content_container.providers .layout_contentBlock_left .link a {width: 172px; height: 172px;}
+    .layout_content_container.providers .layout_contentBlock_left .link a {width: 172px; height: 172px; line-height: 172px;}
     .layout_content_container.providers .layout_contentBlock_left .link a img {width: 100px;}
     .layout_content_container.providers .layout_contentBlock_right {margin-left: 0; width: 100%; padding: 0; height: auto; position: absolute; top: 0;}
     .layout_content_container.providers .layout_contentBlock_right .text_wrapper {margin: 30px;}

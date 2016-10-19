@@ -11,353 +11,344 @@
 .layout_header .layout_header_container .triangle.traider {left: 30px;}
 
 /*Open account*/
-.layout_content .layout_content_container                            {position: relative; width: 1080px; margin: 0 auto; padding: 0 0 50px 0;}
-.layout_content_container .layout_content_upper .ok                             {float: left; margin: 7px 15px 0 0;}
-.layout_content_container.open .layout_content_lower                                 {clear: both; display: inline-block; margin: 10px 0 0 0;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_left       {width: 747px; background: #ffffff;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_right      {width: 202px; background: #ffffff;}
+.section.open .left       {width: 747px; background: #ffffff; padding: 30px;}
+.section.open .right      {width: 262px; background: #ffffff;}
+.section.open .right a    {text-align: left; padding: 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
 
-.layout_content_container.open .layout_content_lower label                                            {float: left; margin: 10px 0; width: 240px;}
-.layout_content_container.open .layout_content_lower input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
-.layout_content_container.open .layout_contentBlock_choice                                            {padding: 0;}
-.layout_content_container.open .layout_contentBlock_choice label                                      {position: relative; line-height: 25px; margin-right: 10px; font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
-.layout_content_container.open .layout_contentBlock_choice label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content_container.open .layout_contentBlock_choice label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.open .layout_contentBlock_choice input[type="radio"]                        {display: none;}
-.layout_content_container.open .layout_contentBlock_choice label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 30px; top: 24px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
-.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
-.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label .title {color: #ffffff;}
-.layout_content_container.open .layout_contentBlock_choice input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff; padding-left: 1px;}
+.section.open label                                            {float: left; margin: 10px 0; width: 240px;}
+.section.open input                                            {width: 480px; height: 40px; border: 1px solid #e8eaeb; margin: 10px 0;}
+.section.open .radio                                            {padding: 0;}
+.section.open .radio label                                      {position: relative; line-height: 25px; margin-right: 10px; font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
+.section.open .radio label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.section.open .radio label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.open .radio input[type="radio"]                        {display: none;}
+.section.open .radio label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 30px; top: 24px; background: transparent; border: 2px solid #218ed2; border-radius: 50%;}
+.section.open .radio input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
+.section.open .radio input[type="radio"]:checked + label .title {color: #ffffff;}
+.section.open .radio input[type="radio"]:checked + label:before {content: "\2022"; color: #ffffff; font-size: 26px; text-align: center; line-height: 12px; border-color: #fff; padding-left: 1px;}
 
-.layout_content_container.open .layout_contentBlock_right          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_right li                 {margin: 10px 0;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_right .title             {display: block; margin-bottom: 15px; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_right img                {float: left; margin-right: 10px; margin-top: 7px;}
-.layout_content_container.open .layout_content_lower #password                                     {width: 187px; float: left;}
-.layout_content_container.open .show_pass                                                          {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 10px 20px 10px 10px;}
-.layout_content_container.open .show_pass a                                                        {display: inline-block; width: 100%; height: 100%;}
-.layout_content_container.open .show_pass img                                                      {position: absolute; left: 12px; top: 15px;}
-.layout_content_container.open .show_pass a .hover                                                 {opacity: 0;}
-.layout_content_container.open .show_pass a .default                                               {opacity: 1;}
-.layout_content_container.open .show_pass a:hover .hover                                           {opacity: 1;}
-.layout_content_container.open .show_pass a:hover .default                                         {opacity: 0;}
-.layout_content_container.open .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
-.layout_content_container.open .layout_content_lower input#repeat_pass                             {width: 240px; float: left;}
-.layout_content_container.open .layout_content_lower .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content_container.open .layout_content_lower input[type="checkbox"]                        {display: none;}
-.layout_content_container.open .layout_content_lower label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.open .layout_content_lower input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
-.layout_content_container.open .layout_content_lower input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
-.layout_content_container.open .layout_content_lower form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
-.layout_content_container.open .layout_content_lower form .addition                                {text-align: center;}
-.layout_content_container.open .layout_content_lower form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
-.layout_content_container.open .layout_content_lower form .addition .blue                          {margin: 0 auto;}
+.section.open .right ul                 {padding: 0 0 30px 30px;}
+.section.open .right li                 {margin: 10px 0;}
+.section.open .right .title             {padding: 30px 0 0 30px; display: block; margin-bottom: 15px; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%;}
+.section.open .right li a:before        {line-height: 20px; content: ""; background: url("../images/open_account/Document.svg") center no-repeat; display: inline-block; width: 13px; height: 15px; margin-right: 10px; vertical-align: middle;}
+.section.open .right img                {float: left; margin-right: 10px; margin-top: 7px;}
+.section.open #password                                     {width: 187px; float: left;}
+.section.open .show_pass                                                          {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 10px 20px 10px 10px;}
+.section.open .show_pass a                                                        {display: inline-block; width: 100%; height: 100%;}
+.section.open .show_pass img                                                      {position: absolute; left: 12px; top: 15px;}
+.section.open .show_pass a .hover                                                 {opacity: 0;}
+.section.open .show_pass a .default                                               {opacity: 1;}
+.section.open .show_pass a:hover .hover                                           {opacity: 1;}
+.section.open .show_pass a:hover .default                                         {opacity: 0;}
+.section.open.gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
+.section.open input#repeat_pass                             {width: 240px; float: left;}
+.section.open .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.open input[type="checkbox"]                        {display: none;}
+.section.open label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.section.open input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
+.section.open input[type="checkbox"]:checked + label:before {content: "\2713"; font-size: 12px; color: #ffffff; background: #218ed2; border: 2px solid #218ed2; text-align: center; line-height: 15px;}
+.section.open form .clear                                   {text-align: left; width: 260px; margin: 0 auto;}
+.section.open form .addition                                {text-align: center;}
+.section.open form .addition span                           {display: block; color: #9b9a9a; margin: 20px auto 30px auto; text-align: left; width: 260px;}
+.section.open form .addition .blue                          {margin: 0 auto;}
 
-.layout_content_container.open .layout_content_lower .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
-.layout_content_container.open .layout_content_lower .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
-.layout_content_container.open .layout_content_lower .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_left .profile_info        {width: 60%; min-width: 388px;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_left table                {width: 100%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_left table td             {padding: 17px 0;}
-.layout_content_container.open .layout_content_lower .layout_contentBlock_left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; padding-right: 40px;}
-.layout_content_container.opened .layout_contentBlock_left table.desktop {display: block;}
-.layout_content_container.opened .layout_contentBlock_left table.mobile {display: none;}
-.layout_content_container.open .layout_content_lower .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
-.layout_content_container.open .layout_content_lower .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
-.layout_content_container.open .layout_content_lower .more a                                        {position: absolute; right: 14px;}
-.layout_content_container.open .layout_content_lower .extra_info                                    {margin-top: 18px;}
-.layout_content_container.open .layout_content_lower .extra_info .form                              {display: none; margin-top: 30px;}
-.layout_content_container.open .layout_content_lower .extra_info form                               {width: 470px; position: relative;}
-.layout_content_container.open .layout_content_lower .extra_info .form label                        {float: left; line-height: 21px;}
-.layout_content_container.open .layout_content_lower .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
-.layout_content_container.open .layout_content_lower .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content_container.open .layout_content_lower .extra_info .blue                              {float: left; margin-top: 45px;}
-.layout_content_container.open .layout_content_lower .extra_info .blue.save                         {}
-.layout_content_container.open .layout_content_lower .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
-.layout_content_container.open .layout_content_lower .extra_info .form .blue.mobile                 {display: none;}
-.layout_content_container.open .layout_content_lower .extra_info .form .blue.desktop                {display: block;}
-.layout_content_container.opened .layout_contentBlock_right               {width: 262px !important; background: transparent !important; padding: 0;}
-.layout_content_container.opened .layout_contentBlock_right a             {width: 202px; background: #fff; display: inline-block; padding: 30px; text-align: center; margin-bottom: 10px;}
-.layout_content_container.opened .layout_contentBlock_right img           {display: block; float: none; margin: 0 auto 20px auto;}
-.layout_content_container.opened .layout_contentBlock_right .link         {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
-.layout_content_container.opened .layout_contentBlock_right .devices      {font-size: 95%; font-weight: 400; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
-.layout_content_container.opened .layout_contentBlock_right .fill_up span {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.section.open .attention                                     {margin: 37px 0 20px 0; display: block; width: 698px; color: #ffffff; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%; height: 37px; background: #388d40; padding: 21px 24px;}
+.section.open .attention span                                {width: 311px; display: inline-block; float: left; line-height: 21px;}
+.section.open .attention .password                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; float: right; text-align: right; line-height: 36px;}
+.section.open .left .profile_info        {width: 60%; min-width: 388px;}
+.section.open .left table                {width: 100%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%;}
+.section.open .left table td             {padding: 17px 0;}
+.section.open .left table td:first-child {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; padding-right: 40px;}
+.section.open .left table.desktop {display: block;}
+.section.open .left table.mobile {display: none;}
+.section.open .more                                          {position: relative; display: block; width: 698px; padding: 10px 30px; background: #eef1f2; box-shadow: 0 2px 0 #e1e7e9;}
+.section.open .more span                                     {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.section.open .more a                                        {position: absolute; right: 14px;}
+.section.open .extra_info                                    {margin-top: 18px;}
+.section.open .extra_info .form                              {display: none; margin-top: 30px;}
+.section.open .extra_info form                               {width: 470px; position: relative;}
+.section.open .extra_info .form label                        {float: left; line-height: 21px;}
+.section.open .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
+.section.open .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.open .extra_info .blue                              {float: left; margin-top: 45px;}
+.section.open .extra_info .blue.save                         {}
+.section.open .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
+.section.open .extra_info .form .blue.mobile                 {display: none;}
+.section.open .extra_info .form .blue.desktop                {display: block;}
+.section.open .right.opened               {width: 262px !important; background: transparent !important; padding: 0;}
+.section.open .right.opened a             {width: 202px; background: #fff; display: inline-block; padding: 30px; text-align: center; margin-bottom: 10px;}
+.section.open .right.opened img           {display: block; float: none; margin: 0 auto 20px auto;}
+.section.open .right.opened .link         {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
+.section.open .right.opened .devices      {font-size: 95%; font-weight: 400; font-family: ProximaNova-Reg, Helvetica,sans-serif; color: #218ed2;}
+.section.open .right.opened .fill_up span {font-size: 105%; font-weight: 700; font-family: ProximaNova-Bold, Helvetica,sans-serif; color: #218ed2;}
 
 /*Demo*/
-.layout_content_container.demo                                                           {margin-bottom: 0; padding-bottom: 0;}
-.layout_content_container.demo .layout_content_lower                                     {margin-bottom: -10px;}
-.layout_content_container.demo .layout_content_middle.tablet                             {display: none;}
-.layout_content_container.demo .layout_content_middle.desktop                            {clear: both; display: inline-block;}
-.layout_content_container.demo .layout_content_middle.desktop .layout_contentBlock_left  {width: 323px; background: #ffffff; padding: 30px 40px;}
-.layout_content_container.demo .layout_content_middle.desktop .layout_contentBlock_right {padding: 30px 40px; width: 596px; height: auto; background: #fbfcfc; float: right;}
-.layout_content_container.demo .layout_content_middle label                              {float: left; width: 240px; margin: 0;}
-.layout_content_container.demo .layout_content_middle input                              {width: 300px; margin: 0 0 10px 0;}
-.layout_content_container.demo .layout_content_middle input[id="password"]               {width: 245px; float: left;}
-.layout_content_container.demo .layout_content_middle .gen_pass                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; left: 275px; top: 234px;}
-.layout_content_container.demo .layout_content_middle .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0;}
-.layout_content_container.demo .layout_content_middle .show_pass a                       {display: inline-block; width: 100%; height: 100%;}
-.layout_content_container.demo .layout_content_middle .show_pass img                     {position: absolute; left: 12px; top: 15px;}
-.layout_content_container.demo .layout_content_middle .show_pass a .hover                {opacity: 0;}
-.layout_content_container.demo .layout_content_middle .show_pass a .default              {opacity: 1;}
-.layout_content_container.demo .layout_content_middle .show_pass a:hover .hover          {opacity: 1;}
-.layout_content_container.demo .layout_content_middle .show_pass a:hover .default        {opacity: 0;}
-.layout_content_container.demo .layout_content_middle .item                              {width: 50%;}
-.layout_content_container.demo .layout_content_middle .selects                           {display: inline-block;}
-.layout_content_container.demo .layout_content_middle select                             {float: left; width: 153px;}
-.layout_content_container.demo .layout_content_middle .blue                              {margin: 29px auto 0 auto;}
-.layout_content_container.demo .layout_content_middle .learning h6                       {color: #181818;}
-.layout_content_container.demo .layout_content_middle .learning a                        {color: #218ed2; text-decoration: underline; display: inline;}
-.layout_content_container.demo .layout_content_middle .learning .list                    {text-align: center;}
-.layout_content_container.demo .layout_content_middle .learning .point                   {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
-.layout_content_container.demo .layout_content_middle .learning .marker                  {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
-.layout_content_container.demo .layout_content_middle .learning .bold                    {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
-.layout_content_container.demo .layout_content_middle .learning .done                    {margin-top: 40px;}
-.layout_content_container.demo .layout_content_middle .learning .done h4                 {color: #388d40;}
-.layout_content_container.demo .layout_content_middle .learning .done p                  {margin: 26px 0;}
-.layout_content_container.demo .layout_content_middle .learning .server                  {font-size: 120%;}
-.layout_content_container.demo .layout_contentBlock_reklama                              {width: 590px; text-align: left; float: right; padding: 40px;}
-.layout_content_container.demo .layout_contentBlock_image                                {position: absolute; left: -308px;}
-.layout_content_container.demo .layout_contentBlock_reklama h3                           {color: #181818;}
-.layout_content_container.demo .layout_contentBlock_reklama p                            {color: #181818;}
-.layout_content_container.demo .layout_contentBlock_reklama .apps                        {width: 215px; display: inline-block; margin-top: 40px; margin-right: 40px; float: right;}
-.layout_content_container.demo .layout_contentBlock_reklama .blue                        {margin: 30px auto 0 0;}
-.layout_content_container.demo .layout_contentBlock_reklama .win                         {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
-.layout_content_container.demo .layout_contentBlock_reklama .apple                       {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
-.layout_content_container.demo .layout_contentBlock_reklama .android                     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
-.layout_content_container.demo .layout_contentBlock_reklama .web                         {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
+.section.demo .item.left  {width: 323px; background: #ffffff; padding: 30px 40px;}
+.section.demo .item.right {padding: 30px 40px; width: 596px; height: auto; background: #fbfcfc; float: right;}
+.section.demo .item.left label                              {float: left; width: 240px; margin: 0;}
+.section.demo .item.left input                              {width: 300px; margin: 0 0 10px 0;}
+.section.demo .item.left #password                {width: 245px; float: left;}
+.section.demo .item.left .gen_pass                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; left: 275px; top: 234px;}
+.section.demo .item.left .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0;}
+.section.demo .item.left .show_pass a                       {display: inline-block; width: 100%; height: 100%;}
+.section.demo .item.left .show_pass img                     {position: absolute; left: 12px; top: 15px;}
+.section.demo .item.left .show_pass a .hover                {opacity: 0;}
+.section.demo .item.left .show_pass a .default              {opacity: 1;}
+.section.demo .item.left .show_pass a:hover .hover          {opacity: 1;}
+.section.demo .item.left .show_pass a:hover .default        {opacity: 0;}
+.section.demo .item                              {width: 50%;}
+.section.demo .learning img                             {display: block; margin: 0 auto;}
+.section.demo .selects                           {display: inline-block;}
+.section.demo select                             {float: left; width: 153px;}
+.section.demo .blue                              {margin: 29px auto 0 auto;}
+.section.demo .learning h6                       {color: #181818;}
+.section.demo .learning a                        {color: #218ed2; text-decoration: underline; display: inline;}
+.section.demo .learning .list                    {text-align: center;}
+.section.demo .learning .point                   {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; text-align: left; display: block; margin: 30px 0 20px 0;}
+.section.demo .learning .marker                  {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; margin-bottom: 35px; margin-right: 7px; font-size: 88%; line-height: 23px; width: 23px; height: 23px; border-radius: 50%; background: #218ed2; color: #ffffff; text-align: center;}
+.section.demo .learning .bold                    {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
+.section.demo .learning .done                    {margin-top: 40px;}
+.section.demo .learning .done h4                 {color: #388d40;}
+.section.demo .learning .done p                  {margin: 26px 0;}
+.section.demo .learning .server                  {font-size: 120%;}
+.section.demo                               {margin-bottom: 0;}
+.section.full.demo .clause                              {width: 590px; text-align: left; float: right; padding: 40px;}
+.section.full.demo .image                                {position: absolute; left: -160px;}
+.section.full.demo .clause h3                           {color: #181818;}
+.section.full.demo .clause p                            {color: #181818;}
+.section.full.demo .clause .apps                        {width: 215px; display: inline-block; margin-top: 40px; margin-right: 40px; float: right;}
+.section.full.demo .clause .blue                        {margin: 30px auto 0 0;}
+.section.full.demo .clause .win                         {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Windows_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
+.section.full.demo .clause .apple                       {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Apple_blue.svg") center center no-repeat; background-size: cover; width: 18px; height: 22px;}
+.section.full.demo .clause .android                     {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Android_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 23px;}
+.section.full.demo .clause .web                         {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
 /*Fillup*/
-.layout_content_container.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: 0; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
-.layout_content_container.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700;}
-.layout_content_container.fillup .layout_contentBlock_left    {width: 260px; padding: 30px 0; background: #ffffff;}
-.layout_content_container.fillup .layout_contentBlock_right   {width: 745px; padding: 31px; color: #181818; background: #ffffff;}
-.layout_content_container.fillup .payment.tablet              {display: none;}
-.layout_content_container.fillup .payment.desktop             {display: block;}
-.layout_content_container.fillup .payment.desktop table               {width: 260px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
-.layout_content_container.fillup .payment.desktop tr            {cursor: pointer;}
-.layout_content_container.fillup .payment.desktop tr.active           {background: #f1f8fc;}
-.layout_content_container.fillup .payment.desktop tr.active td:first-child {border-left: 3px solid #218ed2;}
-.layout_content_container.fillup .payment.desktop td                  {padding: 14px 0; font-size: 135%;}
-.layout_content_container.fillup .payment.desktop td:first-child      {text-align: center; padding-left: 25px; padding-right: 10px;}
-.layout_content_container.fillup .payment.desktop td:last-child       {padding-right: 25px;}
-.layout_content_container.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
-.layout_content_container.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
-.layout_content_container.fillup form.mobile                          {display: none;}
-.layout_content_container.fillup label                        {line-height: 23px; float: left; width: 240px;}
-.layout_content_container.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
-.layout_content_container.fillup #sum                         {width: 157px;}
-.layout_content_container.fillup #result                      {width: 157px;}
-.layout_content_container.fillup select                       {float: left; width: 91px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
-.layout_content_container.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
-.layout_content_container.fillup a.note                       {color: #218ed2;}
-.layout_content_container.fillup .note.done                   {width: 504px; float: right;}
-.layout_content_container.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; width: 80%;}
-.layout_content_container.fillup .blue                        {margin: 30px auto 0 auto;}
-.layout_content_container.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
-.layout_content_container.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
-.layout_content_container.fillup .side img                    {position: absolute; top: 46px; right: 31px; margin: 0;}
-.layout_content_container.fillup .side input                  {width: 267px; margin-bottom: 20px;}
-.layout_content_container.fillup .side.front                  {padding: 25px; position: relative; background: #ffffff; box-shadow: 1px 2px 46px 0px rgba(33, 142, 210, 0.15);}
-.layout_content_container.fillup .side.back                   {width: 488px; height: 310px; position: absolute; top: 40px; left: 140px; background: #f7f7f7;}
-.layout_content_container.fillup .side.back .line             {height: 65px; width: 100%; margin: 26px 0 20px 0; background: #c6c6c6;}
-.layout_content_container.fillup .data_card .item             {float: left; width: 50%;}
-.layout_content_container.fillup .data_card .selects          {width: 290px; display: inline-block;}
-.layout_content_container.fillup .data_card select            {width: 111px; margin-left: 0; margin-bottom: 20px;}
-.layout_content_container.fillup .data_card label             {line-height: 15px; margin: 0 0 10px 0;}
-.layout_content_container.fillup .data_card .cvv_number       {width: 90px; float: right; margin-right: 25px;}
-.layout_content_container.fillup .data_card .cvv_number input {width: 70px;}
-.layout_content_container.fillup .data_card .note             {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
-.layout_content_container.fillup form .note.desktop       {display: inline-block;}
-.layout_content_container.fillup form .note.mobile       {display: none;}
+.section.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: -100px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 165%;}
+.section.fillup .comission .bold             {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700;}
+.section.fillup .item.left    {width: 260px; padding: 30px 0; background: #ffffff;}
+.section.fillup .item.right   {width: 745px; padding: 31px; color: #181818; background: #ffffff;}
+.section.fillup .payment.tablet              {display: none;}
+.section.fillup .payment.desktop             {display: block;}
+.section.fillup .payment.desktop table               {width: 260px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.section.fillup .payment.desktop tr            {cursor: pointer;}
+.section.fillup .payment.desktop tr.active           {background: #f1f8fc;}
+.section.fillup .payment.desktop tr.active td:first-child {border-left: 3px solid #218ed2;}
+.section.fillup .payment.desktop td                  {padding: 14px 0; font-size: 135%;}
+.section.fillup .payment.desktop td:first-child      {text-align: center; padding-left: 25px; padding-right: 10px;}
+.section.fillup .payment.desktop td:last-child       {padding-right: 25px;}
+.section.fillup .payment.desktop td:nth-child(2)     {color: #218ed2;}
+.section.fillup .payment.desktop .title              {font-size: 135%; margin-left: 25px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 22px; display: block;}
+.section.fillup form.mobile                          {display: none;}
+.section.fillup label                        {line-height: 23px; float: left; width: 240px;}
+.section.fillup input                        {float: left; margin: 0 0 20px 0; width: 260px;}
+.section.fillup #sum                         {width: 157px;}
+.section.fillup #result                      {width: 157px;}
+.section.fillup select                       {float: left; width: 91px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
+.section.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.fillup a.note                       {color: #218ed2;}
+.section.fillup .note.done                   {width: 504px; float: right;}
+.section.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; width: 80%;}
+.section.fillup .blue                        {margin: 30px auto 0 auto;}
+.section.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
+.section.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
+.section.fillup .side img                    {position: absolute; top: 46px; right: 31px; margin: 0;}
+.section.fillup .side input                  {width: 267px; margin-bottom: 20px;}
+.section.fillup .side.front                  {padding: 25px; position: relative; background: #ffffff; box-shadow: 1px 2px 46px 0px rgba(33, 142, 210, 0.15);}
+.section.fillup .side.back                   {width: 488px; height: 310px; position: absolute; top: 40px; left: 140px; background: #f7f7f7;}
+.section.fillup .side.back .line             {height: 65px; width: 100%; margin: 26px 0 20px 0; background: #c6c6c6;}
+.section.fillup .data_card .item             {float: left; width: 50%;}
+.section.fillup .data_card .selects          {width: 290px; display: inline-block;}
+.section.fillup .data_card select            {width: 111px; margin-left: 0; margin-bottom: 20px;}
+.section.fillup .data_card label             {line-height: 15px; margin: 0 0 10px 0;}
+.section.fillup .data_card .cvv_number       {width: 90px; float: right; margin-right: 25px;}
+.section.fillup .data_card .cvv_number input {width: 70px;}
+.section.fillup .data_card .note             {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
+.section.fillup form .note.desktop       {display: inline-block;}
+.section.fillup form .note.mobile       {display: none;}
+.section.fillup .side.front .desktop {display: none;}
+.section.fillup .side.front .mobile {display: block;}
+.section.fillup .side.front .desktop {display: block;}
+.section.fillup .side.front .mobile {display: none;}
 
 
 /*Calculator*/
-.layout_content_container.calc .payment.desktop                                  {display: block;}
-.layout_content_container.calc .payment.tablet                                   {display: none;}
-.layout_content_container.calc .layout_contentBlock_left                         {width: 261px; padding: 30px 0; background: #ffffff;}
-.layout_content_container.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
-.layout_content_container.calc .payment .title                                   {font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
-.layout_content_container.calc .layout_contentBlock_right                        {width: 747px; padding: 30px; background: #ffffff;}
-.layout_content_container.calc .layout_contentBlock_right .error                 {font-family: Roboto-Med, Arial, sans-serif; display: none; width: 100%; padding: 15px 0; background: #fff8f8; border: 2px solid #ffbcbc;}
-.layout_content_container.calc .layout_contentBlock_right .error .text                 {margin-left: 25px; display: inline-block; line-height: 20px;}
-.layout_content_container.calc .layout_contentBlock_right .error .title                 {color: #e75a5a; text-transform: uppercase;}
-.layout_content_container.calc .layout_contentBlock_right label                 {display: block;}
-.layout_content_container.calc .layout_contentBlock_right form                 {font-family: Roboto-Reg, Arial, sans-serif; display: inline-block;}
-.layout_content_container.calc .layout_contentBlock_right input                 {font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.calc .layout_contentBlock_right .items                 {width: 100%; display: inline-block;}
-.layout_content_container.calc .layout_contentBlock_right .item                 {margin-right: 18px;}
-.layout_content_container.calc .layout_contentBlock_right .item:last-child        {margin-right: 0; float: right; text-align: right;}
-.layout_content_container.calc .layout_contentBlock_right form .type_fee         {width: 170px;}
-.layout_content_container.calc .layout_contentBlock_right form .tool             {width: 147px;}
-.layout_content_container.calc .layout_contentBlock_right form .lot              {width: 55px;}
-.layout_content_container.calc .layout_contentBlock_right form .count            {width: 55px;}
-.layout_content_container.calc .layout_contentBlock_right form .pips             {width: 43px;}
-.layout_content_container.calc .layout_contentBlock_right form .lever             {width: 90px;}
-.layout_content_container.calc .layout_contentBlock_right form .deals             {width: 95px;}
-.layout_content_container.calc .layout_contentBlock_right form .prib             {width: 95px;}
-.layout_content_container.calc .layout_contentBlock_right .result                {border: none; color: #388d40; font-size: 135%; padding: 0; text-align: right; width: 80px;}
-.layout_content_container.calc .layout_contentBlock_right .button_wrapper   {display: inline-block; margin-top: 30px; text-align: left;}
-.layout_content_container.calc .layout_contentBlock_right .button_wrapper .blue  {margin-right: 20px;}
-.layout_content_container.calc .layout_contentBlock_right .add_row           {margin: 0 20px 0 0; line-height: 42px;}
-.layout_content_container.calc .layout_contentBlock_right .add_row img           {margin: 0 5px 0 0; vertical-align: middle;}
-.layout_content_container.calc .layout_contentBlock_right .add_row span          {font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; color: #0a79bf; line-height: 36px;}
-.layout_content_container.calc .layout_contentBlock_right .free_cash          {font-size: 135%; color: #181818; float: right; line-height: 42px;}
-.layout_content_container.calc .layout_contentBlock_right .free_cash .bold          {font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.calc .layout_contentBlock_right .addition              {line-height: 23px; display: block; margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 100%; text-align: center;}
-.layout_content_container.calc .layout_contentBlock_right .addition .title       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-bottom: 10px;}
+.section.calc .payment.desktop                                  {display: block;}
+.section.calc .payment.tablet                                   {display: none;}
+.section.calc .left                         {width: 261px; padding: 30px 0; background: #ffffff;}
+.section.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
+.section.calc .payment .title                                   {font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
+.section.calc .right                        {width: 747px; padding: 30px; background: #ffffff;}
+.section.calc .right .error                 {font-family: Roboto-Med, Arial, sans-serif; display: none; width: 100%; padding: 15px 0; background: #fff8f8; border: 2px solid #ffbcbc;}
+.section.calc .right .error .text                 {margin-left: 25px; display: inline-block; line-height: 20px;}
+.section.calc .right .error .title                 {color: #e75a5a; text-transform: uppercase;}
+.section.calc .right label                 {display: block;}
+.section.calc .right form                 {font-family: Roboto-Reg, Arial, sans-serif; display: inline-block;}
+.section.calc .right input                 {font-family: Roboto-Reg, Arial, sans-serif;}
+.section.calc .right .items                 {width: 100%; display: inline-block;}
+.section.calc .right .item                 {margin-right: 18px;}
+.section.calc .right .item:last-child        {margin-right: 0; float: right; text-align: right;}
+.section.calc .right form .type_fee         {width: 170px;}
+.section.calc .right form .tool             {width: 147px;}
+.section.calc .right form .lot              {width: 55px;}
+.section.calc .right form .count            {width: 55px;}
+.section.calc .right form .pips             {width: 43px;}
+.section.calc .right form .lever             {width: 90px;}
+.section.calc .right form .deals             {width: 95px;}
+.section.calc .right form .prib             {width: 95px;}
+.section.calc .right .result                {border: none; color: #388d40; font-size: 135%; padding: 0; text-align: right; width: 80px;}
+.section.calc .right .button_wrapper   {display: inline-block; margin-top: 30px; text-align: left;}
+.section.calc .right .button_wrapper .blue  {margin-right: 20px;}
+.section.calc .right .add_row           {margin: 0 20px 0 0; line-height: 42px;}
+.section.calc .right .add_row img           {margin: 0 5px 0 0; vertical-align: middle;}
+.section.calc .right .add_row span          {font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; color: #0a79bf; line-height: 36px;}
+.section.calc .right .free_cash          {font-size: 135%; color: #181818; float: right; line-height: 42px;}
+.section.calc .right .free_cash .bold          {font-family: Roboto-Bold, Arial, sans-serif;}
+.section.calc .right .addition              {line-height: 23px; display: block; margin-top: 30px; padding: 23px 28px; width: 690px; background: #eef1f2; font-family: Roboto-Reg, Arial, sans-serif; font-size: 100%; text-align: center;}
+.section.calc .right .addition .title       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; margin-bottom: 10px;}
 
 /*FAQ*/
-.layout_content_container.faq .question            {width: 1017px; padding: 25px 30px; height: auto; background: #fff; margin: 10px auto; text-align: left;}
-.layout_content_container.faq .question:last-child {margin-bottom: 15px;}
-.layout_content_container.faq .title               {font-size: 135%; color: #0a79bf; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; display: block; cursor: pointer;}
-.layout_content_container.faq .text                {display: none; font-size: 118%; color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.faq .title.bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; color: #181818; margin-bottom: 10px;}
+.section.faq .question            {width: 1017px; padding: 25px 30px; height: auto; background: #fff; margin: 10px auto; text-align: left;}
+.section.faq .question:last-child {margin-bottom: 15px;}
+.section.faq .title               {font-size: 135%; color: #0a79bf; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; display: block; cursor: pointer;}
+.section.faq .text                {display: none; font-size: 118%; color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.faq .title.bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; color: #181818; margin-bottom: 10px;}
 
 /*Terms*/
-.layout_content_container.terms                                      {color: #181818; padding-bottom: 50px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.terms h2                                     {float: left;}
-.layout_content_container.terms .layout_contentBlock_kinds                 {float: right; width: 50%; padding: 0; margin: 50px 0; text-align: right;}
-.layout_content_container.terms .layout_contentBlock_kinds ul              {display: inline-block;}
-.layout_content_container.terms .layout_contentBlock_kinds ul li           {display: inline-block; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
-.layout_content_container.terms .layout_contentBlock_kinds ul li a         {padding: 0 25px; border-radius: 23px;}
-.layout_content_container.terms .layout_contentBlock_kinds ul li a.active  {background: #0a79bf; color: #ffffff;}
-.layout_content_container.terms p.title                                    {font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 0 0 30px 0;}
-.layout_content_container.terms .summary                                   {width: 100%;}
-.layout_content_container.terms .summary td                                {min-width: 170px; font-size: 118%; vertical-align: top; padding-right: 57px; padding-bottom: 40px; border-bottom: 1px solid #dee2e4;}
-.layout_content_container.terms .summary td:last-child                     {padding-right: 0;}
-.layout_content_container.terms .summary td span                           {font-size: 140%; margin-bottom: 20px; display: inline-block;}
-.layout_content_container.terms h3                                         {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 235%; color: #2a333c; margin: 36px 0 27px 0; float: left;}
-.layout_content_container.terms .layout_contentBlock_download              {padding: 0; float: right; text-align: right; margin-top: 43px;}
-.layout_content_container.terms .download_terms                            {color: #08743b; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.terms .download_terms img                        {vertical-align: middle; margin-right: 7px;}
-.layout_content_container.terms .list                                      {margin-top: 30px;}
-.layout_content_container.terms .list a                                    {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 133%; color: #0a79bf; margin-right: 23px; padding-bottom: 17px;}
-.layout_content_container.terms .list a:last-child                         {margin-right: 0;}
-.layout_content_container.terms .list a.active                             {color: #2a333c; border-bottom: 5px solid #2a333c; }
-.layout_content_container.terms .table_terms                               {margin-top: 20px; width: 1080px;}
-.layout_content_container.terms .table_terms table                         {width: 100%;}
-.layout_content_container.terms .table_terms th                            {color: #fff; background: #2a333c; padding: 17px 25px; text-align: left; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.terms .table_terms td                            {color: #2a333c; padding: 30px 25px; text-align: left; font-size: 140%; background: #ffffff; border-bottom: 1px solid #f5f6f7;}
-.layout_content_container.terms .table_terms td:first-child                {font-size: 150%;}
-.layout_content_container.terms .layout_contentBlock_type                  {padding: 0; margin-top: 50px;}
-.layout_content_container.terms .layout_contentBlock_type .types           {display: inline-block;}
-.layout_content_container.terms .layout_contentBlock_type .type            {float: left; width: 474px; margin-right: 10px; background: #ffffff; padding: 30px;}
-.layout_content_container.terms .layout_contentBlock_type .type:last-child {margin-right: 0;}
-.layout_content_container.terms .layout_contentBlock_type .type h3         {margin-top: 0; margin-bottom: 30px; float: none; font-size: 260%;}
-.layout_content_container.terms .layout_contentBlock_type .type .bold      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
-.layout_content_container.terms .layout_contentBlock_type p                {margin-bottom: 30px; line-height: 15px;}
-.layout_content_container.terms .comment                                   {line-height: 21px; margin-bottom: 15px; font-size: 88%; margin-top: 0;}
-.layout_content_container.terms .comment:last-child                        {margin-bottom: 0;}
-.layout_content_container.terms .star                                      {color: #ff0000;}
+.section.terms .kinds                 {width: 50%; padding: 0; line-height: 143px; bottom: 100%; right: 0; position: absolute; text-align: right;}
+.section.terms .kinds ul              {display: inline-block;}
+.section.terms .kinds ul li           {display: inline-block; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
+.section.terms .kinds ul li a         {padding: 0 25px; border-radius: 23px;}
+.section.terms .kinds ul li a.active  {background: #0a79bf; color: #ffffff;}
+.section.terms p.title                                    {font-size: 150%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 0 0 30px 0;}
+.section.terms .summary                                   {width: 100%;}
+.section.terms .summary td                                {min-width: 170px; font-size: 118%; vertical-align: top; padding-right: 57px; padding-bottom: 40px; border-bottom: 1px solid #dee2e4;}
+.section.terms .summary td:last-child                     {padding-right: 0;}
+.section.terms .summary td span                           {font-size: 140%; margin-bottom: 20px; display: inline-block;}
+.section.terms h3                                         {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 235%; color: #2a333c; margin: 36px 0 27px 0; float: left;}
+.section.terms .download              {padding: 0; float: right; text-align: right; margin-top: 43px;}
+.section.terms .download_terms                            {color: #08743b; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.section.terms .download_terms img                        {vertical-align: middle; margin-right: 7px;}
+.section.terms .list                                      {margin-top: 30px;}
+.section.terms .list a                                    {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 133%; color: #0a79bf; margin-right: 23px; padding-bottom: 17px;}
+.section.terms .list a:last-child                         {margin-right: 0;}
+.section.terms .list a.active                             {color: #2a333c; border-bottom: 5px solid #2a333c; }
+.section.terms .table_terms                               {margin-top: 20px; width: 1080px;}
+.section.terms .table_terms table                         {width: 100%;}
+.section.terms .table_terms th                            {color: #fff; background: #2a333c; padding: 17px 25px; text-align: left; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.section.terms .table_terms td                            {color: #2a333c; padding: 30px 25px; text-align: left; font-size: 140%; background: #ffffff; border-bottom: 1px solid #f5f6f7;}
+.section.terms .table_terms td:first-child                {font-size: 150%;}
+.section.terms .types           {display: inline-block;}
+.section.terms .type            {float: left; width: 474px; margin-right: 10px; background: #ffffff; padding: 30px;}
+.section.terms .type:last-child {margin-right: 0;}
+.section.terms .type h3         {margin-top: 0; margin-bottom: 30px; float: none; font-size: 260%;}
+.section.terms .type .bold      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700;}
+.section.terms .type p                {margin-bottom: 30px; line-height: 15px;}
+.section.terms .comment                                   {line-height: 21px; margin-bottom: 15px; font-size: 88%; margin-top: 0;}
+.section.terms .comment:last-child                        {margin-bottom: 0;}
+.section.terms .star                                      {color: #ff0000;}
+.section.terms .kinds.mobile              {display: none; position: relative;}
+.section.terms .kinds.desktop             {display: block;}
+.section.terms .notice_mobile {display: none;}
+
 
 /*Feedback*/
-.layout_content_container.feed  {padding-bottom: 0;}
-.layout_content_container.feed .layout_contentBlock_wrapper {width: 100%; padding: 0; height: auto; background: url("../images/feedback/Bg_letter.png") center top no-repeat; background-size: cover;}
-.layout_content_container.feed                             {text-align: center;}
-.layout_content_container.feed h2                          {text-align: left; line-height: 40px;}
-.layout_content_container.feed .form                       {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
-.layout_content_container.feed .form label                 {float: left; width: 150px; margin-right: 76px;}
-.layout_content_container.feed .form input                 {float: left; width: 500px; margin-bottom: 20px;}
-.layout_content_container.feed .form input[name="city"]    {width: 205px; margin-right: 100px;}
-.layout_content_container.feed .form input[name="number"]  {width: 205px; margin-right: 22px;}
-.layout_content_container.feed .form img                   {float: left; margin-top: -3px;}
-.layout_content_container.feed .form textarea[name="message"] {width: 480px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
-.layout_content_container.feed .form label[for="capcha"]   {line-height: 21px;}
-.layout_content_container.feed .form .blue                 {margin: 15px auto 0 auto;}
+.section.feed {background: url("../images/feedback/Bg_letter.png") center top no-repeat; background-size: inherit; margin-bottom: 0;}
+.section.feed .form                       {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
+.section.feed .form label                 {float: left; width: 150px; margin-right: 76px;}
+.section.feed .form input                 {float: left; width: 500px; margin-bottom: 20px;}
+.section.feed .form input[name="city"]    {width: 205px; margin-right: 100px;}
+.section.feed .form input[name="number"]  {width: 205px; margin-right: 22px;}
+.section.feed .form img                   {float: left; margin-top: -3px;}
+.section.feed .form textarea[name="message"] {width: 480px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
+.section.feed .form label[for="capcha"]   {line-height: 21px;}
+.section.feed .form .blue                 {margin: 15px auto 0 auto;}
 
 /*Konkurs*/
-.layout_content_container.konkurs                                                        {padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.konkurs h2                                                     {float: left;}
-.layout_content_container.konkurs .layout_contentBlock_sections                          {margin: 50px 0; padding: 0; line-height: 50px; width: 50%; text-align: right; float: right; font-size: 118%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #0a79bf;}
-.layout_content_container.konkurs .layout_contentBlock_sections .desktop                 {display: inline-block;}
-.layout_content_container.konkurs .layout_contentBlock_sections a                        {margin-left: 43px; display: inline-block;}
-.layout_content_container.konkurs .layout_contentBlock_sections a img                    {vertical-align: sub; margin-right: 10px;}
-.layout_content_container.konkurs .layout_contentBlock_banners                           {clear: both; padding: 0;}
-.layout_content_container.konkurs .banner                                                {width: 1078px; height: 250px; background-size: cover; margin-bottom: 30px;}
-.layout_content_container.konkurs .banner a                                              {width: 1048px; height: 100%; display: inline-block; padding-left: 30px;}
-.layout_content_container.konkurs .banner.first                                          {background: url("../images/konkursi/Banner1.png") center no-repeat; color: #ffffff;}
-.layout_content_container.konkurs .banner.first h3                                       {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
-.layout_content_container.konkurs .banner.second h3                                      {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ff515b; font-size: 240%;}
-.layout_content_container.konkurs .banner.third h3                                       {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
-.layout_content_container.konkurs .banner.second                                         {background: url("../images/konkursi/Banner2.png") center no-repeat; color: #353535;}
-.layout_content_container.konkurs .banner.third                                          {background: url("../images/konkursi/Banner3.png") center no-repeat; color: #ffffff;}
-.layout_content_container.konkurs p                                                      {font-size: 135%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px; margin: 0;}
-.layout_content_container.konkurs .bold                                                  {font-size: 88%; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container.konkurs .floats p                                              {float: left; margin-top: 20px; margin-right: 40px;}
-.layout_content_container1.konkurs                                                       {width: 1080px; margin: 0 auto;}
-.layout_content_container1.konkurs .layout_contentBlock_banner                            {display: inline-block; width: 100%;}
-.layout_content_container1.konkurs .layout_contentBlock_banner img                        {float: left; margin-right: 10px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info                      {color: #2c2d2d; float: right; height: 340px; padding: 36px 29px; width: 340px; background: #ffffff;}
-.layout_content_container1.konkurs .layout_contentBlock_banner h4                         {color: #ff321d; font-size: 150%; margin-bottom: 18px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner ul                         {margin-bottom: 30px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info li:before            {display: inline-block; margin-right: 10px; content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info li                   {font-size: 118%; line-height: 23px; margin-bottom: 10px; display: block;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .float               {float: left; width: 50%; font-size: 118%; line-height: 25px;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .float .bold         {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .note                {margin-top: 30px; display: inline-block; line-height: 20px; font-size: 108%;}
-.layout_content_container1.konkurs .layout_contentBlock_banner .info .note a              {color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
-.layout_content_container1.konkurs .layout_contentBlock_prises                            {clear: both; margin-top: 50px; display: inline-block;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .article                   {color: #222a3a; line-height: 30px; margin-bottom: 45px;}
-.layout_content_container1.konkurs .layout_contentBlock_prises h4                         {font-size: 170%; margin-bottom: 20px;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris                {float: left; margin-right: 40px;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris table          {width: 260px; background: #218ed2; color: #ffffff;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris th             {border-bottom: 1px solid #419ed8; padding: 19px 39px; font-size: 110%; text-transform: uppercase;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris th:first-child {border-right: 1px solid #419ed8;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td             {padding: 18px; font-size: 135%; vertical-align: top;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .table_pris td:first-child {border-right: 1px solid #419ed8; text-align: right;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .how_get                   {float: left; width: 757px;}
-.layout_content_container1.konkurs .layout_contentBlock_prises .how_get .answer           {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px; font-size: 118%;}
-.layout_content_container2.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
-.layout_content_container2.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 44px;}
-.layout_content_container2.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
-.layout_content_container2.konkurs .form                                                  {width: 800px; display: inline-block; text-align: left;}
-.layout_content_container2.konkurs label                                                  {float: left; margin-right: 105px; width: 140px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
-.layout_content_container2.konkurs input                                                  {width: 500px; margin: 0 0 20px 0;}
-.layout_content_container2.konkurs input#city                                             {width: 257px; margin-right: 250px;}
-.layout_content_container2.konkurs input#email                                            {width: 257px; margin-right: 250px;}
-.layout_content_container2.konkurs input#password                                         {width: 205px; float: left;}
-.layout_content_container2.konkurs input#repeat_pass                                      {width: 257px; float: left;}
-.layout_content_container2.konkurs input#number_fee                                       {width: 257px; margin-right: 250px;}
-.layout_content_container2.konkurs input#pass                                             {width: 257px; margin-right: 250px;}
-.layout_content_container2.konkurs .show_pass                                             {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0 20px 0 10px;}
-.layout_content_container2.konkurs .show_pass a                                           {display: inline-block; width: 100%; height: 100%;}
-.layout_content_container2.konkurs .show_pass img                                         {position: absolute; left: 12px; top: 15px;}
-.layout_content_container2.konkurs .show_pass a .hover                                    {opacity: 0;}
-.layout_content_container2.konkurs .show_pass a .default                                  {opacity: 1;}
-.layout_content_container2.konkurs .show_pass a:hover .hover                              {opacity: 1;}
-.layout_content_container2.konkurs .show_pass a:hover .default                            {opacity: 0;}
-.layout_content_container2.konkurs .gen_pass                                              {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 40px;}
-.layout_content_container2.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
-.layout_content_container2.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
-.layout_content_container2.konkurs .form .blue                                            {margin-top: 15px;}
-.layout_content_container1.konkurs img.desktop      {display: block; float: left;}
-.layout_content_container1.konkurs img.tablet       {display: none;}
+.section.konkurs                                                        {padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.konkurs h2                                                     {float: left;}
+.section.konkurs .sections                          {line-height: 143px; width: 50%; text-align: right; position: absolute; right: 0; bottom: 100%; font-size: 118%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #0a79bf;}
+.section.konkurs .sections .desktop                 {display: inline-block;}
+.section.konkurs .sections a                        {margin-left: 43px; display: inline-block;}
+.section.konkurs .sections a img                    {vertical-align: sub; margin-right: 10px;}
+.section.konkurs .banners                           {clear: both; padding: 0;}
+.section.konkurs .banner                                                {width: 1078px; height: 250px; background-size: cover; margin-bottom: 30px;}
+.section.konkurs .banner a                                              {width: 1048px; height: 100%; display: inline-block; padding-left: 30px;}
+.section.konkurs .banner.first                                          {background: url("../images/konkursi/Banner1.png") center no-repeat; color: #ffffff;}
+.section.konkurs .banner.first h3                                       {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
+.section.konkurs .banner.second h3                                      {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ff515b; font-size: 240%;}
+.section.konkurs .banner.third h3                                       {margin: 25px 0 15px 0; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; color: #ffffff; font-size: 240%;}
+.section.konkurs .banner.second                                         {background: url("../images/konkursi/Banner2.png") center no-repeat; color: #353535;}
+.section.konkurs .banner.third                                          {background: url("../images/konkursi/Banner3.png") center no-repeat; color: #ffffff;}
+.section.konkurs p                                                      {font-size: 135%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px; margin: 0;}
+.section.konkurs .bold                                                  {font-size: 88%; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.section.konkurs .floats p                                              {float: left; margin-top: 20px; margin-right: 40px;}
+.section.konkurs .upper                            {display: inline-block; width: 100%;}
+.section.konkurs .upper img                        {float: left; margin-right: 10px;}
+.section.konkurs .upper .item.right                      {color: #2c2d2d; float: right; height: 340px; padding: 36px 29px; width: 340px; background: #ffffff;}
+.section.konkurs .upper h4                         {color: #ff321d; font-size: 150%; margin-bottom: 18px;}
+.section.konkurs .upper ul                         {margin-bottom: 30px;}
+.section.konkurs .upper .item.right li:before            {display: inline-block; margin-right: 10px; content: ""; width: 11px; height: 11px; border-radius: 50%; background: #218ed2;}
+.section.konkurs .upper .item.right li                   {font-size: 118%; line-height: 23px; margin-bottom: 10px; display: block;}
+.section.konkurs .upper .item.right .float               {float: left; width: 50%; font-size: 118%; line-height: 25px;}
+.section.konkurs .upper .item.right .float .bold         {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
+.section.konkurs .upper .item.right .note                {margin-top: 30px; display: inline-block; line-height: 20px; font-size: 108%;}
+.section.konkurs .upper .item.right .note a              {color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
+.section.konkurs .lower                            {clear: both; margin-top: 50px; display: inline-block;}
+.section.konkurs .lower .article                   {color: #222a3a; line-height: 30px; margin-bottom: 45px;}
+.section.konkurs .lower h4                         {font-size: 170%; margin-bottom: 20px;}
+.section.konkurs .lower .table_pris                {float: left; margin-right: 40px;}
+.section.konkurs .lower .table_pris table          {width: 260px; background: #218ed2; color: #ffffff;}
+.section.konkurs .lower .table_pris th             {border-bottom: 1px solid #419ed8; padding: 19px 39px; font-size: 110%; text-transform: uppercase;}
+.section.konkurs .lower .table_pris th:first-child {border-right: 1px solid #419ed8;}
+.section.konkurs .lower .table_pris td             {padding: 18px; font-size: 135%; vertical-align: top;}
+.section.konkurs .lower .table_pris td:first-child {border-right: 1px solid #419ed8; text-align: right;}
+.section.konkurs .lower .how_get                   {float: left; width: 757px;}
+.section.konkurs .lower .how_get .answer           {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px; font-size: 118%;}
+.section.full.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
+.section.full.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 44px;}
+.section.full.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
+.section.full.konkurs .form                                                  {width: 800px; display: inline-block; text-align: left;}
+.section.full.konkurs label                                                  {float: left; margin-right: 105px; width: 140px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
+.section.full.konkurs input                                                  {width: 500px; margin: 0 0 20px 0;}
+.section.full.konkurs input#city                                             {width: 257px; margin-right: 250px;}
+.section.full.konkurs input#email                                            {width: 257px; margin-right: 250px;}
+.section.full.konkurs input#password                                         {width: 205px; float: left;}
+.section.full.konkurs input#repeat_pass                                      {width: 257px; float: left;}
+.section.full.konkurs input#number_fee                                       {width: 257px; margin-right: 250px;}
+.section.full.konkurs input#pass                                             {width: 257px; margin-right: 250px;}
+.section.full.konkurs .show_pass                                             {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0 20px 0 10px;}
+.section.full.konkurs .show_pass a                                           {display: inline-block; width: 100%; height: 100%;}
+.section.full.konkurs .show_pass img                                         {position: absolute; left: 12px; top: 15px;}
+.section.full.konkurs .show_pass a .hover                                    {opacity: 0;}
+.section.full.konkurs .show_pass a .default                                  {opacity: 1;}
+.section.full.konkurs .show_pass a:hover .hover                              {opacity: 1;}
+.section.full.konkurs .show_pass a:hover .default                            {opacity: 0;}
+.section.full.konkurs .gen_pass                                              {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 40px;}
+.section.full.konkurs .note                                                  {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px; margin-top: -10px;}
+.section.full.konkurs .form h4                                               {width: 100%; display: inline-block; clear: both; text-align: left; font-size: 165%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin: 30px 0 37px 0;}
+.section.full.konkurs .form .blue                                            {margin-top: 15px;}
 
 /*Bonus*/
-.layout_content_container.bonus                  {padding-bottom: 40px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
-.layout_content_container.bonus .layout_content_lower                 {display: inline-block; margin-top: 10px;}
-.layout_content_container.bonus .layout_contentBlock_article                 {padding: 0;}
-.layout_content_container.bonus .text            {float: left; width: 497px; margin-right: 47px;}
-.layout_content_container.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
-.layout_content_container.bonus img.desktop      {display: block; float: left;}
-.layout_content_container.bonus img.tablet       {display: none;}
-.layout_content_container.bonus .item            {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
-.layout_content_container.bonus .item:last-child {margin-right: 0;}
-.layout_content_container.bonus .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-weight: 400; font-size: 315%;}
+.section.bonus .lower                 {display: inline-block; margin-top: 10px;}
+.section.bonus .item.left            {width: 497px;}
+.section.bonus .text p          {font-size: 135%; line-height: 25px; margin-bottom: 20px;}
+.section.bonus .items             {clear: both; margin-top: 20px; display: inline-block;}
+.section.bonus .items .item            {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 182px; height: 115px; padding: 34px 40px; background: #ffffff; margin-right: 10px; font-size: 150%;}
+.section.bonus .items .item:last-child {margin-right: 0;}
+.section.bonus .items .item .number    {font-family: ProximaNova-Reg, Helvetica, sans-serif; font-weight: 400; font-size: 315%;}
 
 /*Novichkam*/
-.layout_content_container.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
-.layout_content_container.novichkam .layout_content_upper {border-bottom: 1px solid #ccd7db;}
-.layout_content_container.novichkam .layout_contentBlock_banner {display: inline-block; padding: 0;}
-.layout_content_container.novichkam .image_banner.desktop {float: left; margin-right: 10px;}
-.layout_content_container.novichkam .image_banner.tablet  {display: none;}
-.layout_content_container.novichkam .buttons              {float: left; width: 262px;}
-.layout_content_container.novichkam .button               {width: 182px; height: 136px; border: none; padding: 29px 40px; text-align: center; font-weight: 700; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
-.layout_content_container.novichkam .button img           {margin: 0 auto 25px auto; display: block;}
-.layout_content_container.novichkam .button.demo          {background: #218ed2; margin-bottom: 10px; color: #ffffff;}
-.layout_content_container.novichkam .button.edu           {background: #ffffff; color: #218ed2;}
-.layout_content_container.novichkam .paragraph            {margin: 40px 0; color: #222a3a;}
-.layout_content_container.novichkam h4                    {margin: 30px 0 20px 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 150%; line-height: 20px; color: #222a3a;}
-.layout_content_container.novichkam .article              {width: 70%; margin: 10px 0; color: #222a3a;}
+.section.novichkam                       {padding-bottom: 36px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+.section.novichkam .upper {border-bottom: 1px solid #ccd7db;}
+.section.novichkam .banner {display: inline-block; padding: 0;}
+.section.novichkam .image_banner {float: left; margin-right: 10px;}
+.section.novichkam .buttons              {float: left; width: 262px;}
+.section.novichkam .button               {width: 182px; height: 136px; border: none; padding: 29px 40px; text-align: center; font-weight: 700; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-size: 135%;}
+.section.novichkam .button img           {margin: 0 auto 25px auto; display: block;}
+.section.novichkam .button.demo          {background: #218ed2; margin-bottom: 10px; color: #ffffff;}
+.section.novichkam .button.edu           {background: #ffffff; color: #218ed2;}
+.section.novichkam .paragraph            {margin: 40px 0; color: #222a3a;}
+.section.novichkam h4                    {margin: 30px 0 20px 0; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 150%; line-height: 20px; color: #222a3a;}
+.section.novichkam .article              {width: 70%; margin: 10px 0; color: #222a3a;}

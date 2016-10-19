@@ -16,7 +16,9 @@
 .layout_content_container .carousel .carousel-button-left            {display: none;}
 .layout_content_container .carousel .carousel-button-right           {display: none;}
 
-.layout_content2.rating .layout_contentBlock_filter_wrapper {display: none;}
+
+
+.layout_content2.rating .show_filter {display: none;}
 .layout_content2.rating                                                                    {height: auto; width: 100%; margin: -70px auto 50px auto; text-align: center;}
 .layout_content2.rating .layout_content_container.tablet                                  {display: none;}
 .layout_content2.rating .layout_content_container.mobile                                  {display: none;}
@@ -66,9 +68,11 @@
 .layout_content2.rating .layout_contentBlock_right .blue                                             {margin: 0 auto;}
 .layout_content2.rating .layout_contentBlock_right .note                                             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
 .layout_content2.rating .layout_contentBlock_right .search                                           {position: relative; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_right .search img                                       {position: absolute; top: 48px; left: 170px;}
-.layout_content2.rating .layout_contentBlock_right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px 33px;}
-.layout_content2.rating .layout_contentBlock_right .filter input[type="search"]                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.layout_content2.rating .layout_contentBlock_right .search img                                       {position: absolute; top: 73px; left: 170px;}
+.layout_content2.rating .layout_contentBlock_right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 0 33px 30px 33px;}
+.layout_content2.rating .layout_contentBlock_right .filter .item                                           {float: none; display: inline-block; width: 100%; margin-bottom: 20px;}
+.layout_content2.rating .layout_contentBlock_right .filter label                                           {line-height: 25px; margin-top: 20px;}
+.layout_content2.rating .layout_contentBlock_right .filter input[type="search"]                      {margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
 .layout_content2.rating .layout_contentBlock_right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
 .layout_content2.rating .layout_contentBlock_right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
 .layout_content2.rating .layout_contentBlock_right .calc h4                                          {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
@@ -83,117 +87,106 @@
 .layout_content2.rating .layout_contentBlock_right .radio label.luck:before                          {top: 36px;}
 .layout_content2.rating .layout_contentBlock_right .radio label.best:before                          {top: 72px;}
 .layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]:checked + label:before {content: "\2022"; color: #218ed2; font-size: 26px; text-align: center; line-height: 12px; border-color: #218ed2;}
+.layout_content2.rating  .jslider_round .jslider-pointer {background: #0a79bf; width: 14px; height: 14px; box-shadow: 0px 1px 10px 0px rgba(10, 121, 191, 0.25); border-radius: 50%;}
+.layout_content2.rating .jslider .jslider-bg i {background: #e8eaeb;}
+.layout_content2.rating .jslider .jslider-bg .v {background: #8fc4e6;}
+.layout_content2.rating .jslider .jslider-scale ins {font-size: 11px; font-family: Roboto-Reg, Arial, sans-serif;}
 
 /*TIS*/
-.layout_content1.tis                                          {background: url("../images/tis/Bg_tis.png") center no-repeat; background-size: cover; height: 507px;}
-.layout_content1.tis .layout_content_container h2             {color: #ffffff;}
-.layout_content1.tis .layout_content_container p              {color: #ffffff;}
-.layout_content1.tis .layout_content_container .white_outline {margin: 42px auto 90px auto;}
-.layout_content2.tis                                           {margin-top: -70px; position: relative; width: 100%; text-align: center;}
-.layout_content2.tis img.desktop                               {display: block;}
-.layout_content2.tis img.tablet                                {display: none;}
-.layout_content2.tis .layout_contentBlock                      {width: 530px; height: auto; background: #ffffff; padding: 0;}
-.layout_content2.tis .layout_contentBlock h3                   {margin: 30px auto 30px 30px; width: 350px; color: #303841; font-family: Roboto-Reg, Arial, sans-serif; font-size: 173%; font-weight: 400; line-height: 28px;}
-.layout_content2.tis .layout_contentBlock p                    {margin: 0 30px 30px 30px; color: #2a333c;}
-.layout_content2.tis .layout_contentBlock .red                 {margin: 0 auto 30px auto;}
+.section.full.tis                                          {margin-bottom: -70px; background: url("../images/tis/Bg_tis.png") center no-repeat; background-size: cover; height: 507px;}
+.section.full.tis .wrapper                                         {text-align: left;}
+.section.full.tis h2             {color: #ffffff;}
+.section.full.tis p              {color: #ffffff;}
+.section.full.tis .white_outline {margin: 42px auto 90px auto;}
+.section.lower.tis .item                     {width: 536px; height: auto; background: #ffffff; padding: 0;}
+.section.lower.tis .item img                    {width: 100%;}
+.section.lower.tis h3                   {margin: 30px auto 30px 30px; width: 350px; color: #303841; font-family: Roboto-Reg, Arial, sans-serif; font-size: 173%; font-weight: 400; line-height: 28px;}
+.section.lower.tis p                    {margin: 0 30px 30px 30px; color: #2a333c;}
+.section.lower.tis .button_wrapper                     {margin-bottom: 40px;}
 
 /*Direct invest*/
-.layout_content_container.dir_invest p                                {color: #2a333c; margin: 0;}
-.layout_content_container.dir_invest .layout_contentBlock_banner      {display: inline-block; margin-top: 50px; padding: 0; width: 100%; height: 398px; background: url("../images/pryam_invest/Banner1.png") center no-repeat; background-size: cover;}
-.layout_content_container.dir_invest .layout_contentBlock_banner h3   {margin: 48px 0 0 50px; display: inline-block; color: #ffffff; font-size: 243%; line-height: 35px; width: 350px;}
-.layout_content_container.dir_invest .layout_contentBlock h4          {color: #303841; margin: 20px 0 30px 0; font-size: 172%; line-height: 37px;}
-.layout_content_container.dir_invest .layout_contentBlock p           {color: #303841; margin-bottom: 30px;}
-.layout_content_container.dir_invest .layout_contentBlock img         {margin-bottom: 20px;}
-.layout_content_container.dir_invest .layout_contentBlock .bold       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
-.layout_content_container.dir_invest .layout_contentBlock a           {text-decoration: underline; color: #0a79bf;}
-.layout_content_container.dir_invest .layout_contentBlock_left        {padding: 0; background: transparent; width: 747px;}
-.layout_content_container.dir_invest .layout_contentBlock_right       {padding: 0; background: transparent; font-size: 100%; width: 262px;}
-.layout_content_container.dir_invest .layout_contentBlock .example    {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
-.layout_content_container.dir_invest .layout_contentBlock img.desktop {display: block;}
-.layout_content_container.dir_invest .layout_contentBlock img.tablet  {display: none;}
+.section.deal .banner      {display: inline-block; padding: 0; width: 100%; height: 398px; background: url("../images/pryam_invest/Banner1.png") center no-repeat; background-size: cover;}
+.section.deal .banner h3   {margin: 48px 0 0 50px; display: inline-block; color: #ffffff; font-size: 243%; line-height: 35px; width: 350px;}
+.section.deal h4          {color: #303841; margin: 20px 0 30px 0; font-size: 172%; line-height: 37px;}
+.section.deal p           {color: #303841; margin-bottom: 30px;}
+.section.deal img         {margin-bottom: 20px;}
+.section.deal .image_banner {margin-left: -20px;}
+.section.deal .bold       {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 100%;}
+.section.deal a           {text-decoration: underline; color: #0a79bf;}
+.section.deal .left        {width: 747px;}
+.section.deal .right       {font-size: 100%; width: 262px;}
+.section.deal .example    {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
+.section.deal img.desktop {display: block;}
+.section.deal img.tablet  {display: none;}
 
 /*Copy deal*/
-.layout_content_container.copy_deal .banner {background: url("../images/copi_sdel/Banner1.png") center;}
-.layout_content_container.copy_deal .example h4 {font-size: 145%; color: #2a333c;}
-.layout_content_container.copy_deal .example p {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #2a333c;}
-.layout_content_container.dir_invest a.button.mobile {display: none;}
-.layout_content_container.dir_invest a.button.desktop {display: inline-block;}
-
+.section.deal .banner {background: url("../images/copi_sdel/Banner1.png") center;}
+.section.deal .example h4 {font-size: 145%; color: #2a333c;}
+.section.deal .example p {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #2a333c;}
 
 /*Be trader*/
-.layout_content_container.invest .layout_content_upper                 {display: inline-block; margin-bottom: 56px;}
-.layout_content_container.invest .layout_contentBlock                  {float: left; padding: 30px; height: 191px; display: inline-block;}
-.layout_content_container.invest .layout_contentBlock_title            {height: auto; padding: 0;}
-.layout_content_container.invest .layout_contentBlock_left             {width: 416px; background: #ffffff; margin-right: 10px;}
-.layout_content_container.invest .layout_contentBlock_left label       {line-height: 42px; float: left; width: 100px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
-.layout_content_container.invest .layout_contentBlock_left input       {float: left; margin-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 277px;}
-.layout_content_container.invest .layout_contentBlock_right            {width: 206px; background: #218ed2; text-align: center;}
-.layout_content_container.invest .layout_contentBlock_right p          {color: #ffffff; margin: 0 20px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; font-size: 140%;}
-.layout_content_container.invest .layout_contentBlock_right img.person {margin-top: 35px; margin-bottom: 10px;}
-.layout_content_container.invest .layout_contentBlock_left .forget     {float: left; margin-right: 40px; line-height: 40px; color: #218ed2; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+.section.be_trader .left             {padding: 30px; width: 416px; background: #ffffff; margin-right: 10px;}
+.section.be_trader .left label       {line-height: 42px; float: left; width: 100px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%;}
+.section.be_trader .left input       {float: left; margin-bottom: 20px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 277px;}
+.section.be_trader .right            {width: 202px; padding: 55px 30px; background: #218ed2; float: left; text-align: center;}
+.section.be_trader .right p          {color: #ffffff; margin: 0 20px; font-family: ProximaNova-Bold, Helvetica, sans-serif; font-weight: 700; font-size: 140%;}
+.section.be_trader .left .forget     {float: left; margin-right: 40px; line-height: 40px; color: #218ed2; font-size: 118%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
 
 /*Invest programm*/
-.layout_content_container.programm h2                                                        {margin-bottom: 50px;}
-.layout_content_container.programm p                                                         {margin-bottom: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 30px;}
-.layout_content_container.programm .red                                                      {margin: 0 auto 44px auto;}
-.layout_content_container.programm .layout_contentBlock_rules table                         {margin: 15px 0;}
-.layout_content_container.programm .layout_contentBlock_rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
-.layout_content_container.programm .layout_contentBlock_rules tr:first-child td:first-child {font-size: 175%;}
-.layout_content_container.programm .layout_contentBlock_rules td:first-child                {color: #218ed2; width: 60px;}
-.layout_content_container.programm .layout_contentBlock_rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
+.section.invest .button_wrapper                      {margin: 40px 0;}
+.section.invest .rules table                         {margin: 15px 0;}
+.section.invest .rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
+.section.invest .rules tr:first-child td:first-child {font-size: 175%;}
+.section.invest .rules td:first-child                {color: #218ed2; width: 60px;}
+.section.invest .rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
 
 /*Steps*/
-.layout_content1.steps .layout_content_container.desktop                        {display: inline-block;}
-.layout_content1.steps .layout_content_container.mobile                         {display: none;}
-.layout_contentBlock_steps.desktop                                               {display: inline-block;}
-.layout_contentBlock_steps.tablet                                                {display: none;}
-.layout_content1.steps                                                           {text-align: center; width: 100%; display: inline-block; max-width: none; background: url("../images/open_invest/Bg_invest1.png") center no-repeat; background-size: cover; height: 854px;}
-.layout_content1.steps .layout_content_container                                {}
-.layout_content1.steps h2                                                        {color: #2a333c; text-align: center;}
-.layout_content1.steps .layout_contentBlock_steps                              {padding: 0; text-align: center;}
-.layout_content1.steps .layout_contentBlock_steps ul                             {display: inline-block; margin: 0 auto 55px auto;}
-.layout_content1.steps .layout_contentBlock_steps ul li                          {display: inline-block;}
-.layout_content1.steps .layout_contentBlock_steps ul li a                        {display: inline-block; width: 90px; height: 39px; border-radius: 22px; border: 2px dotted #2a333c; line-height: 36px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 130%; color: #2a333c; margin: 0 15px;}
-.layout_content1.steps .layout_contentBlock_steps ul li a.active                 {border: 2px solid #2a333c; color: #ffffff; background: #2a333c;}
-.layout_content1.steps .table_steps table                                        {width: 100%;}
-.layout_content1.steps .table_steps td                                           {vertical-align: top; width: 320px; padding: 30px 30px 20px 0; text-align: left; color: #2a333c; font-size: 130%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px;}
-.layout_content1.steps .table_steps td:before                                    {margin: 0 5px 0 0; content: ""; width: 12px; height: 12px; border-radius: 50%; background: #218ed2; display: inline-block;}
-.layout_content1.steps .table_steps .blue                                        {font-size: 90%;}
-.layout_content1.steps .table_steps .td_button                                   {vertical-align: middle;}
-.layout_content1.steps .table_steps .td_button:before                            {display: none;}
-.layout_content2.steps                                                           {margin-top: -160px; position: relative; width: 100%; text-align: center;}
-.layout_content2.steps .layout_content_container                                {background: #ffffff; padding: 30px; text-align: left;}
-.layout_content2.steps .layout_content_container h2                             {color: #2a333c; margin-top: 0;}
-.layout_content2.steps .layout_content_container p                              {color: #2a333c; margin: 0;}
-.layout_content2.steps .layout_contentBlock_rules table                         {margin: 15px 0;}
-.layout_content2.steps .layout_contentBlock_rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
-.layout_content2.steps .layout_contentBlock_rules tr:first-child td:first-child {font-size: 175%;}
-.layout_content2.steps .layout_contentBlock_rules td:first-child                {color: #218ed2; width: 60px;}
-.layout_content2.steps .layout_contentBlock_rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
-.layout_content2.steps .layout_contentBlock_rules td a                          {color: #218ed2; text-decoration: underline;}
+.section.invest.full   {text-align: center; width: 100%; display: inline-block; margin-bottom: -185px;}
+.section.invest.full.step1   {background: url("../images/open_invest/Bg_invest1.png") center no-repeat; background-size: cover;}
+.section.invest h2                                                        {color: #2a333c; text-align: center;}
+.section.invest.steps                                                        {background: #ffffff;}
+.section.invest.steps .rules                                                       {padding: 0 30px;}
+.section.invest .navigation .button_left,
+.section.invest .navigation .button_right {display: none;}
+.section.invest .discription                              {padding: 0; text-align: center;}
+.section.invest .discription ul                             {display: inline-block; margin: 0 auto 55px auto;}
+.section.invest .discription ul li                          {display: inline-block;}
+.section.invest .discription ul li a                        {display: inline-block; width: 90px; height: 39px; border-radius: 22px; border: 2px dotted #2a333c; line-height: 36px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 130%; color: #2a333c; margin: 0 15px;}
+.section.invest .discription ul li a.active                 {border: 2px solid #2a333c; color: #ffffff; background: #2a333c;}
+.section.invest .table_steps                                         {margin-bottom: 240px;}
+.section.invest .table_steps table                                        {width: 100%;}
+.section.invest .table_steps td                                           {vertical-align: top; width: 320px; padding: 30px 30px 20px 0; text-align: left; color: #2a333c; font-size: 130%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 27px;}
+.section.invest .table_steps td:before                                    {margin: 0 5px 0 0; content: ""; width: 12px; height: 12px; border-radius: 50%; background: #218ed2; display: inline-block;}
+.section.invest .table_steps .blue                                        {font-size: 90%;}
+.section.invest .table_steps .td_button                                   {vertical-align: middle;}
+.section.invest .table_steps .td_button:before                            {display: none;}
+.section.invest .rules table                         {margin: 15px 0;}
+.section.invest .rules tr h3                         {line-height: 30px; color: #2a333c; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 175%; margin: 0;}
+.section.invest .rules tr:first-child td:first-child {font-size: 175%;}
+.section.invest .rules td:first-child                {color: #218ed2; width: 60px;}
+.section.invest .rules td                            {line-height: 27px; padding: 15px 0; vertical-align: top; color: #2a333c; margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%;}
+.section.invest .rules td a                          {color: #218ed2; text-decoration: underline;}
 
-.layout_content1.steps.step3                                           {background: url("../images/open_invest/Bg_invest2.png") center no-repeat;}
-.layout_content1.steps.step3 h2                                        {color: #ffffff;}
-.layout_content1.steps.step3 .layout_contentBlock_steps ul li a        {color: #ffffff; border-color: #ffffff;}
-.layout_content1.steps.step3 .layout_contentBlock_steps ul li a.active {color: #ffffff; border-color: #218ed2; background: #218ed2;}
-.layout_content1.steps.step3 .table_steps td                           {color: #ffffff;}
+.section.invest.full.step3                                           {background-size: cover; background: url("../images/open_invest/Bg_invest2.png") center no-repeat;}
+.section.invest.full.step3 h2                                        {color: #ffffff;}
+.section.invest.full.step3 .discription ul li a        {color: #ffffff; border-color: #ffffff;}
+.section.invest.full.step3 .discription ul li a.active {color: #ffffff; border-color: #218ed2; background: #218ed2;}
+.section.invest.full.step3 .table_steps td                           {color: #ffffff;}
 
-.layout_content1.steps.step4    {background: url("../images/open_invest/Bg_invest3.png") center no-repeat;}
-.layout_content1.steps.step6    {background: url("../images/open_invest/Bg_invest4.png") center no-repeat;}
-.layout_content1.steps.step6 h3 {font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
+.section.invest.full.step4    {background: url("../images/open_invest/Bg_invest3.png") center no-repeat;}
+.section.invest.full.step6    {background: url("../images/open_invest/Bg_invest4.png") center no-repeat; height: 800px;}
+.section.invest.full.step6 h3 {color: #ffffff; font-size: 235%; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 15px auto; width: 720px; display: inline-block;}
 
 /*Open invest*/
-.layout_content_container.open_invest .download_mobius                         {display: none;}
-.layout_content_container.open_invest .layout_content_lower                         {display: inline-block;}
-.layout_content_container.open_invest .layout_content_lower form                        {position: relative;}
-.layout_content_container.open_invest .layout_content_lower form .calendar              {position: absolute; top: 80px; right: 20px;}
-.layout_content_container.open_invest .layout_content_lower .checkbox                   {text-align: right; margin-right: 100px;}
-.layout_content_container.open_invest .layout_content_lower label[for="promo_cod"] span {color: #9b9a9a;}
-.layout_content_container.open_invest .layout_contentBlock_right                        {font-size: 100%; display: inline-block; width: 262px !important; padding: 0; background: transparent !important;}
-.layout_content_container.open_invest .layout_contentBlock_right .download              {margin-bottom: 10px; text-align: center; display: inline-block; background: #ffffff; padding: 30px 25px; width: 212px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c;}
-.layout_content_container.open_invest .layout_contentBlock_right .download span         {color: #ff4830; font-size: 260%;}
-.layout_content_container.open_invest .layout_contentBlock_right .docs                  {background: #ffffff; padding: 30px; width: 202px;}
-.layout_content_container.open_invest .layout_contentBlock_right a                      {text-align: left; padding: 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
-.layout_content_container.open_invest .layout_content_lower .notice                     {border-bottom: 1px solid #eef1f2; line-height: 27px; padding-bottom: 30px; width: 100%; font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818;}
-.layout_content_container.open_invest .layout_content_lower .notice img                 {height: 50px; margin-right: 20px; float: left;}
-.layout_content_container.open_invest .layout_content_lower .more                 {width: 628px;}
+.section.open .download_mobius                         {display: none;}
+.section.open form                        {position: relative;}
+.section.open form .calendar              {position: absolute; top: 80px; right: 20px;}
+.section.open .checkbox                   {text-align: right; margin-right: 100px;}
+.section.open label[for="promo_cod"] span {color: #9b9a9a;}
+.section.open .download              {margin-bottom: 10px; text-align: center; display: inline-block; background: #ffffff; padding: 30px 25px; width: 212px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #2a333c;}
+.section.open .download span         {color: #ff4830; font-size: 260%;}
+.section.open .docs                  {background: #ffffff; padding: 30px; width: 202px;}
+.section.open a                      {text-align: left; padding: 0; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; font-size: 118%;}
+.section.open .notice                     {border-bottom: 1px solid #eef1f2; line-height: 27px; padding-bottom: 30px; width: 100%; font-size: 135%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818;}
+.section.open .notice img                 {height: 50px; margin-right: 20px; float: left;}
+.section.open .more                 {width: 628px;}

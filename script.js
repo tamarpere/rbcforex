@@ -97,4 +97,68 @@ $(function () {
     }
 
 
+
+    //Sliders for rating.html
+
+    $("#Slider1").slider({
+        from: 0,
+        to: 2450,
+        step: 100,
+        smooth: true,
+        limits: false,
+        round: 0,
+        dimension: "&nbsp;%",
+        scale: [0, 10, 20, 50, 2450],
+        skin: "round"
+    });
+
+    $("#Slider2").slider({
+        from: 0,
+        to: 1000000,
+        step: 100,
+        smooth: true,
+        limits: false,
+        round: 0,
+        dimension: "",
+        scale: [0, 1000, '10 тыс', '100 тыс', '1 млн'],
+        skin: "round"
+    });
+
+    $("#Slider3").slider({
+        from: 0,
+        to: 1000000,
+        step: 100,
+        smooth: true,
+        limits: false,
+        round: 0,
+        dimension: "",
+        scale: [0, 1000, '10 тыс', '100 тыс', '1 млн'],
+        skin: "round"
+    });
+
+    $("#Slider4").slider({
+        from: 0,
+        to: 1000,
+        step: 100,
+        smooth: true,
+        limits: false,
+        round: 0,
+        dimension: "",
+        scale: [1, 90, 180, '1 год', '3 года'],
+        skin: "round"
+    });
+
+    $("#Slider5").slider({
+        from: 0,
+        to: 2450,
+        step: 100,
+        smooth: true,
+        limits: false,
+        round: 0,
+        dimension: "&nbsp;%",
+        scale: [20, 30, 40, 50, 60],
+        skin: "round"
+    });
+
+
 });

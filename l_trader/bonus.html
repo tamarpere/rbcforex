@@ -189,13 +189,12 @@
         </div>
     </div>
 </header>
+
 <section class="layout_content">
-    <div class="layout_content_container bonus">
-        <div class="layout_content_upper">
-            <h2 class="layout_contentBlock layout_contentBlock_title">Бонусная программа</h2>
-            <div class="layout_contentBlock layout_contentBlock_article">
-                <img class="mobile" src="../images/bonus/Img_bonus_mobile.png">
-                <div class="text">
+    <h1 class="layout_contentBlock layout_contentBlock_title">Бонусная программа</h1>
+    <div class="layout_contentBlock layout_contentBlock_content">
+        <div class="section bonus">
+            <div class="item left">
                     <p class="paragraph">Бонусная программа компании RBC Forex позволяет клиенту дополнительно зарабатывать в процессе
                         торговли. При внесении денежных средств на торговый счет вы получаете минимум 500% к депозиту, а
                         в дни рождения и до 5000%!
@@ -207,11 +206,14 @@
                         программа действует с 15 июня 2009 года и продолжает радовать своих клиентов. Она предоставляет
                         уникальную возможность торговать при минимальном количестве средств.</p>
                 </div>
-                <img class="desktop" src="../images/bonus/Img_bonus.png">
-                <img class="tablet" src="../images/bonus/Img_bonus_tabl.png">
+            <div class="item right">
+                <picture>
+                    <source media="(min-width: 1080px)" srcset="../images/bonus/Img_bonus.png">
+                    <source media="(min-width: 768px) and (max-width: 1079px)" srcset="../images/bonus/Img_bonus_tabl.png">
+                    <source media="(max-width: 767px)" srcset="../images/bonus/Img_bonus_mobile.png">
+                    <img src="../images/bonus/Img_bonus.png">
+                </picture>
             </div>
-        </div>
-        <div class="layout_content_lower">
             <div class="items">
                 <div class="item">
                     <span class="number">1.5$</span><br>
@@ -231,8 +233,10 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+
+        </div>
+
+    </section>
 <footer class="layout_footer">
     <div class="layout_footer_container">
         <div class="layout_footer_content">
