@@ -189,40 +189,57 @@
 <section class="layout_content">
     <h1 class="layout_contentBlock layout_contentBlock_title">Открытие инвестиционного счета</h1>
     <div class="layout_contentBlock layout_contentBlock_content">
-        <div class="section open">
+        <div class="section open open_invest">
             <div class="item left">
                 <div class="checkbox">
                     <input id="check" type="checkbox">
                     <label for="check">У меня уже есть торговый счет в компании RBC Forex</label>
                 </div>
                 <form>
-                    <label for="name">Фамилия и Имя</label>
-                    <input id="name">
-                    <label for="date">Дата рождения</label>
-                    <input id="date">
-                    <img class="calendar" src="../images/open_invest/Calendar.svg" width="20">
-                    <label for="nik">Ник</label>
-                    <input id="nik">
-                    <label for="city">Город</label>
-                    <input id="city">
-                    <label for="email">Электронная почта</label>
-                    <input id="email">
-                    <label for="password">Пароль</label>
-                    <input id="password">
-                    <div class="show_pass">
-                        <a href>
-                            <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-                            <img class="default" src="../images/open_account/Eye.svg" width="18">
-                        </a>
+                    <div class="string">
+                        <label for="name">Фамилия и Имя</label>
+                        <input class="wrong" id="name">
                     </div>
-                    <a class="gen_pass" href>Сгенерировать</a>
-                    <div class="clear"></div>
-                    <label for="repeat_pass">Повторите пароль</label>
-                    <input id="repeat_pass">
-                    <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
-                    <div class="clear"></div>
-                    <label for="promo_cod">Промо-код <span>(если есть)</span> </label>
-                    <input id="promo_cod">
+                    <div class="string">
+                        <label for="date">Дата рождения</label>
+                        <input id="date">
+                        <img class="calendar" src="../images/open_invest/Calendar.svg" width="20">
+                    </div>
+                    <div class="string">
+                        <label for="nik">Ник</label>
+                        <input id="nik">
+                    </div>
+                    <div class="string">
+                        <label for="city">Город</label>
+                        <input id="city">
+                    </div>
+                   <div class="string">
+                       <label for="email">Электронная почта</label>
+                       <input class="wrong" id="email">
+                   </div>
+                    <div class="string">
+                        <label for="password">Пароль</label>
+                        <input id="password">
+                        <div class="show_pass">
+                            <a href>
+                                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
+                                <img class="default" src="../images/open_account/Eye.svg" width="18">
+                            </a>
+                        </div>
+                        <a class="gen_pass" href>Сгенерировать</a>
+                    </div>
+                    <div class="string">
+                        <label for="repeat_pass">Повторите пароль</label>
+                        <input id="repeat_pass">
+                        <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="string">
+                        <label for="promo_cod">Промо-код <span>(если есть)</span> </label>
+                        <input id="promo_cod">
+                    </div>
+
+
                     <span class="addition">
 						<span>Нажимая на кнопку, вы подтверждаете, что ознакомились с договором</span>
 

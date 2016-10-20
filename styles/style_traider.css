@@ -1,5 +1,3 @@
-.mobile {display: none;}
-.desktop {display: block;}
 .layout_form_trader {display: none;}
 .layout_header .layout_header_container1                  {width: 100%; min-height: 64px; background: #0a79c0;}
 .layout_header .layout_headerBlock_menu li                {display: inline-block; color: #fff;}
@@ -40,9 +38,9 @@
 .section.open .show_pass a .default                                               {opacity: 1;}
 .section.open .show_pass a:hover .hover                                           {opacity: 1;}
 .section.open .show_pass a:hover .default                                         {opacity: 0;}
-.section.open.gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
+.section.open .gen_pass                                                           {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; vertical-align: top; line-height: 60px;}
 .section.open input#repeat_pass                             {width: 240px; float: left;}
-.section.open .note                                         {color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.open .note                                         {text-align: left; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
 .section.open input[type="checkbox"]                        {display: none;}
 .section.open label[for="check"]                            {float: none; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif;}
 .section.open input[type="checkbox"] + label:before         {content: ""; display: inline-block; width: 14px; height: 14px; border: 2px solid #e8eaeb; border-radius: 3px; vertical-align: middle; margin-right: 9px;}
@@ -69,9 +67,8 @@
 .section.open .extra_info form                               {width: 470px; position: relative;}
 .section.open .extra_info .form label                        {float: left; line-height: 21px;}
 .section.open .extra_info .form input                        {width: 187px; float: left; margin: 0 0 20px 0;}
-.section.open .extra_info .form span                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.open .extra_info .form .note                         {position: absolute; top: 0; color: #9b9a9a; width: 220px; display: inline-block; margin-left: 20px; line-height: 19px;}
 .section.open .extra_info .blue                              {float: left; margin-top: 45px;}
-.section.open .extra_info .blue.save                         {}
 .section.open .extra_info .edit                              {float: right; margin-top: 45px; color: #218ed2; line-height: 35px; font-size: 118%;}
 .section.open .extra_info .form .blue.mobile                 {display: none;}
 .section.open .extra_info .form .blue.desktop                {display: block;}
@@ -88,7 +85,7 @@
 .section.demo .item.left label                              {float: left; width: 240px; margin: 0;}
 .section.demo .item.left input                              {width: 300px; margin: 0 0 10px 0;}
 .section.demo .item.left #password                {width: 245px; float: left;}
-.section.demo .item.left .gen_pass                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; left: 275px; top: 234px;}
+.section.demo .item.left .gen_pass                          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; right: 0; top: -10px;}
 .section.demo .item.left .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0;}
 .section.demo .item.left .show_pass a                       {display: inline-block; width: 100%; height: 100%;}
 .section.demo .item.left .show_pass img                     {position: absolute; left: 12px; top: 15px;}
@@ -145,12 +142,13 @@
 .section.fillup #sum                         {width: 157px;}
 .section.fillup #result                      {width: 157px;}
 .section.fillup select                       {float: left; width: 91px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
-.section.fillup .note                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
+.section.fillup .note                        {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
 .section.fillup a.note                       {color: #218ed2;}
 .section.fillup .note.done                   {width: 504px; float: right;}
 .section.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto-Med, Arial, sans-serif; width: 80%;}
 .section.fillup .blue                        {margin: 30px auto 0 auto;}
 .section.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
+.section.fillup .data_card .message_error    {position: static; height: 30px; display: inline-block;}
 .section.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
 .section.fillup .side img                    {position: absolute; top: 46px; right: 31px; margin: 0;}
 .section.fillup .side input                  {width: 267px; margin-bottom: 20px;}
@@ -216,6 +214,7 @@
 .section.faq .title.bold          {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; color: #181818; margin-bottom: 10px;}
 
 /*Terms*/
+.section.terms                        {overflow: inherit;}
 .section.terms .kinds                 {width: 50%; padding: 0; line-height: 143px; bottom: 100%; right: 0; position: absolute; text-align: right;}
 .section.terms .kinds ul              {display: inline-block;}
 .section.terms .kinds ul li           {display: inline-block; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
@@ -266,7 +265,7 @@
 .section.feed .form .blue                 {margin: 15px auto 0 auto;}
 
 /*Konkurs*/
-.section.konkurs                                                        {padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.konkurs                                                        {overflow: inherit; padding-bottom: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
 .section.konkurs h2                                                     {float: left;}
 .section.konkurs .sections                          {line-height: 143px; width: 50%; text-align: right; position: absolute; right: 0; bottom: 100%; font-size: 118%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #0a79bf;}
 .section.konkurs .sections .desktop                 {display: inline-block;}
@@ -307,17 +306,18 @@
 .section.konkurs .lower .how_get                   {float: left; width: 757px;}
 .section.konkurs .lower .how_get .answer           {font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px; font-size: 118%;}
 .section.full.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
-.section.full.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 44px;}
+.section.full.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 0;}
 .section.full.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; margin-bottom: 46px;}
 .section.full.konkurs .form                                                  {width: 800px; display: inline-block; text-align: left;}
 .section.full.konkurs label                                                  {float: left; margin-right: 105px; width: 140px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; line-height: 42px;}
-.section.full.konkurs input                                                  {width: 500px; margin: 0 0 20px 0;}
-.section.full.konkurs input#city                                             {width: 257px; margin-right: 250px;}
-.section.full.konkurs input#email                                            {width: 257px; margin-right: 250px;}
-.section.full.konkurs input#password                                         {width: 205px; float: left;}
-.section.full.konkurs input#repeat_pass                                      {width: 257px; float: left;}
-.section.full.konkurs input#number_fee                                       {width: 257px; margin-right: 250px;}
-.section.full.konkurs input#pass                                             {width: 257px; margin-right: 250px;}
+.section.full.konkurs input                                                  {margin: 0 0 20px 0;}
+.section.full.konkurs #name                                                  {width: 500px;}
+.section.full.konkurs #city                                                  {width: 257px; margin-right: 250px;}
+.section.full.konkurs #email                                                 {width: 257px; margin-right: 250px;}
+.section.full.konkurs #password                                              {width: 205px; float: left;}
+.section.full.konkurs #repeat_pass                                           {width: 257px; float: left;}
+.section.full.konkurs #number_fee                                            {width: 257px; margin-right: 250px;}
+.section.full.konkurs #pass                                                  {width: 257px; margin-right: 250px;}
 .section.full.konkurs .show_pass                                             {position: relative; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0 20px 0 10px;}
 .section.full.konkurs .show_pass a                                           {display: inline-block; width: 100%; height: 100%;}
 .section.full.konkurs .show_pass img                                         {position: absolute; left: 12px; top: 15px;}

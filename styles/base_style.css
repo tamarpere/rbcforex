@@ -14,8 +14,11 @@ h5 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 190
 h6 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 0 0 32px 0;}
 p.paragraph {color: #181818; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; margin: 0; line-height: 27px;}
 p.article {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; margin: 0; line-height: 25px;}
-label {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 118%; color: #181818; line-height: 42px;}
+label {font-family: Roboto-Med, Arial, sans-serif; text-align: left; font-weight: 500; font-size: 118%; color: #181818; line-height: 42px;}
 input {height: 39px; border: 2px solid #e8eaeb; background: #ffffff; padding: 0 15px 0 5px;}
+input.wrong {border: 2px solid #ff6868 !important;}
+.message_error {position: absolute; bottom: 0; margin-left: -50%; left: 50%; color: #ff6868; font-family: Roboto-Reg, Arial, sans-serifo;}
+.string {min-height: 60px; text-align: center; display: block; position: relative;}
 ul {padding: 0; margin: 0;}
 ul li {list-style: none;}
 a {display: inline-block; font-size: inherit; color: inherit; text-decoration: none; cursor: pointer;}

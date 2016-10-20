@@ -197,17 +197,26 @@
             <div class="wrapper">
                 <div class="form">
                     <form>
-                        <label>Имя</label>
-                        <input name="name">
-                        <label>Электронная почта</label>
-                        <input name="email">
-                        <label>Город</label>
-                        <input name="city">
+                        <div class="string">
+                            <label>Имя</label>
+                            <input class="wrong" name="name">
+                        </div>
+                       <div class="string">
+                           <label>Электронная почта</label>
+                           <input class="wrong" name="email">
+                       </div>
+                        <div class="string">
+                            <label>Город</label>
+                            <input name="city">
+                        </div>
                         <label>Ваше сообщение</label>
                         <textarea type="text" name="message"></textarea>
-                        <label for="capcha">Введите символы с изображения</label>
-                        <input id="capcha" name="number">
-                        <img src="../images/feedback/Capcha.png">
+                        <div class="string">
+                            <label for="capcha">Введите символы с изображения</label>
+                            <input class="wrong" id="capcha" name="number">
+                            <img src="../images/feedback/Capcha.png">
+                        </div>
+
                         <div class="clear"></div>
                         <div class="button_wrapper">
                             <button class="blue medium">Отправить</button>

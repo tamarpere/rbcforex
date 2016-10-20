@@ -1,4 +1,10 @@
 $(function () {
+
+    $('.wrong').after('<span class="message_error">Вы ввели неправильное значение</span>');
+
+    var string = $('.wrong').parent();
+    $(string).css({'height': '+=20px'});
+
     $('.login').on('click', function (){
         $('.layout_form_login').show();
     });
@@ -6,7 +12,6 @@ $(function () {
     $('.close_login').on('click', function (){
         $('.layout_form_login').hide();
     });
-
 
     $('.mobile_menu').on('click', function (){
         var a = $('.layout_header_menu');
@@ -63,8 +68,19 @@ $(function () {
     });
 
     $('.settings').click(function (){
-        $('.filter_block').toggle();
+        if ($('.filter').is(':visible')) {
+            $('.filter').hide();
+            $('.section.rating .item.left').css({'margin-top': '95px'})
+        } else {
+            $('.filter').show();
+            $('.section.rating .item.left').css({'margin-top': '710px'})
+        }
+
+
     });
+
+
+
 
     //    Carousel for mobile
 

@@ -192,7 +192,7 @@
         Ваш инвестиционный счет открыт
     </h1>
     <div class="layout_contentBlock layout_contentBlock_content">
-        <div class="section open">
+        <div class="section open open_invest opened_invest">
             <div class="item left">
                 <div class="notice">
                     <img src="../images/open_invest/Envelope.svg" width="42">
@@ -254,14 +254,21 @@
                     </div>
                     <div class="form">
                         <form>
-                            <label for="phone_pass">Телефонный пароль</label>
-                            <input id="phone_pass" placeholder="6 цифр минимум">
-                            <span>Телефонный пароль нужен для дополнительной защиты аккаунта</span>
-                            <label for="country">Страна</label>
-                            <input id="country">
-                            <label for="city">Город</label>
-                            <input id="city">
-                            <button class="blue medium desktop">Сохранить и перейти в личный кабинет</button>
+                            <div class="string">
+                                <label for="phone_pass">Телефонный пароль</label>
+                                <input class="wrong" id="phone_pass" placeholder="6 цифр минимум">
+                                <span class="note">Телефонный пароль нужен для дополнительной защиты аккаунта</span>
+                            </div>
+                            <div class="string">
+                                <label for="country">Страна</label>
+                                <input id="country">
+                            </div>
+                            <div class="string">
+                                <label for="city">Город</label>
+                                <input id="city">
+                            </div>
+
+                            <button class="blue medium">Сохранить и перейти в личный кабинет</button>
                         </form>
                     </div>
                     <button class="blue simple_go medium">Перейти в личный кабинет</button>

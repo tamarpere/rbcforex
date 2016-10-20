@@ -215,25 +215,34 @@
             <div class="lower">
                 <div class="item left">
                     <form>
-                        <label for="name">Имя</label>
-                        <input id="name" required>
-                        <label for="last_name">Фамилия</label>
-                        <input id="last_name">
-                        <label for="email">Электронная почта</label>
-                        <input id="email">
-                        <label for="password">Пароль</label>
-                        <input id="password">
-                        <div class="show_pass">
-                            <a href>
-                                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-                                <img class="default" src="../images/open_account/Eye.svg" width="18">
-                            </a>
+                        <div class="string">
+                            <label for="name">Имя</label>
+                            <input class="wrong" id="name" required>
                         </div>
-                        <a class="gen_pass" href>Сгенерировать</a>
-                        <div class="clear"></div>
-                        <label for="repeat_pass">Повторите пароль</label>
-                        <input id="repeat_pass">
-                        <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
+                        <div class="srting">
+                            <label for="last_name">Фамилия</label>
+                            <input id="last_name">
+                        </div>
+                        <div class="string">
+                            <label for="email">Электронная почта</label>
+                            <input id="email">
+                        </div>
+                        <div class="string">
+                            <label for="password">Пароль</label>
+                            <input id="password">
+                            <div class="show_pass">
+                                <a href>
+                                    <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
+                                    <img class="default" src="../images/open_account/Eye.svg" width="18">
+                                </a>
+                            </div>
+                            <a class="gen_pass" href>Сгенерировать</a>
+                        </div>
+                        <div class="string">
+                            <label for="repeat_pass">Повторите пароль</label>
+                            <input class="wrong" id="repeat_pass">
+                            <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
+                        </div>
                         <div class="clear">
                             <input id="check" type="checkbox">
                             <label for="check">Swap-Free Account</label>

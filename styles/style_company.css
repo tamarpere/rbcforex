@@ -92,8 +92,9 @@
 .section.providers .right a                    {color: #218ed2; text-decoration: underline; font-size: 118%; margin-bottom: 30px;}
 
 /*News*/
-.section.news .years                {width: 60%; text-align: right; position: absolute; right: 0; bottom: 100%; line-height: 143px;}
-.section.news .years.lower                {bottom: 0;}
+.section.news                {overflow: inherit; margin-bottom: 0;}
+.section.news .years                {width: 60%; text-align: right; position: absolute; right: 0; top: -143px; line-height: 143px;}
+.section.news .years.lower                {top: auto; bottom: 0;}
 .section.news .years li            {display: inline-block;}
 .section.news .years li.mobile            {display: none;}
 .section.news .years li a          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; border-radius: 22px; text-align: center; font-size: 135%; color: #0a79bf; width: 74px; height: 44px; background: transparent; line-height: 40px;}
@@ -111,14 +112,14 @@
 
 /*Contacts*/
 .section.contacts .col.left                                         {float: left; width: 534px; padding: 0;}
-.radio                                            {display: inline-block; margin-bottom: 0;}
-.radio label                                      {margin-top: 0; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; color: #218ed2;}
-.radio label .adress                              {height: 86px; display: inline-block;}
-.radio label .phone                               {color: #181818; line-height: 35px;}
-.radio label .phone img                           {margin-right: 10px; vertical-align: middle;}
-.radio input[type="radio"]:checked + label .phone {color: #ffffff;}
-.radio label:before                               {display: none;}
-.radio label:last-child                           {margin-right: 0;}
+.section.contacts .radio                                            {display: inline-block; margin-bottom: 0;}
+.section.contacts .radio label                                      {margin-top: 0; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; color: #218ed2;}
+.section.contacts .radio label .adress                              {height: 86px; display: inline-block;}
+.section.contacts .radio label .phone                               {color: #181818; line-height: 35px;}
+.section.contacts .radio label .phone img                           {margin-right: 10px; vertical-align: middle;}
+.section.contacts .radio input[type="radio"]:checked + label .phone {color: #ffffff;}
+.section.contacts .radio label:before                               {display: none;}
+.section.contacts .radio label:last-child                           {margin-right: 0;}
 .section.contacts .col.right                                        {float: right; width: 534px; height: auto; padding: 0; color: #181818; margin-left: 10px;}
 .section.contacts .col.right ul                                     {display: inline-block;}
 .section.contacts .col.right li                                     {float: left; width: 202px; padding: 30px; height: 110px; background: #ffffff; margin-bottom: 10px;}
@@ -127,7 +128,12 @@
 .section.contacts .col.right li p                                   {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 135%; line-height: 20px; margin: 0;}
 .section.contacts .col.right li a                                   {margin: 20px auto 15px auto; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; color: #218ed2; text-decoration: underline;}
 .section.contacts .col.right .regime                                {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; line-height: 20px;}
-
+.section.contacts .radio label                                      {position: relative; line-height: 25px; margin-right: 10px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; padding: 19px 30px; width: 198px; height: 128px; float: left; border: 2px solid #ffffff; background: transparent;}
+.section.contacts .radio label .title                               {color: #218ed2; display: inline-block; margin: 0 0 0 30px; font-size: 100%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.section.contacts .radio label .text                                {font-size: 78%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.contacts .radio input[type="radio"]                        {display: none;}
+.section.contacts .radio input[type="radio"]:checked + label        {border-color: #218ed2; background: #218ed2; color: #ffffff;}
+.section.contacts .radio input[type="radio"]:checked + label .title {color: #ffffff;}
 
 
 

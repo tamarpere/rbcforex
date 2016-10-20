@@ -312,16 +312,23 @@
             </div>
             <div class="item right">
                 <form>
-                    <label for="number_fee">Номер торгового счета</label>
-                    <input id="number_fee">
-                    <label for="trader_pass">Пароль от счета</label>
-                    <input id="trader_pass">
-                    <label for="sum">Сумма в долларах</label>
-                    <input id="sum">
-                    <select>
-                        <option>WMZ</option>
-                    </select>
-                    <span class="note desktop">Комиссия Visa/MasterCard составляет 2,9%</span>
+                    <div class="string">
+                        <label for="number_fee">Номер торгового счета</label>
+                        <input id="number_fee">
+                    </div>
+                    <div class="string">
+                        <label for="trader_pass">Пароль от счета</label>
+                        <input id="trader_pass">
+                    </div>
+                    <div class="string">
+                        <label for="sum">Сумма в долларах</label>
+                        <input id="sum">
+                        <select>
+                            <option>WMZ</option>
+                        </select>
+                        <span class="note desktop">Комиссия Visa/MasterCard составляет 2,9%</span>
+                    </div>
+
                     <div class="clear"></div>
                     <label for="result">С вычетом комиссии 2,9%</label>
                     <input id="result">
@@ -342,6 +349,7 @@
                                 <source media="(max-width: 767px)" srcset="../images/snyat/Logos_mobile.png">
                                 <img src="../images/snyat/Logos.png">
                             </picture>
+                            <span class="message_error">Неправильно введены данные карты</span>
                             <label for="number">Номер карты</label>
                             <input id="number">
                             <div class="selects">

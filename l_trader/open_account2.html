@@ -196,7 +196,7 @@
         Ваш счет в компании открыт
     </h1>
     <div class="layout_contentBlock layout_contentBlock_content">
-        <div class="section open">
+        <div class="section open opened">
             <div class="item left">
                 <p class="paragraph">На ваш адрес электронной почты выслано уведомление об открытии счета. Пароли по почте не высылаются.</p>
                 <div class="attention">
@@ -233,18 +233,24 @@
                 </div>
                 <div class="extra_info">
                     <div class="more">
-                        <span>Ввести дополнительную информацию о себе</span>
+                        <span class="enter_info">Ввести дополнительную информацию о себе</span>
                         <a><img src="../images/open_account/Arrow_expand.svg" width="20"></a>
                     </div>
                     <div class="form">
                         <form>
-                            <label for="phone_pass">Телефонный пароль</label>
-                            <input id="phone_pass" placeholder="6 цифр минимум">
-                            <span>Телефонный пароль нужен для дополнительной защиты аккаунта</span>
-                            <label for="country">Страна</label>
-                            <input id="country">
-                            <label for="city">Город</label>
-                            <input id="city">
+                            <div class="string">
+                                <label for="phone_pass">Телефонный пароль</label>
+                                <input id="phone_pass" placeholder="6 цифр минимум">
+                                <span class="note">Телефонный пароль нужен для дополнительной защиты аккаунта</span>
+                            </div>
+                            <div class="srting">
+                                <label for="country">Страна</label>
+                                <input class="wrong" id="country">
+                            </div>
+                            <div class="string">
+                                <label for="city">Город</label>
+                                <input id="city">
+                            </div>
                             <button class="medium blue save desktop">Сохранить и перейти в личный кабинет</button>
                         </form>
                     </div>

@@ -197,32 +197,40 @@
             <div class="item left">
                 <div class="form">
                     <form>
-                        <label for="fio">ФИО</label>
-                        <input id="fio">
-                        <label for="email">Электронная почта</label>
-                        <input id="email">
-                        <label for="password">Пароль</label>
-                        <input id="password">
-                        <a href class="gen_pass">Сгенерировать</a>
-
-                        <div class="show_pass">
-                            <a href>
-                                <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
-                                <img class="default" src="../images/open_account/Eye.svg" width="18">
-                            </a>
+                        <div class="string">
+                            <label for="fio">ФИО</label>
+                            <input id="fio">
                         </div>
-                        <div class="items">
-                            <div class="item">
-                                <label for="credit">Кредитное плечо</label>
-                                <select id="credit">
-                                    <option>1:1000</option>
-                                </select>
+                        <div class="string">
+                            <label for="email">Электронная почта</label>
+                            <input id="email">
+                        </div>
+                        <div class="string">
+                            <label for="password">Пароль</label>
+                            <input class="wrong" id="password">
+                            <a href class="gen_pass">Сгенерировать</a>
+
+                            <div class="show_pass">
+                                <a href>
+                                    <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
+                                    <img class="default" src="../images/open_account/Eye.svg" width="18">
+                                </a>
                             </div>
-                            <div class="item">
-                                <label for="deposit">Депозит</label>
-                                <select id="deposit">
-                                    <option>5000</option>
-                                </select>
+                        </div>
+                        <div class="string">
+                            <div class="items">
+                                <div class="item">
+                                    <label for="credit">Кредитное плечо</label>
+                                    <select id="credit">
+                                        <option>1:1000</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="deposit">Депозит</label>
+                                    <select id="deposit">
+                                        <option>5000</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="button_wrapper">
@@ -230,8 +238,6 @@
                         </div>
                     </form>
                 </div>
-
-
             </div>
             <div class="item right">
                 <div class="learning">
@@ -247,6 +253,7 @@
                             </span><br>
                             <img src="../images/demo_account/Help1.png" width="238">
                         </div>
+                        <div class="clear"></div>
                         <div class="second">
                             <span class="marker">2</span>
                             <span class="point">
@@ -258,6 +265,7 @@
                                 <img src="../images/demo_account/Help2.png">
                             </picture>
                         </div>
+                        <div class="clear"></div>
                         <div class="third">
                             <span class="marker">3</span>
                                 <span class="point">
@@ -269,6 +277,7 @@
                                 <img src="../images/demo_account/Help3.png">
                             </picture>
                         </div>
+                        <div class="clear"></div>
                         <div class="fourth">
                             <span class="marker">4</span>
                             <span class="point">
@@ -320,101 +329,6 @@
         </div>
     </div>
     </section>
-
-<!--<div class="layout_content_middle tablet">-->
-    <!--<div class="layout_contentBlock_tablet">-->
-        <!--<div class="form">-->
-            <!--<form>-->
-                <!--<label for="fio">ФИО</label>-->
-                <!--<input id="fio">-->
-                <!--<label for="email">Электронная почта</label>-->
-                <!--<input id="email">-->
-                <!--<label for="password">Пароль</label>-->
-                <!--<input id="password">-->
-                <!--<a href class="gen_pass">Сгенерировать</a>-->
-                <!--<div class="show_pass">-->
-                    <!--<a href>-->
-                        <!--<img class="hover" src="../images/open_account/Eye_active.svg" width="18">-->
-                        <!--<img class="default" src="../images/open_account/Eye.svg" width="18">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="selects">-->
-                    <!--<div class="item">-->
-                        <!--<label for="credit">Кредитное плечо</label>-->
-                        <!--<select id="credit">-->
-                            <!--<option>1:1000</option>-->
-                        <!--</select>-->
-                    <!--</div>-->
-                    <!--<div class="item">-->
-                        <!--<label for="deposit">Депозит</label>-->
-                        <!--<select id="deposit">-->
-                            <!--<option>5000</option>-->
-                        <!--</select>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="button_wrapper">-->
-                    <!--<button class="blue medium">Открыть демо-счет</button>-->
-                <!--</div>-->
-
-            <!--</form>-->
-        <!--</div>-->
-        <!--<div class="learning">-->
-            <!--<h6>Вы также можете открыть демо-счет через МТ4</h6>-->
-
-            <!--<p class="article">Для открытия учебного счета вам необходимо <a href>скачать торговую программу-->
-                <!--MetaTraider&nbsp;4</a>.-->
-                <!--Установите ее и запустите.</p>-->
-
-            <!--<div class="list">-->
-                <!--<div class="first">-->
-                    <!--<span class="marker">1</span>-->
-                                <!--<span class="point">-->
-                                <!--Выберите в главном меню <span class="bold">Файл\Открыть счет</span>-->
-                            <!--</span><br>-->
-                    <!--<img src="../images/demo_account/Help1.png" width="238">-->
-                <!--</div>-->
-                <!--<div class="second">-->
-                    <!--<span class="marker">2</span>-->
-                            <!--<span class="point">-->
-                                <!--Заполнить контактную информацию и нажать <span class="bold">"Далее"</span>-->
-                            <!--</span><br>-->
-                    <!--<img class="desktop" src="../images/demo_account/Help2.png" width="552">-->
-                <!--</div>-->
-                <!--<div class="third">-->
-                    <!--<span class="marker">3</span>-->
-                                <!--<span class="point">-->
-                                <!--Выберите сервер Ficex-demo и нажмите кнопку <span class="bold">"Далее"</span>-->
-                            <!--</span><br>-->
-                    <!--<img class="desktop" src="../images/demo_account/Help3.png" width="552">-->
-                <!--</div>-->
-                <!--<div class="fourth">-->
-                    <!--<span class="marker">4</span>-->
-                            <!--<span class="point">-->
-                                <!--<span class="bold">Учебный счет открыт.</span> После нажатия кнопки "Готово" вы войдете в учебный счет. Обязательно где-нибудь запишите номер учебного счета и пароль, чтобы не забыть.-->
-                            <!--</span>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="done">-->
-                <!--<h4>Все, теперь вы можете начинать торговать!</h4>-->
-                <!--<p class="article">Обращаем ваше внимание, что технически торговля на учебном счете абсолютно идентична торговле-->
-                    <!--на реальный счетах. Разница лишь в психологии. Перед торговлей на серьезные средства мы-->
-                    <!--советуем вам начать торговать на учебном (демо) или на центовом счету. Также мы советуем-->
-                    <!--вывести котировки всех валютных пар.-->
-                <!--</p>-->
-                <!--<div class="server">-->
-                            <!--<span>-->
-                                <!--<span class="bold">IP сервера:</span>&nbsp;46.165.231.75,-->
-                            <!--</span>-->
-                            <!--<span>-->
-                                <!--<span class="bold">порт:</span>&nbsp;443-->
-                            <!--</span>-->
-                <!--</div>-->
-            <!--</div>-->
-
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-
 <footer class="layout_footer">
     <div class="layout_footer_container">
         <div class="layout_footer_content">
