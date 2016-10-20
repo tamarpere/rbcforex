@@ -1,96 +1,86 @@
 .layout_header .layout_header_container .triangle.invest {left: 35px;}
 
 /*Rating*/
-.layout_content1.rating                                                   {background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
-.layout_content1.rating .layout_content_container .header_rating.desktop       {display: inline-block; width: 100%;}
-.layout_content1.rating .layout_content_container .header_rating.mobile       {display: none;}
-.layout_content1.rating .layout_content_container h2.tablet               {display: none;}
-.layout_content1.rating .layout_content_container h2.desktop              {display: block; color: #f5f7f7; float: left; margin: 40px 0; width: 60%; text-align: left;}
-.layout_content1.rating .layout_content_container .blue                   {float: right; margin: 50px 0;}
-.layout_content1.rating .layout_content_container .blue img               {vertical-align: middle; margin-right: 5px;}
-.layout_content1.rating .layout_content_container .layout_contentBlock_items                  {display: inline-block; width: 1080px; padding: 0;}
-.layout_content1.rating .layout_content_container .layout_contentBlock_items .item            {color: #ffffff; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
-.layout_content1.rating .layout_content_container .layout_contentBlock_items .item:last-child {margin-right: 0;}
-.layout_content1.rating .layout_content_container .layout_contentBlock_items .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
-.layout_content1.rating .layout_content_container .layout_contentBlock_items .image_wrap img  {vertical-align: middle;}
-.layout_content_container .carousel .carousel-button-left            {display: none;}
-.layout_content_container .carousel .carousel-button-right           {display: none;}
-
-
-
-.layout_content2.rating .show_filter {display: none;}
-.layout_content2.rating                                                                    {height: auto; width: 100%; margin: -70px auto 50px auto; text-align: center;}
-.layout_content2.rating .layout_content_container.tablet                                  {display: none;}
-.layout_content2.rating .layout_content_container.mobile                                  {display: none;}
-.layout_content2.rating .layout_content_container.desktop                                 {display: inline-block;}
-.layout_content2.rating .layout_content_container                                         {position: relative; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_left                                          {width: 807px; height: auto; background: #ffffff; padding: 0;}
-.layout_content2.rating .layout_contentBlock_left tr                                       {cursor: pointer;}
-.layout_content2.rating .layout_contentBlock_left tr td                                    {position: relative;}
-.layout_content2.rating .layout_contentBlock_left tr img.dropdown                          {display: none; position: absolute; top: 40px; right: 30px;}
-.layout_content2.rating .layout_contentBlock_left tr.dropdown                              {display: none; box-shadow: 0px 5px 35px 0px rgba(54, 72, 89, 0.2);}
-.layout_content2.rating .layout_contentBlock_left tr:hover                                 {background: #f5f7f7;}
-.layout_content2.rating .layout_contentBlock_left tr:hover img                             {display: block;}
-.layout_content2.rating .layout_contentBlock_left tr.dropdown:hover                        {background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left tr.dropdown td                           {padding: 0;}
-.layout_content2.rating .layout_contentBlock_left tr:first-child:hover                     {background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left th                                       {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #9b9a9a; border-bottom: 1px solid #f5f7f7; padding: 15px 20px; vertical-align: bottom; text-align: left;}
-.layout_content2.rating .layout_contentBlock_left th select                                {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #0a79bf; border: none; padding: 0; height: 22px; background: transparent;}
-.layout_content2.rating .layout_contentBlock_left th select:hover                          {box-shadow: none;}
-.layout_content2.rating .layout_contentBlock_left td                                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 140%; border-bottom: 1px solid #f5f7f7; padding: 30px 20px; vertical-align: middle; text-align: left;}
-.layout_content2.rating .layout_contentBlock_left td:first-child                           {color: #0a79bf; font-size: 150%;}
-.layout_content2.rating .layout_contentBlock_left table .col.left                          {width: 350px; color: #181818; display: inline-block; margin-left: 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.right                         {margin: 10px; width: 396px; color: #181818; display: inline-block; background: #f5f7f7;}
-.layout_content2.rating .layout_contentBlock_left table .col.left h4                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin: 30px 0;}
-.layout_content2.rating .layout_contentBlock_left table .col.left p                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; margin-bottom: 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info                    {line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 125%; width: 100%; height: 85px; background: #f5f7f7;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info .block             {float: left; width: 30%; margin: 20px 0;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info .block:first-child {margin-left: 20px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .info span               {font-size: 55%;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways                    {display: inline-block; margin-bottom: 20px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways li                 {color: #0a79bf; font-size: 80%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; margin-bottom: 10px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .ways li:before          {content: ""; background: url("../images/rating/Check_bullit.svg") center no-repeat; width: 15px; height: 15px; display: inline-block; margin-right: 10px;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .blue                    {font-size: 70%; margin: 0 auto 30px auto;}
-.layout_content2.rating .layout_contentBlock_left table .col.left .blue img                {display: inline-block; vertical-align: middle;}
-.layout_content2.rating .layout_contentBlock_left table .col.right h4                      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; margin: 26px 0 26px 30px;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .note                   {width: 308px; line-height: 21px; font-size: 68%; padding: 17px 0 17px 24px; border-left: 3px solid #0a79bf; margin: 0 auto; display: block; background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .note a                 {text-decoration: underline; color: #0a79bf;}
-.layout_content2.rating .layout_contentBlock_left table .col.right form                    {margin-top: 25px; margin-left: 30px; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_left table .col.right label                   {line-height: 40px; float: left; width: 100px; margin-right: 35px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 80%;}
-.layout_content2.rating .layout_contentBlock_left table .col.right input                   {float: left; margin-bottom: 20px; width: 127px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; border: 2px solid #e8eaeb; background: #ffffff;}
-.layout_content2.rating .layout_contentBlock_left table .col.right select                  {margin-right: 10px; float: left; margin-bottom: 20px; width: 70px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%;}
-.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip               {margin-right: 10px; float: left; width: 20px; height: 20px; position: relative; display: block; background: url("../images/rating/Question_grey.svg;") center no-repeat; background-size: cover;}
-.layout_content2.rating .layout_contentBlock_left table .col.right a.tooltip:hover         {background: url("../images/rating/Question_active.svg;") center no-repeat;}
-.layout_content2.rating .layout_contentBlock_left table .col.right .red                    {margin: 10px auto 30px auto; font-size: 90%;}
-.layout_content2.rating .layout_contentBlock_right                                                   {width: 262px; height: auto; background: transparent; padding: 0;}
-.layout_content2.rating .layout_contentBlock_right label                                             {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
-.layout_content2.rating .layout_contentBlock_right input                                             {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .blue                                             {margin: 0 auto;}
-.layout_content2.rating .layout_contentBlock_right .note                                             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_right .search                                           {position: relative; display: inline-block;}
-.layout_content2.rating .layout_contentBlock_right .search img                                       {position: absolute; top: 73px; left: 170px;}
-.layout_content2.rating .layout_contentBlock_right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 0 33px 30px 33px;}
-.layout_content2.rating .layout_contentBlock_right .filter .item                                           {float: none; display: inline-block; width: 100%; margin-bottom: 20px;}
-.layout_content2.rating .layout_contentBlock_right .filter label                                           {line-height: 25px; margin-top: 20px;}
-.layout_content2.rating .layout_contentBlock_right .filter input[type="search"]                      {margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.layout_content2.rating .layout_contentBlock_right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
-.layout_content2.rating .layout_contentBlock_right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
-.layout_content2.rating .layout_contentBlock_right .calc h4                                          {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
-.layout_content2.rating .layout_contentBlock_right .calc select                                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 43px;}
-.layout_content2.rating .layout_contentBlock_right .spred                                            {display: inline-block; background: #ffffff; padding: 30px;}
-.layout_content2.rating .layout_contentBlock_right .spred h4                                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
-.layout_content2.rating .layout_contentBlock_right .radio                                            {position: relative; display: inline-block; margin-bottom: 15px;}
-.layout_content2.rating .layout_contentBlock_right .radio label                                      {padding-left: 25px; line-height: 20px;}
-.layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]                        {display: none;}
-.layout_content2.rating .layout_contentBlock_right .radio label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 0; background: transparent; border: 2px solid #e8eaeb; border-radius: 50%;}
-.layout_content2.rating .layout_contentBlock_right .radio label.hand:before                          {top: 2px;}
-.layout_content2.rating .layout_contentBlock_right .radio label.luck:before                          {top: 36px;}
-.layout_content2.rating .layout_contentBlock_right .radio label.best:before                          {top: 72px;}
-.layout_content2.rating .layout_contentBlock_right .radio input[type="radio"]:checked + label:before {content: "\2022"; color: #218ed2; font-size: 26px; text-align: center; line-height: 12px; border-color: #218ed2;}
-.layout_content2.rating  .jslider_round .jslider-pointer {background: #0a79bf; width: 14px; height: 14px; box-shadow: 0px 1px 10px 0px rgba(10, 121, 191, 0.25); border-radius: 50%;}
-.layout_content2.rating .jslider .jslider-bg i {background: #e8eaeb;}
-.layout_content2.rating .jslider .jslider-bg .v {background: #8fc4e6;}
-.layout_content2.rating .jslider .jslider-scale ins {font-size: 11px; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.rating.full                     {margin-bottom: -70px; background: url("../images/rating/Bg_rating.png") center no-repeat; background-size: cover; height: 507px;}
+.section.rating.full .title              {width: 100%; display: inline-block;}
+.section.rating.full h2              {color: #f5f7f7; text-align: left; float: left;}
+.section.rating.full .blue                   {float: right; margin: 50px 0; text-align: right;}
+.section.rating.full .blue img               {vertical-align: middle; margin-right: 5px;}
+.section.rating.full .carousel                  {display: inline-block; padding: 0; clear: both;}
+.section.rating.full .carousel .item            {color: #ffffff; width: 250px; margin-right: 25px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 110%; line-height: 25px; text-align: left;}
+.section.rating.full .carousel .item:last-child {margin-right: 0;}
+.section.rating.full .carousel .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
+.section.rating.full .carousel .image_wrap img  {vertical-align: middle;}
+.section.rating .show_filter {display: none;}
+.section.rating                                    {height: auto;}
+.section.rating .item.left                                          {width: 807px; height: auto; background: #ffffff; padding: 0;}
+.section.rating .item.left tr                                       {cursor: pointer;}
+.section.rating .item.left tr td                                    {position: relative;}
+.section.rating .item.left tr .arrow_down                          {display: none; position: absolute; top: 40px; right: 30px;}
+.section.rating .item.left tr.dropdown                              {display: none; box-shadow: 0px 5px 35px 0px rgba(54, 72, 89, 0.2);}
+.section.rating .item.left tr:hover                                 {background: #f5f7f7;}
+.section.rating .item.left tr:hover .arrow_down                     {display: block;}
+.section.rating .item.left tr.dropdown:hover                        {background: #ffffff;}
+.section.rating .item.left tr.dropdown td                           {padding: 0;}
+.section.rating .item.left tr:first-child:hover                     {background: #ffffff;}
+.section.rating .item.left th                                       {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #9b9a9a; border-bottom: 1px solid #f5f7f7; padding: 15px 20px; vertical-align: bottom; text-align: left;}
+.section.rating .item.left th select                                {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #0a79bf; border: none; padding: 0; height: 22px; background: transparent;}
+.section.rating .item.left th select:hover                          {box-shadow: none;}
+.section.rating .item.left td                                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; color: #181818; font-size: 140%; border-bottom: 1px solid #f5f7f7; padding: 30px 20px; vertical-align: middle; text-align: left;}
+.section.rating .item.left td:first-child                           {color: #0a79bf; font-size: 150%;}
+.section.rating .item.left table .col.left                          {width: 350px; color: #181818; display: inline-block; margin-left: 30px;}
+.section.rating .item.left table .col.right                         {margin: 10px; width: 396px; color: #181818; display: inline-block; background: #f5f7f7;}
+.section.rating .item.left table .col.left h4                       {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin: 30px 0;}
+.section.rating .item.left table .col.left p                        {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; margin-bottom: 30px;}
+.section.rating .item.left table .col.left .info                    {line-height: 20px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 125%; width: 100%; height: 85px; background: #f5f7f7;}
+.section.rating .item.left table .col.left .info .block             {float: left; width: 30%; margin: 20px 0;}
+.section.rating .item.left table .col.left .info .block:first-child {margin-left: 20px;}
+.section.rating .item.left table .col.left .info span               {font-size: 55%;}
+.section.rating .item.left table .col.left .ways                    {display: inline-block; margin-bottom: 20px;}
+.section.rating .item.left table .col.left .ways li                 {color: #0a79bf; font-size: 80%; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; margin-bottom: 10px;}
+.section.rating .item.left table .col.left .ways li:before          {content: ""; background: url("../images/rating/Check_bullit.svg") center no-repeat; width: 15px; height: 15px; display: inline-block; margin-right: 10px;}
+.section.rating .item.left table .col.left .blue                    {font-size: 70%; margin: 0 auto 30px auto;}
+.section.rating .item.left table .col.left .blue img                {display: inline-block; vertical-align: middle;}
+.section.rating .item.left table .col.right h4                      {font-family: Roboto-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; margin: 26px 0 26px 30px;}
+.section.rating .item.left table .col.right .note                   {width: 308px; line-height: 21px; font-size: 68%; padding: 17px 0 17px 24px; border-left: 3px solid #0a79bf; margin: 0 auto; display: block; background: #ffffff;}
+.section.rating .item.left table .col.right .note a                 {text-decoration: underline; color: #0a79bf;}
+.section.rating .item.left table .col.right form                    {margin-top: 25px; margin-left: 30px; display: inline-block;}
+.section.rating .item.left table .col.right label                   {line-height: 40px; float: left; width: 100px; margin-right: 35px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 80%;}
+.section.rating .item.left table .col.right input                   {float: left; margin-bottom: 20px; width: 127px; height: 39px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%; border: 2px solid #e8eaeb; background: #ffffff;}
+.section.rating .item.left table .col.right select                  {margin-right: 10px; float: left; margin-bottom: 20px; width: 70px; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 80%;}
+.section.rating .item.left table .col.right .tooltip               {line-height: 42px; float: right; width: 20px; height: 20px; position: relative; display: block;}
+.section.rating .item.left table .col.right .tooltip a               {display: block;}
+.section.rating .item.left table .col.right .tooltip img               {vertical-align: middle;}
+.section.rating .item.left table .col.right .red                    {margin: 10px auto 30px auto; font-size: 90%;}
+.section.rating .item.right                                                   {width: 262px; height: auto; background: transparent; padding: 0;}
+.section.rating .item.right label                                             {font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
+.section.rating .item.right input                                             {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 175px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.section.rating .item.right .blue                                             {margin: 0 auto;}
+.section.rating .item.right .note                                             {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
+.section.rating .item.right .search                                           {position: relative; display: inline-block;}
+.section.rating .item.right .search img                                       {position: absolute; top: 73px; left: 170px;}
+.section.rating .item.right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 0 33px 30px 33px;}
+.section.rating .item.right .filter .item                                           {float: none; display: inline-block; width: 100%; margin-bottom: 20px;}
+.section.rating .item.right .filter label                                           {line-height: 25px; margin-top: 20px;}
+.section.rating .item.right .filter input[type="search"]                      {margin-bottom: 0; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+.section.rating .item.right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
+.section.rating .item.right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
+.section.rating .item.right .calc h4                                          {float: left; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
+.section.rating .item.right .calc select                                      {margin-bottom: 30px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 197px; height: 43px;}
+.section.rating .item.right .spred                                            {display: inline-block; background: #ffffff; padding: 30px;}
+.section.rating .item.right .spred h4                                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
+.section.rating .item.right .radio                                            {position: relative; display: inline-block; margin-bottom: 15px;}
+.section.rating .item.right .radio label                                      {padding-left: 25px; line-height: 20px;}
+.section.rating .item.right .radio input[type="radio"]                        {display: none;}
+.section.rating .item.right .radio label:before                               {content: ""; display: inline-block; width: 11px; height: 12px; margin-right: 10px; position: absolute; left: 0; background: transparent; border: 2px solid #e8eaeb; border-radius: 50%;}
+.section.rating .item.right .radio label.hand:before                          {top: 2px;}
+.section.rating .item.right .radio label.luck:before                          {top: 36px;}
+.section.rating .item.right .radio label.best:before                          {top: 72px;}
+.section.rating .item.right .radio input[type="radio"]:checked + label:before {content: "\2022"; color: #218ed2; font-size: 26px; text-align: center; line-height: 12px; border-color: #218ed2;}
+.section.rating  .jslider_round .jslider-pointer {background: #0a79bf; width: 14px; height: 14px; box-shadow: 0px 1px 10px 0px rgba(10, 121, 191, 0.25); border-radius: 50%;}
+.section.rating .jslider .jslider-bg i {background: #e8eaeb;}
+.section.rating .jslider .jslider-bg .v {background: #8fc4e6;}
+.section.rating .jslider .jslider-scale ins {font-size: 11px; font-family: Roboto-Reg, Arial, sans-serif;}
 
 /*TIS*/
 .section.full.tis                                          {margin-bottom: -70px; background: url("../images/tis/Bg_tis.png") center no-repeat; background-size: cover; height: 507px;}

@@ -2,9 +2,6 @@
 
     /*Index*
     **************************************************************/
-    .mobile  {display: none;}
-    .desktop {display: block;}
-
     .layout_form_login .form_wrapper {left: 50%; margin-left: -160px; right: auto;}
 
     .layout_header                                       {text-align: center;}
