@@ -1,34 +1,32 @@
 @media screen and (min-device-width: 768px) and (max-device-width: 1079px) {
-
-
     .layout_contentBlock_title {width: 748px;}
     .layout_contentBlock .section {width: 748px;}
     .layout_contentBlock .section.full .wrapper {width: 748px;}
-
 
     /*Index*
     **************************************************************/
     .layout_form_login .form_wrapper {left: 50%; margin-left: -160px; right: auto;}
 
-    .layout_header                                       {text-align: center;}
-    .layout_header .layout_header_container               {width: 748px; display: inline-block; height: 90px; padding: 26px 0; margin: 0 auto;}
-    .layout_header .layout_headerBlock_right               {display: none;}
-    .layout_header .layout_header_content {display: inline-block; width: 80%; float: right;}
-    .layout_header .layout_headerBlock_menu {max-width: 768px;}
-    .layout_header .layout_headerBlock_left {width: auto; float: right;}
-    .layout_header .layout_headerBlock_nav {margin: 0; float: left;}
-    .layout_header .layout_headerBlock_nav li {padding-right: 27px;}
-    .layout_header .layout_headerBlock_nav li:first-child {padding-left: 0;}
-    .layout_header .layout_headerBlock_account .desktop {display: none;}
-    .layout_header .layout_headerBlock_account .tablet {display: inline-block;}
-    .layout_header .layout_headerBlock_account          {float: none; width: auto; text-align: right;}
-    .layout_header .layout_headerBlock_account img         {margin-left: 24px;}
-    .layout_header .layout_headerBlock_icons {display: none;}
-    .layout_header .layout_headerBlock_left a.desktop {display: inline-block;}
-    .layout_header .layout_headerBlock_left a.mobile {display: none;}
+    .layout_header_container             {height: 137px; width: 748px;}
+    .layout_headerBlock_logo {position: absolute; top: 20px; left: 20px;}
+    .layout_header .under_menu .menu_wrapper     {width: 748px;}
+    .layout_headerBlock_upper .left a.terminal {position: static; margin-left: auto;}
+    .layout_headerBlock_upper .left {width: 500px; float: right; text-align: right;}
+    .layout_headerBlock_upper .left div {margin-right: 34px;}
+    .layout_headerBlock_upper .left div:last-child {margin-right: 0;}
+    .layout_headerBlock_upper .right {display: none;}
+    .layout_headerBlock_nav {width: auto;}
+    .layout_headerBlock_nav ul {text-align: left;}
+    .layout_headerBlock_nav li {text-align: left; width: auto; margin-right: 40px;}
+    .layout_headerBlock_account {width: 110px;}
+    .layout_header .under_menu li {margin-right: auto;}
 
     .layout_header .layout_header_container .triangle {top: 20px;}
-    .layout_header .layout_header_container .triangle.traider {left: 15px;}
+    .layout_header .layout_header_container .triangle.traider {left: 14px;}
+    .layout_header .layout_header_container .triangle.invest {left: 14px;}
+    .layout_header .layout_header_container .triangle.company {left: 14px;}
+    .layout_header .layout_header_container .triangle.partner {left: 14px;}
+    .layout_header .layout_header_container .triangle.education {left: 14px;}
 
     .layout_footer                               {padding: 0;}
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}

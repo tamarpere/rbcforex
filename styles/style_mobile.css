@@ -23,17 +23,14 @@
 
     /*Mobile menu*/
     body                                                            {position: relative;}
-    .layout_header .layout_header_container               {height: 134px;}
-    .layout_header_container1 {display: none;}
-    .layout_header .layout_headerBlock_nav {display: none;}
-    .layout_header .layout_headerBlock_right {display: none;}
-    .layout_header .layout_header_content a.terminal {display: none;}
-    .layout_header .layout_headerBlock_account {display: none;}
-    .layout_header .layout_headerBlock_left {position: absolute; bottom: 0; left: 50%; margin-left: -150px; width: 300px; float: none;}
-    .layout_header .layout_headerBlock_left a.desktop {display: none;}
-    .layout_header .layout_headerBlock_left a.mobile {display: inline-block;}
-    .layout_header .layout_header_content a {margin-right: 10px;}
-    .layout_header .layout_header_content2 {width: 300px; margin: 0 auto; padding-top: 20px;}
+    .layout_header .under_menu {display: none !important;}
+    .layout_headerBlock_nav {display: none;}
+    .layout_header_container {width: 300px; height: 130px;}
+    .layout_headerBlock_upper .left {width: 100%; position: absolute; bottom: 0;}
+    .layout_headerBlock_upper .left div:last-child {display: none;}
+    .layout_headerBlock_upper .left div {margin-right: 10px;}
+    .layout_headerBlock_upper .right {display: none;}
+    .layout_headerBlock_account {display: none;}
     .layout_header_menu                                             {display: none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 10;}
     .layout_header_menu .close                                      {position: absolute; left: 15px; top: 15px; width: 24px; height: 24px;}
     .layout_contentBlock_mobileMenu                                 {width: 245px; height: auto; background: #ffffff; display: inline-block; float: right;}
@@ -225,8 +222,6 @@
     .section.fillup .side.back  {width: 100%; height: 60px; z-index: 10; left: 25px; top: 360px; padding: 0; background: transparent;}
     .section.fillup .side.back .line {display: none;}
     .section.fillup .side.front {height: 410px; box-shadow: 1px 2px 30px 0px rgba(33, 142, 210, 0.15);}
-    .section.fillup .side.front .desktop {display: none;}
-    .section.fillup .side.front .mobile {display: block;}
     .section.fillup form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
     .section.fillup .side img {position: static; margin-bottom: 30px;}
 
@@ -440,8 +435,6 @@
     .section.deal h3          {margin: 25px 0 0 25px; font-size: 140%; width: 80%;}
     .section.deal .banner           {text-align: center;}
     .section.deal .banner h3          {text-align: center; width: 60%; margin: 30px auto;}
-    .section.deal img.desktop {display: none;}
-    .section.deal img.tablet  {display: block; width: 100%;}
     .section.deal h4 {width: 90%; margin: 10px auto; display: block;}
     .section.deal .item.left img    {width: 100%;}
     .section.deal .item.right img   {width: 100%; margin: 0 auto 20px auto;}
@@ -532,8 +525,7 @@
     .section.open_invest .extra_info form                         {width: 100%;}
     .section.open_invest .extra_info .form span                   {display: none;}
     .section.open_invest .extra_info .form input                  {width: 248px; float: none; margin-left: 25px;}
-    .section.open_invest .extra_info .form .blue.mobile           {display: block; width: 260px; padding: 0;}
-    .section.open_invest .extra_info .form .blue.desktop          {display: none;}
+    .section.open_invest .extra_info .form .blue                  {display: block; width: 260px; padding: 0;}
     .section.open_invest .download_mobius                         {display: inline-block; width: 100%; text-align: center; background: #ffffff; padding: 20px 0;}
     .section.open_invest .download_mobius  img                       {display: block; margin: 10px auto !important; float: none !important;}
     .section.open_invest .download_mobius  a                       {text-align: center; float: none;}

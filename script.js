@@ -1,10 +1,21 @@
 $(function () {
 
-    $('.wrong').after('<span class="message_error">Вы ввели неправильное значение</span>');
+//Header menu
+    if ($('.layout_headerBlock_nav ul li').hasClass('active')) {
+        $('.under_menu').css({'display' : 'block'});
+        var height = $('.under_menu').css('height');
+        $('.layout_header').css({'height' : '+=' + height});
+    } else {
+        $('.under_menu').css({'display' : 'none'});
+    }
 
-    var string = $('.wrong').parent();
-    $(string).css({'height': '+=20px'});
 
+//Error for inputs
+    var error = $('.wrong');
+    error.wrap('<div class="input_wrapper"></div>');
+    error.after('<span class="message_error">Вы ввели неправильное значение</span>');
+
+//Open/close menu for mobile
     $('.login').on('click', function (){
         $('.layout_form_login').show();
     });
@@ -31,6 +42,7 @@ $(function () {
         }
     });
 
+//Sliders for index
     $('.block3 .marker').click(function () {
         var id = $(this).attr('id');
 //            $(this).siblings('.slide').hide();
@@ -48,12 +60,13 @@ $(function () {
         $(this).addClass('active')
     });
 
-
+//Show more info
     $('.more').click(function(){
         $(this).siblings('.form').slideToggle(300);
         $('.simple_go').toggle(300);
     });
 
+//Questions block
     $('.question .title').click(function () {
         $(this).siblings('.text').slideToggle(300);
         if ($(this).hasClass('bold')) {
@@ -63,6 +76,7 @@ $(function () {
         }
     });
 
+//Table rating
     $('tr.deploy').click(function (){
         $(this).next('tr.dropdown').toggle('slow');
     });
@@ -79,10 +93,7 @@ $(function () {
 
     });
 
-
-
-
-    //    Carousel for mobile
+//Carousel for mobile
 
     $(document).on('click', ".carousel-button-right",function(){
         var carusel = $(this).parents('.carousel');
@@ -113,8 +124,7 @@ $(function () {
     }
 
 
-
-    //Sliders for rating.html
+//Sliders for rating.html
 
     $("#Slider1").slider({
         from: 0,

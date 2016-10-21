@@ -1,12 +1,15 @@
 .layout_form_trader {display: none;}
-.layout_header .layout_header_container1                  {width: 100%; min-height: 64px; background: #0a79c0;}
-.layout_header .layout_headerBlock_menu li                {display: inline-block; color: #fff;}
-.layout_header .layout_headerBlock_menu a                 {height: 38px; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
-.layout_header .layout_headerBlock_menu a:hover           {background: #218ed2;}
-.layout_header .layout_headerBlock_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; background: #fff; color: #181818;}
-.layout_header .layout_headerBlock_menu                   {max-width: 1080px; margin: 0 auto; position: relative;}
-.layout_header .layout_headerBlock_menu .menu             {display: inline-block; margin: 13px 0; text-align: left;}
-.layout_header .layout_header_container .triangle.traider {left: 30px;}
+.layout_header .under_menu                   {padding: 10px 0; text-align: center;}
+.layout_header .under_menu .menu_wrapper     {width: 1080px; margin: 0 auto;}
+.layout_header .under_menu ul                {display: none; text-align: left;}
+.layout_header .under_menu ul.active         {display: inline-block;}
+.layout_header .under_menu li                {display: inline-block; color: #fff; width: auto;}
+.layout_header .under_menu a                 {height: 38px; text-transform: none; margin: 5px 0; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; padding: 0 18px; line-height: 38px; text-align: center; border-radius: 20px;}
+.layout_header .under_menu a:hover           {background: #218ed2;}
+.layout_header .under_menu a.active          {font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; background: #fff; color: #181818;}
+.layout_header .under_menu                   {min-height: 64px; width: 100%; background: #0a79c0; left: 0; bottom: 0; margin: 0 auto; position: absolute;}
+.layout_header .under_menu .menu             {display: inline-block; margin: 13px 0; text-align: left;}
+.layout_header .layout_header_container .triangle.traider {left: 44px;}
 
 /*Open account*/
 .section.open .left       {width: 747px; background: #ffffff; padding: 30px;}
@@ -162,12 +165,6 @@
 .section.fillup .data_card .cvv_number       {width: 90px; float: right; margin-right: 25px;}
 .section.fillup .data_card .cvv_number input {width: 70px;}
 .section.fillup .data_card .note             {font-size: 85%; color: #181818; width: 70px; margin-left: 0;}
-.section.fillup form .note.desktop       {display: inline-block;}
-.section.fillup form .note.mobile       {display: none;}
-.section.fillup .side.front .desktop {display: none;}
-.section.fillup .side.front .mobile {display: block;}
-.section.fillup .side.front .desktop {display: block;}
-.section.fillup .side.front .mobile {display: none;}
 
 
 /*Calculator*/

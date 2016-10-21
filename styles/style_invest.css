@@ -106,8 +106,6 @@
 .section.deal .left        {width: 747px;}
 .section.deal .right       {font-size: 100%; width: 262px;}
 .section.deal .example    {background: #ffffff; padding: 30px 30px 10px 30px; margin-bottom: 30px;}
-.section.deal img.desktop {display: block;}
-.section.deal img.tablet  {display: none;}
 
 /*Copy deal*/
 .section.deal .banner {background: url("../images/copi_sdel/Banner1.png") center;}
