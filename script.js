@@ -4,7 +4,7 @@ $(function () {
     if ($('.layout_headerBlock_nav ul li').hasClass('active')) {
         $('.under_menu').css({'display' : 'block'});
         var height = $('.under_menu').css('height');
-        $('.layout_header').css({'height' : '+=' + height});
+        $('.layout_header_container').css({'height' : '+=' + height});
     } else {
         $('.under_menu').css({'display' : 'none'});
     }

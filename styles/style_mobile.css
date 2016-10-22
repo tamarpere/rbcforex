@@ -6,17 +6,16 @@
     .layout_contentBlock .section {width: 100%;}
     .layout_contentBlock .section.full .wrapper {width: 100%;}
 
-
     /*Index*
    **************************************************************/
     .layout_form_login                             {height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
     .layout_form_login .form_wrapper               {width: 250px; height: 320px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative; top: auto; right: auto;}
     .layout_form_login .form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
-    .layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
-    .layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
+    .layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
+    .layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
     .layout_form_login .form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
     .layout_form_login .form_wrapper a.button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
-    .layout_form_login .form_wrapper .forget       {position: absolute; top: 270px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_form_login .form_wrapper .forget       {position: absolute; top: 270px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
     .layout_content_container .carousel .carousel-button-left {display: block;}
     .layout_content_container .carousel .carousel-button-right {display: block;}
@@ -26,7 +25,7 @@
     .layout_header .under_menu {display: none !important;}
     .layout_headerBlock_nav {display: none;}
     .layout_header_container {width: 300px; height: 130px;}
-    .layout_headerBlock_upper .left {width: 100%; position: absolute; bottom: 0;}
+    .layout_headerBlock_upper .left {width: 300px; position: absolute; bottom: 0; left: 54%; margin-left: -160px;}
     .layout_headerBlock_upper .left div:last-child {display: none;}
     .layout_headerBlock_upper .left div {margin-right: 10px;}
     .layout_headerBlock_upper .right {display: none;}
@@ -35,10 +34,10 @@
     .layout_header_menu .close                                      {position: absolute; left: 15px; top: 15px; width: 24px; height: 24px;}
     .layout_contentBlock_mobileMenu                                 {width: 245px; height: auto; background: #ffffff; display: inline-block; float: right;}
     .layout_contentBlock_mobileMenu .nav                            {width: 100%; height: 49px; background: #f2f2f2; display: inline-block; line-height: 45px;}
-    .layout_contentBlock_mobileMenu .nav a                          {margin: 0 12px 0 15px; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; color: #2a333c;}
+    .layout_contentBlock_mobileMenu .nav a                          {margin: 0 12px 0 15px; font-family: Roboto, Arial, sans-serif; font-weight: 500; color: #2a333c;}
     .layout_contentBlock_mobileMenu .nav a img                      {vertical-align: middle; margin-right: 3px;}
     .layout_contentBlock_mobileMenu .nav_list                       {margin: 20px 0 20px 0;}
-    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro-Bold, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
+    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
     .layout_contentBlock_mobileMenu .nav_list .sup_menu li a.active {color: #1c252f;}
     .layout_contentBlock_mobileMenu .nav_list .sub_menu             {display: none;}
     .layout_contentBlock_mobileMenu .nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
@@ -53,14 +52,14 @@
     .layout_footer .layout_footer_container            {width: 100% !important;}
     .layout_footer .layout_footer_content              {display: none;}
     .layout_footer .layout_footer_content2             {text-align: left; margin-left: 25px; line-height: 87px;}
-    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, serif; font-size: 115%; color: #353d45;}
+    .layout_footer .layout_footerBlock_copyright       {display: inline-block; font-weight: 400; font-family: Roboto, Arial, serif; font-size: 115%; color: #353d45;}
     .layout_footer .layout_footerBlock_protect         {width: 140px; bottom: 17px;}
-    .layout_footer .layout_footerBlock_protect .mobile {display: block; line-height: 20px;}
-    .layout_footer .desktop {display: none;}
+    .layout_footer .layout_footerBlock_protect  {display: block; line-height: 20px;}
+    .layout_footer .hide_tablet   {display: none;}
 
     .section.index1 {background: url("../images/main/Bg_index_mob.png") center center no-repeat; background-size: cover; height: 330px;}
     .section.index1 .slide1                 {text-align: center; padding: 30px 0 0 0; width: 100%;}
-    .section.index1 .slide1 h2              {font-size: 148%; text-align: center; line-height: 25px; margin: 0 30px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .section.index1 .slide1 h2              {font-size: 145%; text-align: center; line-height: 25px; margin: 0 auto; font-weight: 400; font-family: GothamPro, Arial, sans-serif;}
     .section.index1 .slide1 .button_wrapper        {width: 260px; display: inline-block; margin-top: 15px;}
     .section.index1 .slide1 .red {margin-right: 0; padding: 0; width: 260px; margin-bottom: 20px; font-size: 100%;}
     .section.index1 .slide1 .dashed {margin-right: 0; padding: 0; width: 260px; margin-bottom: 0; font-size: 100%;}
@@ -89,8 +88,8 @@
     .section.index2 .block3 .buttons       {margin-left: 25px;}
     .section.index2 .block6                  {display: inline-block; padding: 0; height: auto; width: 100%; position: absolute; top: 1484px; left: 0; text-align: left; background: url("../images/main/Plant_mob.png") top center no-repeat; background-size: cover;}
     .section.index2 .block6 img                 {display: none;}
-    .section.index2 .block6 h3               {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; color: #0a79bf; line-height: 27px; font-size: 180%; margin: 36px 0 23px 25px;}
-    .section.index2 .block6 p                {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; margin-left: 25px; width: 181px; line-height: 25px;}
+    .section.index2 .block6 h3               {font-family: GothamPro, Arial, sans-serif; font-weight: 400; color: #0a79bf; line-height: 27px; font-size: 180%; margin: 36px 0 23px 25px;}
+    .section.index2 .block6 p                {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 100%; margin-left: 25px; width: 181px; line-height: 25px;}
     .section.index2 .block5 .addition {width: 90%; margin: 20px auto;}
     .section.index2 .block5 .addition span {text-align: center; line-height: 25px;}
     .section.index2 .block5 .addition span img {display: block; margin: 10px auto;}
@@ -98,7 +97,7 @@
     .section.index2 .block5  {height: auto; width: 100%; padding: 0; margin-top: 450px;}
     .section.index2 .block5 h3 {display: none;}
     .section.index2 .block5 table {display: none;}
-    .section.index2 .providers h3                   {margin-bottom: 10px; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; font-size: 200%;}
+    .section.index2 .providers h3                   {margin-bottom: 10px; font-weight: 400; font-family: GothamPro, Arial, sans-serif; font-size: 200%;}
     .section.index2 .providers ul                   {width: 150px; height: 100px; margin: 35px auto;}
     .section.index2 .providers li                   {margin-right: 0; display: block;}
     .section.index2 .providers li a                 {display: none; width: 100%; margin: 0 auto;}
@@ -173,7 +172,7 @@
     .section.demo .item.right           {width: 100%; padding: 0; background: transparent;}
     .section.demo .learning {margin: 30px 45px 0 25px; text-align: left;}
     .section.demo .list img                            {margin: 0 auto;}
-    .section.demo .learning h2                         {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+    .section.demo .learning h2                         {font-family: Roboto, Arial, sans-serif; font-weight: 400;}
     .section.demo .server   {font-size: 140%;}
     .section.demo .image                                  {position: relative; left: auto !important; margin: 45px auto 0 auto;}
     .section.demo .image img                              {width: 320px; margin: 0 auto; display: block;}
@@ -193,7 +192,7 @@
     .section.fillup .payment.tablet                                 {display: block; text-align: center;}
     .section.fillup .payment.tablet .title                          {display: none;}
     .section.fillup .payment.tablet .triangle                       {display: none;}
-    .section.fillup .payment.tablet .select      {width: 90%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
+    .section.fillup .payment.tablet .select      {width: 90%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
     .section.fillup .payment.tablet .select select {width: 100%; margin: 0 auto; text-align: center; font-size: 100%; background: #ffffff; color: #218ed2; height: 50px; border: none;}
     .section.fillup .payment.tablet .select select:hover {box-shadow: none;}
     .section.fillup form              {display: inline-block; height: auto; padding-top: 20px; width: 80%; text-align: left;}
@@ -231,11 +230,11 @@
     .section.calc .right {width: 100%; padding: 0; margin-top: 75px;}
     .section.calc .left    {padding: 0; float: none; display: block; width: 100%; height: 53px; margin-right: 0; line-height: 53px; background: transparent;}
     .section.calc .payment.tablet              {display: block; position: relative;}
-    .section.calc .payment.tablet .title       {padding-left: 0; display: block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: none; background: transparent; text-align: left; width: 80%; margin: 0 auto;}
+    .section.calc .payment.tablet .title       {padding-left: 0; display: block; font-size: 135%; font-weight: 500; font-family: Roboto, Arial, sans-serif; float: none; background: transparent; text-align: left; width: 80%; margin: 0 auto;}
     .section.calc .payment.desktop             {display: none;}
     .section.calc .payment.tablet .triangle    {display: none;}
-    .section.calc .payment.tablet .select      {width: 80%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .section.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .section.calc .payment.tablet .select      {width: 80%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
+    .section.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
     .section.calc .payment.tablet .select select {width: 250px; padding-left: 15px; font-size: 100%; background: #ffffff; color: #218ed2; height: 50px; border: none;}
     .section.calc .payment.tablet .select select:hover {box-shadow: none;}
     .section.calc .right .items {width: 100%; text-align: center;}
@@ -259,8 +258,8 @@
     /*Terms*/
     .section.terms .kinds.mobile              {line-height: 42px; text-align: left; display: block; position: relative; float: none; width: 80%; margin: 0 auto;}
     .section.terms .kinds.desktop             {display: none;}
-    .section.terms .kinds.mobile .select      {width: 100%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .section.terms .kinds.mobile .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .section.terms .kinds.mobile .select      {width: 100%; margin: 0 auto; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
+    .section.terms .kinds.mobile .select span {color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
     .section.terms .kinds.mobile .select select {width: 100%; border: none; background: #ffffff; padding-left: 15px; font-size: 100%; color: #218ed2; height: 50px;}
     .section.terms .kinds.mobile .select select:hover {box-shadow: none;}
     .section.terms p.title {text-align: left; width: 80%; margin: 20px auto;}
@@ -273,7 +272,7 @@
     .section.terms .summary td:nth-child(3) {width: 100%;}
     .section.terms .summary td:nth-child(4) {width: 100%;}
     .section.terms .summary td span {margin-bottom: 10px;}
-    .section.terms .notice_mobile {text-align: center; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; display: block; width: 80%; margin: 20px auto 0 auto; background: #ffffff; padding: 30px 0;}
+    .section.terms .notice_mobile {text-align: center; font-family: Roboto, Arial, sans-serif; font-size: 118%; display: block; width: 80%; margin: 20px auto 0 auto; background: #ffffff; padding: 30px 0;}
     .section.terms .notice_mobile p {padding: 0 40px;}
     .section.terms .notice_mobile a {text-decoration: underline; color: #218ed2;}
     .section.terms .types .type {width: 100%; padding: 30px 0; text-align: center; margin-bottom: 10px;}
@@ -324,7 +323,7 @@
     .section.konkurs .how_get    {width: 90% !important;  padding: 0 5%;}
     .section.konkurs .wrapper                                {padding: 30px 0; width: 100%;}
     .section.konkurs .form                                   {width: 100% !important;}
-    .section.full.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
+    .section.full.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-weight: 400;}
     .section.konkurs label                                   {width: 260px !important; float: none; margin-left: 25px; display: block;}
     .section.konkurs input                                   {width: 246px !important; margin-left: 25px; display: block;}
     .section.konkurs input#password                          {width: 256px !important;}
@@ -357,7 +356,7 @@
     /*Rating*/
     .section.rating       {overflow: inherit;}
     .section.rating .title       {width: 100%; height: 100px; background: #eef1f2; display: inline-block;}
-    .section.rating .title h2    {color: #181818; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 195%; width: 60%; float: left; text-align: left; margin-left: 25px; margin-top: 20px;}
+    .section.rating .title h2    {color: #181818; font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 195%; width: 60%; float: left; text-align: left; margin-left: 25px; margin-top: 20px;}
     .section.rating .title a     {line-height: 36px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #0a79bf; margin-top: 25px;}
     .section.rating .title a img {vertical-align: middle; margin-left: 2px;}
     .section.rating .title .blue {display: none;}
@@ -376,14 +375,14 @@
 
     .section.rating .filter_wrapper                                    {padding: 0; display: inline-block !important; position: absolute; top: 25px; width: 280px; left: 50%; margin-left: -140px;}
     .section.rating .item.right .filter                    {display: none;}
-    .section.rating .filter_wrapper  .show_filter       {display: block; height: 55px; width: 100%; background: #ffffff; font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; text-transform: uppercase; color: #181818; font-size: 110%;}
+    .section.rating .filter_wrapper  .show_filter       {display: block; height: 55px; width: 100%; background: #ffffff; font-family: Roboto, Arial, sans-serif; font-weight: 500; text-transform: uppercase; color: #181818; font-size: 110%;}
     .section.rating .filter_wrapper  .show_filter a      {line-height: 55px; margin-left: 25px;}
     .section.rating .filter_wrapper .search                            {position: relative; display: inline-block;}
     .section.rating .filter_wrapper .search img                        {position: absolute; top: 48px; left: 170px;}
     .section.rating .filter_wrapper .filter_block                      {text-align: left; display: none; background: #ffffff; margin-bottom: 10px; padding: 0;}
-    .section.rating .filter_wrapper .filter_block input[type="search"] {margin-bottom: 30px; margin-left: 25px; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 225px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-    .section.rating .filter_wrapper label                              {font-weight: 500; margin-left: 25px; font-family: Roboto-Med, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
-    .section.rating .filter_wrapper input                              {margin: 0 auto 30px auto; font-family: Roboto-Reg, Arial, sans-serif; display: block; width: 200px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+    .section.rating .filter_wrapper .filter_block input[type="search"] {margin-bottom: 30px; margin-left: 25px; font-family: Roboto, Arial, sans-serif; display: block; width: 225px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
+    .section.rating .filter_wrapper label                              {font-weight: 500; margin-left: 25px; font-family: Roboto, Arial, sans-serif; color: #181818; font-size: 118%; margin-bottom: 15px; display: block;}
+    .section.rating .filter_wrapper input                              {margin: 0 auto 30px auto; font-family: Roboto, Arial, sans-serif; display: block; width: 200px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
     .section.rating .filter_wrapper .settings                          {margin-top: 15px; margin-right: 25px; float: right;}
     .section.rating .filter_wrapper .blue                              {margin: 0 30px 30px 30px; display: inline-block;}
     .section.rating .item.left                      {margin-top: 95px; width: 100%;}
@@ -448,12 +447,12 @@
     .layout_form_trader                             {display: block; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
     .layout_form_trader .form_wrapper               {width: 250px; height: 410px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
     .layout_form_trader .form_wrapper .close        {position: absolute; top: 32px; right: 30px;}
-    .layout_form_trader .form_wrapper h2            {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
-    .layout_form_trader .form_wrapper label         {line-height: 39px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
+    .layout_form_trader .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
+    .layout_form_trader .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
     .layout_form_trader .form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
     .layout_form_trader .form_wrapper button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
     .layout_form_trader .form_wrapper .grey_outline {border: 2px dotted #218ed2; color: #218ed2; font-size: 110%; margin-bottom: 10px;}
-    .layout_form_trader .form_wrapper .forget       {color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .layout_form_trader .form_wrapper .forget       {color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
     /*Invest programm*/
     .section.invest h2                                         {line-height: 30px;}
@@ -514,8 +513,8 @@
     .section.open_invest .notice span                             {padding: 0 20px;}
     .section.open_invest .left .profile_info  {min-width: 300px; width: 100%}
     .section.open_invest .left table          {width: 80%; margin: 0 10%;}
-    .section.open_invest .left table td       {border-bottom: 1px solid #ececec; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400;}
-    .section.open_invest .left table td .bold {font-family: Roboto-Med, Arial, sans-serif; font-weight: 400;}
+    .section.open_invest .left table td       {border-bottom: 1px solid #ececec; font-family: Roboto, Arial, sans-serif; font-weight: 400;}
+    .section.open_invest .left table td .bold {font-family: Roboto, Arial, sans-serif; font-weight: 400;}
     .section.open_invest .more                                    {width: 100%; padding: 10px 0;}
     .section.open_invest .more span                               {width: 180px; padding-left: 25px; display: block;}
     .section.open_invest .more a                                  {top: 20px;}
@@ -578,9 +577,9 @@
     .section.why1 .carousel .carousel_wrapper                            {margin: 0 24px; overflow: hidden; position:relative;}
     .section.why1 .carousel .items                             {width: 10000px; position: relative;}
     .section.why1 .carousel .items .image_wrap                 {margin: 20px auto;}
-    .section.why1 .carousel .item                              {float: left; width: 250px; text-align: center; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 27px; color: #ffffff;}
+    .section.why1 .carousel .item                              {float: left; width: 250px; text-align: center; font-family: Roboto, Arial, sans-serif; font-size: 118%; line-height: 27px; color: #ffffff;}
     .section.why1 .item img                             {margin: 0 auto;}
-    .section.why1 .carousel .item .bold                    {font-family: Roboto-Bold, Arial, sans-serif;}
+    .section.why1 .carousel .item .bold                    {font-family: Roboto, Arial, sans-serif;}
     .section.why1 .carousel .carousel-button-left a,
     .section.why1 .carousel .carousel-button-right a          {width: 11px; height: 17px; position: relative; top: 60px; cursor: pointer; text-decoration:none;}
     .section.why1 .carousel .carousel-button-left a            {display: inline-block; background: url(../images/rating/Icon_arrow_prev.png);}
@@ -603,7 +602,7 @@
     .section.why3 .carousel_wrapper                            {margin: 0 24px; overflow: hidden; position:relative;}
     .section.why3 .carousel .items                             {width: 10000px; position: relative;}
     .section.why3 .carousel .items .title_wrap                 {text-align: center;}
-    .section.why3 .carousel .item                              {float: left; width: 250px; text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 27px; color: #ffffff;}
+    .section.why3 .carousel .item                              {float: left; width: 250px; text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 118%; line-height: 27px; color: #ffffff;}
     .section.why3 .carousel .item img                    {display: none;}
     .section.why3 .carousel .item span                    {width: 90%; margin: 0 auto; text-align: left;}
     .section.why3 .carousel .carousel-button-left a,
@@ -793,17 +792,17 @@
     .section.referal2 .cols .col.long {width: 80%; float: none; display: block; text-align: center; margin: 10px auto;}
     .section.referal2 .button_wrapper {top: 100%; left: 50%; margin-left: -120px;}
     .section.referal3  {height: 1600px;}
-    .section.referal3 h2 {font-size: 170%; width: 90%; margin: 30px auto; font-family: GothamPro-Reg, Arial, sans-serif; text-align: left;}
+    .section.referal3 h2 {font-size: 170%; width: 90%; margin: 30px auto; font-family: GothamPro, Arial, sans-serif; text-align: left;}
     .section.referal3 .item.left {width: 90%; float: none; display: block; margin: 0 auto;}
     .section.referal3 .item.right {width: 90%; float: none; display: block; margin: 0 auto;}
-    .section.referal3 .item.left .title {font-size: 170%; width: 90%; margin: 0 auto 30px auto; font-family: GothamPro-Reg, Arial, sans-serif;}
-    .section.referal3 .item.right .title {font-size: 170%; width: 90%; margin: 0 auto 30px auto; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .section.referal3 .item.left .title {font-size: 170%; width: 90%; margin: 0 auto 30px auto; font-family: GothamPro, Arial, sans-serif;}
+    .section.referal3 .item.right .title {font-size: 170%; width: 90%; margin: 0 auto 30px auto; font-family: GothamPro, Arial, sans-serif;}
     .section.referal3 .item.left .example {margin-top: 10px;}
     .section.referal3 .article.lower {width: 90%; float: none; display: block; margin: 10px auto;}
-    .section.referal4 h2 {width: 90%; font-size: 170%; margin: 30px auto; text-align: center; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .section.referal4 h2 {width: 90%; font-size: 170%; margin: 30px auto; text-align: center; font-family: GothamPro, Arial, sans-serif;}
     .section.referal4   {background: transparent; height: 780px;}
     .section.referal4 .article {padding: 0 30px;}
-    .section.referal4 h5 {width: 90%; font-size: 150%; margin: 30px auto; font-family: GothamPro-Reg, Arial, sans-serif;}
+    .section.referal4 h5 {width: 90%; font-size: 150%; margin: 30px auto; font-family: GothamPro, Arial, sans-serif;}
     .section.referal4 .red {width: 280px; font-size: 118%; padding: 0 5px; margin: 0 auto 30px; display: block;}
 
     /*Promo cod*/

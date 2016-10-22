@@ -3,22 +3,22 @@
 body {width: 100%; height: auto; background: #edf1f2; font-size: 0.8em; margin: 0; padding: 0;}
 .layout_content {width: 100%; text-align: center;}
 .layout_contentBlock {width: 100%; text-align: center; display: inline-block;}
-.layout_contentBlock_title {width: 1080px; font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; margin: 50px auto; display: inline-block; text-align: left; color: #181818;}
+.layout_contentBlock_title {width: 1080px; font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 300%; margin: 50px auto; display: inline-block; text-align: left; color: #181818;}
 .layout_contentBlock .section {overflow: hidden; margin-bottom: 50px; position: relative; width: 1080px; display: inline-block; text-align: left;}
 .layout_contentBlock .section.full {width: 100%; text-align: center;}
 .layout_contentBlock .section.full .wrapper {width: 1080px; display: inline-block; position: relative;}
-h2 {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 300%; margin: 50px auto; color: #181818;}
-h3 {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 260%; margin: 0 0 32px 0;}
-h4 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 200%; margin: 0 0 32px 0;}
-h5 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 190%; margin: 0 0 32px 0;}
-h6 {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 0 0 32px 0;}
-p.paragraph {color: #181818; font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 135%; margin: 0; line-height: 27px;}
-p.article {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; margin: 0; line-height: 25px;}
-label {font-family: Roboto-Med, Arial, sans-serif; text-align: left; font-weight: 500; font-size: 118%; color: #181818; line-height: 42px;}
+h2 {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 300%; margin: 50px auto; color: #181818;}
+h3 {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 260%; margin: 0 0 32px 0;}
+h4 {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 200%; margin: 0 0 32px 0;}
+h5 {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 190%; margin: 0 0 32px 0;}
+h6 {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 0 0 32px 0;}
+p.paragraph {color: #181818; font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 135%; margin: 0; line-height: 27px;}
+p.article {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 118%; margin: 0; line-height: 25px;}
+label {font-family: Roboto, Arial, sans-serif; text-align: left; font-weight: 500; font-size: 118%; color: #181818; line-height: 42px;}
 input {height: 39px; border: 2px solid #e8eaeb; background: #ffffff; padding: 0 15px 0 5px;}
 input.wrong {border: 2px solid #ff6868 !important;}
 .input_wrapper {height: 80px; position: relative; display: inline-block;}
-.message_error {position: absolute; bottom: 10px; left: 0; text-align: left; color: #ff6868; font-family: Roboto-Reg, Arial, sans-serifo;}
+.message_error {position: absolute; bottom: 10px; left: 0; text-align: left; color: #ff6868; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 .string {min-height: 60px; text-align: center; display: flex; position: relative;}
 ul {padding: 0; margin: 0;}
 ul li {list-style: none;}
@@ -50,15 +50,15 @@ button.white_outline:active {border-color: #181818; background: #181818; color: 
 button.grey {background: #eef1f2; color: #181818; border-color: #eef1f2;}
 button.white_outline {background: transparent; color: #ffffff; border-color: #ffffff;}
 button.grey_outline {background: transparent; color: #181818; border-color: #eef1f2;}
-button.small {padding: 0 25px; height: 36px; line-height: 31px; border-radius: 20px; font-family: Roboto-Bold, Arial, sans-serif; font-size: 100%;}
-button.medium {padding: 0 25px; height: 39px; line-height: 36px; border-radius: 22px; font-family: Roboto-Bold, Arial, sans-serif; font-size: 118%;}
-button.large {padding: 0 42px; height: 51px; line-height: 45px; border-radius: 28px; font-family: GothamPro-Bold, Arial, sans-serif; font-size: 135%;}
+button.small {padding: 0 25px; height: 36px; line-height: 31px; border-radius: 20px; font-weight: 700; font-family: Roboto, Arial, sans-serif; font-size: 100%;}
+button.medium {padding: 0 25px; height: 39px; line-height: 36px; border-radius: 22px; font-weight: 700; font-family: Roboto, Arial, sans-serif; font-size: 118%;}
+button.large {padding: 0 42px; height: 51px; line-height: 45px; border-radius: 28px; font-weight: 700; font-family: GothamPro, Arial, sans-serif; font-size: 135%;}
 button.dashed {border-style: dashed;}
 button.dashed:hover         {border-style: solid;}
 button.dashed:active        {border-color: #ffffff; color: #181818; border-style: solid; background: #ffffff;}
 
 /*Form*/
-select       {outline-width: 0; height: 43px; background: #f5f6f6; border-color: #e8eaeb; padding-left: 12px; color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+select       {outline-width: 0; height: 43px; background: #f5f6f6; border-color: #e8eaeb; padding-left: 12px; color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 select:hover {box-shadow: 1px 1px 1px #edf1f2;}
 .item {float: left;}
 .col {float: left;}
@@ -75,12 +75,12 @@ table {border-collapse: collapse; border: none;}
 .layout_form_login                             {display: none; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
 .layout_form_login .form_wrapper               {width: 303px; height: auto; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: absolute; top: 40px; right: 40px;}
 .layout_form_login .form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
-.layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto-Reg, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin: 0 0 20px 0;}
-.layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto-Med, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 40px; text-align: left;}
+.layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin: 0 0 20px 0;}
+.layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 40px; text-align: left;}
 .layout_form_login .form_wrapper input         {float: left; width: 184px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
 .layout_form_login .form_wrapper .button_wrapper        {margin-top: 15px;}
 .layout_form_login .form_wrapper a.button        {width: 199px; padding: 0; float: right; margin: 0; height: 39px;}
-.layout_form_login .form_wrapper .forget       {float: left; line-height: 42px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.layout_form_login .form_wrapper .forget       {float: left; line-height: 42px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
 /*Header*
 ***********************************************************/
@@ -88,7 +88,7 @@ table {border-collapse: collapse; border: none;}
 .layout_header                                      {width: 100%; height: auto; background: #ffffff; color: #2a333c;}
 .layout_header_container             {height: 147px; margin: 0 auto; width: 1080px;}
 .layout_headerBlock_upper              {width: 100%; line-height: 60px; display: inline-block;}
-.layout_headerBlock_upper a             {margin: 0 35px 0 0; color: #2a333c; display: inline-block; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif;}
+.layout_headerBlock_upper a             {margin: 0 35px 0 0; color: #2a333c; display: inline-block; font-weight: 500; font-family: Roboto, Arial, sans-serif;}
 .layout_headerBlock_upper a:last-child  {margin-right: 0;}
 .layout_headerBlock_upper a:hover       {color: #ff4830;}
 .layout_headerBlock_upper img           {margin: 0 7px 0 0; vertical-align: middle;}
@@ -104,10 +104,10 @@ table {border-collapse: collapse; border: none;}
 .layout_headerBlock_nav ul             {text-align: right;}
 .layout_headerBlock_nav li           {display: inline-block; padding: 0; width: 18%; text-align: right; color: #218ed2;}
 .layout_headerBlock_nav li.active    {position: relative;}
-.layout_headerBlock_nav li a         {text-transform: uppercase; font-size: 100%; font-weight: 700; font-family: GothamPro-Bold, Arial, sans-serif;}
+.layout_headerBlock_nav li a         {text-transform: uppercase; font-size: 100%; font-weight: 700; font-family: GothamPro, Arial, sans-serif;}
 .layout_headerBlock_nav li a.active  {color: #1c252f;}
 .layout_headerBlock_account          {float: right; text-align: right; font-size: 100%; width: 320px; line-height: 40px;}
-.layout_headerBlock_account a        {font-family: Roboto-Med, Arial, sans-serif; font-weight: 500; font-size: 120%;}
+.layout_headerBlock_account a        {font-family: Roboto, Arial, sans-serif; font-weight: 500; font-size: 120%;}
 .layout_headerBlock_account img      {float: left; margin: 10px 0 0 10px;}
 .layout_headerBlock_left a.desktop   {display: inline-block;}
 .layout_headerBlock_left a.mobile    {display: none;}
@@ -123,14 +123,13 @@ table {border-collapse: collapse; border: none;}
 .layout_footer .layout_footerBlock_menu .col:last-child        {margin-right: 0;}
 .layout_footer .layout_footerBlock_menu .col:last-child .title {margin-right: 0;}
 .layout_footer .layout_footerBlock_menu .col li                {max-width: 190px;}
-.layout_footer .layout_footerBlock_menu .col a                 {color: #0a79bf; font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 24px;}
-.layout_footer .layout_footerBlock_menu .col .title            {font-size: 118%; margin-right: 120px; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; text-transform: uppercase; color: #000000;}
+.layout_footer .layout_footerBlock_menu .col a                 {color: #0a79bf; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif; line-height: 24px;}
+.layout_footer .layout_footerBlock_menu .col .title            {font-size: 118%; margin-right: 120px; font-weight: 700; font-family: Roboto, Arial, sans-serif; text-transform: uppercase; color: #000000;}
 .layout_footer .layout_footer_content2                         {clear: both;}
 .layout_footer .layout_footerBlock_copyright                   {display: none;}
-.layout_footer .layout_footerBlock_protect                     {position: absolute; width: 260px; right: 0; bottom: 55px; text-align: left; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; color: #353535;}
+.layout_footer .layout_footerBlock_protect                     {position: absolute; width: 260px; right: 0; bottom: 55px; text-align: left; font-weight: 400; font-family: Roboto, Arial, sans-serif; color: #353535;}
 .layout_footer .layout_footerBlock_protect span                {vertical-align: sub;}
 .layout_footer .layout_footerBlock_protect img                 {float: left; margin-right: 16px;}
-.layout_footer .layout_footerBlock_protect .mobile             {display: none;}
 
 /*Content*
 **********************************************************/
@@ -138,12 +137,12 @@ table {border-collapse: collapse; border: none;}
 
 .section.index1                                      {margin-bottom: -30px; height: 500px; text-align: center; background: url("../images/main/Bg_index.png") center center no-repeat; background-size: cover;}
 .section.index1 .slide1          {width: 60%; float: left; text-align: left;}
-.section.index1 h2       {text-align: left; color: #ffffff; font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 270%; max-width: 665px; line-height: 45px; margin: 94px 0 44px 0;}
+.section.index1 h2       {text-align: left; color: #ffffff; font-family: GothamPro, Arial, sans-serif; font-weight: 500; font-size: 270%; max-width: 665px; line-height: 45px; margin: 94px 0 44px 0;}
 .section.index1 .slide1 .button_wrapper       {text-align: left; margin: 50px 0;}
 .section.index1 .slide1 .red       {margin-right: 10px;}
 .section.index1 .slide2          {float: right; text-align: right; color: #ffffff;}
-.section.index1 .slide2 h3       {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; font-size: 200%; margin: 30px 0 0 0;}
-.section.index1 .slide2 p        {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 500; font-size: 137%; line-height: 25px; max-width: 170px;}
+.section.index1 .slide2 h3       {font-family: GothamPro, Arial, sans-serif; font-weight: 500; font-size: 200%; margin: 30px 0 0 0;}
+.section.index1 .slide2 p        {font-family: GothamPro, Arial, sans-serif; font-weight: 500; font-size: 137%; line-height: 25px; max-width: 170px;}
 .section.index1 .slide2 .apps    {width: 90px; display: inline-block; margin: 10px 0;}
 .section.index1 .slide2 .apps a  {width: 100%; display: inline-block; height: 100%;}
 .section.index1 .slide2 .win     {margin: 10px; display: inline-block; background: url("../images/main/Windows.svg") center center no-repeat; background-size: cover; width: 18px; height: 18px;}
@@ -157,47 +156,47 @@ table {border-collapse: collapse; border: none;}
 .section.index2 .block1 img            {display: block; margin: 33px auto 17px auto;}
 .section.index2 .block1 .col           {float: left; display: inline-block; height: 534px;}
 .section.index2 .block1 .col .white_outline           {font-size: 85%;}
-.section.index2 .block1 .col_left      {background: #1569ba; width: 140px; margin-right: -1px; padding: 0 40px; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; line-height: 20px;}
+.section.index2 .block1 .col_left      {background: #1569ba; width: 140px; margin-right: -1px; padding: 0 40px; font-weight: 500; font-family: Roboto, Arial, sans-serif; line-height: 20px;}
 .section.index2 .block1 .col_left p    {font-size: 103%; line-height: 20px;}
-.section.index2 .block1 .col_right     {text-align: left; background: #1a7acc; width: 60%; max-width: 230px; padding: 0 40px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; line-height: 25px;}
-.section.index2 .block1 .col_right h3  {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 230%; margin: 40px 0;}
-.section.index2 .block1 .col_right p   {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 103%;}
+.section.index2 .block1 .col_right     {text-align: left; background: #1a7acc; width: 60%; max-width: 230px; padding: 0 40px; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 115%; line-height: 25px;}
+.section.index2 .block1 .col_right h3  {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 230%; margin: 40px 0;}
+.section.index2 .block1 .col_right p   {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 103%;}
 .section.index2 .block2        {padding: 30px; width: 202px; height: 202px; margin: 0 10px 0 0; float: left; background: url("../images/main/Img_index.png") center no-repeat; background-size: cover; color: #ffffff;}
 .section.index2 .block2 h3     {font-family: GothamPro-Black, Arial, sans-serif; font-weight: 900; margin-bottom: 10px; font-size: 110%; text-transform: uppercase;}
-.section.index2 .block2 h2     {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 5px 0 30px 0;}
-.section.index2 .block2 p      {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 115%; line-height: 23px;}
+.section.index2 .block2 h2     {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 165%; margin: 5px 0 30px 0;}
+.section.index2 .block2 p      {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 115%; line-height: 23px;}
 .section.index2 .block3                {padding: 30px; float: left; position: relative; width: 202px; height: 202px; background: #ffffff;}
 .section.index2 .block3 .date          {float: left; color: #181818; width: 50%;}
-.section.index2 .block3 .num           {float: left; font-size: 243%; font-weight: 500; font-family: GothamPro-Med, Arial, sans-serif; margin-right: 8px;}
-.section.index2 .block3 .month         {font-size: 100%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
+.section.index2 .block3 .num           {float: left; font-size: 243%; font-weight: 500; font-family: GothamPro, Arial, sans-serif; margin-right: 8px;}
+.section.index2 .block3 .month         {font-size: 100%; font-weight: 400; font-family: GothamPro, Arial, sans-serif;}
 .section.index2 .block3 .markers       {position: absolute; top: 30px; right: 0; line-height: 33px; display: inline-block; width: 50%;}
 .section.index2 .block3 .marker        {cursor: pointer; margin-left: 10px; display: inline-block; width: 10px; height: 10px; background: #e9eaea; border-radius: 50%;}
 .section.index2 .block3 .marker.active {background: #ff4830;}
-.section.index2 .block3 p              {display: inline-block; font-size: 100%; line-height: 20px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; color: #181818; margin: 9px 0 28px 0;}
+.section.index2 .block3 p              {display: inline-block; font-size: 100%; line-height: 20px; font-weight: 400; font-family: Roboto, Arial, sans-serif; color: #181818; margin: 9px 0 28px 0;}
 .section.index2 .block4         {padding: 30px; float: left; width: 474px; height: 202px; margin-top: 10px; color: #181818; background: #ffffff;}
 .section.index2 .block4  img    {float: left;}
 .section.index2 .block4  .text  {margin-left: 150px;}
-.section.index2 .block4  h3     {font-size: 180%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; margin-bottom: 15px;}
-.section.index2 .block4  p      {font-size: 118%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; line-height: 26px;}
+.section.index2 .block4  h3     {font-size: 180%; font-weight: 400; font-family: GothamPro, Arial, sans-serif; margin-bottom: 15px;}
+.section.index2 .block4  p      {font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif; line-height: 26px;}
 .section.index2 .block4  .button_wrapper      {width: auto; display: inline-block; margin-left: 0;}
 .section.index2 .block5                    {float: left; padding: 30px; width: 746px; height: 594px; margin-right: 10px; margin-top: 10px; background: #ffffff; text-align: left;}
-.section.index2 .block5 h3                 {font-size: 260%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif; margin-bottom: 20px;}
+.section.index2 .block5 h3                 {font-size: 260%; font-weight: 400; font-family: GothamPro, Arial, sans-serif; margin-bottom: 20px;}
 .section.index2 .block5 table              {width: 100%; height: 450px;}
-.section.index2 .block5 tr td              {border-bottom: 1px solid #f5f7f7; font-size: 140%; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.index2 .block5 tr td              {border-bottom: 1px solid #f5f7f7; font-size: 140%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 .section.index2 .block5 tr:last-child td   {border-bottom: none;}
-.section.index2 .block5 tr td:first-child  {color: #0a79bf; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-.section.index2 .block5 th                 {border-bottom: 1px solid #f5f7f7; color: #afafaf; font-weight: 400; text-align: left; font-family: Roboto-Reg, Arial, sans-serif;}
+.section.index2 .block5 tr td:first-child  {color: #0a79bf; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
+.section.index2 .block5 th                 {border-bottom: 1px solid #f5f7f7; color: #afafaf; font-weight: 400; text-align: left; font-family: Roboto, Arial, sans-serif;}
 .section.index2 .block5 .addition          {margin: 40px 0 10px 0;}
-.section.index2 .block5 .addition span     {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 145%; float: left; line-height: 36px;}
+.section.index2 .block5 .addition span     {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 145%; float: left; line-height: 36px;}
 .section.index2 .block5 .addition span img {margin: 0 27px;}
 .section.index2 .block5 .addition .button_wrapper     {width: auto; display: inline-block;}
 .section.index2 .block5 .addition .red img {vertical-align: text-bottom;}
 .section.index2 .block6            {float: left; margin-top: 10px; padding: 30px; text-align: left; width: 202px; height: 594px; background: url("../images/main/Plant.png") center no-repeat; background-size: cover;}
-.section.index2 .block6 h3         {color: #0a79bf; font-weight: 700; font-family: GothamPro-Bold, Arial, sans-serif; font-size: 180%; margin-bottom: 27px;}
-.section.index2 .block6 p          {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 100%; line-height: 24px;}
+.section.index2 .block6 h3         {color: #0a79bf; font-weight: 700; font-family: GothamPro, Arial, sans-serif; font-size: 180%; margin-bottom: 27px;}
+.section.index2 .block6 p          {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 100%; line-height: 24px;}
 .section.index2 .markers          {display: none;}
 .section.index2 .providers               {display: inline-block; width: 100%; text-align: center; margin: 50px auto;}
-.section.index2 .providers h3            {margin: 0 auto 50px auto; color: #000000; font-size: 260%; font-weight: 400; font-family: GothamPro-Reg, Arial, sans-serif;}
+.section.index2 .providers h3            {margin: 0 auto 50px auto; color: #000000; font-size: 260%; font-weight: 400; font-family: GothamPro, Arial, sans-serif;}
 .section.index2 .providers ul            {display: inline-block; margin: 0 auto 45px auto; width: 100%;}
 .section.index2 .providers li            {display: inline-block; margin-right: 7%;}
 .section.index2 .providers li:last-child {margin-right: 0;}
@@ -217,6 +216,6 @@ table {border-collapse: collapse; border: none;}
 .section.index3 .resume td:last-child  {border-right: none; padding-right: 0;}
 .section.index3 .resume table img      {float: left; margin-right: 8px;}
 .section.index3 .resume .num           {font-family: GothamPro-Light, Arial, sans-serif; font-weight: 100; font-size: 310%;}
-.section.index3 .resume .info          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; margin-top: 20px; display: inline-block;}
-.section.index3 .resume p              {font-family: Roboto-Reg, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px; text-align: left; margin-bottom: 40px;}
+.section.index3 .resume .info          {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 118%; margin-top: 20px; display: inline-block;}
+.section.index3 .resume p              {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 118%; line-height: 25px; text-align: left; margin-bottom: 40px;}
 .section.index3 .resume p:last-child   {margin-bottom: 57px;}

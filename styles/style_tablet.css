@@ -7,7 +7,7 @@
     **************************************************************/
     .layout_form_login .form_wrapper {left: 50%; margin-left: -160px; right: auto;}
 
-    .layout_header_container             {height: 137px; width: 748px;}
+    .layout_header_container             {height: 120px; width: 748px;}
     .layout_headerBlock_logo {position: absolute; top: 20px; left: 20px;}
     .layout_header .under_menu .menu_wrapper     {width: 748px;}
     .layout_headerBlock_upper .left a.terminal {position: static; margin-left: auto;}
@@ -19,6 +19,8 @@
     .layout_headerBlock_nav ul {text-align: left;}
     .layout_headerBlock_nav li {text-align: left; width: auto; margin-right: 40px;}
     .layout_headerBlock_account {width: 110px;}
+    .layout_headerBlock_account .tablet {display: inline-block;}
+    .layout_headerBlock_account .desktop {display: none;}
     .layout_header .under_menu li {margin-right: auto;}
 
     .layout_header .layout_header_container .triangle {top: 20px;}
@@ -32,8 +34,9 @@
     .layout_footer .layout_footer_container      {width: 100%; max-width: 748px;}
     .layout_footer .layout_footer_content        {display: none;}
     .layout_footer .layout_footer_content2       {width: 100%; height: 77px; line-height: 77px; position: relative;}
-    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
+    .layout_footer .layout_footerBlock_copyright {display: inline-block; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 115%; color: #353d45; width: 50%; text-align: left; float: left;}
     .layout_footer .layout_footerBlock_protect   {line-height: 16px; bottom: 15px;}
+    .layout_footer .hide_mobile   {display: inline-block;}
 
 
     .section.index1         {background-position: 57%; height: 378px; margin-bottom: 20px;}
@@ -41,7 +44,7 @@
     .section.index1 .slide1 h2       {font-size: 235%; margin: 30px 0;}
     .section.index1 .slide1 .button_wrapper {display: inline-block; margin-top: 30px; width: 700px;}
     .section.index1 .slide2 h3       {font-size: 150%; margin-top: 27px;}
-    .section.index1 .slide2 p        {font-size: 117%; font-weight: 100; font-family: Roboto-Thin, Arial, sans-serif; margin: 0;}
+    .section.index1 .slide2 p        {font-size: 117%; font-weight: 100; font-family: Roboto, Arial, sans-serif; margin: 0;}
     .section.index1 .slide3          {font-size: 117%; text-align: left; bottom: 0;}
     .section.index1 .slide2 .apps    {width: 65px;}
     .section.index1 .slide2 .win     {margin: 7px; width: 13px; height: 13px;}
@@ -56,8 +59,8 @@
     .section.index2 .block2                    {margin-right: 0; margin-bottom: 10px;}
     .section.index2 .block4                    {width: 682px;}
     .section.index2 .block6             {display: inline-block; width: 100%; text-align: left; color: #181818; position: relative; padding: 0; margin: 30px auto;}
-    .section.index2 .block6 h3          {font-family: GothamPro-Reg, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 18px; color: #181818; margin-top: 45px;}
-    .section.index2 .block6 p           {width: 495px; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 118%; line-height: 25px;}
+    .section.index2 .block6 h3          {font-family: GothamPro, Arial, sans-serif; font-weight: 400; font-size: 180%; margin-bottom: 18px; color: #181818; margin-top: 45px;}
+    .section.index2 .block6 p           {width: 495px; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 118%; line-height: 25px;}
     .section.index2 .block6                    {left: 0; position: absolute; top: 800px; background: url("../images/main/Plant_tabl.png") right 30px no-repeat; height: 250px; margin: 0 auto;}
     .section.index2 .block5                    {float: none; display: inline-block; position: relative; height: 620px; margin: 245px auto 0 auto; width: 674px;}
     .section.index2 .block5 tr td:first-child  {font-size: 150%;}
@@ -139,15 +142,15 @@
     .section.fillup .data_card .cvv_number input {width: 70px;}
     .section.fillup .data_card .note             {width: 70px;}
     .section.fillup .payment.tablet              {display: block; position: relative; background: #ffffff;}
-    .section.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .section.fillup .payment.tablet .title       {display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .section.fillup .payment.desktop             {display: none;}
     .section.fillup .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 0; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .section.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 700; font-family: Roboto-Bold, Arial, sans-serif; font-size: 135%;}
+    .section.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 700; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
     .section.fillup .payment.tablet .select img  {vertical-align: middle;}
-    .section.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .section.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
     .section.fillup .payment.tablet .dropdown    {float: right; margin: 25px;}
-    .section.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .section.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .section.fillup .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
+    .section.fillup .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
     .section.fillup .payment.tablet .select select {width: 470px; padding-left: 40px; font-size: 110%; color: #218ed2; background: transparent; height: 50px; border: none;}
     .section.fillup .payment.tablet .select select:hover {box-shadow: none;}
 
@@ -155,11 +158,11 @@
     .section.calc h2 {margin-left: 0;}
     .section.calc .item.left    {padding: 0; float: none; display: block; width: 734px; height: 53px; margin-right: 0; line-height: 53px; border: 2px solid #ffffff;}
     .section.calc .payment.tablet              {display: block; position: relative;}
-    .section.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto-Med, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
+    .section.calc .payment.tablet .title       {padding-left: 0; margin-bottom: 0; display: inline-block; font-size: 135%; font-weight: 500; font-family: Roboto, Arial, sans-serif; float: left; background: #eef1f2; text-align: center; width: 213px;}
     .section.calc .payment.desktop             {display: none;}
     .section.calc .payment.tablet .triangle    {position: absolute; left: 213px; bottom: 3px; border: 27px solid transparent;	border-left: 27px solid #eef1f2;}
-    .section.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif; font-size: 135%;}
-    .section.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto-Reg, Arial, sans-serif;}
+    .section.calc .payment.tablet .select      {margin-left: 50px; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-size: 135%;}
+    .section.calc .payment.tablet .select span {color: #181818; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
     .section.calc .payment.tablet .select select {width: 470px; padding-left: 40px; font-size: 110%; color: #218ed2; background: transparent; height: 50px; border: none;}
     .section.calc .payment.tablet .select select:hover {box-shadow: none;}
 
@@ -408,7 +411,7 @@
     .section.partner1 .link {display: none;}
     .section.partner2 {height: 830px; overflow: hidden;}
     .section.partner2 .image {top: -20px; right: -125px;}
-    .section.partner2 .clause h2 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 30px 0;}
+    .section.partner2 .clause h2 {font-family: GothamPro, Arial, sans-serif; font-weight: 500; margin: 30px 0;}
     .section.partner2 p.first_text {margin-bottom: 30px; width: 70%;}
     .section.partner2 .text {float: none; width: 100%;}
     .section.partner2 .clause p {margin-bottom: 30px;}
@@ -421,7 +424,7 @@
     .section.partner4  {height: auto;}
     .section.partner4 .wrapper {margin-bottom: 50px;}
     .section.partner4 .button_wrapper {margin-top: 40px;}
-    .section.partner4 h2 {font-family: GothamPro-Med, Arial, sans-serif; font-weight: 500; margin: 30px 0; width: 100%;}
+    .section.partner4 h2 {font-family: GothamPro, Arial, sans-serif; font-weight: 500; margin: 30px 0; width: 100%;}
     .section.partner4 .image {right: -190px; top: 115px;}
     .section.partner4 .clause img {width: 350px;}
     .section.partner4 .first_text {width: 60%; margin-bottom: 50px;}
