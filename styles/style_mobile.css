@@ -9,13 +9,13 @@
     /*Index*
    **************************************************************/
     .layout_form_login                             {height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
-    .layout_form_login .form_wrapper               {width: 250px; height: 320px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative; top: auto; right: auto;}
-    .layout_form_login .form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
-    .layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
-    .layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
-    .layout_form_login .form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
-    .layout_form_login .form_wrapper a.button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
-    .layout_form_login .form_wrapper .forget       {position: absolute; top: 270px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
+    .layout_form_login .layout_headerBlock_form_wrapper               {width: 250px; height: 320px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative; top: auto; right: auto;}
+    .layout_form_login .layout_headerBlock_form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
+    .layout_form_login .layout_headerBlock_form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
+    .layout_form_login .layout_headerBlock_form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
+    .layout_form_login .layout_headerBlock_form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
+    .layout_form_login .layout_headerBlock_form_wrapper a.button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
+    .layout_form_login .layout_headerBlock_form_wrapper .forget       {position: absolute; top: 270px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
     .layout_content_container .carousel .carousel-button-left {display: block;}
     .layout_content_container .carousel .carousel-button-right {display: block;}
@@ -32,16 +32,20 @@
     .layout_headerBlock_account {display: none;}
     .layout_header_menu                                             {display: none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 10;}
     .layout_header_menu .close                                      {position: absolute; left: 15px; top: 15px; width: 24px; height: 24px;}
-    .layout_contentBlock_mobileMenu                                 {width: 245px; height: auto; background: #ffffff; display: inline-block; float: right;}
-    .layout_contentBlock_mobileMenu .nav                            {width: 100%; height: 49px; background: #f2f2f2; display: inline-block; line-height: 45px;}
-    .layout_contentBlock_mobileMenu .nav a                          {margin: 0 12px 0 15px; font-family: Roboto, Arial, sans-serif; font-weight: 500; color: #2a333c;}
-    .layout_contentBlock_mobileMenu .nav a img                      {vertical-align: middle; margin-right: 3px;}
-    .layout_contentBlock_mobileMenu .nav_list                       {margin: 20px 0 20px 0;}
-    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
-    .layout_contentBlock_mobileMenu .nav_list .sup_menu li a.active {color: #1c252f;}
-    .layout_contentBlock_mobileMenu .nav_list .sub_menu             {display: none;}
-    .layout_contentBlock_mobileMenu .nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
-    .layout_contentBlock_mobileMenu .nav_list .sub_menu li a.active {border-radius: 0 25px 25px 0; background: #218ed2; color: #ffffff;}
+    .layout_contentBlock_mobileMenu                                 {width: 265px; height: auto; background: #ffffff; display: inline-block; float: right;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav                            {width: 100%; height: 49px; background: #f2f2f2; display: inline-block; line-height: 45px;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_terminal                       {width: 57%; float: left;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_terminal a                      {margin-right: 0;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_livechat                       {width: 42%; float: left;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_livechat a                       {margin-right: 0;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav a                          {margin: 0 12px 0 15px; font-family: Roboto, Arial, sans-serif; font-weight: 500; color: #2a333c;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav a img                      {vertical-align: middle; margin-right: 3px;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list                       {margin: 20px 0 20px 0; text-align: left;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sup_menu li a.active {color: #1c252f;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu             {display: none;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu li a.active {border-radius: 0 25px 25px 0; background: #218ed2; color: #ffffff;}
     .layout_header .layout_headerBlock_icons                   {display: block; float: right; line-height: 43px; margin-right: 0;}
     .layout_header .layout_headerBlock_icons a                 {line-height: 36px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #0a79bf; text-align: center;}
     .layout_header .layout_headerBlock_icons a:first-child     {margin-right: 10px;}
@@ -445,14 +449,14 @@
     /*Be trader*/
     .section.be_trader            {display: none;}
     .layout_form_trader                             {display: block; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
-    .layout_form_trader .form_wrapper               {width: 250px; height: 410px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
-    .layout_form_trader .form_wrapper .close        {position: absolute; top: 32px; right: 30px;}
-    .layout_form_trader .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
-    .layout_form_trader .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
-    .layout_form_trader .form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
-    .layout_form_trader .form_wrapper button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
-    .layout_form_trader .form_wrapper .grey_outline {border: 2px dotted #218ed2; color: #218ed2; font-size: 110%; margin-bottom: 10px;}
-    .layout_form_trader .form_wrapper .forget       {color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
+    .layout_form_trader .layout_headerBlock_form_wrapper               {width: 250px; height: 410px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
+    .layout_form_trader .layout_headerBlock_form_wrapper .close        {position: absolute; top: 32px; right: 30px;}
+    .layout_form_trader .layout_headerBlock_form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
+    .layout_form_trader .layout_headerBlock_form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
+    .layout_form_trader .layout_headerBlock_form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
+    .layout_form_trader .layout_headerBlock_form_wrapper button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
+    .layout_form_trader .layout_headerBlock_form_wrapper .grey_outline {border: 2px dotted #218ed2; color: #218ed2; font-size: 110%; margin-bottom: 10px;}
+    .layout_form_trader .layout_headerBlock_form_wrapper .forget       {color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
     /*Invest programm*/
     .section.invest h2                                         {line-height: 30px;}

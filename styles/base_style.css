@@ -73,14 +73,14 @@ table {border-collapse: collapse; border: none;}
 .layout_header .layout_header_container .triangle {border: 24px solid transparent;	border-bottom: 24px solid #0a79c0; width: 0; position: absolute; top: 26px;}
 
 .layout_form_login                             {display: none; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
-.layout_form_login .form_wrapper               {width: 303px; height: auto; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: absolute; top: 40px; right: 40px;}
-.layout_form_login .form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
-.layout_form_login .form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin: 0 0 20px 0;}
-.layout_form_login .form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 40px; text-align: left;}
-.layout_form_login .form_wrapper input         {float: left; width: 184px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
-.layout_form_login .form_wrapper .button_wrapper        {margin-top: 15px;}
-.layout_form_login .form_wrapper a.button        {width: 199px; padding: 0; float: right; margin: 0; height: 39px;}
-.layout_form_login .form_wrapper .forget       {float: left; line-height: 42px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
+.layout_form_login .layout_headerBlock_form_wrapper               {width: 303px; height: auto; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: absolute; top: 40px; right: 40px;}
+.layout_form_login .layout_headerBlock_form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
+.layout_form_login .layout_headerBlock_form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin: 0 0 20px 0;}
+.layout_form_login .layout_headerBlock_form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 40px; text-align: left;}
+.layout_form_login .layout_headerBlock_form_wrapper input         {float: left; width: 184px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
+.layout_form_login .layout_headerBlock_form_wrapper .button_wrapper        {margin-top: 15px;}
+.layout_form_login .layout_headerBlock_form_wrapper a.button        {width: 199px; padding: 0; float: right; margin: 0; height: 39px;}
+.layout_form_login .layout_headerBlock_form_wrapper .forget       {float: left; line-height: 42px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
 /*Header*
 ***********************************************************/
