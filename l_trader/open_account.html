@@ -101,9 +101,13 @@
         </a>
         <form>
             <label>Логин</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <label>Пароль</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <div class="clear"></div>
             <div class="button_wrapper">
                 <span class="forget">Забыли?</span>
@@ -114,7 +118,6 @@
     </div>
 
 </div>
-
 <header class="layout_header">
     <div class="layout_header_container">
         <div class="layout_header_content">
@@ -165,7 +168,7 @@
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li>
                     </ul>
                     <div class="under_menu">
                         <div class="menu_wrapper">
@@ -235,7 +238,6 @@
         </div>
     </div>
 </header>
-
 <section class="layout_content">
     <h1 class="layout_contentBlock layout_contentBlock_title">Открытие торгового счета</h1>
     <div class="layout_contentBlock layout_contentBlock_content">
@@ -261,19 +263,27 @@
                     <form>
                         <div class="string">
                             <label for="name">Имя</label>
-                            <input class="wrong" id="name" required>
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="name">
+                            </div>
                         </div>
-                        <div class="srting">
+                        <div class="string">
                             <label for="last_name">Фамилия</label>
-                            <input id="last_name">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="last_name">
+                            </div>
                         </div>
                         <div class="string">
                             <label for="email">Электронная почта</label>
-                            <input id="email">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="email">
+                            </div>
                         </div>
                         <div class="string">
                             <label for="password">Пароль</label>
-                            <input id="password">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="password">
+                            </div>
                             <div class="show_pass">
                                 <a href>
                                     <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
@@ -284,7 +294,9 @@
                         </div>
                         <div class="string">
                             <label for="repeat_pass">Повторите пароль</label>
-                            <input class="wrong" id="repeat_pass">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="repeat_pass">
+                            </div>
                             <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
                         </div>
                         <div class="clear">
@@ -323,7 +335,6 @@
         </div>
         </div>
     </section>
-
 <footer class="layout_footer">
     <div class="layout_footer_container">
         <div class="layout_footer_content">

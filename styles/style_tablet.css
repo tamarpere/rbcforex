@@ -6,6 +6,7 @@
     /*Index*
     **************************************************************/
     .layout_form_login .layout_headerBlock_form_wrapper {left: 50%; margin-left: -160px; right: auto;}
+    .layout_form_login .layout_headerBlock_form_wrapper label {margin-right: 30px;}
 
     .layout_header_container             {height: 137px; width: 748px;}
     .layout_headerBlock_logo {position: absolute; top: 20px; left: 20px;}
@@ -17,7 +18,7 @@
     .layout_headerBlock_upper .right {display: none;}
     .layout_headerBlock_nav {width: auto;}
     .layout_headerBlock_nav ul {text-align: left;}
-    .layout_headerBlock_nav li {text-align: left; width: auto; margin-right: 40px;}
+    .layout_headerBlock_nav li {text-align: left; width: auto; margin-right: 17px;}
     .layout_headerBlock_account {width: 110px;}
     .layout_headerBlock_account .tablet {display: inline-block;}
     .layout_headerBlock_account .desktop {display: none;}
@@ -92,7 +93,8 @@
     .section.open input#password                         {width: 187px !important;}
     .section.open input#repeat_pass                      {width: 240px !important;}
     .section.open .note                                  {width: 150px !important;}
-    .section.open .clear {width: 200px;}
+    .section.open form .addition span {width: 210px;}
+    .section.open .clear {width: 200px !important;}
     .section.open .attention                                     {width: 638px !important;}
     .section.open .more                                          {width: 638px !important;}
     .section.open .extra_info .form input                        {width: 205px !important;}
@@ -197,6 +199,8 @@
     .section.feed .form input[name="city"]       {width: 205px !important;}
     .section.feed .form input[name="number"]     {width: 205px !important;}
     .section.feed .form textarea[name="message"] {width: 420px !important;}
+    .section.feed .letter_bg                  {display: none;}
+
 
     /*Konkurs, bonus, novichkam*/
     .section.konkurs                                         {overflow: inherit;}
@@ -239,6 +243,7 @@
     .section.rating .item.right .search label                    {margin-top: 15px !important;}
     .section.rating .item.right .filter .item                     {width: 25%; margin: 15px 15px 30px 15px;}
     .section.rating .item.right .filter label               {margin-top: 0;}
+    .section.rating .item.right .input_wrapper               {min-width: 180px; margin-bottom: 20px;}
     .section.rating .filter input[type="range"]                     {display: inline;}
     .section.rating .item.left    {position: static; margin-top: 320px; width: 100%;}
     .section.rating .item.right   {width: 100%; margin-top: 220px;}
@@ -251,11 +256,11 @@
     .section.rating .item.right                                     {width: 100%; float: none; margin: 20px auto; display: inline-block;}
     .section.rating .item.right h4                                  {float: left; width: 30%;}
     .section.rating .item.right .note                               {float: right; margin-top: 0; width: 60%;}
-    .section.rating .item.right .calc                           {width: 687px; height: 220px; position: relative;}
+    .section.rating .item.right .calc                           {width: 687px; height: auto; position: relative;}
     .section.rating .item.right .calc .note                           {position: absolute; top: 35px; right: 0;}
     .section.rating .item.right .calc h4                         {margin-bottom: 15px;}
     .section.rating .item.right .calc .item                            {margin-right: 20px;}
-    .section.rating .item.right .spred                         {width: 687px; height: 220px; position: relative;}
+    .section.rating .item.right .spred                         {width: 687px; height: auto; position: relative;}
     .section.rating .item.right .spred .note                        {position: absolute; top: 35px; right: 0;}
     .section.rating .item.right .spred h4                         {margin-bottom: 15px;}
     .section.rating .item.right .spred label                        {margin: 0;}
@@ -400,6 +405,26 @@
     .section.book .paragraph p {font-size: 118%;}
     .section.book .col {width: 312px; margin-bottom: 25px; height: auto;}
     .section.book .col:nth-child(2n) {margin-right: 0; float: right;}
+
+    /*Book2*/
+    .section.book2 {margin-bottom: 20px;}
+    .section.book2 .hide_desktop {display: block; width: 90%; margin: 20px auto; background: #0979bf; text-align: center; padding: 20px 0;}
+    .section.book2 .hide_desktop a {font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #ffffff; line-height: 17px;}
+    .section.book2 .hide_desktop a img {margin: 0 10px; vertical-align: middle;}
+    .section.book2 h2 {margin-top: 70px;}
+    .section.book2 .pages {top: 20px; width: 500px; left: 50%; margin-left: -250px;}
+    .section.book2 .pages .prev {width: 50%; margin-left: 0;}
+    .section.book2 .pages .next {width: 50%; margin-right: 0;}
+    .section.book2 .col.left {display: none;}
+    .section.book2 .col.right {width: 90%; margin: 0 auto; float: none; display: block; background: transparent;}
+    .section.book2 .col.right .article {width: 100%;}
+    .section.book2 .col.right img {width: 100%;}
+    .section.book2 .col.right .hide_desktop {display: none;}
+    .section.book2 .pages.lower img  {width: auto;}
+    .section.book2 .pages.lower .prev {margin-left: 0;}
+    .section.book2 .pages.lower .next {margin-right: 0;}
+
+
 
     /*Partner menu*
     **************************************************************/

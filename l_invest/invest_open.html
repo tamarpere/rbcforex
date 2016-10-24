@@ -101,9 +101,13 @@
         </a>
         <form>
             <label>Логин</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <label>Пароль</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <div class="clear"></div>
             <div class="button_wrapper">
                 <span class="forget">Забыли?</span>
@@ -164,7 +168,7 @@
                         </li>
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li>
                     </ul>
                     <div class="under_menu">
                         <div class="menu_wrapper">
@@ -247,28 +251,41 @@
                 <form>
                     <div class="string">
                         <label for="name">Фамилия и Имя</label>
-                        <input class="wrong" id="name">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="name">
+                        </div>
                     </div>
                     <div class="string">
                         <label for="date">Дата рождения</label>
-                        <input id="date">
-                        <img class="calendar" src="../images/open_invest/Calendar.svg" width="20">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="date" placeholder="01.04.1990">
+                            <img class="calendar" src="../images/open_invest/Calendar.svg" width="20">
+                        </div>
+
                     </div>
                     <div class="string">
                         <label for="nik">Ник</label>
-                        <input id="nik">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="nik" placeholder="IvanovSergey">
+                        </div>
                     </div>
                     <div class="string">
                         <label for="city">Город</label>
-                        <input id="city">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="city" placeholder="Москва">
+                        </div>
                     </div>
                    <div class="string">
                        <label for="email">Электронная почта</label>
-                       <input class="wrong" id="email">
+                       <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                           <input id="email" placeholder="ivanov@mail.ru">
+                       </div>
                    </div>
                     <div class="string">
                         <label for="password">Пароль</label>
-                        <input id="password">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="password">
+                        </div>
                         <div class="show_pass">
                             <a href>
                                 <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
@@ -279,13 +296,17 @@
                     </div>
                     <div class="string">
                         <label for="repeat_pass">Повторите пароль</label>
-                        <input id="repeat_pass">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="repeat_pass">
+                        </div>
                         <span class="note pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
                         <div class="clear"></div>
                     </div>
                     <div class="string">
                         <label for="promo_cod">Промо-код <span>(если есть)</span> </label>
-                        <input id="promo_cod">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="promo_cod">
+                        </div>
                     </div>
 
 

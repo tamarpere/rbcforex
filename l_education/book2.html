@@ -7,9 +7,12 @@
     <link href="../styles/fonts.css" rel="stylesheet" type="text/css">
     <link href="../styles/base_style.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_traider.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_invest.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_company.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style_edu.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_tablet.css" rel="stylesheet" type="text/css">
     <link href="../styles/style_mobile.css" rel="stylesheet" type="text/css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="../script.js"></script>
 </head>
 <body>
@@ -37,17 +40,17 @@
                 <ul class="sup_menu">
                     <li><a class="show_sub">Трейдерам</a>
                         <ul class="sub_menu">
-                            <li><a href="open_account.html">Открыть счет</a></li>
-                            <li><a href="demo.html">Демо-счет</a></li>
-                            <li><a href="fillup.html">Пополнение счета</a></li>
-                            <li><a href="withdraw.html">Вывод средств</a></li>
-                            <li><a href="calculator.html">Калькулятор</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="terms.html">Условия торговли</a></li>
-                            <li><a class="active" href="feed.html">Обратная связь</a></li>
-                            <li><a href="konkurs.html">Конкурсы</a></li>
-                            <li><a href="bonus.html">Бонусы</a></li>
-                            <li><a href="novichkam.html">Новичкам</a></li>
+                            <li><a href="../l_trader/open_account.html">Открыть счет</a></li>
+                            <li><a href="../l_trader/demo.html">Демо-счет</a></li>
+                            <li><a href="../l_trader/fillup.html">Пополнение счета</a></li>
+                            <li><a href="../l_trader/withdraw.html">Вывод средств</a></li>
+                            <li><a href="../l_trader/calculator.html">Калькулятор</a></li>
+                            <li><a href="../l_trader/faq.html">FAQ</a></li>
+                            <li><a href="../l_trader/terms.html">Условия торговли</a></li>
+                            <li><a href="../l_trader/feed.html">Обратная связь</a></li>
+                            <li><a href="../l_trader/konkurs.html">Конкурсы</a></li>
+                            <li><a href="../l_trader/bonus.html">Бонусы</a></li>
+                            <li><a href="../l_trader/novichkam.html">Новичкам</a></li>
                         </ul>
                     </li>
                     <li><a class="show_sub">Инвестиции</a>
@@ -59,7 +62,8 @@
                             <li><a href="../l_invest/faq.html">FAQ</a></li>
                             <li><a href="../l_invest/be_trader.html">Стать управляющим</a></li>
                             <li><a href="../l_invest/invest_programm.html">Инвестиционная программа</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li><a class="show_sub">Компания</a>
                         <ul class="sub_menu">
                             <li><a href="../l_company/about.html">RBC Forex</a></li>
@@ -71,8 +75,8 @@
                     </li>
                     <li><a class="show_sub">Обучение</a>
                         <ul class="sub_menu">
-                            <li><a href="../l_education/book.html">Учебник по Metatrader</a></li>
-                            <li><a href="../l_education/dictionary.html">Словарь</a></li>
+                            <li><a class="active" href="book.html">Учебник по Metatrader</a></li>
+                            <li><a href="dictionary.html">Словарь</a></li>
                         </ul>
                     </li>
                     <li><a class="show_sub">Партнерам</a>
@@ -123,16 +127,16 @@
             <div class="layout_headerBlock layout_headerBlock_upper">
                 <div class="left">
                     <div class="layout_headerBlock layout_headerBlock_open_fee">
-                        <a href="open_account.html">
+                        <a href="../l_trader/open_account.html">
                             <img src="../images/main/Profile.svg" width="17" height="17">
                             Открыть счет
                         </a>
                     </div>
                     <div class="layout_headerBlock layout_headerBlock_fillup_fee">
-                        <a href="fillup.html">Пополнить счет</a>
+                        <a href="../l_trader/fillup.html">Пополнить счет</a>
                     </div>
                     <div class="layout_headerBlock layout_headerBlock_withdraw">
-                        <a href="withdraw.html">Вывести</a>
+                        <a href="../l_trader/withdraw.html">Вывести</a>
                     </div>
                     <div class="layout_headerBlock layout_headerBlock_terminal">
                         <a class="terminal" href>
@@ -160,29 +164,29 @@
                 </div>
                 <div class="layout_headerBlock layout_headerBlock_nav">
                     <ul>
-                        <li class="active"><a class="active" href="open_account.html">Трейдерам</a>
-                            <div class="triangle traider">
-                            </div>
-                        </li>
+                        <li><a href="../l_trader/open_account.html">Трейдерам</a></li>
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href="../l_company/about.html">Компания</a></li>
-                        <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li><li><a href>Терминалы</a></li>
+                        <li class="active"><a class="active" href="book.html">Обучение</a>
+                            <div class="triangle education">
+                            </div>
+                        </li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li>
                     </ul>
                     <div class="under_menu">
                         <div class="menu_wrapper">
-                            <ul class="active for_trader">
-                                <li><a href="open_account.html">Открыть счет</a></li>
-                                <li><a href="demo.html">Демо-счет</a></li>
-                                <li><a href="fillup.html">Пополнение счета</a></li>
-                                <li><a href="withdraw.html">Вывод средств</a></li>
-                                <li><a href="calculator.html">Калькулятор</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="terms.html">Условия торговли</a></li>
-                                <li><a class="active" href="feed.html">Обратная связь</a></li>
-                                <li><a href="konkurs.html">Конкурсы</a></li>
-                                <li><a href="bonus.html">Бонусы</a></li>
-                                <li><a href="novichkam.html">Новичкам</a></li>
+                            <ul class="for_trader">
+                                <li><a href="../l_trader/open_account.html">Открыть счет</a></li>
+                                <li><a href="../l_trader/demo.html">Демо-счет</a></li>
+                                <li><a href="../l_trader/fillup.html">Пополнение счета</a></li>
+                                <li><a href="../l_trader/withdraw.html">Вывод средств</a></li>
+                                <li><a href="../l_trader/calculator.html">Калькулятор</a></li>
+                                <li><a href="../l_trader/faq.html">FAQ</a></li>
+                                <li><a href="../l_trader/terms.html">Условия торговли</a></li>
+                                <li><a href="../l_trader/feed.html">Обратная связь</a></li>
+                                <li><a href="../l_trader/konkurs.html">Конкурсы</a></li>
+                                <li><a href="../l_trader/bonus.html">Бонусы</a></li>
+                                <li><a href="../l_trader/novichkam.html">Новичкам</a></li>
                             </ul>
                             <ul class="for_invest">
                                 <li><a href="../l_invest/rating.html">Рейтинг трейдеров</a></li>
@@ -200,9 +204,9 @@
                                 <li><a href="../l_company/news.html">Новости</a></li>
                                 <li><a href="../l_company/contacts.html">Контакты</a></li>
                             </ul>
-                            <ul class="for_edu">
-                                <li><a href="../l_education/book.html">Учебник по Metatrader</a></li>
-                                <li><a href="../l_education/dictionary.html">Словарь</a></li>
+                            <ul class="active for_edu">
+                                <li><a class="active" href="book.html">Учебник по Metatrader</a></li>
+                                <li><a href="dictionary.html">Словарь</a></li>
                             </ul>
                             <ul class="for_partner">
                                 <li><a href="../l_partner/partner_programm.html">Партнерская программа</a></li>
@@ -238,51 +242,87 @@
     </div>
 </header>
 <section class="layout_content">
-    <h1 class="layout_contentBlock layout_contentBlock_title">Вопросы или замечания по работе компании, сайта</h1>
     <div class="layout_contentBlock layout_contentBlock_content">
-        <div class="section feed">
-            <div class="form">
-                    <form>
-                        <div class="string">
-                            <label>Имя</label>
-                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
-                                <input name="name">
-                            </div>
-                        </div>
-                       <div class="string">
-                           <label>Электронная почта</label>
-                           <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
-                               <input name="email">
-                           </div>
-                       </div>
-                        <div class="string">
-                            <label>Город</label>
-                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
-                                <input name="city">
-                            </div>
-                        </div>
-                        <div class="string">
-                            <label>Ваше сообщение</label>
-                            <textarea type="text" name="message"></textarea>
-                        </div>
-
-                        <div class="string capcha">
-                            <label for="capcha">Введите символы с изображения</label>
-                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
-                                <input id="capcha" name="number">
-                            </div>
-                            <img src="../images/feedback/Capcha.png">
-                        </div>
-
-                        <div class="clear"></div>
-                        <div class="button_wrapper">
-                            <button class="blue medium">Отправить</button>
-                        </div>
-
-                    </form>
+        <div class="section book2">
+            <h2>Закрытие торговых позиций</h2>
+            <div class="pages">
+                <div class="prev">
+                    <a href>
+                        <img src="../images/education/Icon_arrow_left.png">Предыдущая</a>
                 </div>
-            <div class="letter_bg">
-                <img src="../images/feedback/Letter.png">
+                <div class="next">
+                    <a href>Следующая
+                        <img src="../images/education/Icon_arrow_right.png"></a>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="hide_desktop">
+                    <a href>
+                        <img src="../images/education/Icon_nav.png">
+                        Навигация
+                    </a>
+                </div>
+                <div class="col left">
+                    <ul>
+                        <li><a href>Что такое Forex?</a></li>
+                        <li><a href>Forex. Общее</a></li>
+                        <li><a href>О рынке Forex</a></li>
+                        <li class="active"><a href>Учебник по MetaTrader</a>
+                            <ul>
+                                <li><a href>Меню</a></li>
+                                <li><a href>Открытие демо-счета</a></li>
+                                <li><a class="active" href>Авторизация</a></li>
+                                <li><a href>Графики</a></li>
+                                <li><a href>Навигатор</a></li>
+                                <li><a href>Обзор рынка</a></li>
+                                <li><a href>Окно данных</a></li>
+                                <li><a href>Панели инструментов</a></li>
+                                <li><a href>Терминал</a></li>
+                                <li><a href>Сервис-стройки</a></li>
+                                <li><a href>Профили</a></li>
+                                <li><a href>Виды ордеров</a></li>
+                                <li><a href>Открытие торговых позиций</a></li>
+                                <li><a href>Закрытие торговых позиций</a></li>
+                                <li><a href>Шаблоны</a></li>
+                            </ul>
+                        </li>
+                        <li><a href>MT4 Индикаторы</a></li>
+                        <li><a href>Профессиональные системы</a></li>
+                        <li><a href>Графический анализ</a></li>
+                    </ul>
+                </div>
+                <div class="col right">
+                    <div class="video_frame">
+                        <div class="play">
+                            <a href></a>
+                        </div>
+                    </div>
+                    <p class="article">При открытии счета в нашей компании, вы получаете номер счета и пароль трейдера.</p>
+                    <img src="../images/education/Img_help2.png">
+                    <p class="article">Далее, вы должны открыть терминал Метатрейдер четыре и выбрать вкладку "Файл" - раздел "Логин".
+                        В открывшемся окне введите Номер вашего счета, пароль трейдера и сервер, к которому вы будете подсоединяться в процессе торговли</p>
+                    <img src="../images/education/Img_help3.png">
+                    <div class="pages lower hide_mobile">
+                        <div class="prev">
+                            <a href>
+                                <img src="../images/education/Icon_arrow_left.png">Открытие демо-счета</a>
+                        </div>
+                        <div class="next">
+                            <a href>Панель инструментов
+                                <img src="../images/education/Icon_arrow_right.png"></a>
+                        </div>
+                    </div>
+                    <div class="pages lower hide_desktop">
+                        <div class="prev">
+                            <a href>
+                                <img src="../images/education/Icon_arrow_left.png">Предыдущая</a>
+                        </div>
+                        <div class="next">
+                            <a href>Следующая
+                                <img src="../images/education/Icon_arrow_right.png"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

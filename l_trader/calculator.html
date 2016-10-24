@@ -100,9 +100,13 @@
         </a>
         <form>
             <label>Логин</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <label>Пароль</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <div class="clear"></div>
             <div class="button_wrapper">
                 <span class="forget">Забыли?</span>
@@ -163,7 +167,7 @@
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li>
                     </ul>
                     <div class="under_menu">
                         <div class="menu_wrapper">
@@ -265,7 +269,7 @@
             </div>
             <div class="item right">
                 <form>
-                    <div class="error">
+                    <div class="error_block">
                         <span class="text">
                             <span class="title">Ошибка</span><br>
                             Вы неправильно ввели значение в поле «Позиций»
@@ -286,15 +290,21 @@
                         </div>
                         <div class="item">
                             <label>Лот</label>
-                            <input class="lot" value="0.01">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input class="lot" value="0.01">
+                            </div>
                         </div>
                         <div class="item">
                             <label>Позиций</label>
-                            <input class="count" value="1">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input class="count" value="1">
+                            </div>
                         </div>
                         <div class="item">
                             <label>Пипсов</label>
-                            <input class="pips" value="1">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input class="pips" value="1">
+                            </div>
                         </div>
                         <div class="item">
                             <label class="label_res">Необходимо</label>

@@ -14,7 +14,27 @@
 .section.book .col a           {color: #0a79bf; text-decoration: underline; font-family: Roboto, Arial, sans-serif; font-weight: 400; line-height: 30px;}
 
 /*Book2*/
-
+.section.book2 h2 {text-align: center;}
+.section.book2 .pages {width: 100%; position: absolute; top: 50px; left: 0; line-height: 42px; font-family: Roboto, Arial, sans-serif; font-size: 100%;}
+.section.book2 .pages img {margin: 0 10px; vertical-align: middle;}
+.section.book2 .pages .prev {float: left; text-align: left;}
+.section.book2 .pages .next {float: right; text-align: right;}
+.section.book2 .col.left {width: 262px; background: #ffffff;}
+.section.book2 .col.left li {color: #0a79bf; font-family: Roboto, Arial, sans-serif; font-size: 118%; padding-left: 11px; line-height: 55px; border-bottom: 1px solid #eef1f2;}
+.section.book2 .col.left li a {padding: 0 11px;}
+.section.book2 .col.left li.active {color: #ffffff; font-weight: 700; background: #0a79bf;}
+.section.book2 .col.left li.active li {color: #ffffff; font-weight: 400; font-size: 90%; line-height: 35px; padding-left: 0; border-bottom: none;}
+.section.book2 .col.left li.active a.active {color: #181818; font-weight: 700; background: #ffffff;}
+.section.book2 .col.right {padding-bottom: 75px; width: 807px; background: #ffffff; position: relative; text-align: center;}
+.section.book2 .video_frame {width: 100%; margin-bottom: 30px; background: url("../images/education/Img_help1.png") center no-repeat; background-size: contain; height: 582px; position: relative;}
+.section.book2 .video_frame .play {background: url("../images/education/Icon_play.png") center no-repeat; width: 100px; height: 100px; position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -50px;}
+.section.book2 .video_frame .play a {display: block; width: 100px; height: 100px;}
+.section.book2 .col.right .article {width: 90%; margin: 15px auto; text-align: left;}
+.section.book2 .col.right img {margin: 15px auto;}
+.section.book2 .pages.lower {top: auto; bottom: 0; border-top: 2px solid #eef1f2; line-height: 60px;}
+.section.book2 .pages.lower .prev {margin-left: 20px;}
+.section.book2 .pages.lower .next {margin-right: 20px;}
+.section.book2 .pages.lower img {margin: 0 10px;}
 
 /*Dictionary*/
 .section.dictionary .show     {position: absolute; height: 90px; bottom: 100%; right: 0;}

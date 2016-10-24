@@ -100,9 +100,13 @@
         </a>
         <form>
             <label>Логин</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <label>Пароль</label>
-            <input>
+            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                <input>
+            </div>
             <div class="clear"></div>
             <div class="button_wrapper">
                 <span class="forget">Забыли?</span>
@@ -163,7 +167,7 @@
                         <li><a href="../l_invest/rating.html">Инвестиции</a></li>
                         <li><a href="../l_company/about.html">Компания</a></li>
                         <li><a href="../l_education/book.html">Обучение</a></li>
-                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li>
+                        <li><a href="../l_partner/partner_programm.html">Партнерам</a></li><li><a href>Терминалы</a></li>
                     </ul>
                     <div class="under_menu">
                         <div class="menu_wrapper">
@@ -321,22 +325,27 @@
                 <div class="form">
                     <h3>Для участия в конкурсе заполните форму</h3>
                     <form>
-                        <div class="string">
-
-                        </div>
                         <label for="name">Ваше ФИО</label>
-                        <input id="name">
+                        <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                            <input id="name">
+                        </div>
                         <div class="string">
                             <label for="city">Город</label>
-                            <input class="wrong" id="city">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="city">
+                            </div>
                         </div>
                         <div class="string">
                             <label for="email">Электронная почта</label>
-                            <input id="email">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="email">
+                            </div>
                         </div>
                         <div class="string">
                             <label for="password">Пароль</label>
-                            <input id="password">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="password">
+                            </div>
                             <div class="show_pass">
                                 <a href>
                                     <img class="hover" src="../images/open_account/Eye_active.svg" width="18">
@@ -347,19 +356,25 @@
                         </div>
                         <div class="string">
                             <label for="repeat_pass">Повторите пароль</label>
-                            <input class="wrong" id="repeat_pass">
-                            <span class="note">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="repeat_pass">
+                            </div>
+                            <span class="note about_pass">Не менее 5 символов, Должны присутствовать цифры и латинские буквы</span>
                         </div>
 
                         <h4>Также необходимо указать торговый счет на нашем сервере</h4>
                         <div class="string">
                             <label for="number_fee">Номер счета</label>
-                            <input id="number_fee">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="number_fee">
+                            </div>
                         </div>
 
                         <div class="string">
                             <label for="pass">Пароль</label>
-                            <input id="pass">
+                            <div class="input_wrapper"><span class="message_error">Вы ввели неправильное значение</span>
+                                <input id="pass">
+                            </div>
                         </div>
 
                         <div class="button_wrapper">

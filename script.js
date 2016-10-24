@@ -9,12 +9,6 @@ $(function () {
         $('.under_menu').css({'display' : 'none'});
     }
 
-
-//Error for inputs
-    var error = $('.wrong');
-    error.wrap('<div class="input_wrapper"></div>');
-    error.after('<span class="message_error">Вы ввели неправильное значение</span>');
-
 //Open/close menu for mobile
     $('.login').on('click', function (){
         $('.layout_form_login').show();

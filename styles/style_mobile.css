@@ -1,35 +1,43 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
-
-    .layout_contentBlock_title {width: 80%; margin: 30px auto; font-size: 190%;}
-    h2 {width: 80%; margin: 30px auto; font-size: 190%;}
-    .layout_contentBlock .section {width: 100%;}
+    .layout_contentBlock_title                  {width: 80%; margin: 30px auto; font-size: 190%;}
+    h2                                          {width: 80%; margin: 30px auto; font-size: 190%;}
+    .layout_contentBlock .section               {width: 100%;}
     .layout_contentBlock .section.full .wrapper {width: 100%;}
 
     /*Index*
    **************************************************************/
-    .layout_form_login                             {height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
+    .layout_form_login                                                {height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
     .layout_form_login .layout_headerBlock_form_wrapper               {width: 250px; height: 320px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative; top: auto; right: auto;}
-    .layout_form_login .layout_headerBlock_form_wrapper .close_login        {position: absolute; top: 32px; right: 30px;}
+    .layout_form_login .layout_headerBlock_form_wrapper .close_login  {position: absolute; top: 32px; right: 30px;}
     .layout_form_login .layout_headerBlock_form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
     .layout_form_login .layout_headerBlock_form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
     .layout_form_login .layout_headerBlock_form_wrapper input         {float: left; width: 147px; padding: 0 10px; border: 2px solid #e8eaeb; height: 39px; margin-bottom: 20px;}
-    .layout_form_login .layout_headerBlock_form_wrapper a.button        {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
-    .layout_form_login .layout_headerBlock_form_wrapper .forget       {position: absolute; top: 270px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
+    .layout_form_login .layout_headerBlock_form_wrapper a.button      {width: 238px; padding: 0; display: block; margin: 5px auto 15px auto; height: 39px;}
+    .layout_form_login .layout_headerBlock_form_wrapper .forget       {position: absolute; top: auto; bottom: 25px; left: 50%; margin-left: -30px; color: #218ed2; font-size: 118%; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 
     .layout_content_container .carousel .carousel-button-left {display: block;}
     .layout_content_container .carousel .carousel-button-right {display: block;}
 
+    .hide_mobile {display: none;}
+
     /*Mobile menu*/
     body                                                            {position: relative;}
+    .layout_form_login .input_wrapper {min-width: 150px; margin-bottom: 10px;}
+    .layout_form_trader .input_wrapper {min-width: 150px; margin-bottom: 10px;}
     .layout_header .under_menu {display: none !important;}
-    .layout_headerBlock_nav {display: none;}
-    .layout_header_container {width: 300px; height: 130px;}
-    .layout_headerBlock_upper .left {width: 300px; position: absolute; bottom: 0; left: 54%; margin-left: -160px;}
-    .layout_headerBlock_upper .left div:last-child {display: none;}
-    .layout_headerBlock_upper .left div {margin-right: 10px;}
-    .layout_headerBlock_upper .right {display: none;}
-    .layout_headerBlock_account {display: none;}
+    .layout_header .layout_headerBlock_nav    {display: none;}
+    .layout_header .layout_header_container   {width: 300px; height: 130px;}
+    .layout_header .layout_headerBlock_upper .left {width: 300px; position: absolute; bottom: 0; left: 54%; margin-left: -160px;}
+    .layout_header .layout_headerBlock_upper .left div:last-child {display: none;}
+    .layout_header .layout_headerBlock_upper .left div {margin-right: 10px;}
+    .layout_header .layout_headerBlock_upper .right {display: none;}
+    .layout_header .layout_headerBlock_account {display: none;}
+    .layout_header .layout_headerBlock_icons                   {display: block; float: right; line-height: 43px; margin-right: 0;}
+    .layout_header .layout_headerBlock_icons a                 {line-height: 36px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #0a79bf; text-align: center;}
+    .layout_header .layout_headerBlock_icons a:first-child     {margin-right: 10px;}
+    .layout_header .layout_headerBlock_icons a img             {width: 20px; vertical-align: middle;}
+    .layout_header .layout_headerBlock_icons a .mobile_menu    {width: 14px;}
     .layout_header_menu                                             {display: none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 10;}
     .layout_header_menu .close                                      {position: absolute; left: 15px; top: 15px; width: 24px; height: 24px;}
     .layout_contentBlock_mobileMenu                                 {width: 265px; height: auto; background: #ffffff; display: inline-block; float: right;}
@@ -46,11 +54,6 @@
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu             {display: none;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu li a.active {border-radius: 0 25px 25px 0; background: #218ed2; color: #ffffff;}
-    .layout_header .layout_headerBlock_icons                   {display: block; float: right; line-height: 43px; margin-right: 0;}
-    .layout_header .layout_headerBlock_icons a                 {line-height: 36px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #0a79bf; text-align: center;}
-    .layout_header .layout_headerBlock_icons a:first-child     {margin-right: 10px;}
-    .layout_header .layout_headerBlock_icons a img             {width: 20px; vertical-align: middle;}
-    .layout_header .layout_headerBlock_icons a .mobile_menu    {width: 14px;}
 
     .layout_footer                                     {height: 87px; padding: 0;}
     .layout_footer .layout_footer_container            {width: 100% !important;}
@@ -125,17 +128,18 @@
     .section.open .radio .item           {display: inline-block; margin: 0 auto;}
     .section.open .radio label                                      {margin-right: 0; margin-bottom: 10px; float: none; display: inline-block;}
     .section.open .radio input[type="radio"]:checked + label:before {padding-left: 0;}
-    .section.open .left                        {float: none; width: 100%; padding: 0 0 30px 0; margin: 0 auto 10px auto;}
-    .section.open .left form                   {position: relative;}
-    .section.open .lower label                                            {text-align: left; float: none; width: 80%; margin: 10px auto 0 auto; line-height: 25px; display: inline-block;}
-    .section.open .lower input                                            {width: 248px; margin: 10px 25px;}
+    .section.open .left                        {float: none; width: 100%; text-align: center; padding: 0 0 30px 0; margin: 0 auto 10px auto;}
+    .section.open .left form                       {width: 80%; margin: 0 auto;}
+    .section.open .lower label             {text-align: left; float: none; width: 100%; margin: 10px auto 0 auto; line-height: 25px; display: block;}
+    .section.open .lower input                                            {width: 248px; margin: 10px 0;}
     .section.open .lower #password                                        {width: 248px;}
+    .section.open .lower #repeat_pass                                        {width: 248px;}
     .section.open .lower .gen_pass                                        {display: none;}
     .section.open .lower .note.pass                                       {display: none;}
-    .section.open .lower .show_pass                                       {background: transparent; position: absolute; bottom: auto; top: 35px; left: 240px;}
+    .section.open .lower .show_pass                                       {background: transparent; position: absolute; bottom: auto; top: 35px; right: 0; left: auto; margin-right: 0;}
     .section.open .lower label[for="check"]                               {margin-left: 0;}
     .section.open .lower form .addition span                              {width: 210px;}
-    .section.opened .right                       {float: none; margin: 0 auto; width: 80%; text-align: left;}
+    .section.open .right                       {float: none; margin: 0 auto; width: 80%; text-align: left;}
     .section.opened .attention                                       {margin: 0; width: 100%; height: 134px; padding: 0; text-align: center;}
     .section.opened .attention span                                  {margin: 22px auto 10px auto;}
     .section.opened .attention .password                             {margin: 0 0 22px 0; width: 100%; text-align: center;}
@@ -153,11 +157,11 @@
     .section.opened .profile_info table td:last-child          {padding-bottom: 15px;}
 
     .section.opened .extra_info .blue                           {float: none; display: block; margin: 27px auto 15px auto;}
+    .section.opened .extra_info .note                           {display: none !important;}
     .section.opened .extra_info .edit                           {float: none; display: block; margin: 0 auto; text-align: center;}
     .section.opened .extra_info                                 {margin-top: 0;}
-    .section.opened .extra_info form                            {width: 100%;}
-    .section.opened .extra_info .form span                      {display: none;}
-    .section.opened .extra_info .form input                     {width: 248px; float: none; margin-left: 25px;}
+    .section.opened .extra_info form                            {width: 80%; margin: 0 auto;}
+    .section.opened .extra_info .form input                     {width: 100%; float: none; margin: 10px auto;}
 
     /*Demo*/
     .section.demo .item.left            {width: 100%; padding: 0;}
@@ -188,7 +192,7 @@
 
     /*Fillup*/
     .section.fillup .comission                                      {width: 90%; padding: 0; height: 45px; line-height: 45px; text-align: center; top: 65px; left: 5%;}
-    .section.fillup .item.right                      {padding: 0; width: 100%; text-align: center;}
+    .section.fillup .item.right                      {padding: 0 0 30px 0; width: 100%; text-align: center;}
     .section.fillup input                                           {float: none; width: 242px;}
     .section.fillup #bonus                                           {width: 111px; float: left;}
     .section.fillup .item.left    {padding: 0; float: none; display: block; margin-bottom: 70px; width: 100%; height: 53px; margin-right: 0; line-height: 53px; background: transparent;}
@@ -204,16 +208,21 @@
     .section.fillup form #number {width: 111px; float: left;}
     .section.fillup form #sum    {width: 115px; float: left;}
     .section.fillup form #result {width: 115px; float: left;}
-    .section.fillup form .note.done   {width: 260px; margin: 30px 0 0 0; display: inline-block; float: none;}
+    .section.fillup form .note.done   {width: 260px; margin: 0; display: inline-block; float: none;}
     .section.fillup form a.note       {width: 90px; float: left; margin-left: 20px; margin-bottom: 0;}
     .section.fillup form .blue        {margin: 30px auto;}
+    .section.fillup a.note.desktop                       {display: none;}
+    .section.fillup a.note.mobile                       {display: inline-block;}
+    .section.fillup .note {margin-left: 0;}
+
 
     /*Withdraw*/
-    .section.withdraw form                  {display: inline-block; height: auto; padding-top: 20px; width: 80%; text-align: left;}
+    .section.withdraw form                  {display: inline-block; height: 1200px; padding-top: 20px; width: 80%; text-align: left;}
     .section.withdraw form img              {top: 25px; left: 50%; margin-left: -118px;}
+    .section.withdraw .note.done              {margin-top: 500px !important;}
     .section.withdraw form #result {width: 242px;}
     .section.fillup .addition {float: none; width: 80%; display: inline-block;}
-    .section.fillup form .data_card       {margin-bottom: 0; height: 550px; position: absolute; left: 0; top: 450px;}
+    .section.fillup form .data_card       {margin-bottom: 0; height: 550px; position: absolute; left: 0; bottom: 80px;}
     .section.fillup form .side            {width: 100%; padding: 60px 0 25px 0; height: 470px; border-radius: 0;}
     .section.fillup form .side input            {width: 242px !important;}
     .section.fillup .data_card .selects          {margin-left: 0;}
@@ -230,6 +239,9 @@
 
     /*Calculator*/
     .section.calc {padding-bottom: 270px;}
+    .section.calc .right .error_block                 {display: none;}
+    .section.calc .input_wrapper                                   {min-width: 220px;}
+    .section.calc .message_error                                   {display: block;}
     .section.calc .right .addition {position: absolute; bottom: 30px; left: 50%; margin-left: -140px; width: 222px; padding: 25px; font-size: 100%; background: transparent; border: 4px solid #ffffff;}
     .section.calc .right {width: 100%; padding: 0; margin-top: 75px;}
     .section.calc .left    {padding: 0; float: none; display: block; width: 100%; height: 53px; margin-right: 0; line-height: 53px; background: transparent;}
@@ -285,15 +297,17 @@
     .section.terms .comment {display: none;}
 
     /*Feedback*/
-    .section.feed .wrapper                  {background: #ffffff; height: auto;}
-    .section.feed .form                     {padding: 25px 0; width: 100%;}
-    .section.feed .form label               {float: none; width: 260px; margin-left: 25px; display: block;}
-    .section.feed .form input               {float: none; width: 246px; margin-left: 25px; display: block;}
-    .section.feed .form textarea[name="message"]            {float: none; width: 260px; margin-left: 25px;}
+    .section.feed                   {background: #ffffff; height: auto;}
+    .section.feed .form                     {width: 90%; margin: 0 auto; padding: 0;}
+    .section.feed .form form                    {padding: 0; width: 100%;}
+    .section.feed .form label               {float: none; width: 260px !important; margin: 10px auto !important; display: block;}
+    .section.feed .form input               {float: none; width: 260px !important; margin: 10px auto !important; display: block;}
+    .section.feed .form textarea[name="message"]            {float: none;  width: 100%; margin: 10px auto;}
     .section.feed .form label[for="capcha"] {display: none;}
-    .section.feed .form input#capcha        {display: none;}
-    .section.feed .form input[name="city"]  {width: 260px;}
+    .section.feed .form .string.capcha        {display: none;}
     .section.feed .form img                 {display: none;}
+    .section.feed .letter_bg                  {display: none;}
+
 
     /*FAQ*/
     .section.faq .question            {width: 80%; padding: 25px; margin: 15px auto;}
@@ -327,15 +341,21 @@
     .section.konkurs .how_get    {width: 90% !important;  padding: 0 5%;}
     .section.konkurs .wrapper                                {padding: 30px 0; width: 100%;}
     .section.konkurs .form                                   {width: 100% !important;}
+    .section.konkurs .form form                                   {width: 80%; margin: 0 auto;}
+    .section.full.konkurs                            {}
     .section.full.konkurs .wrapper h3                             {margin-bottom: 25px; margin-left: 25px; font-size: 170%; font-weight: 400; font-family: Roboto, Arial, sans-serif; font-weight: 400;}
     .section.konkurs label                                   {width: 260px !important; float: none; margin-left: 25px; display: block;}
     .section.konkurs input                                   {width: 246px !important; margin-left: 25px; display: block;}
-    .section.konkurs input#password                          {width: 256px !important;}
-    .section.konkurs .note                                   {display: none;}
+    .section.konkurs .about_pass                                   {display: none !important;}
     .section.konkurs .gen_pass                               {display: none;}
     .section.konkurs .form h4                                {width: 300px; margin-left: 25px; font-size: 155%; font-weight: 400;}
     .section.konkurs .form .blue                             {margin: 15px auto;}
-    .section.konkurs .show_pass {background: transparent; position: absolute; left: 250px;}
+    .section.konkurs .show_pass {background: transparent !important; position: absolute !important; right: auto; top: 42px; left: 220px; margin: 0;}
+    .section.full.konkurs #email {margin-right: auto;}
+    .section.full.konkurs #city {margin-right: auto;}
+    .section.full.konkurs label {width: 90% !important; margin: 0 auto;}
+    .section.full.konkurs #number_fee {margin-right: auto;}
+    .section.full.konkurs #pass {margin-right: auto;}
 
     /*Bonus*/
     .section.bonus .item.right {position: absolute; top: 0;}
@@ -376,6 +396,7 @@
     .section.rating .carousel .carousel-button-right a           {background: url(../images/rating/Icon_arrow_next.png);}
     .section.rating .carousel .carousel-button-left  {float: left; display: inline-block;}
     .section.rating .carousel .carousel-button-right {float: right; display: inline-block;}
+    .section.rating .item.left table .col.right .input_wrapper {min-width: 110px;}
 
     .section.rating .filter_wrapper                                    {padding: 0; display: inline-block !important; position: absolute; top: 25px; width: 280px; left: 50%; margin-left: -140px;}
     .section.rating .item.right .filter                    {display: none;}
@@ -448,8 +469,8 @@
 
     /*Be trader*/
     .section.be_trader            {display: none;}
-    .layout_form_trader                             {display: block; height: 100vh; min-height: 500px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
-    .layout_form_trader .layout_headerBlock_form_wrapper               {width: 250px; height: 410px; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
+    .layout_form_trader                             {display: block; height: 100vh; min-height: 600px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.9); z-index: 5; text-align: center;}
+    .layout_form_trader .layout_headerBlock_form_wrapper               {width: 250px; min-height: 410px; height: auto; padding: 25px 30px; background: #ffffff; margin: 10px auto; position: relative;}
     .layout_form_trader .layout_headerBlock_form_wrapper .close        {position: absolute; top: 32px; right: 30px;}
     .layout_form_trader .layout_headerBlock_form_wrapper h2            {text-align: left; font-family: Roboto, Arial, sans-serif; font-size: 170%; font-weight: 400; color: #181818; margin-bottom: 20px;}
     .layout_form_trader .layout_headerBlock_form_wrapper label         {line-height: 39px; font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #181818; float: left; width: 52px; margin-right: 20px; text-align: left;}
@@ -501,13 +522,13 @@
     .section.open_invest                                                 {position: relative;}
     .section.open_invest .left {margin-top: 160px;}
     .section.open_invest .checkbox                 {margin-left: 25px; text-align: left; margin-right: 20px; padding-top: 20px; padding-bottom: 20px;}
+    .section.open_invest input                     {width: 90%; margin: 0 auto;}
     .section.open_invest label[for="check"]        {line-height: 30px;}
-    .section.open_invest form .calendar            {top: 60px; left: 260px; right: auto;}
-    .section.open_invest .show_pass                {bottom: 240px;}
+    .section.open_invest form .calendar            {top: 10px; left: auto; right: 10px;}
+    .section.open_invest .show_pass                {position: absolute; bottom: 0; margin: 0; right: 0;}
     .section.open_invest .right .download            {position: absolute; top: 0; left: 50%; margin-left: -140px; text-align: center; width: 220px; padding: 20px 30px;}
-    .section.open_invest .right .docs .title          {margin-left: 25px; padding-top: 30px; width: 80%;}
+    .section.open_invest .right .docs .title          {text-align: left; width: 80%;}
     .section.open_invest .right .docs ul              {padding-bottom: 30px; padding-left: 25px; text-align: left;}
-
     .section.open_invest .right {position: static; width: 100% !important; text-align: center;}
     .section.open_invest .right .docs {padding: 0 30px; width: 240px; margin: 10px auto;}
     .section.opened_invest .left             {margin-top: 0;}
@@ -515,10 +536,6 @@
     .section.open_invest .notice                                  {text-align: center; font-size: 118%; display: inline-block;}
     .section.open_invest .notice img                              {float: none; margin: 20px auto; display: block;}
     .section.open_invest .notice span                             {padding: 0 20px;}
-    .section.open_invest .left .profile_info  {min-width: 300px; width: 100%}
-    .section.open_invest .left table          {width: 80%; margin: 0 10%;}
-    .section.open_invest .left table td       {border-bottom: 1px solid #ececec; font-family: Roboto, Arial, sans-serif; font-weight: 400;}
-    .section.open_invest .left table td .bold {font-family: Roboto, Arial, sans-serif; font-weight: 400;}
     .section.open_invest .more                                    {width: 100%; padding: 10px 0;}
     .section.open_invest .more span                               {width: 180px; padding-left: 25px; display: block;}
     .section.open_invest .more a                                  {top: 20px;}
@@ -526,12 +543,26 @@
     .section.open_invest .extra_info .edit                        {float: none; display: block; margin-top: 0; width: 100%; text-align: center;}
     .section.open_invest .extra_info                              {margin-top: 0;}
     .section.open_invest .extra_info form                         {width: 100%;}
-    .section.open_invest .extra_info .form span                   {display: none;}
+    .section.open_invest .extra_info .form .phone_pass                   {display: none;}
     .section.open_invest .extra_info .form input                  {width: 248px; float: none; margin-left: 25px;}
     .section.open_invest .extra_info .form .blue                  {display: block; width: 260px; padding: 0;}
     .section.open_invest .download_mobius                         {display: inline-block; width: 100%; text-align: center; background: #ffffff; padding: 20px 0;}
     .section.open_invest .download_mobius  img                       {display: block; margin: 10px auto !important; float: none !important;}
     .section.open_invest .download_mobius  a                       {text-align: center; float: none;}
+    .section.open_invest .gen_pass {position: absolute; top: 0; right: 0; font-size: 100%;}
+    .section.open_invest .note.pass {width: 100%; margin: 10px 0 0 0;}
+    .section.opened_invest .profile_info                               {width: 100%; min-width: inherit;}
+    .section.opened_invest .profile_info table tr                      {text-align: left; display: block; margin: 10px 25px; width: 270px; border-bottom: 1px solid #ececec;}
+    .section.opened_invest .profile_info table tr:last-child          {border: none;}
+    .section.opened_invest .profile_info table td                      {display: block; padding: 0; border: none;}
+    .section.opened_invest .profile_info table td:first-child          {padding-top: 15px;}
+    .section.opened_invest .profile_info table td:last-child          {padding-bottom: 15px;}
+    .section.opened_invest .extra_info .blue                           {float: none; display: block; margin: 27px auto 15px auto;}
+    .section.opened_invest .extra_info .note                           {display: none !important;}
+    .section.opened_invest .extra_info .edit                           {float: none; display: block; margin: 0 auto; text-align: center;}
+    .section.opened_invest .extra_info                                 {margin-top: 0;}
+    .section.opened_invest .extra_info form                            {width: 80%; margin: 0 auto;}
+    .section.opened_invest .extra_info .form input                     {width: 100%; float: none; margin: 10px auto;}
 
 
     /*Company menu*
@@ -660,6 +691,28 @@
     .section.book .search {width: 90%; margin: 30px auto; display: block;}
     .section.book .col {float: none; display: block; width: 206px; margin: 10px auto; height: auto; text-align: center;}
     .section.book .col:last-child {margin: 10px auto;}
+
+    /*Book2*/
+    .section.book2 {margin-bottom: 20px;}
+    .section.book2 .hide_desktop {display: block; width: 90%; margin: 20px auto; background: #0979bf; text-align: center; padding: 20px 0;}
+    .section.book2 .hide_desktop a {font-family: Roboto, Arial, sans-serif; font-size: 118%; font-weight: 500; color: #ffffff; line-height: 17px;}
+    .section.book2 .hide_desktop a img {margin: 0 10px; vertical-align: middle;}
+    .section.book2 h2 {margin-top: 70px;}
+    .section.book2 .pages .prev {width: 50%; margin-left: 0;}
+    .section.book2 .pages .next {width: 50%; margin-right: 0;}
+    .section.book2 .pages {top: 20px; left: 0;}
+    .section.book2 .col.left {display: none;}
+    .section.book2 .col.right {width: 90%; margin: 0 auto; float: none; display: block; background: transparent;}
+    .section.book2 .video_frame {height: 220px;}
+    .section.book2 .col.right .article {width: 80%; margin: 15px auto;}
+    .section.book2 .col.right img {width: 100%;}
+    .section.book2 .col.right {width: 100%;}
+    .section.book2 .pages.lower.hide_mobile  {display: none;}
+    .section.book2 .pages.lower.hide_desktop  {width: 100%; line-height: 20px; display: block; top: auto; background: transparent; bottom: 0;}
+    .section.book2 .pages.lower.hide_desktop  a {font-size: 100%; font-weight: 400; color: #181818;}
+    .section.book2 .pages.lower.hide_desktop img  {width: auto;}
+    .section.book2 .pages.lower.hide_desktop .prev {margin-left: 0;}
+    .section.book2 .pages.lower.hide_desktop .next {margin-right: 0;}
 
     /*Dictionary*/
     .section.dictionary .show {display: none;}

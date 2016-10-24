@@ -147,12 +147,13 @@
 .section.fillup select                       {float: left; width: 91px; margin-left: 10px; background: #f5f6f6; border-color: #e8eaeb;}
 .section.fillup .note                        {text-align: left; font-family: Roboto, Arial, sans-serif; font-weight: 400; float: left; width: 200px; color: #9b9a9a; font-size: 100%; display: inline-block; margin-left: 20px; line-height: 19px;}
 .section.fillup a.note                       {color: #218ed2;}
+.section.fillup a.note.mobile                       {display: none;}
 .section.fillup .note.done                   {width: 504px; float: right;}
 .section.fillup .addition                    {float: right; color: #202020; font-size: 118%; font-family: Roboto, Arial, sans-serif; width: 80%;}
 .section.fillup .blue                        {margin: 30px auto 0 auto;}
 .section.fillup .data_card                   {display: inline-block; position: relative; width: 100%; height: auto; margin: 30px 0 85px 0;}
-.section.fillup .data_card .message_error    {position: static; height: 30px; display: inline-block;}
-.section.fillup .side                        {width: 428px; height: 261px; border-radius: 10px;}
+.section.fillup .data_card .message_error    {position: absolute; display: none; left: 25px !important; top: 0 !important;;}
+.section.fillup .side                        {width: 428px; height: auto; min-height: 261px; border-radius: 10px;}
 .section.fillup .side img                    {position: absolute; top: 46px; right: 31px; margin: 0;}
 .section.fillup .side input                  {width: 267px; margin-bottom: 20px;}
 .section.fillup .side.front                  {padding: 25px; position: relative; background: #ffffff; box-shadow: 1px 2px 46px 0px rgba(33, 142, 210, 0.15);}
@@ -170,14 +171,16 @@
 /*Calculator*/
 .section.calc .payment.desktop                                  {display: block;}
 .section.calc .payment.tablet                                   {display: none;}
+.section.calc .input_wrapper                                   {min-width: 30px;}
+.section.calc .message_error                                   {display: none;}
 .section.calc .left                         {width: 261px; padding: 30px 0; background: #ffffff;}
 .section.calc .payment ul li a                                  {font-size: 118%; display: block; padding: 10px 30px 11px 30px; color: #218ed2; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 .section.calc .payment ul li a.active                           {border-left: 2px solid #218ed2; background: #f1f8fc;}
 .section.calc .payment .title                                   {font-size: 135%; font-weight: 500; font-family: Roboto, Arial, sans-serif; margin-bottom: 10px; display: block; padding-left: 30px;}
 .section.calc .right                        {width: 747px; padding: 30px; background: #ffffff;}
-.section.calc .right .error                 {font-family: Roboto, Arial, sans-serif; display: none; width: 100%; padding: 15px 0; background: #fff8f8; border: 2px solid #ffbcbc;}
-.section.calc .right .error .text                 {margin-left: 25px; display: inline-block; line-height: 20px;}
-.section.calc .right .error .title                 {color: #e75a5a; text-transform: uppercase;}
+.section.calc .right .error_block                 {font-family: Roboto, Arial, sans-serif; display: block; width: 100%; padding: 15px 0; background: #fff8f8; border: 2px solid #ffbcbc;}
+.section.calc .right .error_block .text                 {margin-left: 25px; display: inline-block; line-height: 20px;}
+.section.calc .right .error_block .title                 {color: #e75a5a; text-transform: uppercase;}
 .section.calc .right label                 {display: block;}
 .section.calc .right form                 {font-family: Roboto, Arial, sans-serif; display: inline-block;}
 .section.calc .right input                 {font-family: Roboto, Arial, sans-serif;}
@@ -250,16 +253,18 @@
 
 
 /*Feedback*/
-.section.feed {background: url("../images/feedback/Bg_letter.png") center top no-repeat; background-size: inherit; margin-bottom: 0;}
-.section.feed .form                       {text-align: left; width: 754px; margin: 0 auto; padding: 40px;}
+.section.feed                             {margin-bottom: -5px;}
+.section.feed .form                       {text-align: center; width: 822px; margin: 0 auto; padding: 40px 0 170px 0; background: #ffffff;}
+.section.feed .form form                      {text-align: left; width: 760px; margin: 0 auto;}
 .section.feed .form label                 {float: left; width: 150px; margin-right: 76px;}
 .section.feed .form input                 {float: left; width: 500px; margin-bottom: 20px;}
 .section.feed .form input[name="city"]    {width: 205px; margin-right: 100px;}
 .section.feed .form input[name="number"]  {width: 205px; margin-right: 22px;}
 .section.feed .form img                   {float: left; margin-top: -3px;}
-.section.feed .form textarea[name="message"] {width: 480px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
+.section.feed .form textarea[name="message"] {width: 504px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
 .section.feed .form label[for="capcha"]   {line-height: 21px;}
 .section.feed .form .blue                 {margin: 15px auto 0 auto;}
+.section.feed .letter_bg                  {position: absolute; bottom: 0; left: 50%; margin-left: -489px;}
 
 /*Konkurs*/
 .section.konkurs                                                        {overflow: inherit; padding-bottom: 20px; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
@@ -301,7 +306,7 @@
 .section.konkurs .lower .table_pris td             {padding: 18px; font-size: 135%; vertical-align: top;}
 .section.konkurs .lower .table_pris td:first-child {border-right: 1px solid #419ed8; text-align: right;}
 .section.konkurs .lower .how_get                   {float: left; width: 757px;}
-.section.konkurs .lower .how_get .answer           {font-family: Roboto, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px; font-size: 118%;}
+.section.konkurs .lower .how_get .answer           {font-family: Roboto, Arial, sans-serif; font-size: 118%; margin-bottom: 30px; line-height: 20px;}
 .section.full.konkurs                                                        {width: 100%; height: auto; background: #ffffff; margin-bottom: 12px; color: #181818;}
 .section.full.konkurs .wrapper                                               {width: 1080px; margin: 0 auto; padding: 50px 0;}
 .section.full.konkurs .wrapper h3                                            {font-size: 200%; font-weight: 400; font-family: Roboto, Arial, sans-serif; margin-bottom: 46px;}
