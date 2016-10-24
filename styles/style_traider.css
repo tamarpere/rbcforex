@@ -113,7 +113,7 @@
 .section.demo .learning .server                  {font-size: 120%;}
 .section.demo                               {margin-bottom: 0;}
 .section.full.demo .clause                              {width: 590px; text-align: left; float: right; padding: 40px;}
-.section.full.demo .image                                {position: absolute; left: -160px;}
+.section.full.demo .image                                {position: absolute; left: -300px;}
 .section.full.demo .clause h3                           {color: #181818;}
 .section.full.demo .clause p                            {color: #181818;}
 .section.full.demo .clause .apps                        {width: 215px; display: inline-block; margin-top: 40px; margin-right: 40px; float: right;}
@@ -218,7 +218,7 @@
 .section.terms .kinds                 {width: 50%; padding: 0; line-height: 143px; bottom: 100%; right: 0; position: absolute; text-align: right;}
 .section.terms .kinds ul              {display: inline-block;}
 .section.terms .kinds ul li           {display: inline-block; font-size: 135%; color: #0a79bf; line-height: 45px; text-align: center;}
-.section.terms .kinds ul li a         {padding: 0 25px; border-radius: 23px;}
+.section.terms .kinds ul li a         {padding: 0 25px; border-radius: 23px; font-family: Roboto, Arial, sans-serif;}
 .section.terms .kinds ul li a.active  {background: #0a79bf; color: #ffffff;}
 .section.terms p.title                                    {font-size: 150%; font-weight: 400; font-family: Roboto, Arial, sans-serif; margin: 0 0 30px 0;}
 .section.terms .summary                                   {width: 100%;}
@@ -244,7 +244,7 @@
 .section.terms .type h3         {margin-top: 0; margin-bottom: 30px; float: none; font-size: 260%;}
 .section.terms .type .bold      {font-family: Roboto, Arial, sans-serif; font-weight: 700;}
 .section.terms .type p                {margin-bottom: 30px; line-height: 15px;}
-.section.terms .comment                                   {line-height: 21px; margin-bottom: 15px; font-size: 88%; margin-top: 0;}
+.section.terms .comment                                   {line-height: 21px; margin-bottom: 15px; font-family: Roboto, Arial, sans-serif; font-size: 95%; margin-top: 0;}
 .section.terms .comment:last-child                        {margin-bottom: 0;}
 .section.terms .star                                      {color: #ff0000;}
 .section.terms .kinds.mobile              {display: none; position: relative;}
@@ -258,8 +258,8 @@
 .section.feed .form form                      {text-align: left; width: 760px; margin: 0 auto;}
 .section.feed .form label                 {float: left; width: 150px; margin-right: 76px;}
 .section.feed .form input                 {float: left; width: 500px; margin-bottom: 20px;}
-.section.feed .form input[name="city"]    {width: 205px; margin-right: 100px;}
-.section.feed .form input[name="number"]  {width: 205px; margin-right: 22px;}
+.section.feed .form input.city    {width: 205px; margin-right: 100px;}
+.section.feed .form input#capcha  {width: 205px; margin-right: 22px;}
 .section.feed .form img                   {float: left; margin-top: -3px;}
 .section.feed .form textarea[name="message"] {width: 504px; float: left; border: 2px solid #e8eaeb; margin-bottom: 20px; padding: 10px; height: 194px;}
 .section.feed .form label[for="capcha"]   {line-height: 21px;}

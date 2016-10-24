@@ -12,7 +12,8 @@
 .section.rating.full .carousel .image_wrap      {height: 126px; width: 126px; margin-bottom: 35px; border-radius: 50%; border: 2px solid #364650; text-align: center; line-height: 118px;}
 .section.rating.full .carousel .image_wrap img  {vertical-align: middle;}
 .section.rating .show_filter {display: none;}
-.section.rating                                    {height: auto;}
+.section.rating                                    {height: auto; overflow: inherit;}
+.section.rating .clear_filter                                   {cursor: pointer; position: absolute; right: -50px; top: 115px; text-transform: uppercase; transform: rotate(90deg); font-family: Roboto, Arial, sans-serif; font-weight: 500; color: #414242;}
 .section.rating .item.left                                          {width: 807px; height: auto; background: #ffffff; padding: 0;}
 .section.rating .item.left tr                                       {cursor: pointer;}
 .section.rating .item.left tr td                                    {position: relative;}
@@ -61,15 +62,15 @@
 .section.rating .item.right .note                                             {font-family: Roboto, Arial, sans-serif; font-weight: 400; line-height: 19px; color: #181818; margin-top: 30px; display: inline-block;}
 .section.rating .item.right .search                                           {position: relative; display: inline-block;}
 .section.rating .item.right .search img                                       {position: absolute; top: 73px; left: 170px;}
-.section.rating .item.right .filter                                           {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 0 33px 30px 33px;}
+.section.rating .item.right .filter                                           {position: relative; display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 0 25px 30px 25px;}
 .section.rating .item.right .filter .item                                           {float: none; display: inline-block; width: 100%; margin-bottom: 20px;}
 .section.rating .item.right .filter label                                           {line-height: 25px; margin-top: 20px;}
 .section.rating .item.right .filter input[type="search"]                      {margin-bottom: 0; font-family: Roboto, Arial, sans-serif; display: block; width: 195px; height: 39px; border: 2px solid #e8eaeb; background: transparent;}
-.section.rating .item.right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px;}
+.section.rating .item.right .calc                                             {display: inline-block; background: #ffffff; margin-bottom: 10px; padding: 30px 25px;}
 .section.rating .item.right .calc img                                         {float: left; margin-right: 10px; margin-top: 6px;}
 .section.rating .item.right .calc h4                                          {float: left; font-family: Roboto, Arial, sans-serif; font-weight: 400; width: 154px; line-height: 23px; color: #181818; font-size: 148%;}
 .section.rating .item.right .calc select                                      {margin-bottom: 30px; font-family: Roboto, Arial, sans-serif; display: block; width: 197px; height: 43px;}
-.section.rating .item.right .spred                                            {display: inline-block; background: #ffffff; padding: 30px;}
+.section.rating .item.right .spred                                            {display: inline-block; background: #ffffff; padding: 30px 25px;}
 .section.rating .item.right .spred h4                                         {font-family: Roboto, Arial, sans-serif; font-weight: 400; line-height: 23px; color: #181818; font-size: 148%;}
 .section.rating .item.right .radio                                            {position: relative; display: inline-block; margin-bottom: 15px;}
 .section.rating .item.right .radio label                                      {padding-left: 25px; line-height: 20px;}

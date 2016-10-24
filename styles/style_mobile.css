@@ -49,7 +49,7 @@
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav a                          {margin: 0 12px 0 15px; font-family: Roboto, Arial, sans-serif; font-weight: 500; color: #2a333c;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav a img                      {vertical-align: middle; margin-right: 3px;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list                       {margin: 20px 0 20px 0; text-align: left;}
-    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sup_menu li a        {padding: 0 20px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
+    .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sup_menu li a        {padding: 0 17px; line-height: 35px; height: 35px; text-transform: uppercase; font-family: GothamPro, Arial, sans-serif; font-weight: 700; font-size: 110%; color: #0a79bf;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sup_menu li a.active {color: #1c252f;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu             {display: none;}
     .layout_contentBlock_mobileMenu .layout_contentBlock_nav_list .sub_menu li a        {text-transform: none; font-size: 100%;}
@@ -397,6 +397,7 @@
     .section.rating .carousel .carousel-button-left  {float: left; display: inline-block;}
     .section.rating .carousel .carousel-button-right {float: right; display: inline-block;}
     .section.rating .item.left table .col.right .input_wrapper {min-width: 110px;}
+    .section.rating .clear_filter                                   {display: none;}
 
     .section.rating .filter_wrapper                                    {padding: 0; display: inline-block !important; position: absolute; top: 25px; width: 280px; left: 50%; margin-left: -140px;}
     .section.rating .item.right .filter                    {display: none;}

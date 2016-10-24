@@ -17,8 +17,8 @@ p.article {font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 
 label {font-family: Roboto, Arial, sans-serif; text-align: left; font-weight: 500; font-size: 118%; color: #181818; line-height: 42px;}
 input {height: 39px; border: 2px solid #e8eaeb; background: #ffffff; padding: 0 15px 0 5px;}
 input.error {border: 2px solid #ff6868 !important;}
-.input_wrapper {min-width: 215px; height: 80px; position: relative; display: inline-block; float: left;}
-.message_error {position: absolute; bottom: auto !important; top: 55px !important; left: 0 !important; text-align: left; color: #ff6868; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
+.input_wrapper {min-width: 215px; height: 76px; position: relative; display: inline-block; float: left;}
+.message_error {display: none; position: absolute; bottom: auto !important; top: 55px !important; left: 0 !important; text-align: left; color: #ff6868; font-weight: 400; font-family: Roboto, Arial, sans-serif;}
 .string {min-height: 60px; text-align: center; display: inline-block; position: relative;}
 ul {padding: 0; margin: 0;}
 ul li {list-style: none;}
