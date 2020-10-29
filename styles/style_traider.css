@@ -88,8 +88,8 @@
 .section.demo .item.left label                              {float: left; width: 240px; margin: 0;}
 .section.demo .item.left input                              {width: 300px; margin: 0 0 10px 0;}
 .section.demo .item.left #password                {width: 245px; float: left;}
-.section.demo .item.left .gen_pass                          {font-family: Roboto, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; right: 0; top: -10px;}
-.section.demo .item.left .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0;}
+.section.demo .item.left .gen_pass                          {font-family: Roboto, Arial, sans-serif; font-weight: 400; color: #218ed2; position: absolute; right: 0; top: -52px;}
+.section.demo .item.left .show_pass                         {position: relative; float: right; width: 42px; height: 42px; background: #e8eaeb; display: inline-block; margin: 0 0 0 10px;}
 .section.demo .item.left .show_pass a                       {display: inline-block; width: 100%; height: 100%;}
 .section.demo .item.left .show_pass img                     {position: absolute; left: 12px; top: 15px;}
 .section.demo .item.left .show_pass a .hover                {opacity: 0;}
@@ -124,6 +124,7 @@
 .section.full.demo .clause .web                         {margin: 0 15px; display: inline-block; background: url("../images/demo_account/Web_blue.svg") center center no-repeat; background-size: cover; width: 20px; height: 20px;}
 
 /*Fillup*/
+.section.fillup                  {overflow: inherit;}
 .section.fillup .comission                   {position: absolute; text-align: right; padding: 20px; top: -100px; right: 0; background: #ffdf6f; width: 106px; height: 44px; font-weight: 400; font-family: GothamPro, Arial, sans-serif; font-size: 165%;}
 .section.fillup .comission .bold             {font-family: GothamPro, Arial, sans-serif; font-weight: 700;}
 .section.fillup .item.left    {width: 260px; padding: 30px 0; background: #ffffff;}

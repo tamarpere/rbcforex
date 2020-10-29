@@ -169,7 +169,7 @@
     .section.demo form                                 {position: relative; width: 80%; margin: 0 auto;}
     .section.demo label                                {float: none; margin: 10px auto 0 0; display: inline-block; width: 100%;}
     .section.demo input                                {width: 245px !important; margin: 10px auto 0 0; display: block;}
-    .section.demo #password                            {width: 185px !important; margin: 10px auto 0 0; display: block;}
+    .section.demo #password                            {width: 182px !important; margin: 10px auto 0 0; display: block;}
     .section.demo .gen_pass                            {bottom: auto; right: 0;}
     .section.demo .show_pass                           {float: right; margin-top: 10px !important;}
     .section.demo .item                                {float: none; width: 100%;}
@@ -217,24 +217,23 @@
 
 
     /*Withdraw*/
-    .section.withdraw form                  {display: inline-block; height: 1200px; padding-top: 20px; width: 80%; text-align: left;}
-    .section.withdraw form img              {top: 25px; left: 50%; margin-left: -118px;}
-    .section.withdraw .note.done              {margin-top: 500px !important;}
+    .section.withdraw form .input_wrapper              {width: 280px;}
+    .section.withdraw .note.done              {margin-top: 80px !important;}
+    .section.withdraw form #sum {width: 145px;}
     .section.withdraw form #result {width: 242px;}
     .section.fillup .addition {float: none; width: 80%; display: inline-block;}
-    .section.fillup form .data_card       {margin-bottom: 0; height: 550px; position: absolute; left: 0; bottom: 80px;}
-    .section.fillup form .side            {width: 100%; padding: 60px 0 25px 0; height: 470px; border-radius: 0;}
-    .section.fillup form .side input            {width: 242px !important;}
-    .section.fillup .data_card .selects          {margin-left: 0;}
-    .section.fillup .data_card .selects label    {margin-left: 0;}
-    .section.fillup .data_card .selects select   {font-size: 118%;}
-    .section.fillup .data_card .cvv_number       {float: none; width: auto; display: inline-block;}
+    .section.fillup form .data_card       {width: 100%; margin: 0 auto;}
+     .section.fillup form .side input            {width: 242px !important;}
+    .section.fillup .data_card .selects          {width: 280px;}
+    .section.fillup .data_card .selects .item          {width: 47%;}
+    .section.fillup .data_card .selects .item:first-child          {margin-right: 6%;}
+    .section.fillup .data_card .selects select   {width: 115px;}
+    .section.fillup .data_card .cvv_number       {float: none; width: auto; display: inline-block; margin-right: 0;}
     .section.fillup .data_card .cvv_number input {width: 75px !important; float: left; margin-right: 20px;}
     .section.fillup .data_card .cvv_number .note {width: 120px; float: left; margin-top: 0; font-size: 100%;}
-    .section.fillup .side.back  {width: 100%; height: 60px; z-index: 10; left: 25px; top: 360px; padding: 0; background: transparent;}
+    .section.fillup .side.back  {width: 100%; height: 60px; z-index: 10; left: 0; top: 360px; padding: 0; background: transparent;}
     .section.fillup .side.back .line {display: none;}
-    .section.fillup .side.front {height: 410px; box-shadow: 1px 2px 30px 0px rgba(33, 142, 210, 0.15);}
-    .section.fillup form.mobile .side .blue      {margin: 30px auto 0 auto; width: 220px; display: block; font-size: 100%;}
+    .section.fillup .side.front {box-shadow: none; padding: 25px 0; width: 100%;}
     .section.fillup .side img {position: static; margin-bottom: 30px;}
 
     /*Calculator*/

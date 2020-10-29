@@ -36,6 +36,18 @@ $(function () {
         }
     });
 
+//Sub menu for calc, term
+
+    $('.arrow_drop').on('click', function () {
+        var ul = $(this).siblings('ul');
+        ul.children('li').slideToggle();
+    });
+
+    $('.arrow_drop').on('click', function () {
+        var table = $(this).siblings('table');
+        table.find('tr').slideToggle();
+    });
+
 //Sliders for index
     $('.block3 .marker').click(function () {
         var id = $(this).attr('id');

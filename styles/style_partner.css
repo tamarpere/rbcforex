@@ -12,7 +12,7 @@
 .section.partner1 .item p                              {padding: 0 50px; text-align: center; color: #ffffff;}
 .section.partner1 .link           {padding: 0; text-align: center; line-height: 30px; color: #ffffff; clear: both; font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 118%;}
 .section.partner1 .link img       {vertical-align: top; margin: 0 10px;}
-.section.partner2                                {margin-bottom: -5px; background: #ffffff; height: 693px;}
+.section.partner2                                {margin-bottom: -5px; background: #ffffff; height: 693px; overflow: inherit;}
 .section.partner2 .clause   {text-align: left;}
 .section.partner2 .clause h2  {color: #0a79bf; text-decoration: underline;}
 .section.partner2 .clause h5  {color: #2a333c; margin-bottom: 20px;}

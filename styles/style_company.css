@@ -44,7 +44,7 @@
 .section.why1 .button_wrapper                      {padding: 0; position: absolute; bottom: 140px; left: 0; width: 230px; text-align: center;}
 .section.why1 .button_wrapper a                     {margin: 10px auto;}
 .section.why1 .table                        {padding: 0; margin: 80px auto;}
-.section.why1 h2                       {color: #ffffff; line-height: 42px; float: left; width: 300px; text-align: left; margin-top: 70px;}
+.section.why1 h2                       {color: #ffffff; line-height: 42px; margin-bottom: 200px; float: left; width: 300px; text-align: left; margin-top: 70px;}
 .section.why1 .carousel                {color: #ffffff; width: 100%; margin-top: 80px;}
 .section.why1 .item                {text-align: left; width: 220px; line-height: 25px; padding: 0 25px 30px 0; font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 110%; vertical-align: top;}
 .section.why1 .item img            {display: block; margin-bottom: 25px; }

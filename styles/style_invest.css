@@ -52,7 +52,7 @@
 .section.rating .item.left table .col.right select                  {margin-right: 10px; float: left; margin-bottom: 20px; width: 70px; font-family: Roboto, Arial, sans-serif; font-weight: 400; font-size: 80%;}
 .section.rating .item.left table .col.right .tooltip               {line-height: 42px; float: right; width: 20px; height: 20px; position: relative; display: block;}
 .section.rating .item.left table .col.right .tooltip a               {display: block; width: 100%; height: 100%;}
-.section.rating .item.left table .col.right .tooltip img               {vertical-align: middle;}
+.section.rating .item.left table .col.right .tooltip img               {vertical-align: middle; display: block;}
 .section.rating .item.left table .col.right .red                    {margin: 10px auto 30px auto; font-size: 90%;}
 .section.rating .item.left table .col.right .message_error                    {font-size: 65%;}
 .section.rating .item.right                                                   {width: 262px; height: auto; background: transparent; padding: 0;}
